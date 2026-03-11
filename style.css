@@ -860,3 +860,14 @@ body.view-control-buttons .viewControlButton {
   max-width: 280px;
   text-align: center;
 }
+
+/* Esconder a barra de título e botões padrão do topo */
+#titleBar, .scene-title, #header {
+  display: none !important;
+}
+
+/* Garante que o panorama ocupa o ecrã todo */
+#pano {
+  top: 0 !important;
+  height: 100% !important;
+}
