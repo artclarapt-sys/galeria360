@@ -56,18 +56,46 @@
   tooltip.className = 'quadro-tooltip';
   document.body.appendChild(tooltip);
 
-  function carregarHotspots() {
+function carregarHotspots() {
     fetch('galeria.json')
       .then(res => res.json())
       .then(quadros => {
         quadros.forEach(q => {
           var a = document.createElement('a');
-          a.href = 'https://www.artclara.pt/pages/portefolio#' + q.id;
-          a.target = '_blank';
+          
+          // 1. Removemos o href direto para evitar que o browser abra o link sozinho
+          // a.href = '...'; 
+          
           a.className = 'hotspot-quadro';
           a.style.width = q.w + 'px';
           a.style.height = q.h + 'px';
+          a.style.cursor = 'pointer'; // Mantém o ícone da "mãozinha" a pairar
           
+          // --- 2. LÓGICA INTELIGENTE: CLIQUE VS ARRASTAR ---
+          let startX = 0;
+          let startY = 0;
+
+          // Quando o utilizador toca no ecrã ou clica no rato
+          a.addEventListener('pointerdown', (e) => {
+            startX = e.clientX;
+            startY = e.clientY;
+          });
+
+          // Quando o utilizador levanta o dedo ou solta o botão do rato
+          a.addEventListener('pointerup', (e) => {
+            let diffX = Math.abs(e.clientX - startX);
+            let diffY = Math.abs(e.clientY - startY);
+            
+            // Se o movimento foi menor que 5 pixels, assumimos que é um clique verdadeiro
+            if (diffX < 5 && diffY < 5) {
+              window.open('https://www.artclara.pt/pages/portefolio#' + q.id, '_blank');
+            }
+          });
+
+          // Bloqueia qualquer clique fantasma residual do browser
+          a.addEventListener('click', (e) => e.preventDefault());
+
+          // --- 3. TOOLTIP (Mantém-se igual) ---
           a.addEventListener('mouseenter', () => { 
             tooltip.innerHTML = q.info; 
             tooltip.style.opacity = '1'; 
