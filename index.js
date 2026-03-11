@@ -10,8 +10,7 @@
   });
 
   var scenes = data.scenes.map(function(data) {
-    var source = Marzipano.ImageUrlSource.fromString("tiles/" + data.id + "/{z}/{f}/{y}/{x}.jpg", 
-      { cubeMapPreviewUrl: "tiles/" + data.id + "/preview.jpg" });
+    var source = Marzipano.ImageUrlSource.fromString("tiles/" + data.id + "/{z}/{f}/{y}/{x}.jpg", { cubeMapPreviewUrl: "tiles/" + data.id + "/preview.jpg" });
     var geometry = new Marzipano.CubeGeometry(data.levels);
     var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 100*Math.PI/180, 120*Math.PI/180);
     var view = new Marzipano.RectilinearView(data.initialViewParameters, limiter);
@@ -19,17 +18,17 @@
     return { scene: scene, view: view };
   });
 
-  // --- CONFIGURAÇÃO DE ROTAÇÃO AUTOMÁTICA ---
+  // --- ROTAÇÃO AUTOMÁTICA ---
   var autorotate = Marzipano.autorotate({
-    yawSpeed: 0.05,      // Velocidade da rotação (0.1 é rápido, 0.05 é suave)
-    targetPitch: 0,      // Volta sempre para o horizonte
-    targetFov: Math.PI/2 // Fov padrão
+    yawSpeed: 0.05,
+    targetPitch: 0,
+    targetFov: Math.PI/2
   });
 
-  // Começa a rodar após 3 segundos de inatividade
-  viewer.setIdleMovement(3000, autorotate);
-  // Inicia a rotação mal o site abre
+  // Ativa a rotação imediatamente
   viewer.startMovement(autorotate);
+  // Se o utilizador mexer, para 3 segundos e volta a rodar
+  viewer.setIdleMovement(3000, autorotate);
 
   // Tooltip
   var tooltip = document.createElement('div');

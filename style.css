@@ -829,21 +829,30 @@ body.view-control-buttons .viewControlButton {
   margin-left: 105px;
 }
 
-/* Área de ativação invisível */
-.hotspot-quadro {
-  display: block;
-  background: rgba(255, 255, 255, 0); /* Totalmente transparente */
-  border: none; /* Remove a moldura de debug */
-  cursor: pointer;
-  transition: background 0.2s;
+/* Reset total para garantir que nada sobra no topo */
+html, body, #container, #pano {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-/* Feedback visual opcional ao passar o rato */
-.hotspot-quadro:hover {
-  background: rgba(255, 255, 255, 0.08); /* Um brilho quase impercetível para feedback */
+/* Esconde todas as barras possíveis do Marzipano */
+#titleBar, .scene-title, .mobile-title, #header, .title-container {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
 }
 
-/* A legenda (tooltip) continua visível */
+/* Garante que o visualizador começa no topo 0 */
+#pano {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Estilo da Legenda Dourada */
 .quadro-tooltip {
   position: absolute;
   background: rgba(0, 0, 0, 0.9);
@@ -854,20 +863,15 @@ body.view-control-buttons .viewControlButton {
   opacity: 0;
   transition: opacity 0.2s;
   z-index: 10000;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
+  border: 1px solid #d4af37;
+  font-family: sans-serif;
   font-size: 13px;
-  border: 1px solid #d4af37; /* Mantém o detalhe dourado na legenda */
-  max-width: 280px;
   text-align: center;
+  max-width: 250px;
 }
 
-/* Esconder a barra de título e botões padrão do topo */
-#titleBar, .scene-title, #header {
-  display: none !important;
-}
-
-/* Garante que o panorama ocupa o ecrã todo */
-#pano {
-  top: 0 !important;
-  height: 100% !important;
+.hotspot-quadro {
+  display: block;
+  background: rgba(128, 128, 128, 0); /* 0 para invisível, 0.3 para teste */
+  cursor: pointer;
 }
