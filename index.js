@@ -61,41 +61,42 @@ function carregarHotspots() {
       .then(res => res.json())
       .then(quadros => {
         quadros.forEach(q => {
-          var a = document.createElement('a');
-          
-          // 1. Removemos o href direto para evitar que o browser abra o link sozinho
-          // a.href = '...'; 
+          // 1. Usar uma <div> em vez de <a> para evitar o comportamento chato dos links
+          var a = document.createElement('div');
           
           a.className = 'hotspot-quadro';
           a.style.width = q.w + 'px';
           a.style.height = q.h + 'px';
-          a.style.cursor = 'pointer'; // Mantém o ícone da "mãozinha" a pairar
+          a.style.cursor = 'pointer'; 
           
-          // --- 2. LÓGICA INTELIGENTE: CLIQUE VS ARRASTAR ---
+          // --- 2. O SEGREDO PARA PERMITIR ARRASTAR A CÂMARA ---
+          a.draggable = false; // Impede o "ghost drag" no computador
+          a.style.userSelect = 'none'; // Impede a seleção de texto
+          a.style.webkitUserSelect = 'none';
+          a.style.webkitUserDrag = 'none';
+          a.style.touchAction = 'none'; // Garante que o telemóvel passa o gesto para o Marzipano
+          
           let startX = 0;
           let startY = 0;
 
-          // Quando o utilizador toca no ecrã ou clica no rato
+          // Regista onde o toque começou
           a.addEventListener('pointerdown', (e) => {
             startX = e.clientX;
             startY = e.clientY;
           });
 
-          // Quando o utilizador levanta o dedo ou solta o botão do rato
+          // Verifica se foi clique ou arrasto ao largar
           a.addEventListener('pointerup', (e) => {
             let diffX = Math.abs(e.clientX - startX);
             let diffY = Math.abs(e.clientY - startY);
             
-            // Se o movimento foi menor que 5 pixels, assumimos que é um clique verdadeiro
+            // Se mexeu menos de 5px, é porque o utilizador queria mesmo clicar para abrir
             if (diffX < 5 && diffY < 5) {
               window.open('https://www.artclara.pt/pages/portefolio#' + q.id, '_blank');
             }
           });
 
-          // Bloqueia qualquer clique fantasma residual do browser
-          a.addEventListener('click', (e) => e.preventDefault());
-
-          // --- 3. TOOLTIP (Mantém-se igual) ---
+          // --- 3. TOOLTIP ---
           a.addEventListener('mouseenter', () => { 
             tooltip.innerHTML = q.info; 
             tooltip.style.opacity = '1'; 
