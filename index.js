@@ -13,16 +13,20 @@
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + data.id + "/{z}/{f}/{y}/{x}.jpg", { cubeMapPreviewUrl: "tiles/" + data.id + "/preview.jpg" });
     var geometry = new Marzipano.CubeGeometry(data.levels);
     
-    // ZOOM EXTREMO (FOV 10)
-    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 10 * Math.PI / 180, 120 * Math.PI / 180);
+    // LIMITADOR: 10 (zoom máximo) a 120 (vista larga)
+    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 10*Math.PI/180, 120*Math.PI/180);
     
-    var view = new Marzipano.RectilinearView(data.initialViewParameters, limiter);
+    // FORÇAR INÍCIO: Começa com 90 graus (normal), não com zoom-in
+    var params = data.initialViewParameters;
+    params.fov = 90 * Math.PI / 180; 
+    
+    var view = new Marzipano.RectilinearView(params, limiter);
     var scene = viewer.createScene({ source: source, geometry: geometry, view: view, pinFirstLevel: true });
     return { scene: scene, view: view };
   });
 
-  // ROTAÇÃO
-  var autorotate = Marzipano.autorotate({ yawSpeed: 0.05, targetPitch: 0, targetFov: Math.PI/2 });
+  // ROTAÇÃO: 30 segundos de espera
+  var autorotate = Marzipano.autorotate({ yawSpeed: 0.05, targetPitch: 0, targetFov: 90*Math.PI/180 });
   viewer.startMovement(autorotate);
   viewer.setIdleMovement(30000, autorotate);
 
@@ -31,10 +35,9 @@
   tooltip.className = 'quadro-tooltip';
   document.body.appendChild(tooltip);
 
-  // --- O EXORCISMO DO BUG (RESET AO VOLTAR ATRÁS) ---
-  window.addEventListener('pageshow', function() {
-    tooltip.style.opacity = '0';
-  });
+  // FIX MOBILE: Esconder legenda ao voltar
+  window.addEventListener('pageshow', function() { tooltip.style.opacity = '0'; });
+  window.addEventListener('popstate', function() { tooltip.style.opacity = '0'; });
 
   function carregarHotspots() {
     fetch('galeria.json').then(res => res.json()).then(quadros => {
@@ -46,20 +49,10 @@
         a.style.width = q.w + 'px';
         a.style.height = q.h + 'px';
 
-        a.addEventListener('mouseenter', () => { 
-          tooltip.innerHTML = q.info; 
-          tooltip.style.opacity = '1'; 
-        });
-
-        a.addEventListener('mouseleave', () => { 
-          tooltip.style.opacity = '0'; 
-        });
-
-        // Limpa a legenda ao clicar (para mobile não ficar "presa" ao sair)
-        a.addEventListener('click', () => {
-          tooltip.style.opacity = '0';
-        });
-
+        a.addEventListener('mouseenter', () => { tooltip.innerHTML = q.info; tooltip.style.opacity = '1'; });
+        a.addEventListener('mouseleave', () => { tooltip.style.opacity = '0'; });
+        a.addEventListener('click', () => { tooltip.style.opacity = '0'; }); // Limpa ao clicar
+        
         a.addEventListener('mousemove', (e) => {
           tooltip.style.left = (e.pageX + 20) + 'px';
           tooltip.style.top = (e.pageY + 20) + 'px';
