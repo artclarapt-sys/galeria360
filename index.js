@@ -10,33 +10,26 @@
   });
 
   var scenes = data.scenes.map(function(data) {
-    var source = Marzipano.ImageUrlSource.fromString("tiles/" + data.id + "/{z}/{f}/{y}/{x}.jpg", { cubeMapPreviewUrl: "tiles/" + data.id + "/preview.jpg" });
+    var source = Marzipano.ImageUrlSource.fromString("tiles/" + data.id + "/{z}/{f}/{y}/{x}.jpg", 
+      { cubeMapPreviewUrl: "tiles/" + data.id + "/preview.jpg" });
     var geometry = new Marzipano.CubeGeometry(data.levels);
-    
-    // --- ZOOM EXTREMO PARA MOBILE ---
-    // Baixamos de 30 para 10. Agora o telemóvel vai "entrar" dentro do quadro.
-    var minFov = 10 * Math.PI / 180; 
-    var maxFov = 120 * Math.PI / 180;
-    
-    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, minFov, maxFov);
-    
+    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 100*Math.PI/180, 120*Math.PI/180);
     var view = new Marzipano.RectilinearView(data.initialViewParameters, limiter);
     var scene = viewer.createScene({ source: source, geometry: geometry, view: view, pinFirstLevel: true });
     return { scene: scene, view: view };
   });
 
-  // --- ROTAÇÃO AUTOMÁTICA ---
+  // --- CONFIGURAÇÃO DE ROTAÇÃO AUTOMÁTICA ---
   var autorotate = Marzipano.autorotate({
-    yawSpeed: 0.05,
-    targetPitch: 0,
-    targetFov: Math.PI/2
+    yawSpeed: 0.05,      // Velocidade da rotação (0.1 é rápido, 0.05 é suave)
+    targetPitch: 0,      // Volta sempre para o horizonte
+    targetFov: Math.PI/2 // Fov padrão
   });
 
+  // Começa a rodar após 3 segundos de inatividade
+  viewer.setIdleMovement(3000, autorotate);
+  // Inicia a rotação mal o site abre
   viewer.startMovement(autorotate);
-  
-  // --- TEMPO DE REINÍCIO (30 segundos) ---
-  // Aumentei para 30000ms para dar tempo de ver os detalhes com calma.
-  viewer.setIdleMovement(30000, autorotate);
 
   // Tooltip
   var tooltip = document.createElement('div');
