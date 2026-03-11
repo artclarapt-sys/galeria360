@@ -13,30 +13,18 @@
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + data.id + "/{z}/{f}/{y}/{x}.jpg", { cubeMapPreviewUrl: "tiles/" + data.id + "/preview.jpg" });
     var geometry = new Marzipano.CubeGeometry(data.levels);
     
-<<<<<<< HEAD
-    // LIMITADOR: 10 (zoom máximo) a 120 (vista larga)
-    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 10*Math.PI/180, 120*Math.PI/180);
+    // --- ZOOM EXTREMO PARA MOBILE ---
+    // Baixamos de 30 para 10. Agora o telemóvel vai "entrar" dentro do quadro.
+    var minFov = 10 * Math.PI / 180; 
+    var maxFov = 120 * Math.PI / 180;
     
-    // FORÇAR INÍCIO: Começa com 90 graus (normal), não com zoom-in
-    var params = data.initialViewParameters;
-    params.fov = 90 * Math.PI / 180; 
-=======
-    // --- AJUSTE DE ZOOM (FOV) ---
-    // 30*Math.PI/180 permite MUITO mais zoom que os 100 anteriores
-    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 30*Math.PI/180, 120*Math.PI/180);
->>>>>>> parent of f5e8084 (Update index)
+    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, minFov, maxFov);
     
-    var view = new Marzipano.RectilinearView(params, limiter);
+    var view = new Marzipano.RectilinearView(data.initialViewParameters, limiter);
     var scene = viewer.createScene({ source: source, geometry: geometry, view: view, pinFirstLevel: true });
     return { scene: scene, view: view };
   });
 
-<<<<<<< HEAD
-  // ROTAÇÃO: 30 segundos de espera
-  var autorotate = Marzipano.autorotate({ yawSpeed: 0.05, targetPitch: 0, targetFov: 90*Math.PI/180 });
-  viewer.startMovement(autorotate);
-  viewer.setIdleMovement(30000, autorotate);
-=======
   // --- ROTAÇÃO AUTOMÁTICA ---
   var autorotate = Marzipano.autorotate({
     yawSpeed: 0.05,
@@ -44,22 +32,16 @@
     targetFov: Math.PI/2
   });
 
-  // Ativa a rotação
   viewer.startMovement(autorotate);
   
-  // --- TEMPO DE REINÍCIO MAIOR ---
-  // 15000ms = 15 segundos de espera após o utilizador parar de mexer
-  viewer.setIdleMovement(15000, autorotate);
->>>>>>> parent of f5e8084 (Update index)
+  // --- TEMPO DE REINÍCIO (30 segundos) ---
+  // Aumentei para 30000ms para dar tempo de ver os detalhes com calma.
+  viewer.setIdleMovement(30000, autorotate);
 
-  // TOOLTIP
+  // Tooltip
   var tooltip = document.createElement('div');
   tooltip.className = 'quadro-tooltip';
   document.body.appendChild(tooltip);
-
-  // FIX MOBILE: Esconder legenda ao voltar
-  window.addEventListener('pageshow', function() { tooltip.style.opacity = '0'; });
-  window.addEventListener('popstate', function() { tooltip.style.opacity = '0'; });
 
   function carregarHotspots() {
     fetch('galeria.json').then(res => res.json()).then(quadros => {
@@ -70,16 +52,12 @@
         a.className = 'hotspot-quadro';
         a.style.width = q.w + 'px';
         a.style.height = q.h + 'px';
-
         a.addEventListener('mouseenter', () => { tooltip.innerHTML = q.info; tooltip.style.opacity = '1'; });
-        a.addEventListener('mouseleave', () => { tooltip.style.opacity = '0'; });
-        a.addEventListener('click', () => { tooltip.style.opacity = '0'; }); // Limpa ao clicar
-        
+        a.addEventListener('mouseleave', () => tooltip.style.opacity = '0');
         a.addEventListener('mousemove', (e) => {
           tooltip.style.left = (e.pageX + 20) + 'px';
           tooltip.style.top = (e.pageY + 20) + 'px';
         });
-
         scenes[0].scene.hotspotContainer().createHotspot(a, { yaw: q.y, pitch: q.p }, { perspective: { radius: 3660.56, extraRes: 1 } });
       });
     });
