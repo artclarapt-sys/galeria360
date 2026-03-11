@@ -13,22 +13,44 @@
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + data.id + "/{z}/{f}/{y}/{x}.jpg", { cubeMapPreviewUrl: "tiles/" + data.id + "/preview.jpg" });
     var geometry = new Marzipano.CubeGeometry(data.levels);
     
+<<<<<<< HEAD
     // LIMITADOR: 10 (zoom máximo) a 120 (vista larga)
     var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 10*Math.PI/180, 120*Math.PI/180);
     
     // FORÇAR INÍCIO: Começa com 90 graus (normal), não com zoom-in
     var params = data.initialViewParameters;
     params.fov = 90 * Math.PI / 180; 
+=======
+    // --- AJUSTE DE ZOOM (FOV) ---
+    // 30*Math.PI/180 permite MUITO mais zoom que os 100 anteriores
+    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 30*Math.PI/180, 120*Math.PI/180);
+>>>>>>> parent of f5e8084 (Update index)
     
     var view = new Marzipano.RectilinearView(params, limiter);
     var scene = viewer.createScene({ source: source, geometry: geometry, view: view, pinFirstLevel: true });
     return { scene: scene, view: view };
   });
 
+<<<<<<< HEAD
   // ROTAÇÃO: 30 segundos de espera
   var autorotate = Marzipano.autorotate({ yawSpeed: 0.05, targetPitch: 0, targetFov: 90*Math.PI/180 });
   viewer.startMovement(autorotate);
   viewer.setIdleMovement(30000, autorotate);
+=======
+  // --- ROTAÇÃO AUTOMÁTICA ---
+  var autorotate = Marzipano.autorotate({
+    yawSpeed: 0.05,
+    targetPitch: 0,
+    targetFov: Math.PI/2
+  });
+
+  // Ativa a rotação
+  viewer.startMovement(autorotate);
+  
+  // --- TEMPO DE REINÍCIO MAIOR ---
+  // 15000ms = 15 segundos de espera após o utilizador parar de mexer
+  viewer.setIdleMovement(15000, autorotate);
+>>>>>>> parent of f5e8084 (Update index)
 
   // TOOLTIP
   var tooltip = document.createElement('div');
