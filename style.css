@@ -829,26 +829,30 @@ body.view-control-buttons .viewControlButton {
   margin-left: 105px;
 }
 
+/* Reset total para garantir que nada sobra no topo */
 html, body, #container, #pano {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000;
 }
 
-/* Esconde as barras do Marzipano */
-#titleBar, .scene-title, .mobile-title, #header {
+/* Esconde todas as barras possíveis do Marzipano */
+#titleBar, .scene-title, .mobile-title, #header, .title-container {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
 }
 
-.hotspot-quadro {
-  display: block;
-  background: rgba(128, 128, 128, 0); /* 0 para invisível */
-  cursor: pointer;
+/* Garante que o visualizador começa no topo 0 */
+#pano {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
+/* Estilo da Legenda Dourada */
 .quadro-tooltip {
   position: absolute;
   background: rgba(0, 0, 0, 0.9);
@@ -864,4 +868,10 @@ html, body, #container, #pano {
   font-size: 13px;
   text-align: center;
   max-width: 250px;
+}
+
+.hotspot-quadro {
+  display: block;
+  background: rgba(128, 128, 128, 0); /* 0 para invisível, 0.3 para teste */
+  cursor: pointer;
 }
