@@ -13,6 +13,7 @@
   var urlFov = urlParams.has('fov') ? parseFloat(urlParams.get('fov')) * degToRad : null;
   var urlPitch = urlParams.has('pitch') ? parseFloat(urlParams.get('pitch')) * degToRad : null;
   var urlYaw = urlParams.has('yaw') ? parseFloat(urlParams.get('yaw')) * degToRad : null;
+  var urlMinFov = urlParams.has('minFov') ? parseFloat(urlParams.get('minFov')) * degToRad : null;
 
   var viewer = new Marzipano.Viewer(panoElement, {
     controls: { mouseViewMode: data.settings.mouseViewMode }
@@ -21,7 +22,16 @@
   var scenes = data.scenes.map(function(sceneData) {
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
-    var limiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, 100*Math.PI/180, 120*Math.PI/180);
+    var maxFov = 120 * degToRad; // Limite máximo de zoom out
+    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // Usa o limite do Shopify, ou 10º por defeito
+    
+    var baseLimiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, maxFov);
+    var limiter = function(params) {
+      var p = baseLimiter(params);
+      // Força o zoom a não passar do limite mínimo definido
+      p.fov = Math.max(minFov, Math.min(p.fov, maxFov));
+      return p;
+    };
     
     // --- 3. APLICAR POV E ZOOM INICIAIS ---
     // Copiamos os parâmetros originais definidos no Marzipano Tool para não alterar o objeto base
