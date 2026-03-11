@@ -54,6 +54,7 @@
   // --- TOOLTIP E HOTSPOTS ---
   var tooltip = document.createElement('div');
   tooltip.className = 'quadro-tooltip';
+  tooltip.style.pointerEvents = 'none'; /* <--- O SEGREDO 1: O rato atravessa a tooltip */
   document.body.appendChild(tooltip);
 
 function carregarHotspots() {
@@ -61,7 +62,6 @@ function carregarHotspots() {
       .then(res => res.json())
       .then(quadros => {
         quadros.forEach(q => {
-          // 1. Usar uma <div> em vez de <a> para evitar o comportamento chato dos links
           var a = document.createElement('div');
           
           a.className = 'hotspot-quadro';
@@ -69,28 +69,28 @@ function carregarHotspots() {
           a.style.height = q.h + 'px';
           a.style.cursor = 'pointer'; 
           
-          // --- 2. O SEGREDO PARA PERMITIR ARRASTAR A CÂMARA ---
-          a.draggable = false; // Impede o "ghost drag" no computador
-          a.style.userSelect = 'none'; // Impede a seleção de texto
+          // Prevenções de arrasto do browser
+          a.draggable = false; 
+          a.style.userSelect = 'none'; 
           a.style.webkitUserSelect = 'none';
           a.style.webkitUserDrag = 'none';
-          a.style.touchAction = 'none'; // Garante que o telemóvel passa o gesto para o Marzipano
+          a.style.touchAction = 'none';
           
+          // <--- O SEGREDO 2: Bloquear o drag nativo do HTML5 --->
+          a.addEventListener('dragstart', (e) => e.preventDefault());
+
           let startX = 0;
           let startY = 0;
 
-          // Regista onde o toque começou
           a.addEventListener('pointerdown', (e) => {
             startX = e.clientX;
             startY = e.clientY;
           });
 
-          // Verifica se foi clique ou arrasto ao largar
           a.addEventListener('pointerup', (e) => {
             let diffX = Math.abs(e.clientX - startX);
             let diffY = Math.abs(e.clientY - startY);
             
-            // Se mexeu menos de 5px, é porque o utilizador queria mesmo clicar para abrir
             if (diffX < 5 && diffY < 5) {
               window.open('https://www.artclara.pt/pages/portefolio#' + q.id, '_blank');
             }
