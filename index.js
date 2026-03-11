@@ -13,9 +13,12 @@
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + data.id + "/{z}/{f}/{y}/{x}.jpg", { cubeMapPreviewUrl: "tiles/" + data.id + "/preview.jpg" });
     var geometry = new Marzipano.CubeGeometry(data.levels);
     
-    // --- AJUSTE DE ZOOM (FOV) ---
-    // 30*Math.PI/180 permite MUITO mais zoom que os 100 anteriores
-    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 30*Math.PI/180, 120*Math.PI/180);
+    // --- ZOOM EXTREMO PARA MOBILE ---
+    // Baixamos de 30 para 10. Agora o telemóvel vai "entrar" dentro do quadro.
+    var minFov = 10 * Math.PI / 180; 
+    var maxFov = 120 * Math.PI / 180;
+    
+    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, minFov, maxFov);
     
     var view = new Marzipano.RectilinearView(data.initialViewParameters, limiter);
     var scene = viewer.createScene({ source: source, geometry: geometry, view: view, pinFirstLevel: true });
@@ -29,12 +32,11 @@
     targetFov: Math.PI/2
   });
 
-  // Ativa a rotação
   viewer.startMovement(autorotate);
   
-  // --- TEMPO DE REINÍCIO MAIOR ---
-  // 15000ms = 15 segundos de espera após o utilizador parar de mexer
-  viewer.setIdleMovement(15000, autorotate);
+  // --- TEMPO DE REINÍCIO (30 segundos) ---
+  // Aumentei para 30000ms para dar tempo de ver os detalhes com calma.
+  viewer.setIdleMovement(30000, autorotate);
 
   // Tooltip
   var tooltip = document.createElement('div');
