@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-artclara",
-      "name": "Artclara",
+      "name": "ArtClara",
       "levels": [
         {
           "tileSize": 256,
@@ -40,7 +40,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Artclara",
+  "name": "ArtClara",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
