@@ -12,7 +12,11 @@
   var scenes = data.scenes.map(function(data) {
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + data.id + "/{z}/{f}/{y}/{x}.jpg", { cubeMapPreviewUrl: "tiles/" + data.id + "/preview.jpg" });
     var geometry = new Marzipano.CubeGeometry(data.levels);
-    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 100*Math.PI/180, 120*Math.PI/180);
+    
+    // --- AJUSTE DE ZOOM (FOV) ---
+    // 30*Math.PI/180 permite MUITO mais zoom que os 100 anteriores
+    var limiter = Marzipano.RectilinearView.limit.traditional(data.faceSize, 30*Math.PI/180, 120*Math.PI/180);
+    
     var view = new Marzipano.RectilinearView(data.initialViewParameters, limiter);
     var scene = viewer.createScene({ source: source, geometry: geometry, view: view, pinFirstLevel: true });
     return { scene: scene, view: view };
@@ -25,10 +29,12 @@
     targetFov: Math.PI/2
   });
 
-  // Ativa a rotação imediatamente
+  // Ativa a rotação
   viewer.startMovement(autorotate);
-  // Se o utilizador mexer, para 3 segundos e volta a rodar
-  viewer.setIdleMovement(3000, autorotate);
+  
+  // --- TEMPO DE REINÍCIO MAIOR ---
+  // 15000ms = 15 segundos de espera após o utilizador parar de mexer
+  viewer.setIdleMovement(15000, autorotate);
 
   // Tooltip
   var tooltip = document.createElement('div');
