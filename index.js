@@ -22,15 +22,23 @@
   var scenes = data.scenes.map(function(sceneData) {
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
-    var maxFov = 120 * degToRad; // Limite máximo de zoom out
-    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // Usa o limite do Shopify, ou 10º por defeito
     
-    var baseLimiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, maxFov);
+    // --- INÍCIO DO NOVO LIMITADOR ABSOLUTO ---
+    var maxFov = 120 * degToRad; // Limite máximo de zoom out
+    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // O valor do Shopify ou 10º por defeito
+    
     var limiter = function(params) {
-      var p = baseLimiter(params);
-      // Força o zoom a não passar do limite mínimo definido
-      p.fov = Math.max(minFov, Math.min(p.fov, maxFov));
-      return p;
+      // Força o Zoom (FOV) aos limites exatos
+      var fov = Math.max(minFov, Math.min(params.fov, maxFov));
+      
+      // Trava a inclinação (Pitch) a 90º (cima/baixo)
+      var pitch = Math.max(-Math.PI/2, Math.min(params.pitch, Math.PI/2));
+      
+      return {
+        yaw: params.yaw,
+        pitch: pitch,
+        fov: fov
+      };
     };
     
     // --- 3. APLICAR POV E ZOOM INICIAIS ---
