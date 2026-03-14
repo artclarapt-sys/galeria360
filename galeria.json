@@ -1,16 +1,80 @@
 [
     {
+        "id": "AC551",
+        "info": "Woman-69, 80x120 cm, Acrylic on Canvas, 2026",
+        "y": 0.0,
+        "p": 0.0,
+        "w": 321,
+        "h": 482
+    },
+    {
+        "id": "AC541",
+        "info": "Family of four-31, 120x80 cm, Acrylic on Canvas, 2026",
+        "y": -0.1759,
+        "p": 0.0,
+        "w": 482,
+        "h": 321
+    },
+    {
         "id": "AC471",
         "info": "Three brothers, 120x120 cm, Acrylic on Canvas, 2022",
-        "y": 0.0,
+        "y": 0.1759,
         "p": 0.0,
         "w": 482,
         "h": 482
     },
     {
+        "id": "AC532",
+        "info": "One, 95x75 cm, Acrylic on Canvas, 2025",
+        "y": -0.3644,
+        "p": 0.0,
+        "w": 382,
+        "h": 301
+    },
+    {
+        "id": "AC526",
+        "info": "Woman-67, 80x100 cm, Acrylic on Canvas, 2025",
+        "y": 0.3519,
+        "p": 0.0,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC427",
+        "info": "Family of five with a dog, 100x140 cm, Acrylic on Canvas, 2022",
+        "y": 0.5152,
+        "p": 0.0,
+        "w": 402,
+        "h": 563
+    },
+    {
+        "id": "AC525",
+        "info": "Man-40, 80x100 cm, Acrylic on Canvas, 2025",
+        "y": -0.5152,
+        "p": 0.0,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC105",
+        "info": "Horse rider, 70x90 cm, Acrylic on Canvas, 2019",
+        "y": -0.6535,
+        "p": 0.0,
+        "w": 281,
+        "h": 362
+    },
+    {
+        "id": "AC550",
+        "info": "Woman in towel, 60x100 cm, Acrylic on Canvas, 2026",
+        "y": 0.6535,
+        "p": 0.0,
+        "w": 241,
+        "h": 402
+    },
+    {
         "id": "AC400",
         "info": "Dog-5, 100x100 cm, Acrylic on Canvas, 2022",
-        "y": -0.1885,
+        "y": 0.7917,
         "p": 0.0,
         "w": 402,
         "h": 402
@@ -18,39 +82,71 @@
     {
         "id": "AC329",
         "info": "Seven siblings, 155x90 cm, Acrylic on Canvas, 2021",
-        "y": 0.2262,
+        "y": -0.8419,
         "p": 0.0,
         "w": 623,
         "h": 362
     },
     {
+        "id": "AC557",
+        "info": "Family of four-32, 90x60 cm, Acrylic on Canvas, 2026",
+        "y": 0.955,
+        "p": 0.0,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC537",
+        "info": "Two dogs-2, 60x100 cm, Acrylic on Canvas, 2026",
+        "y": -1.0304,
+        "p": 0.0,
+        "w": 241,
+        "h": 402
+    },
+    {
         "id": "AC268",
         "info": "Mahmound copy, 150x90 cm, Acrylic on Canvas, 2020",
-        "y": -0.4021,
+        "y": 1.1561,
         "p": 0.0,
         "w": 603,
         "h": 362
     },
     {
+        "id": "AC234",
+        "info": "Family of five-6, 90x60 cm, Acrylic on Canvas, 2020",
+        "y": -1.1687,
+        "p": 0.0,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC546",
+        "info": "Woman-68, 60x100 cm, Acrylic on Canvas, 2026",
+        "y": -1.3069,
+        "p": 0.0,
+        "w": 241,
+        "h": 402
+    },
+    {
         "id": "AC262",
         "info": "Lewis Hamilton 92nd victory, 120x90 cm, Acrylic on Canvas, 2020",
-        "y": 0.4524,
+        "y": 1.3823,
         "p": 0.0,
         "w": 482,
         "h": 362
     },
     {
-        "id": "AC532",
-        "info": "One, 95x75 cm, Acrylic on Canvas, 2025",
-        "y": -0.6158,
+        "id": "AC512",
+        "info": "Family of five-11, 100x70 cm, Acrylic on Canvas, 2024",
+        "y": -1.4451,
         "p": 0.0,
-        "w": 382,
-        "h": 301
+        "w": 402,
+        "h": 281
     },
     {
         "id": "AC349",
         "info": "Family of five at the beach, 120x80 cm, Acrylic on Canvas, 2021",
-        "y": 0.6535,
+        "y": 1.5834,
         "p": 0.0,
         "w": 482,
         "h": 321
@@ -58,71 +154,111 @@
     {
         "id": "AC228",
         "info": "Dog-2, 100x100 cm, Acrylic on Canvas, 2020",
-        "y": -0.7791,
+        "y": -1.6211,
         "p": 0.0,
         "w": 402,
         "h": 402
+    },
+    {
+        "id": "AC529",
+        "info": "Family of three-23, 100x60 cm, Acrylic on Canvas, 2025",
+        "y": 1.7719,
+        "p": 0.0,
+        "w": 402,
+        "h": 241
     },
     {
         "id": "AC371",
         "info": "Family of three-16, 100x80 cm, Acrylic on Canvas, 2021",
-        "y": 0.8419,
+        "y": -1.797,
         "p": 0.0,
         "w": 402,
         "h": 321
     },
     {
-        "id": "AC324",
-        "info": "Woman-42, 80x100 cm, Acrylic on Canvas, 2021",
-        "y": -0.9425,
-        "p": 0.0,
-        "w": 321,
-        "h": 402
-    },
-    {
-        "id": "AC185",
-        "info": "Grandfather and daugther, 100x100 cm, Acrylic on Canvas, 2020",
-        "y": 1.0179,
-        "p": 0.0,
-        "w": 402,
-        "h": 402
-    },
-    {
-        "id": "AC119",
-        "info": "Woman-13, 100x100 cm, Acrylic on Canvas, 2019",
-        "y": -1.1058,
-        "p": 0.0,
-        "w": 402,
-        "h": 402
-    },
-    {
-        "id": "AC208",
-        "info": "Family of five-5, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": 1.1938,
-        "p": 0.0,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC518",
-        "info": "Family of three-22, 90x60 cm, Acrylic on Canvas, 2024",
-        "y": -1.2692,
+        "id": "AC534",
+        "info": "Wedding couple-3, 90x60 cm, Acrylic on Canvas, 2025",
+        "y": 1.9352,
         "p": 0.0,
         "w": 362,
         "h": 241
     },
     {
+        "id": "AC185",
+        "info": "Grandfather and daugther, 100x100 cm, Acrylic on Canvas, 2020",
+        "y": -1.9729,
+        "p": 0.0,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC324",
+        "info": "Woman-42, 80x100 cm, Acrylic on Canvas, 2021",
+        "y": 2.086,
+        "p": 0.0,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC119",
+        "info": "Woman-13, 100x100 cm, Acrylic on Canvas, 2019",
+        "y": -2.1488,
+        "p": 0.0,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC518",
+        "info": "Family of three-22, 90x60 cm, Acrylic on Canvas, 2024",
+        "y": 2.2368,
+        "p": 0.0,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC208",
+        "info": "Family of five-5, 100x80 cm, Acrylic on Canvas, 2020",
+        "y": -2.3248,
+        "p": 0.0,
+        "w": 402,
+        "h": 321
+    },
+    {
         "id": "AC359",
         "info": "Family of five at the beach-2, 80x80 cm, Acrylic on Canvas, 2021",
-        "y": 1.3572,
+        "y": 2.3876,
         "p": 0.0,
         "w": 321,
         "h": 321
     },
     {
+        "id": "AC549",
+        "info": "Grandmother and granddaughter, 80x60 cm, Acrylic on Canvas, 2026",
+        "y": -2.4881,
+        "p": 0.0,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC527",
+        "info": "Chef, 60x80 cm, Acrylic on Canvas, 2025",
+        "y": 2.5133,
+        "p": 0.0,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC401",
+        "info": "Five dogs, 80x70 cm, Acrylic on Canvas, 2022",
+        "y": -2.6264,
+        "p": 0.0,
+        "w": 321,
+        "h": 281
+    },
+    {
         "id": "AC517",
         "info": "Football player-2, 70x70 cm, Acrylic on Canvas, 2024",
-        "y": -1.4074,
+        "y": 2.6264,
         "p": 0.0,
         "w": 281,
         "h": 281
@@ -130,7 +266,7 @@
     {
         "id": "AC521",
         "info": "Mother and son B&W, 80x60 cm, Acrylic on Canvas, 2025",
-        "y": 1.4954,
+        "y": -2.7646,
         "p": 0.0,
         "w": 321,
         "h": 241
@@ -138,7 +274,7 @@
     {
         "id": "AC377",
         "info": "Motorcycle ryder, 90x60 cm, Acrylic on Canvas, 2021",
-        "y": -1.5457,
+        "y": 2.7646,
         "p": 0.0,
         "w": 362,
         "h": 241
@@ -146,7 +282,7 @@
     {
         "id": "AC481",
         "info": "Mother and son-5, 60x80 cm, Acrylic on Canvas, 2023",
-        "y": 1.6211,
+        "y": -2.8903,
         "p": 0.0,
         "w": 241,
         "h": 321
@@ -154,3296 +290,3448 @@
     {
         "id": "AC474",
         "info": "Man-37, 60x80 cm, Acrylic on Canvas, 2022",
-        "y": -1.6839,
+        "y": 2.9028,
         "p": 0.0,
         "w": 241,
         "h": 321
     },
     {
-        "id": "AC234",
-        "info": "Family of five-6, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.7593,
-        "p": 0.0,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC501",
-        "info": "Eight siblings, 100x80 cm, Acrylic on Canvas, 2023",
-        "y": -1.8221,
-        "p": 0.0,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC105",
-        "info": "Horse rider, 70x90 cm, Acrylic on Canvas, 2019",
-        "y": 1.8975,
-        "p": 0.0,
-        "w": 281,
-        "h": 362
-    },
-    {
-        "id": "AC476",
-        "info": "Couple-100, 100x100 cm, Acrylic on Canvas, 2022",
-        "y": -1.9981,
-        "p": 0.0,
-        "w": 402,
-        "h": 402
-    },
-    {
         "id": "AC373",
         "info": "Two brothers-3, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.0358,
+        "y": -3.0159,
         "p": 0.0,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC200",
-        "info": "Woman with Barcelos rooster, 60x90 cm, Acrylic on Canvas, 2020",
-        "y": -2.1363,
-        "p": 0.0,
-        "w": 241,
-        "h": 362
-    },
-    {
-        "id": "AC512",
-        "info": "Family of five-11, 100x70 cm, Acrylic on Canvas, 2024",
-        "y": 2.1991,
-        "p": 0.0,
-        "w": 402,
-        "h": 281
-    },
-    {
-        "id": "AC160",
-        "info": "Couple-29, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.2745,
-        "p": 0.0,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC427",
-        "info": "Family of five with a dog, 100x140 cm, Acrylic on Canvas, 2022",
-        "y": 2.375,
-        "p": 0.0,
-        "w": 402,
-        "h": 563
-    },
-    {
-        "id": "AC440",
-        "info": "Woman-53, 100x100 cm, Acrylic on Canvas, 2022",
-        "y": -2.4379,
+        "id": "AC476",
+        "info": "Couple-100, 100x100 cm, Acrylic on Canvas, 2022",
+        "y": 3.0411,
         "p": 0.0,
         "w": 402,
         "h": 402
     },
     {
+        "id": "AC501",
+        "info": "Eight siblings, 100x80 cm, Acrylic on Canvas, 2023",
+        "y": -1.1687,
+        "p": -0.1257,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC200",
+        "info": "Woman with Barcelos rooster, 60x90 cm, Acrylic on Canvas, 2020",
+        "y": 0.9299,
+        "p": -0.1382,
+        "w": 241,
+        "h": 362
+    },
+    {
+        "id": "AC539",
+        "info": "Wedding couple-4, 70x60 cm, Acrylic on Canvas, 2026",
+        "y": -1.42,
+        "p": -0.1131,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC160",
+        "info": "Couple-29, 90x60 cm, Acrylic on Canvas, 2020",
+        "y": 1.7593,
+        "p": -0.1131,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC523",
+        "info": "Family of four-29, 80x80 cm, Acrylic on Canvas, 2025",
+        "y": 1.9101,
+        "p": -0.1257,
+        "w": 321,
+        "h": 321
+    },
+    {
+        "id": "AC332",
+        "info": "Mother and son, 80x60 cm, Acrylic on Canvas, 2021",
+        "y": 2.2242,
+        "p": -0.1131,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC440",
+        "info": "Woman-53, 100x100 cm, Acrylic on Canvas, 2022",
+        "y": -3.0285,
+        "p": -0.1382,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC530",
+        "info": "Grandmother and children-2, 60x100 cm, Acrylic on Canvas, 2025",
+        "y": -2.5007,
+        "p": -0.1131,
+        "w": 402,
+        "h": 241
+    },
+    {
         "id": "AC202",
         "info": "Couple-41, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.5384,
-        "p": 0.0,
+        "y": 2.6389,
+        "p": -0.1131,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC522",
+        "info": "Wedding couple, 60x70 cm, Acrylic on Canvas, 2025",
+        "y": -2.752,
+        "p": -0.1131,
+        "w": 241,
+        "h": 281
+    },
+    {
+        "id": "AC508",
+        "info": "Family of four-28, 90x50 cm, Acrylic on Canvas, 2023",
+        "y": 0.955,
+        "p": 0.1005,
+        "w": 362,
+        "h": 201
+    },
+    {
+        "id": "AC118",
+        "info": "Father and son-4, 80x60 cm, Acrylic on Canvas, 2019",
+        "y": 2.7772,
+        "p": -0.1131,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC545",
+        "info": "Couple-107, 70x50 cm, Acrylic on Canvas, 2026",
+        "y": -1.1435,
+        "p": 0.1005,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC117",
+        "info": "Young couple-9, 80x60 cm, Acrylic on Canvas, 2019",
+        "y": -1.4326,
+        "p": 0.1131,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC519",
         "info": "Family of five-12, 90x60 cm, Acrylic on Canvas, 2024",
-        "y": -2.6012,
-        "p": 0.0,
+        "y": 1.7593,
+        "p": 0.1131,
         "w": 362,
         "h": 241
     },
     {
-        "id": "AC118",
-        "info": "Father and son-4, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": 2.6766,
-        "p": 0.0,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC117",
-        "info": "Young couple-9, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": -2.752,
-        "p": 0.0,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC505",
-        "info": "Family of six-7, 90x60 cm, Acrylic on Canvas, 2023",
-        "y": 2.8274,
-        "p": 0.0,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC508",
-        "info": "Family of four-28, 90x50 cm, Acrylic on Canvas, 2023",
-        "y": -2.9028,
-        "p": 0.0,
-        "w": 362,
-        "h": 201
+        "id": "AC558",
+        "info": "Man-43, 50x70 cm, Acrylic on Canvas, 2026",
+        "y": 1.885,
+        "p": 0.1131,
+        "w": 201,
+        "h": 281
     },
     {
         "id": "AC425",
         "info": "Family of four-25, 100x80 cm, Acrylic on Canvas, 2022",
-        "y": 2.9908,
-        "p": 0.0,
+        "y": -3.0285,
+        "p": 0.1257,
         "w": 402,
         "h": 321
     },
     {
         "id": "AC71",
         "info": "Twin brothers B&W, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": -3.0536,
-        "p": 0.0,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC40",
-        "info": "Antonio Variacoes, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": -2.8903,
-        "p": -0.1005,
+        "y": 2.2242,
+        "p": 0.1131,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC339",
         "info": "Boy-7, 120x120 cm, Acrylic on Canvas, 2021",
-        "y": -1.2943,
-        "p": -0.1634,
+        "y": -2.5133,
+        "p": 0.1634,
         "w": 482,
         "h": 482
     },
     {
-        "id": "AC390",
-        "info": "Man-32, 80x100 cm, Acrylic on Canvas, 2022",
-        "y": 1.4954,
-        "p": -0.1382,
+        "id": "AC40",
+        "info": "Antonio Variacoes, 80x60 cm, Acrylic on Canvas, 2018",
+        "y": 2.6389,
+        "p": 0.1131,
         "w": 321,
-        "h": 402
+        "h": 241
     },
     {
-        "id": "AC503",
-        "info": "Brother and sister, 100x50 cm, Acrylic on Canvas, 2023",
-        "y": 2.551,
-        "p": -0.1005,
-        "w": 402,
-        "h": 201
-    },
-    {
-        "id": "AC475",
-        "info": "Baía de São Martinho do Porto, 90x60 cm, Acrylic on Canvas, 2022",
-        "y": -2.9028,
-        "p": 0.1005,
+        "id": "AC505",
+        "info": "Family of six-7, 90x60 cm, Acrylic on Canvas, 2023",
+        "y": -2.6892,
+        "p": 0.1131,
         "w": 362,
         "h": 241
     },
     {
-        "id": "AC448",
-        "info": "Family of three in Gaia, 60x90 cm, Acrylic on Canvas, 2022",
-        "y": -1.4577,
-        "p": -0.1382,
-        "w": 241,
-        "h": 362
+        "id": "AC547",
+        "info": "Man with dog-3, 50x70 cm, Acrylic on Canvas, 2026",
+        "y": 2.752,
+        "p": 0.1131,
+        "w": 201,
+        "h": 281
+    },
+    {
+        "id": "AC390",
+        "info": "Man-32, 80x100 cm, Acrylic on Canvas, 2022",
+        "y": -0.3519,
+        "p": -0.1508,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC542",
+        "info": "Couple-107, 80x60 cm, Acrylic on Canvas, 2026",
+        "y": -0.1382,
+        "p": -0.1257,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC528",
+        "info": "Grandparents and daughter, 80x60 cm, Acrylic on Canvas, 2025",
+        "y": 1.5582,
+        "p": -0.1257,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC503",
+        "info": "Brother and sister, 100x50 cm, Acrylic on Canvas, 2023",
+        "y": -1.797,
+        "p": -0.1131,
+        "w": 402,
+        "h": 201
     },
     {
         "id": "AC333",
         "info": "Mother and son at wedding, 100x100 cm, Acrylic on Canvas, 2021",
-        "y": -2.6138,
-        "p": -0.1382,
+        "y": -0.6786,
+        "p": -0.1634,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC475",
+        "info": "Baía de São Martinho do Porto, 90x60 cm, Acrylic on Canvas, 2022",
+        "y": -2.3122,
+        "p": -0.1257,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC307",
+        "info": "Horse, 100x100 cm, Acrylic on Canvas, 2021",
+        "y": -0.8545,
+        "p": -0.1634,
         "w": 402,
         "h": 402
     },
     {
         "id": "AC233",
         "info": "Man-15, 70x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.5708,
-        "p": -0.1131,
+        "y": 2.3625,
+        "p": -0.1257,
         "w": 281,
         "h": 241
     },
     {
-        "id": "AC463",
-        "info": "Man at the beach, 70x70 cm, Acrylic on Canvas, 2022",
-        "y": 1.7342,
-        "p": -0.1131,
-        "w": 281,
-        "h": 281
-    },
-    {
-        "id": "AC307",
-        "info": "Horse, 100x100 cm, Acrylic on Canvas, 2021",
-        "y": 2.7269,
+        "id": "AC448",
+        "info": "Family of three in Gaia, 60x90 cm, Acrylic on Canvas, 2022",
+        "y": -2.6389,
         "p": -0.1382,
-        "w": 402,
-        "h": 402
+        "w": 241,
+        "h": 362
     },
     {
-        "id": "AC401",
-        "info": "Five dogs, 80x70 cm, Acrylic on Canvas, 2022",
-        "y": 2.0358,
+        "id": "AC540",
+        "info": "Family of three-24, 50x50 cm, Acrylic on Canvas, 2026",
+        "y": 2.4756,
         "p": -0.1131,
-        "w": 321,
-        "h": 281
+        "w": 201,
+        "h": 201
     },
     {
         "id": "AC468",
         "info": "Couple-98, 70x50 cm, Acrylic on Canvas, 2022",
-        "y": -2.2494,
-        "p": -0.1005,
+        "y": -2.8651,
+        "p": -0.1131,
         "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC463",
+        "info": "Man at the beach, 70x70 cm, Acrylic on Canvas, 2022",
+        "y": -0.3393,
+        "p": 0.1257,
+        "w": 281,
+        "h": 281
+    },
+    {
+        "id": "AC258",
+        "info": "Father and sons jumping, 90x150 cm, Acrylic on Canvas, 2020",
+        "y": 1.0681,
+        "p": -0.2011,
+        "w": 362,
+        "h": 603
+    },
+    {
+        "id": "AC502",
+        "info": "Father and daugther-3, 60x50 cm, Acrylic on Canvas, 2023",
+        "y": 2.9028,
+        "p": -0.1131,
+        "w": 241,
         "h": 201
     },
     {
         "id": "AC183",
         "info": "Bride and groom-3, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.1614,
-        "p": -0.1131,
+        "y": -0.1257,
+        "p": 0.1257,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC502",
-        "info": "Father and daugther-3, 60x50 cm, Acrylic on Canvas, 2023",
-        "y": -2.752,
-        "p": -0.1005,
-        "w": 241,
-        "h": 201
+        "id": "AC490",
+        "info": "Woman at the window, 50x60 cm, Acrylic on Canvas, 2023",
+        "y": -0.2262,
+        "p": 0.1257,
+        "w": 201,
+        "h": 241
     },
     {
-        "id": "AC258",
-        "info": "Father and sons jumping, 90x150 cm, Acrylic on Canvas, 2020",
-        "y": -3.0411,
-        "p": -0.1759,
-        "w": 362,
-        "h": 603
+        "id": "AC531",
+        "info": "Couple-106, 50x50 cm, Acrylic on Canvas, 2025",
+        "y": 1.5331,
+        "p": 0.1131,
+        "w": 201,
+        "h": 201
     },
     {
         "id": "AC8",
         "info": "Woman-4, 70x60 cm, Acrylic on Canvas, 2017",
-        "y": -1.2566,
-        "p": 0.1131,
+        "y": -1.7719,
+        "p": 0.1257,
         "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC538",
+        "info": "Lawyer, 40x60 cm, Óleo on Canvas, 2026",
+        "y": 1.9729,
+        "p": 0.1131,
+        "w": 160,
         "h": 241
     },
     {
         "id": "AC413",
         "info": "Couple-84, 70x70 cm, Acrylic on Canvas, 2022",
-        "y": 1.4954,
-        "p": 0.1131,
+        "y": 1.2064,
+        "p": -0.1382,
         "w": 281,
         "h": 281
     },
     {
+        "id": "AC111",
+        "info": "Woman-12, 60x60 cm, Acrylic on Canvas, 2019",
+        "y": -2.2871,
+        "p": 0.1257,
+        "w": 241,
+        "h": 241
+    },
+    {
         "id": "AC376",
         "info": "Family of four in Azores, 90x60 cm, Acrylic on Canvas, 2021",
-        "y": -1.3949,
-        "p": 0.1131,
+        "y": 2.375,
+        "p": 0.1257,
         "w": 362,
         "h": 241
     },
     {
-        "id": "AC111",
-        "info": "Woman-12, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.5331,
-        "p": 0.1131,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC419",
-        "info": "Man-35, 60x80 cm, Acrylic on Canvas, 2022",
-        "y": 1.7342,
-        "p": 0.1257,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC515",
-        "info": "Couple-104, 50x80 cm, Acrylic on Canvas, 2024",
-        "y": 2.0106,
-        "p": 0.1257,
-        "w": 201,
-        "h": 321
-    },
-    {
-        "id": "AC391",
-        "info": "Family of eight, 80x60 cm, Acrylic on Canvas, 2022",
-        "y": 2.1237,
-        "p": 0.1131,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC227",
-        "info": "Man-13, 50x70 cm, Acrylic on Canvas, 2020",
-        "y": -2.2368,
-        "p": 0.1131,
+        "id": "AC352",
+        "info": "Man-27, 50x70 cm, Acrylic on Canvas, 2021",
+        "y": 1.3195,
+        "p": -0.1382,
         "w": 201,
         "h": 281
-    },
-    {
-        "id": "AC497",
-        "info": "Couple-101, 60x70 cm, Acrylic on Canvas, 2023",
-        "y": 2.5133,
-        "p": 0.1131,
-        "w": 241,
-        "h": 281
-    },
-    {
-        "id": "AC264",
-        "info": "Man-17, 50x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.2368,
-        "p": 0.1131,
-        "w": 201,
-        "h": 241
     },
     {
         "id": "AC230",
         "info": "Couple-47, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": -2.6138,
-        "p": 0.1257,
+        "y": -2.8526,
+        "p": 0.1382,
         "w": 402,
         "h": 321
     },
     {
-        "id": "AC305",
-        "info": "Family of four-19, 100x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.6515,
-        "p": 0.1131,
-        "w": 402,
-        "h": 241
-    },
-    {
-        "id": "AC360",
-        "info": "Couple Dancing, 60x80 cm, Acrylic on Canvas, 2021",
-        "y": -2.752,
-        "p": 0.1257,
+        "id": "AC419",
+        "info": "Man-35, 60x80 cm, Acrylic on Canvas, 2022",
+        "y": 2.5133,
+        "p": 0.1382,
         "w": 241,
         "h": 321
     },
     {
+        "id": "AC227",
+        "info": "Man-13, 50x70 cm, Acrylic on Canvas, 2020",
+        "y": 1.42,
+        "p": -0.1382,
+        "w": 201,
+        "h": 281
+    },
+    {
+        "id": "AC391",
+        "info": "Family of eight, 80x60 cm, Acrylic on Canvas, 2022",
+        "y": 2.8651,
+        "p": 0.1257,
+        "w": 321,
+        "h": 241
+    },
+    {
         "id": "AC181",
         "info": "Couple-37, 120x80 cm, Acrylic on Canvas, 2020",
-        "y": 0.6535,
-        "p": -0.1382,
+        "y": -0.6912,
+        "p": 0.1508,
         "w": 482,
         "h": 321
     },
     {
         "id": "AC186",
         "info": "Man-11, 100x100 cm, Acrylic on Canvas, 2020",
-        "y": 0.1885,
-        "p": -0.1634,
+        "y": -0.8796,
+        "p": 0.1634,
         "w": 402,
         "h": 402
     },
     {
-        "id": "AC147",
-        "info": "Sisters, 100x30 cm, Acrylic on Canvas, 2020",
-        "y": 0.8419,
-        "p": -0.1005,
+        "id": "AC305",
+        "info": "Family of four-19, 100x60 cm, Acrylic on Canvas, 2021",
+        "y": 0.6912,
+        "p": -0.1382,
         "w": 402,
-        "h": 120
+        "h": 241
+    },
+    {
+        "id": "AC264",
+        "info": "Man-17, 50x60 cm, Acrylic on Canvas, 2020",
+        "y": 1.6336,
+        "p": 0.1257,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC515",
+        "info": "Couple-104, 50x80 cm, Acrylic on Canvas, 2024",
+        "y": 1.0807,
+        "p": 0.1508,
+        "w": 201,
+        "h": 321
     },
     {
         "id": "AC151",
         "info": "Couple-27, 150x90 cm, Acrylic on Canvas, 2020",
-        "y": 1.2315,
-        "p": -0.1508,
+        "y": -2.0106,
+        "p": -0.1634,
         "w": 603,
         "h": 362
     },
     {
+        "id": "AC497",
+        "info": "Couple-101, 60x70 cm, Acrylic on Canvas, 2023",
+        "y": 1.1812,
+        "p": 0.1382,
+        "w": 241,
+        "h": 281
+    },
+    {
+        "id": "AC360",
+        "info": "Couple Dancing, 60x80 cm, Acrylic on Canvas, 2021",
+        "y": 1.2943,
+        "p": 0.1508,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC536",
+        "info": "Baby boy-2, 70x50 cm, Acrylic on Canvas, 2026",
+        "y": 1.4074,
+        "p": 0.1257,
+        "w": 281,
+        "h": 201
+    },
+    {
         "id": "AC302",
         "info": "Family of four-17, 90x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.8149,
-        "p": 0.1131,
+        "y": 0.3519,
+        "p": -0.1382,
         "w": 362,
         "h": 241
     },
     {
+        "id": "AC223",
+        "info": "Man with dog-2, 80x80 cm, Acrylic on Canvas, 2020",
+        "y": -0.4901,
+        "p": -0.1634,
+        "w": 321,
+        "h": 321
+    },
+    {
+        "id": "AC147",
+        "info": "Sisters, 100x30 cm, Acrylic on Canvas, 2020",
+        "y": -1.5708,
+        "p": -0.1131,
+        "w": 402,
+        "h": 120
+    },
+    {
         "id": "AC342",
         "info": "Couple-70, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": -3.0536,
-        "p": 0.1131,
+        "y": 2.0483,
+        "p": -0.1382,
         "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC465",
+        "info": "Bride and groom-5, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": -0.9927,
+        "p": -0.1257,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC253",
+        "info": "Young couple-16, 70x80 cm, Acrylic on Canvas, 2020",
+        "y": 3.0159,
+        "p": -0.1634,
+        "w": 281,
+        "h": 321
+    },
+    {
+        "id": "AC283",
+        "info": "Mother and boys, 90x60 cm, Acrylic on Canvas, 2020",
+        "y": 0.3519,
+        "p": 0.1382,
+        "w": 362,
         "h": 241
     },
     {
         "id": "AC326",
         "info": "Couple at the window, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": -0.6032,
-        "p": -0.1257,
+        "y": -0.4775,
+        "p": 0.1382,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC455",
         "info": "Girl with dog, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.5781,
-        "p": 0.1005,
+        "y": -1.3069,
+        "p": -0.1257,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC223",
-        "info": "Man with dog-2, 80x80 cm, Acrylic on Canvas, 2020",
-        "y": -1.709,
-        "p": -0.1382,
-        "w": 321,
-        "h": 321
-    },
-    {
         "id": "AC328",
         "info": "Couple-67, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.8903,
-        "p": -0.1257,
+        "y": 0.6786,
+        "p": 0.1382,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC283",
-        "info": "Mother and boys, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": 3.0411,
-        "p": -0.1257,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC332",
-        "info": "Mother and son, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.6283,
-        "p": 0.1257,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC253",
-        "info": "Young couple-16, 70x80 cm, Acrylic on Canvas, 2020",
-        "y": -1.8473,
+        "id": "AC395",
+        "info": "Dog-4, 40x60 cm, Acrylic on Canvas, 2022",
+        "y": 0.8168,
         "p": -0.1382,
-        "w": 281,
-        "h": 321
-    },
-    {
-        "id": "AC374",
-        "info": "Baby boy, 40x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.6085,
-        "p": -0.1257,
         "w": 160,
         "h": 241
     },
     {
+        "id": "AC103",
+        "info": "Couple Paris, 120x80 cm, Acrylic on Canvas, 2019",
+        "y": -1.6085,
+        "p": 0.1634,
+        "w": 482,
+        "h": 321
+    },
+    {
         "id": "AC315",
         "info": "Woman-40, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.7665,
-        "p": 0.1257,
+        "y": -1.2818,
+        "p": 0.1382,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC320",
         "info": "Father and son by the river, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.1812,
-        "p": 0.1257,
+        "y": -1.9101,
+        "p": 0.1382,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC321",
         "info": "Couple-66, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.3195,
-        "p": 0.1257,
+        "y": -2.0483,
+        "p": 0.1382,
         "w": 321,
         "h": 241
     },
     {
+        "id": "AC374",
+        "info": "Baby boy, 40x60 cm, Acrylic on Canvas, 2021",
+        "y": -2.174,
+        "p": -0.1382,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC146",
+        "info": "Young couple-14, 95x75 cm, Acrylic on Canvas, 2020",
+        "y": 3.0159,
+        "p": 0.1508,
+        "w": 382,
+        "h": 301
+    },
+    {
+        "id": "AC188",
+        "info": "Mother with daugthers, 70x90 cm, Acrylic on Canvas, 2020",
+        "y": 0.8168,
+        "p": 0.1634,
+        "w": 281,
+        "h": 362
+    },
+    {
         "id": "AC406",
         "info": "Man-34, 60x70 cm, Acrylic on Canvas, 2022",
-        "y": -0.3267,
-        "p": -0.1382,
+        "y": -1.0179,
+        "p": 0.1508,
         "w": 241,
         "h": 281
     },
     {
-        "id": "AC103",
-        "info": "Couple Paris, 120x80 cm, Acrylic on Canvas, 2019",
-        "y": -1.6965,
+        "id": "AC524",
+        "info": "Wedding couple-2, 50x60 cm, Acrylic on Canvas, 2025",
+        "y": 2.0609,
         "p": 0.1382,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC91",
+        "info": "Family of five-4, 150x60 cm, Acrylic on Canvas, 2019",
+        "y": 0.0628,
+        "p": -0.1634,
+        "w": 603,
+        "h": 241
+    },
+    {
+        "id": "AC56",
+        "info": "Siblings, 120x90 cm, Acrylic on Canvas, 2018",
+        "y": 0.0377,
+        "p": 0.1759,
+        "w": 482,
+        "h": 362
+    },
+    {
+        "id": "AC70",
+        "info": "Family of five-2, 120x80 cm, Acrylic on Canvas, 2018",
+        "y": -1.5834,
+        "p": -0.2136,
         "w": 482,
         "h": 321
     },
     {
         "id": "AC106",
         "info": "Young woman-2, 50x50 cm, Acrylic on Canvas, 2019",
-        "y": 0.8796,
-        "p": 0.1131,
+        "y": -2.1614,
+        "p": 0.1382,
         "w": 201,
         "h": 201
     },
     {
         "id": "AC306",
         "info": "Couple-63, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.9657,
-        "p": 0.1257,
+        "y": 0.5027,
+        "p": -0.1759,
         "w": 321,
         "h": 241
-    },
-    {
-        "id": "AC490",
-        "info": "Woman at the window, 50x60 cm, Acrylic on Canvas, 2023",
-        "y": 1.6085,
-        "p": 0.1257,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC188",
-        "info": "Mother with daugthers, 70x90 cm, Acrylic on Canvas, 2020",
-        "y": -0.1634,
-        "p": -0.1634,
-        "w": 281,
-        "h": 362
-    },
-    {
-        "id": "AC469",
-        "info": "Three siblings-3, 70x50 cm, Acrylic on Canvas, 2022",
-        "y": 0.3393,
-        "p": -0.1257,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC146",
-        "info": "Young couple-14, 95x75 cm, Acrylic on Canvas, 2020",
-        "y": -0.754,
-        "p": -0.1508,
-        "w": 382,
-        "h": 301
     },
     {
         "id": "AC298",
         "info": "Family of five-8, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": -0.4524,
-        "p": -0.1382,
+        "y": 0.5027,
+        "p": 0.1759,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC91",
-        "info": "Family of five-4, 150x60 cm, Acrylic on Canvas, 2019",
-        "y": -0.9676,
-        "p": -0.1382,
-        "w": 603,
-        "h": 241
-    },
-    {
-        "id": "AC70",
-        "info": "Family of five-2, 120x80 cm, Acrylic on Canvas, 2018",
-        "y": 0.2011,
-        "p": 0.1508,
+        "id": "AC59",
+        "info": "Family of three-4, 120x80 cm, Acrylic on Canvas, 2018",
+        "y": -1.7844,
+        "p": -0.2262,
         "w": 482,
         "h": 321
     },
     {
-        "id": "AC56",
-        "info": "Siblings, 120x90 cm, Acrylic on Canvas, 2018",
-        "y": -2.0106,
-        "p": -0.1634,
-        "w": 482,
+        "id": "AC148",
+        "info": "Couple with dog, 70x90 cm, Acrylic on Canvas, 2020",
+        "y": 0.2011,
+        "p": 0.1759,
+        "w": 281,
         "h": 362
     },
     {
-        "id": "AC513",
-        "info": "Young woman-7, 50x50 cm, Acrylic on Canvas, 2024",
-        "y": -1.8473,
-        "p": 0.1131,
+        "id": "AC554",
+        "info": "Black dog, 50x50 cm, Acrylic on Canvas, 2026",
+        "y": 0.9299,
+        "p": 0.2011,
         "w": 201,
         "h": 201
     },
     {
         "id": "AC269",
         "info": "Family of three-13, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.4775,
-        "p": -0.1382,
+        "y": -1.1435,
+        "p": 0.2011,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC148",
-        "info": "Couple with dog, 70x90 cm, Acrylic on Canvas, 2020",
-        "y": 0.9927,
-        "p": -0.1634,
+        "id": "AC469",
+        "info": "Three siblings-3, 70x50 cm, Acrylic on Canvas, 2022",
+        "y": -1.0053,
+        "p": -0.2136,
         "w": 281,
-        "h": 362
+        "h": 201
     },
     {
-        "id": "AC59",
-        "info": "Family of three-4, 120x80 cm, Acrylic on Canvas, 2018",
-        "y": -0.377,
-        "p": 0.1508,
+        "id": "AC94",
+        "info": "Young couple-5, 95x75 cm, Acrylic on Canvas, 2019",
+        "y": -1.332,
+        "p": -0.2388,
+        "w": 382,
+        "h": 301
+    },
+    {
+        "id": "AC252",
+        "info": "Man B&W, 60x80 cm, Acrylic on Canvas, 2020",
+        "y": 2.4756,
+        "p": -0.2262,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC14",
+        "info": "Family of six, 120x80 cm, Acrylic on Canvas, 2017",
+        "y": 1.7342,
+        "p": -0.2388,
         "w": 482,
         "h": 321
     },
     {
         "id": "AC389",
         "info": "Couple at the beach, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": 3.0913,
-        "p": 0.1257,
+        "y": -2.8651,
+        "p": -0.2136,
         "w": 241,
         "h": 241
-    },
-    {
-        "id": "AC252",
-        "info": "Man B&W, 60x80 cm, Acrylic on Canvas, 2020",
-        "y": 1.8473,
-        "p": -0.1508,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC467",
-        "info": "Bride and groom-6, 60x50 cm, Acrylic on Canvas, 2022",
-        "y": 0.3644,
-        "p": 0.1257,
-        "w": 241,
-        "h": 201
     },
     {
         "id": "AC242",
         "info": "Couple-50, 60x80 cm, Acrylic on Canvas, 2020",
-        "y": 0.4775,
-        "p": 0.1508,
+        "y": 2.9028,
+        "p": -0.2262,
         "w": 241,
         "h": 321
     },
     {
-        "id": "AC94",
-        "info": "Young couple-5, 95x75 cm, Acrylic on Canvas, 2019",
-        "y": -2.4002,
-        "p": -0.1508,
-        "w": 382,
-        "h": 301
+        "id": "AC513",
+        "info": "Young woman-7, 50x50 cm, Acrylic on Canvas, 2024",
+        "y": 2.1614,
+        "p": -0.2136,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC509",
+        "info": "Mother and son-7, 30x40 cm, Acrylic on Canvas, 2024",
+        "y": -3.1165,
+        "p": 0.0,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC9",
+        "info": "Couple, 100x80 cm, Acrylic on Canvas, 2017",
+        "y": -2.4756,
+        "p": -0.2388,
+        "w": 402,
+        "h": 321
     },
     {
         "id": "AC363",
         "info": "Mother and son-2, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": -0.1634,
-        "p": 0.1382,
+        "y": 1.5205,
+        "p": 0.2136,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC14",
-        "info": "Family of six, 120x80 cm, Acrylic on Canvas, 2017",
-        "y": -0.7414,
-        "p": 0.1634,
-        "w": 482,
-        "h": 321
+        "id": "AC99",
+        "info": "Family of three-6, 80x70 cm, Acrylic on Canvas, 2019",
+        "y": 2.6012,
+        "p": -0.2262,
+        "w": 321,
+        "h": 281
     },
     {
-        "id": "AC449",
-        "info": "Couple-93, 50x60 cm, Acrylic on Canvas, 2022",
-        "y": -1.1435,
-        "p": -0.1382,
-        "w": 201,
-        "h": 241
+        "id": "AC66",
+        "info": "Couple-14, 90x70 cm, Acrylic on Canvas, 2018",
+        "y": 2.752,
+        "p": -0.2262,
+        "w": 362,
+        "h": 281
     },
     {
-        "id": "AC351",
-        "info": "Couple riding a motocycle, 40x40 cm, Acrylic on Canvas, 2021",
-        "y": -2.1488,
-        "p": -0.1131,
-        "w": 160,
-        "h": 160
+        "id": "AC467",
+        "info": "Bride and groom-6, 60x50 cm, Acrylic on Canvas, 2022",
+        "y": -1.4074,
+        "p": 0.2136,
+        "w": 241,
+        "h": 201
     },
     {
         "id": "AC365",
         "info": "Woman-46, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": -0.9048,
-        "p": 0.1382,
+        "y": -2.752,
+        "p": -0.2262,
         "w": 241,
         "h": 241
     },
     {
         "id": "AC507",
         "info": "Baby Girl-3, 30x40 cm, Acrylic on Canvas, 2023",
-        "y": 3.1039,
-        "p": 0.0,
+        "y": -0.2388,
+        "p": -0.1131,
         "w": 120,
         "h": 160
     },
     {
-        "id": "AC516",
-        "info": "Couple-105, 40x60 cm, Acrylic on Canvas, 2024",
-        "y": 0.9676,
-        "p": 0.1382,
+        "id": "AC351",
+        "info": "Couple riding a motocycle, 40x40 cm, Acrylic on Canvas, 2021",
+        "y": 0.2262,
+        "p": -0.1382,
         "w": 160,
-        "h": 241
+        "h": 160
     },
     {
         "id": "AC201",
         "info": "Couple-40, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.0304,
-        "p": 0.1382,
+        "y": 1.7467,
+        "p": 0.2262,
         "w": 321,
         "h": 241
-    },
-    {
-        "id": "AC99",
-        "info": "Family of three-6, 80x70 cm, Acrylic on Canvas, 2019",
-        "y": 1.8598,
-        "p": 0.1382,
-        "w": 321,
-        "h": 281
-    },
-    {
-        "id": "AC301",
-        "info": "Woman-37, 60x70 cm, Acrylic on Canvas, 2021",
-        "y": -2.1363,
-        "p": 0.1382,
-        "w": 241,
-        "h": 281
-    },
-    {
-        "id": "AC204",
-        "info": "Mother with baby-3, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.9604,
-        "p": 0.1382,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC9",
-        "info": "Couple, 100x80 cm, Acrylic on Canvas, 2017",
-        "y": -2.375,
-        "p": 0.1634,
-        "w": 402,
-        "h": 321
     },
     {
         "id": "AC137",
         "info": "Woman and dogs, 90x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.0,
-        "p": -0.1634,
+        "y": 1.8975,
+        "p": 0.2262,
         "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC60",
+        "info": "Couple-12, 80x80 cm, Acrylic on Canvas, 2018",
+        "y": 2.174,
+        "p": 0.2388,
+        "w": 321,
+        "h": 321
+    },
+    {
+        "id": "AC204",
+        "info": "Mother with baby-3, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": 2.6389,
+        "p": 0.2262,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC141",
+        "info": "Young couple-13, 90x60 cm, Acrylic on Canvas, 2019",
+        "y": -2.6892,
+        "p": 0.2262,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC301",
+        "info": "Woman-37, 60x70 cm, Acrylic on Canvas, 2021",
+        "y": -0.1131,
+        "p": -0.2388,
+        "w": 241,
+        "h": 281
+    },
+    {
+        "id": "AC449",
+        "info": "Couple-93, 50x60 cm, Acrylic on Canvas, 2022",
+        "y": 1.3949,
+        "p": 0.2262,
+        "w": 201,
         "h": 241
     },
     {
         "id": "AC205",
         "info": "Couple-42, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.0,
-        "p": 0.1634,
+        "y": 1.5331,
+        "p": -0.2388,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC491",
+        "info": "Family of four-27, 120x80 cm, Acrylic on Canvas, 2023",
+        "y": 2.3122,
+        "p": -0.2513,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC520",
+        "info": "Woman with dog-5, 80x100 cm, Acrylic on Canvas, 2024",
+        "y": -2.2871,
+        "p": -0.2639,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC207",
+        "info": "Woman-23, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": -0.1382,
+        "p": 0.2388,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC327",
         "info": "Man-23, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.2745,
-        "p": -0.1759,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC66",
-        "info": "Couple-14, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": 2.3625,
-        "p": 0.1759,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC141",
-        "info": "Young couple-13, 90x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.8294,
-        "p": -0.1885,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC486",
-        "info": "Football player, 40x60 cm, Acrylic on Canvas, 2023",
-        "y": 1.043,
-        "p": 0.1382,
-        "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC207",
-        "info": "Woman-23, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.4002,
-        "p": -0.2011,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC367",
-        "info": "Couple-75, 70x50 cm, Acrylic on Canvas, 2021",
-        "y": -0.5404,
-        "p": 0.1885,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC520",
-        "info": "Woman with dog-5, 80x100 cm, Acrylic on Canvas, 2024",
-        "y": -2.1865,
+        "y": -0.2262,
         "p": -0.2388,
-        "w": 321,
-        "h": 402
-    },
-    {
-        "id": "AC491",
-        "info": "Family of four-27, 120x80 cm, Acrylic on Canvas, 2023",
-        "y": -2.8023,
-        "p": -0.2262,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC60",
-        "info": "Couple-12, 80x80 cm, Acrylic on Canvas, 2018",
-        "y": 2.5384,
-        "p": -0.2136,
-        "w": 321,
-        "h": 321
-    },
-    {
-        "id": "AC493",
-        "info": "Dog-7, 40x60 cm, Acrylic on Canvas, 2023",
-        "y": -1.1435,
-        "p": 0.1382,
-        "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC495",
-        "info": "Woman-63, 40x60 cm, Acrylic on Canvas, 2023",
-        "y": 0.8796,
-        "p": 0.2136,
-        "w": 160,
+        "w": 241,
         "h": 241
     },
     {
         "id": "AC510",
         "info": "Woman-65, 27x35 cm, Acrylic on Canvas, 2024",
-        "y": 1.3823,
-        "p": -0.1005,
+        "y": -2.375,
+        "p": 0.1005,
         "w": 108,
         "h": 140
     },
     {
-        "id": "AC480",
-        "info": "Mother and son-4, 60x40 cm, Acrylic on Canvas, 2023",
-        "y": -1.5708,
-        "p": -0.2011,
-        "w": 241,
-        "h": 160
+        "id": "AC367",
+        "info": "Couple-75, 70x50 cm, Acrylic on Canvas, 2021",
+        "y": -1.7719,
+        "p": 0.2262,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC516",
+        "info": "Couple-105, 40x60 cm, Acrylic on Canvas, 2024",
+        "y": 2.752,
+        "p": 0.2262,
+        "w": 160,
+        "h": 241
     },
     {
         "id": "AC492",
         "info": "Woman-62, 27x35 cm, Acrylic on Canvas, 2023",
-        "y": 1.9352,
-        "p": -0.1131,
+        "y": 3.1039,
+        "p": -0.1257,
         "w": 108,
         "h": 140
     },
     {
-        "id": "AC470",
-        "info": "Family of three-20, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.2441,
-        "p": 0.2011,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC457",
-        "info": "Woman-57, 40x60 cm, Acrylic on Canvas, 2022",
-        "y": -1.8347,
-        "p": 0.2136,
+        "id": "AC486",
+        "info": "Football player, 40x60 cm, Acrylic on Canvas, 2023",
+        "y": 0.2262,
+        "p": -0.2388,
         "w": 160,
         "h": 241
     },
     {
-        "id": "AC352",
-        "info": "Man-27, 50x70 cm, Acrylic on Canvas, 2021",
-        "y": -2.8526,
-        "p": 0.2136,
-        "w": 201,
-        "h": 281
-    },
-    {
-        "id": "AC415",
-        "info": "Woman-51, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": 2.1488,
-        "p": -0.2136,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC459",
-        "info": "Mother and daugther-4, 40x60 cm, Acrylic on Canvas, 2022",
-        "y": -2.9405,
-        "p": 0.2136,
+        "id": "AC493",
+        "info": "Dog-7, 40x60 cm, Acrylic on Canvas, 2023",
+        "y": -0.2513,
+        "p": 0.2388,
         "w": 160,
         "h": 241
-    },
-    {
-        "id": "AC62",
-        "info": "Man-6, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 0.3142,
-        "p": -0.2136,
-        "w": 160,
-        "h": 160
     },
     {
         "id": "AC460",
         "info": "Woman-58, 80x100 cm, Acrylic on Canvas, 2022",
-        "y": -1.3697,
-        "p": 0.2513,
+        "y": -2.2745,
+        "p": 0.2639,
         "w": 321,
         "h": 402
     },
     {
-        "id": "AC465",
-        "info": "Bride and groom-5, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 1.709,
-        "p": -0.2136,
+        "id": "AC495",
+        "info": "Woman-63, 40x60 cm, Acrylic on Canvas, 2023",
+        "y": -0.3267,
+        "p": 0.2388,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC131",
+        "info": "Woman in water, 60x80 cm, Acrylic on Canvas, 2019",
+        "y": 2.2996,
+        "p": 0.2513,
         "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC480",
+        "info": "Mother and son-4, 60x40 cm, Acrylic on Canvas, 2023",
+        "y": 2.8526,
+        "p": 0.2262,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC62",
+        "info": "Man-6, 40x40 cm, Acrylic on Canvas, 2018",
+        "y": 1.6211,
+        "p": 0.2262,
+        "w": 160,
         "h": 160
     },
     {
         "id": "AC322",
         "info": "Woman-41, 70x50 cm, Oil on Canvas, 2021",
-        "y": -1.508,
-        "p": 0.2136,
+        "y": 0.3267,
+        "p": -0.2388,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC131",
-        "info": "Woman in water, 60x80 cm, Acrylic on Canvas, 2019",
-        "y": 0.3644,
-        "p": 0.2388,
+        "id": "AC470",
+        "info": "Family of three-20, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": 0.6283,
+        "p": -0.2388,
         "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC466",
-        "info": "Couple-97, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 1.9604,
-        "p": -0.2136,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC173",
-        "info": "Woman-16, 30x40 cm, Acrylic on Canvas, 2020",
-        "y": -2.4881,
-        "p": 0.1257,
-        "w": 120,
         "h": 160
     },
     {
         "id": "AC144",
         "info": "Couple-24, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": 1.4577,
-        "p": 0.2262,
+        "y": 0.754,
+        "p": -0.2513,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC277",
         "info": "Couple-57, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.1112,
-        "p": 0.2262,
+        "y": -1.1184,
+        "p": -0.2513,
         "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC415",
+        "info": "Woman-51, 50x50 cm, Acrylic on Canvas, 2022",
+        "y": 2.4002,
+        "p": 0.2262,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC457",
+        "info": "Woman-57, 40x60 cm, Acrylic on Canvas, 2022",
+        "y": -2.1614,
+        "p": 0.2388,
+        "w": 160,
         "h": 241
     },
     {
         "id": "AC346",
         "info": "Man-26, 50x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.2117,
-        "p": 0.2262,
+        "y": 1.1938,
+        "p": -0.2513,
         "w": 201,
         "h": 241
     },
     {
-        "id": "AC454",
-        "info": "Girl-14, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 2.5007,
-        "p": 0.2136,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC514",
-        "info": "Woman-66, 40x40 cm, Acrylic on Canvas, 2024",
-        "y": 2.0609,
-        "p": -0.2136,
+        "id": "AC543",
+        "info": "Man-41, 40x40 cm, Acrylic on Canvas, 2026",
+        "y": 1.2818,
+        "p": -0.2388,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC388",
-        "info": "Woman-47, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": 2.6138,
-        "p": 0.2136,
-        "w": 201,
-        "h": 201
+        "id": "AC459",
+        "info": "Mother and daugther-4, 40x60 cm, Acrylic on Canvas, 2022",
+        "y": 1.3572,
+        "p": -0.2513,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC544",
+        "info": "Woman-68, 40x40 cm, Acrylic on Canvas, 2026",
+        "y": 1.8724,
+        "p": -0.2388,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC173",
+        "info": "Woman-16, 30x40 cm, Acrylic on Canvas, 2020",
+        "y": -2.375,
+        "p": 0.1759,
+        "w": 120,
+        "h": 160
     },
     {
         "id": "AC109",
         "info": "Young woman-3, 60x80 cm, Acrylic on Canvas, 2019",
-        "y": 2.7143,
-        "p": 0.2388,
+        "y": 1.9729,
+        "p": -0.2639,
         "w": 241,
         "h": 321
     },
     {
+        "id": "AC466",
+        "info": "Couple-97, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": 0.3142,
+        "p": 0.2388,
+        "w": 241,
+        "h": 160
+    },
+    {
         "id": "AC231",
         "info": "Man-14, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.8274,
-        "p": 0.2262,
+        "y": -0.4273,
+        "p": 0.2513,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC439",
+        "info": "Grandparents and son-2, 100x80 cm, Acrylic on Canvas, 2022",
+        "y": 0.666,
+        "p": 0.2639,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC388",
+        "info": "Woman-47, 50x50 cm, Acrylic on Canvas, 2021",
+        "y": -0.5278,
+        "p": 0.2388,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC454",
+        "info": "Girl-14, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": 1.1812,
+        "p": 0.2388,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC84",
+        "info": "Couple-17, 80x60 cm, Acrylic on Canvas, 2019",
+        "y": -1.2818,
+        "p": 0.2513,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC95",
+        "info": "Man-9, 80x60 cm, Acrylic on Canvas, 2019",
+        "y": -1.9101,
+        "p": 0.2513,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC226",
+        "info": "Woman-28, 60x60 cm, Acrylic on Canvas, 2020",
+        "y": -2.0358,
+        "p": 0.2513,
         "w": 241,
         "h": 241
     },
     {
         "id": "AC379",
         "info": "Military man, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": -3.0285,
-        "p": 0.2136,
+        "y": 2.0232,
+        "p": 0.2388,
         "w": 201,
         "h": 201
     },
     {
-        "id": "AC488",
-        "info": "Family of three-21, 40x40 cm, Acrylic on Canvas, 2023",
-        "y": -2.2368,
-        "p": 0.2136,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC431",
-        "info": "Pilot, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.5781,
-        "p": -0.2262,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC439",
-        "info": "Grandparents and son-2, 100x80 cm, Acrylic on Canvas, 2022",
-        "y": 2.9028,
-        "p": -0.2513,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC84",
-        "info": "Couple-17, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": 3.0662,
+        "id": "AC514",
+        "info": "Woman-66, 40x40 cm, Acrylic on Canvas, 2024",
+        "y": 2.0735,
         "p": -0.2388,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC496",
-        "info": "Two brothers-5, 40x40 cm, Acrylic on Canvas, 2023",
-        "y": 1.6085,
-        "p": -0.2262,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC509",
-        "info": "Mother and son-7, 30x40 cm, Acrylic on Canvas, 2024",
-        "y": 1.3949,
-        "p": -0.1759,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC226",
-        "info": "Woman-28, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.5906,
-        "p": 0.2388,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC95",
-        "info": "Man-9, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.7163,
-        "p": 0.2388,
+        "id": "AC72",
+        "info": "Twin brothers B&W-2, 80x60 cm, Acrylic on Canvas, 2018",
+        "y": -3.0159,
+        "p": 0.2513,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC314",
         "info": "Mother with baby-4, 50x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.131,
-        "p": 0.2388,
+        "y": -1.0179,
+        "p": 0.2639,
         "w": 201,
         "h": 241
     },
     {
-        "id": "AC72",
-        "info": "Twin brothers B&W-2, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 1.2441,
-        "p": 0.2388,
-        "w": 321,
-        "h": 241
+        "id": "AC431",
+        "info": "Pilot, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": 0.8796,
+        "p": -0.2513,
+        "w": 241,
+        "h": 160
     },
     {
         "id": "AC77",
         "info": "Woman-9, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 1.5959,
-        "p": 0.2388,
+        "y": -2.84,
+        "p": 0.2639,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC163",
         "info": "Couple-31, 70x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.9405,
-        "p": 0.2388,
+        "y": 0.0,
+        "p": -0.2765,
         "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC395",
-        "info": "Dog-4, 40x60 cm, Acrylic on Canvas, 2022",
-        "y": 3.0411,
-        "p": 0.2388,
-        "w": 160,
         "h": 241
     },
     {
         "id": "AC198",
         "info": "Man with dog, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.2765,
-        "p": -0.2513,
+        "y": 2.5007,
+        "p": 0.2639,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC488",
+        "info": "Family of three-21, 40x40 cm, Acrylic on Canvas, 2023",
+        "y": -2.174,
+        "p": -0.2388,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC182",
+        "info": "Skater boy, 60x60 cm, Acrylic on Canvas, 2020",
+        "y": 0.1131,
+        "p": -0.2765,
         "w": 241,
         "h": 241
     },
     {
         "id": "AC220",
         "info": "Couple-45, 70x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.4147,
-        "p": -0.2388,
+        "y": -2.6264,
+        "p": -0.2639,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC279",
-        "info": "Couple-58, 50x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.377,
-        "p": -0.2513,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC182",
-        "info": "Skater boy, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.8922,
-        "p": -0.2513,
-        "w": 241,
-        "h": 241
+        "id": "AC496",
+        "info": "Two brothers-5, 40x40 cm, Acrylic on Canvas, 2023",
+        "y": 2.9531,
+        "p": 0.2513,
+        "w": 160,
+        "h": 160
     },
     {
         "id": "AC184",
         "info": "Father daugter and son, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.0053,
-        "p": -0.2513,
+        "y": -2.9782,
+        "p": -0.2765,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC284",
-        "info": "Two brothers, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": -1.1184,
-        "p": -0.2388,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC511",
-        "info": "Young woman-6, 27x35 cm, Acrylic on Canvas, 2024",
-        "y": 1.0807,
-        "p": -0.1257,
-        "w": 108,
-        "h": 140
+        "id": "AC279",
+        "info": "Couple-58, 50x60 cm, Acrylic on Canvas, 2020",
+        "y": -3.0788,
+        "p": -0.2765,
+        "w": 201,
+        "h": 241
     },
     {
         "id": "AC55",
         "info": "Couple-10, 60x80 cm, Acrylic on Canvas, 2018",
-        "y": -0.1257,
-        "p": 0.2639,
+        "y": -0.6283,
+        "p": 0.289,
         "w": 241,
         "h": 321
     },
     {
-        "id": "AC271",
-        "info": "Woman with dog-4, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.9048,
-        "p": 0.2388,
+        "id": "AC347",
+        "info": "Family mosaic, 120x100 cm, Acrylic on Canvas, 2021",
+        "y": 0.4775,
+        "p": 0.3142,
+        "w": 482,
+        "h": 402
+    },
+    {
+        "id": "AC284",
+        "info": "Two brothers, 60x50 cm, Acrylic on Canvas, 2020",
+        "y": -0.7414,
+        "p": 0.2639,
         "w": 241,
         "h": 201
     },
     {
         "id": "AC48",
         "info": "Zeca Afonso, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 0.9927,
-        "p": 0.2513,
+        "y": 1.043,
+        "p": 0.2765,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC45",
+        "info": "Jose Saramago, 80x60 cm, Acrylic on Canvas, 2018",
+        "y": 3.0762,
+        "p": 0.2765,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC190",
         "info": "Woman-19, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.0179,
-        "p": 0.2513,
+        "y": 1.2943,
+        "p": 0.2765,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC45",
-        "info": "Jose Saramago, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 1.7342,
-        "p": 0.2513,
-        "w": 321,
-        "h": 241
+        "id": "AC271",
+        "info": "Woman with dog-4, 60x50 cm, Acrylic on Canvas, 2020",
+        "y": 0.4398,
+        "p": -0.2765,
+        "w": 241,
+        "h": 201
     },
     {
-        "id": "AC444",
-        "info": "Man and dog at the beach, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.465,
-        "p": -0.2388,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC473",
-        "info": "Couple-99, 40x30 cm, Acrylic on Canvas, 2022",
-        "y": 0.5152,
-        "p": -0.2262,
-        "w": 160,
-        "h": 120
+        "id": "AC335",
+        "info": "Couple-68, 155x90 cm, Acrylic on Canvas, 2021",
+        "y": -0.4147,
+        "p": -0.3142,
+        "w": 623,
+        "h": 362
     },
     {
         "id": "AC159",
         "info": "Boy-2, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.131,
-        "p": 0.2513,
+        "y": 3.0159,
+        "p": -0.289,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC347",
-        "info": "Family mosaic, 120x100 cm, Acrylic on Canvas, 2021",
-        "y": -1.9729,
-        "p": 0.2765,
-        "w": 482,
+        "id": "AC382",
+        "info": "Girl-11, 80x100 cm, Acrylic on Canvas, 2021",
+        "y": -1.9604,
+        "p": -0.3267,
+        "w": 321,
         "h": 402
     },
     {
         "id": "AC161",
         "info": "Couple B&W-2, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.8598,
-        "p": 0.2513,
+        "y": -1.5205,
+        "p": 0.289,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC378",
+        "info": "Couple-76, 100x80 cm, Acrylic on Canvas, 2021",
+        "y": 0.8419,
+        "p": 0.3142,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC100",
+        "info": "Couple-20, 80x50 cm, Acrylic on Canvas, 2019",
+        "y": -0.6158,
+        "p": -0.3016,
+        "w": 321,
+        "h": 201
+    },
+    {
+        "id": "AC555",
+        "info": "Man-42, 20x30 cm, Acrylic on Canvas, 2026",
+        "y": 1.6588,
+        "p": -0.1005,
+        "w": 80,
+        "h": 120
+    },
+    {
+        "id": "AC155",
+        "info": "Father and son-5, 60x60 cm, Acrylic on Canvas, 2020",
+        "y": -1.6336,
+        "p": 0.289,
         "w": 241,
         "h": 241
     },
     {
         "id": "AC290",
         "info": "Woman-34, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": -0.2262,
-        "p": 0.2388,
+        "y": -2.0735,
+        "p": -0.289,
         "w": 201,
         "h": 201
-    },
-    {
-        "id": "AC382",
-        "info": "Girl-11, 80x100 cm, Acrylic on Canvas, 2021",
-        "y": 1.9855,
-        "p": 0.289,
-        "w": 321,
-        "h": 402
-    },
-    {
-        "id": "AC458",
-        "info": "Family of three-19, 30x40 cm, Acrylic on Canvas, 2022",
-        "y": -2.2871,
-        "p": -0.1885,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC335",
-        "info": "Couple-68, 155x90 cm, Acrylic on Canvas, 2021",
-        "y": -2.5887,
-        "p": 0.2765,
-        "w": 623,
-        "h": 362
-    },
-    {
-        "id": "AC278",
-        "info": "Woman-32, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.6032,
-        "p": -0.2513,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC100",
-        "info": "Couple-20, 80x50 cm, Acrylic on Canvas, 2019",
-        "y": -1.6965,
-        "p": -0.2513,
-        "w": 321,
-        "h": 201
-    },
-    {
-        "id": "AC422",
-        "info": "Young woman-5, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": -2.1112,
-        "p": 0.2388,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC155",
-        "info": "Father and son-5, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.8221,
-        "p": -0.2639,
-        "w": 241,
-        "h": 241
     },
     {
         "id": "AC86",
         "info": "Man-8, 70x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.6336,
-        "p": 0.2639,
+        "y": -0.754,
+        "p": -0.3016,
         "w": 281,
         "h": 241
     },
     {
-        "id": "AC378",
-        "info": "Couple-76, 100x80 cm, Acrylic on Canvas, 2021",
-        "y": 0.0,
-        "p": -0.289,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC442",
-        "info": "Two dogs, 45x35 cm, Acrylic on Canvas, 2022",
-        "y": -2.7646,
-        "p": 0.2262,
-        "w": 181,
-        "h": 140
-    },
-    {
-        "id": "AC275",
-        "info": "Dog-3, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.7037,
-        "p": -0.2513,
+        "id": "AC278",
+        "info": "Woman-32, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": -0.8671,
+        "p": -0.3016,
         "w": 201,
         "h": 201
     },
     {
-        "id": "AC404",
-        "info": "Young woman with dog, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.6786,
-        "p": -0.2513,
+        "id": "AC511",
+        "info": "Young woman-6, 27x35 cm, Acrylic on Canvas, 2024",
+        "y": 1.0053,
+        "p": 0.1885,
+        "w": 108,
+        "h": 140
+    },
+    {
+        "id": "AC444",
+        "info": "Man and dog at the beach, 40x40 cm, Acrylic on Canvas, 2022",
+        "y": 0.0,
+        "p": 0.289,
         "w": 160,
         "h": 160
     },
     {
+        "id": "AC535",
+        "info": "Dog-8, 20x30 cm, Acrylic on Canvas, 2025",
+        "y": -1.6839,
+        "p": -0.1131,
+        "w": 80,
+        "h": 120
+    },
+    {
+        "id": "AC473",
+        "info": "Couple-99, 40x30 cm, Acrylic on Canvas, 2022",
+        "y": -0.8419,
+        "p": 0.2765,
+        "w": 160,
+        "h": 120
+    },
+    {
+        "id": "AC336",
+        "info": "Family of four-21, 120x80 cm, Acrylic on Canvas, 2021",
+        "y": 0.1382,
+        "p": 0.3267,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC422",
+        "info": "Young woman-5, 40x40 cm, Acrylic on Canvas, 2022",
+        "y": -0.9173,
+        "p": 0.289,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC275",
+        "info": "Dog-3, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": -1.1184,
+        "p": 0.3016,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC458",
+        "info": "Family of three-19, 30x40 cm, Acrylic on Canvas, 2022",
+        "y": 3.1165,
+        "p": -0.2011,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC104",
+        "info": "Couple-22, 60x60 cm, Acrylic on Canvas, 2019",
+        "y": -0.9676,
+        "p": -0.3142,
+        "w": 241,
+        "h": 241
+    },
+    {
         "id": "AC482",
         "info": "Man on a boat, 80x60 cm, Acrylic on Canvas, 2023",
-        "y": 1.4326,
-        "p": -0.2765,
+        "y": 1.508,
+        "p": 0.3267,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC483",
         "info": "Mother and son-6, 80x60 cm, Acrylic on Canvas, 2023",
-        "y": 1.8347,
-        "p": -0.2765,
+        "y": -1.7593,
+        "p": 0.3267,
         "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC104",
-        "info": "Couple-22, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": -0.7791,
-        "p": -0.2765,
-        "w": 241,
         "h": 241
     },
     {
         "id": "AC195",
         "info": "Couple-39, 50x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.7467,
-        "p": 0.2639,
+        "y": 2.1614,
+        "p": -0.3142,
         "w": 201,
         "h": 241
-    },
-    {
-        "id": "AC383",
-        "info": "Woman at the beach, 40x40 cm, Acrylic on Canvas, 2021",
-        "y": -1.4326,
-        "p": -0.2513,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC336",
-        "info": "Family of four-21, 120x80 cm, Acrylic on Canvas, 2021",
-        "y": -2.4253,
-        "p": -0.289,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC428",
-        "info": "Mother and son-3, 30x40 cm, Acrylic on Canvas, 2022",
-        "y": -3.1039,
-        "p": 0.2136,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC214",
-        "info": "Woman-25, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.0,
-        "p": 0.2639,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC218",
-        "info": "Woman-27, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.1005,
-        "p": 0.2639,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC412",
-        "info": "Girl-13, 30x40 cm, Acrylic on Canvas, 2022",
-        "y": 1.3446,
-        "p": 0.2262,
-        "w": 120,
-        "h": 160
     },
     {
         "id": "AC282",
         "info": "Woman-33, 150x150 cm, Acrylic on Canvas, 2020",
-        "y": 1.1812,
-        "p": -0.3519,
+        "y": -2.4756,
+        "p": 0.3896,
         "w": 603,
         "h": 603
     },
     {
-        "id": "AC270",
-        "info": "Mother and daugther, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": -2.5887,
-        "p": -0.2639,
-        "w": 241,
+        "id": "AC404",
+        "info": "Young woman with dog, 40x40 cm, Acrylic on Canvas, 2022",
+        "y": -1.3949,
+        "p": 0.3016,
+        "w": 160,
         "h": 160
+    },
+    {
+        "id": "AC442",
+        "info": "Two dogs, 45x35 cm, Acrylic on Canvas, 2022",
+        "y": -2.8526,
+        "p": -0.3016,
+        "w": 181,
+        "h": 140
+    },
+    {
+        "id": "AC214",
+        "info": "Woman-25, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": 1.6211,
+        "p": 0.3142,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC383",
+        "info": "Woman at the beach, 40x40 cm, Acrylic on Canvas, 2021",
+        "y": 2.8274,
+        "p": 0.3016,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC218",
+        "info": "Woman-27, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": 0.5404,
+        "p": -0.3267,
+        "w": 201,
+        "h": 201
     },
     {
         "id": "AC325",
         "info": "Family of five-9, 100x70 cm, Acrylic on Canvas, 2021",
-        "y": 2.7018,
-        "p": -0.289,
+        "y": 1.7593,
+        "p": 0.3393,
         "w": 402,
         "h": 281
     },
     {
-        "id": "AC375",
-        "info": "Three friends, 50x30 cm, Acrylic on Canvas, 2021",
-        "y": 0.2011,
-        "p": 0.2513,
-        "w": 201,
-        "h": 120
-    },
-    {
-        "id": "AC438",
-        "info": "Two brothers-4, 30x25 cm, Acrylic on Canvas, 2022",
-        "y": 2.2494,
-        "p": -0.088,
+        "id": "AC428",
+        "info": "Mother and son-3, 30x40 cm, Acrylic on Canvas, 2022",
+        "y": -1.4451,
+        "p": -0.2136,
         "w": 120,
-        "h": 100
+        "h": 160
     },
     {
-        "id": "AC436",
-        "info": "Couple-90, 80x60 cm, Acrylic on Canvas, 2022",
-        "y": -0.3393,
-        "p": 0.2765,
-        "w": 321,
-        "h": 241
+        "id": "AC412",
+        "info": "Girl-13, 30x40 cm, Acrylic on Canvas, 2022",
+        "y": -1.2064,
+        "p": -0.2388,
+        "w": 120,
+        "h": 160
     },
     {
-        "id": "AC437",
-        "info": "Couple-91, 60x80 cm, Acrylic on Canvas, 2022",
-        "y": 0.4775,
-        "p": 0.289,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC254",
-        "info": "Couple on motorcycle, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": -0.1382,
-        "p": -0.2765,
+        "id": "AC270",
+        "info": "Mother and daugther, 60x40 cm, Acrylic on Canvas, 2020",
+        "y": 0.3016,
+        "p": 0.3142,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC289",
         "info": "Family of four-16, 100x80 cm, Acrylic on Canvas, 2021",
-        "y": -0.5027,
-        "p": 0.3016,
+        "y": -1.4954,
+        "p": -0.3519,
         "w": 402,
         "h": 321
     },
     {
+        "id": "AC436",
+        "info": "Couple-90, 80x60 cm, Acrylic on Canvas, 2022",
+        "y": 2.6012,
+        "p": -0.3393,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC437",
+        "info": "Couple-91, 60x80 cm, Acrylic on Canvas, 2022",
+        "y": 0.3267,
+        "p": -0.3519,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC254",
+        "info": "Couple on motorcycle, 60x40 cm, Acrylic on Canvas, 2020",
+        "y": 1.1687,
+        "p": 0.3142,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC375",
+        "info": "Three friends, 50x30 cm, Acrylic on Canvas, 2021",
+        "y": 2.4002,
+        "p": 0.3016,
+        "w": 201,
+        "h": 120
+    },
+    {
         "id": "AC432",
         "info": "Couple-88, 80x60 cm, Acrylic on Canvas, 2022",
-        "y": 2.2619,
-        "p": -0.289,
+        "y": 2.7395,
+        "p": -0.3393,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC189",
         "info": "Woman-18, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.6535,
-        "p": 0.2765,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC361",
-        "info": "Baby Girl, 30x40 cm, Acrylic on Canvas, 2021",
-        "y": 3.1165,
-        "p": 0.2262,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC178",
-        "info": "Woman-17, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.754,
-        "p": 0.2765,
+        "y": 0.6409,
+        "p": -0.3267,
         "w": 201,
         "h": 201
     },
     {
         "id": "AC74",
         "info": "Young man-3, 50x70 cm, Acrylic on Canvas, 2018",
-        "y": 0.8042,
-        "p": -0.3016,
+        "y": -2.174,
+        "p": -0.3393,
         "w": 201,
         "h": 281
     },
     {
-        "id": "AC364",
-        "info": "Man-28, 30x40 cm, Acrylic on Canvas, 2021",
-        "y": 1.5331,
-        "p": -0.2639,
+        "id": "AC438",
+        "info": "Two brothers-4, 30x25 cm, Acrylic on Canvas, 2022",
+        "y": 1.4326,
+        "p": -0.2262,
         "w": 120,
-        "h": 160
+        "h": 100
+    },
+    {
+        "id": "AC178",
+        "info": "Woman-17, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": -1.6336,
+        "p": -0.3267,
+        "w": 201,
+        "h": 201
     },
     {
         "id": "AC225",
         "info": "Couple-46, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 0.9676,
-        "p": -0.2765,
+        "y": 0.8796,
+        "p": -0.3267,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC387",
-        "info": "Baby girl at the beach, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": 0.2765,
-        "p": 0.2513,
+        "id": "AC361",
+        "info": "Baby Girl, 30x40 cm, Acrylic on Canvas, 2021",
+        "y": -3.1165,
+        "p": 0.2388,
         "w": 120,
-        "h": 120
+        "h": 160
     },
     {
         "id": "AC498",
         "info": "Woman-64, 60x60 cm, Acrylic on Canvas, 2023",
-        "y": 2.3122,
-        "p": 0.289,
+        "y": -2.7395,
+        "p": -0.3393,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC350",
-        "info": "Couple-71, 40x30 cm, Acrylic on Canvas, 2021",
-        "y": -2.3122,
-        "p": 0.2639,
-        "w": 160,
+        "id": "AC364",
+        "info": "Man-28, 30x40 cm, Acrylic on Canvas, 2021",
+        "y": 3.1039,
+        "p": -0.2765,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC247",
+        "info": "Couple-52, 150x90 cm, Acrylic on Canvas, 2020",
+        "y": 1.9729,
+        "p": 0.3644,
+        "w": 603,
+        "h": 362
+    },
+    {
+        "id": "AC54",
+        "info": "Couple with dogs, 50x70 cm, Acrylic on Canvas, 2018",
+        "y": 1.3949,
+        "p": 0.3393,
+        "w": 201,
+        "h": 281
+    },
+    {
+        "id": "AC387",
+        "info": "Baby girl at the beach, 30x30 cm, Acrylic on Canvas, 2021",
+        "y": 1.4326,
+        "p": -0.289,
+        "w": 120,
         "h": 120
     },
     {
         "id": "AC194",
         "info": "Woman-20, 40x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.3876,
-        "p": 0.289,
+        "y": 1.2818,
+        "p": -0.3393,
         "w": 160,
         "h": 241
     },
     {
-        "id": "AC54",
-        "info": "Couple with dogs, 50x70 cm, Acrylic on Canvas, 2018",
-        "y": -1.5205,
-        "p": -0.3016,
-        "w": 201,
-        "h": 281
-    },
-    {
-        "id": "AC196",
-        "info": "Woman-21, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": -1.9352,
-        "p": -0.2765,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC408",
-        "info": "Couple-82, 80x60 cm, Acrylic on Canvas, 2022",
-        "y": 0.1634,
-        "p": -0.3016,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC107",
-        "info": "Woman-10, 50x50 cm, Acrylic on Canvas, 2019",
-        "y": -2.0358,
-        "p": -0.289,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC247",
-        "info": "Couple-52, 150x90 cm, Acrylic on Canvas, 2020",
-        "y": 2.0358,
-        "p": -0.3393,
-        "w": 603,
-        "h": 362
+        "id": "AC350",
+        "info": "Couple-71, 40x30 cm, Acrylic on Canvas, 2021",
+        "y": 1.8724,
+        "p": -0.3142,
+        "w": 160,
+        "h": 120
     },
     {
         "id": "AC299",
         "info": "Mother and two kids, 80x80 cm, Acrylic on Canvas, 2021",
-        "y": 2.4002,
-        "p": -0.3267,
+        "y": 2.6264,
+        "p": 0.3519,
         "w": 321,
         "h": 321
+    },
+    {
+        "id": "AC408",
+        "info": "Couple-82, 80x60 cm, Acrylic on Canvas, 2022",
+        "y": -2.6766,
+        "p": 0.3393,
+        "w": 321,
+        "h": 241
     },
     {
         "id": "AC300",
         "info": "Three siblings, 80x80 cm, Acrylic on Canvas, 2021",
-        "y": 2.4379,
-        "p": 0.3267,
+        "y": 1.5331,
+        "p": -0.3644,
         "w": 321,
         "h": 321
     },
     {
-        "id": "AC318",
-        "info": "Couple-65, 90x60 cm, Acrylic on Canvas, 2021",
-        "y": -3.0536,
-        "p": 0.3142,
-        "w": 362,
-        "h": 241
+        "id": "AC196",
+        "info": "Woman-21, 60x40 cm, Acrylic on Canvas, 2020",
+        "y": 2.928,
+        "p": 0.3267,
+        "w": 241,
+        "h": 160
     },
     {
-        "id": "AC398",
-        "info": "Couple-79, 80x60 cm, Acrylic on Canvas, 2022",
-        "y": 2.5761,
-        "p": 0.3142,
-        "w": 321,
+        "id": "AC107",
+        "info": "Woman-10, 50x50 cm, Acrylic on Canvas, 2019",
+        "y": 2.7395,
+        "p": 0.3267,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC318",
+        "info": "Couple-65, 90x60 cm, Acrylic on Canvas, 2021",
+        "y": -0.1382,
+        "p": -0.3519,
+        "w": 362,
         "h": 241
     },
     {
         "id": "AC257",
         "info": "Family of five B&W, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": -1.2566,
-        "p": -0.3393,
+        "y": -1.7719,
+        "p": -0.3644,
         "w": 402,
         "h": 321
     },
     {
+        "id": "AC398",
+        "info": "Couple-79, 80x60 cm, Acrylic on Canvas, 2022",
+        "y": 2.8777,
+        "p": -0.3519,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC222",
+        "info": "Australian White Sand Beach, 150x90 cm, Acrylic on Canvas, 2020",
+        "y": -0.1634,
+        "p": 0.377,
+        "w": 603,
+        "h": 362
+    },
+    {
         "id": "AC380",
         "info": "Couple-77, 60x80 cm, Acrylic on Canvas, 2021",
-        "y": -1.2441,
-        "p": 0.3142,
+        "y": 2.4756,
+        "p": -0.3644,
         "w": 241,
         "h": 321
     },
     {
         "id": "AC164",
         "info": "Bride and groom-2, 50x60 cm, Acrylic on Canvas,",
-        "y": 0.2765,
-        "p": -0.3142,
+        "y": -0.5278,
+        "p": 0.3393,
         "w": 201,
         "h": 241
     },
     {
+        "id": "AC553",
+        "info": "Couple-108, 60x50 cm, Acrylic on Canvas, 2026",
+        "y": -2.1488,
+        "p": 0.3393,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC246",
+        "info": "Man-16, 100x80 cm, Acrylic on Canvas, 2020",
+        "y": -1.1058,
+        "p": -0.377,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC294",
+        "info": "Two woman and a dog, 60x90 cm, Acrylic on Canvas, 2021",
+        "y": 0.7414,
+        "p": -0.3896,
+        "w": 241,
+        "h": 362
+    },
+    {
         "id": "AC369",
         "info": "Family of six-6, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.6336,
-        "p": -0.3267,
+        "y": -1.2692,
+        "p": -0.3644,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC323",
         "info": "Man-22, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": -2.2871,
-        "p": -0.2639,
+        "y": 2.0609,
+        "p": -0.3142,
         "w": 120,
         "h": 120
     },
     {
-        "id": "AC222",
-        "info": "Australian White Sand Beach, 150x90 cm, Acrylic on Canvas, 2020",
-        "y": -2.84,
-        "p": 0.3519,
-        "w": 603,
-        "h": 362
-    },
-    {
-        "id": "AC294",
-        "info": "Two woman and a dog, 60x90 cm, Acrylic on Canvas, 2021",
-        "y": -2.2117,
-        "p": 0.3267,
-        "w": 241,
-        "h": 362
-    },
-    {
         "id": "AC354",
         "info": "Couple-73, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.8545,
-        "p": 0.3267,
+        "y": 1.6713,
+        "p": -0.3644,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC246",
-        "info": "Man-16, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": 0.4147,
-        "p": -0.3519,
+        "id": "AC168",
+        "info": "Grandparents with four children, 100x100 cm, Acrylic on Canvas, 2020",
+        "y": -0.377,
+        "p": 0.3896,
         "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC479",
-        "info": "Grandparents and son-3, 60x50 cm, Acrylic on Canvas, 2023",
-        "y": -0.5655,
-        "p": -0.3142,
-        "w": 241,
-        "h": 201
+        "h": 402
     },
     {
         "id": "AC96",
         "info": "Couple-19, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": -1.4954,
-        "p": 0.3016,
+        "y": -2.4127,
+        "p": -0.3519,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC424",
         "info": "Man-36, 60x60 cm, Acrylic on Canvas, 2022",
-        "y": -1.1184,
-        "p": -0.3393,
+        "y": -2.5258,
+        "p": -0.3644,
         "w": 241,
         "h": 241
     },
     {
+        "id": "AC479",
+        "info": "Grandparents and son-3, 60x50 cm, Acrylic on Canvas, 2023",
+        "y": -1.2189,
+        "p": 0.3519,
+        "w": 241,
+        "h": 201
+    },
+    {
         "id": "AC426",
         "info": "Couple-87, 60x60 cm, Acrylic on Canvas, 2022",
-        "y": 2.5258,
-        "p": -0.3393,
+        "y": -0.7414,
+        "p": 0.3644,
         "w": 241,
         "h": 241
     },
     {
         "id": "AC394",
         "info": "Family of four-22, 80x50 cm, Acrylic on Canvas, 2022",
-        "y": 0.2136,
-        "p": 0.3267,
+        "y": -1.8975,
+        "p": 0.3519,
         "w": 321,
         "h": 201
     },
     {
-        "id": "AC168",
-        "info": "Grandparents with four children, 100x100 cm, Acrylic on Canvas, 2020",
-        "y": 1.4074,
-        "p": 0.3644,
-        "w": 402,
+        "id": "AC238",
+        "info": "Couple-48, 70x100 cm, Acrylic on Canvas, 2020",
+        "y": -2.0358,
+        "p": 0.3896,
+        "w": 281,
         "h": 402
     },
     {
         "id": "AC338",
         "info": "Man-24, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": -0.8671,
-        "p": 0.3393,
+        "y": 2.174,
+        "p": 0.3644,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC276",
         "info": "Grandparents and daugther, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.1363,
-        "p": 0.3393,
+        "y": -2.9908,
+        "p": 0.3644,
         "w": 362,
         "h": 241
-    },
-    {
-        "id": "AC63",
-        "info": "Couple-13, 60x40 cm, Acrylic on Canvas, 2018",
-        "y": -1.3949,
-        "p": -0.3267,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC452",
-        "info": "Couple-95, 50x60 cm, Acrylic on Canvas, 2022",
-        "y": -0.2262,
-        "p": 0.3393,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC238",
-        "info": "Couple-48, 70x100 cm, Acrylic on Canvas, 2020",
-        "y": 3.0536,
-        "p": -0.377,
-        "w": 281,
-        "h": 402
-    },
-    {
-        "id": "AC311",
-        "info": "Family of seven-2, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.5781,
-        "p": -0.3519,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC443",
-        "info": "Mother and daugther-3, 60x50 cm, Acrylic on Canvas, 2022",
-        "y": 2.8274,
-        "p": 0.3267,
-        "w": 241,
-        "h": 201
     },
     {
         "id": "AC199",
         "info": "Father son and bird, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": -1.6588,
-        "p": -0.3644,
+        "y": 2.2996,
+        "p": -0.3896,
         "w": 402,
         "h": 321
     },
     {
-        "id": "AC484",
-        "info": "Mother and daugther-5, 50x50 cm, Acrylic on Canvas, 2023",
-        "y": -0.666,
-        "p": -0.3393,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC410",
-        "info": "Woman-49, 50x70 cm, Acrylic on Canvas, 2022",
-        "y": 0.5781,
-        "p": 0.3519,
-        "w": 201,
-        "h": 281
+        "id": "AC63",
+        "info": "Couple-13, 60x40 cm, Acrylic on Canvas, 2018",
+        "y": 0.0,
+        "p": -0.3644,
+        "w": 241,
+        "h": 160
     },
     {
         "id": "AC191",
         "info": "Couple-38, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": -2.7269,
-        "p": -0.3644,
+        "y": 0.1382,
+        "p": -0.4021,
         "w": 402,
         "h": 321
+    },
+    {
+        "id": "AC311",
+        "info": "Family of seven-2, 80x60 cm, Acrylic on Canvas, 2021",
+        "y": 1.0053,
+        "p": -0.377,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC452",
+        "info": "Couple-95, 50x60 cm, Acrylic on Canvas, 2022",
+        "y": 1.1938,
+        "p": -0.3644,
+        "w": 201,
+        "h": 241
     },
     {
         "id": "AC169",
         "info": "Grandparents and kids, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": 1.1561,
-        "p": 0.3644,
+        "y": -2.8777,
+        "p": -0.4021,
         "w": 402,
         "h": 321
     },
     {
-        "id": "AC331",
-        "info": "Woman-43, 70x60 cm, Acrylic on Canvas, 2021",
-        "y": -2.8777,
-        "p": -0.3519,
-        "w": 281,
-        "h": 241
+        "id": "AC443",
+        "info": "Mother and daugther-3, 60x50 cm, Acrylic on Canvas, 2022",
+        "y": 1.3823,
+        "p": -0.3644,
+        "w": 241,
+        "h": 201
     },
     {
-        "id": "AC397",
-        "info": "Family of four-23, 70x50 cm, Acrylic on Canvas, 2022",
-        "y": 0.6912,
-        "p": 0.3393,
-        "w": 281,
-        "h": 201
+        "id": "AC150",
+        "info": "Couple-26, 120x80 cm, Acrylic on Canvas, 2020",
+        "y": -0.9048,
+        "p": 0.4021,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC410",
+        "info": "Woman-49, 50x70 cm, Acrylic on Canvas, 2022",
+        "y": 1.7844,
+        "p": -0.377,
+        "w": 201,
+        "h": 281
     },
     {
         "id": "AC245",
         "info": "Family of seven, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": -3.0159,
-        "p": -0.3519,
+        "y": -2.8274,
+        "p": 0.377,
         "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC484",
+        "info": "Mother and daugther-5, 50x50 cm, Acrylic on Canvas, 2023",
+        "y": -2.6264,
+        "p": -0.3644,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC331",
+        "info": "Woman-43, 70x60 cm, Acrylic on Canvas, 2021",
+        "y": -3.0285,
+        "p": -0.3896,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC123",
+        "info": "Family of four-9, 120x80 cm, Acrylic on Canvas, 2019",
+        "y": 2.3499,
+        "p": 0.4021,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC397",
+        "info": "Family of four-23, 70x50 cm, Acrylic on Canvas, 2022",
+        "y": 0.6409,
+        "p": 0.377,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC98",
+        "info": "Family of four-8, 150x150 cm, Acrylic on Canvas, 2019",
+        "y": -1.3949,
+        "p": 0.465,
+        "w": 603,
+        "h": 603
+    },
+    {
+        "id": "AC280",
+        "info": "Couple-59, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": 1.0053,
+        "p": 0.3896,
+        "w": 321,
         "h": 241
     },
     {
         "id": "AC456",
         "info": "Woman-56, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": 1.5457,
-        "p": 0.3393,
+        "y": 2.5007,
+        "p": 0.3644,
         "w": 201,
         "h": 201
     },
     {
-        "id": "AC506",
-        "info": "Couple-103, 60x40 cm, Acrylic on Canvas, 2023",
-        "y": 2.9405,
-        "p": 0.3267,
+        "id": "AC533",
+        "info": "Family of four-30, 60x40 cm, Acrylic on Canvas, 2025",
+        "y": 0.4398,
+        "p": -0.3644,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC150",
-        "info": "Couple-26, 120x80 cm, Acrylic on Canvas, 2020",
-        "y": -0.3016,
-        "p": -0.377,
+        "id": "AC140",
+        "info": "Family of four-11, 120x80 cm, Acrylic on Canvas, 2019",
+        "y": 1.9352,
+        "p": -0.4147,
         "w": 482,
         "h": 321
     },
     {
-        "id": "AC110",
-        "info": "Woman-11, 35x45 cm, Acrylic on Canvas, 2019",
-        "y": 1.7342,
-        "p": -0.3016,
-        "w": 140,
-        "h": 181
-    },
-    {
-        "id": "AC280",
-        "info": "Couple-59, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 3.0662,
-        "p": 0.3519,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC499",
-        "info": "Woman by the Tagus river, 60x40 cm, Acrylic on Canvas, 2023",
-        "y": 0.7037,
-        "p": -0.3393,
+        "id": "AC506",
+        "info": "Couple-103, 60x40 cm, Acrylic on Canvas, 2023",
+        "y": 1.2818,
+        "p": 0.377,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC312",
         "info": "Young man-6, 60x70 cm, Acrylic on Canvas, 2021",
-        "y": -0.8922,
-        "p": -0.3644,
+        "y": 3.0411,
+        "p": 0.3896,
         "w": 241,
         "h": 281
     },
     {
-        "id": "AC123",
-        "info": "Family of four-9, 120x80 cm, Acrylic on Canvas, 2019",
-        "y": 0.0377,
-        "p": 0.377,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC287",
-        "info": "Couple-61, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.3519,
-        "p": 0.3644,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC340",
-        "info": "Woman-44, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": -1.0053,
-        "p": -0.3644,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC494",
-        "info": "Man-39, 40x60 cm, Acrylic on Canvas, 2023",
-        "y": -1.8347,
-        "p": 0.3267,
-        "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC288",
-        "info": "Family of three-14, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.9927,
-        "p": 0.3644,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC98",
-        "info": "Family of four-8, 150x150 cm, Acrylic on Canvas, 2019",
-        "y": -1.0681,
-        "p": 0.4273,
-        "w": 603,
-        "h": 603
+        "id": "AC110",
+        "info": "Woman-11, 35x45 cm, Acrylic on Canvas, 2019",
+        "y": -0.2513,
+        "p": -0.3393,
+        "w": 140,
+        "h": 181
     },
     {
         "id": "AC212",
         "info": "Couple-43, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.6713,
-        "p": 0.3644,
+        "y": 3.0299,
+        "p": -0.4021,
         "w": 362,
         "h": 241
     },
     {
-        "id": "AC403",
-        "info": "Mother and daugther-2, 50x60 cm, Acrylic on Canvas, 2022",
-        "y": -0.4524,
-        "p": -0.3644,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC266",
-        "info": "Family of three-12, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.8221,
-        "p": 0.3644,
+        "id": "AC287",
+        "info": "Couple-61, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": -0.6158,
+        "p": -0.4021,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC192",
         "info": "Family of four with dogs, 100x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.9425,
-        "p": -0.377,
+        "y": -0.7791,
+        "p": -0.4147,
         "w": 402,
+        "h": 241
+    },
+    {
+        "id": "AC166",
+        "info": "Young man-5, 70x100 cm, Acrylic on Canvas, 2020",
+        "y": -1.5834,
+        "p": 0.4273,
+        "w": 281,
+        "h": 402
+    },
+    {
+        "id": "AC340",
+        "info": "Woman-44, 60x60 cm, Acrylic on Canvas, 2021",
+        "y": -2.2745,
+        "p": -0.4021,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC288",
+        "info": "Family of three-14, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": -1.0807,
+        "p": 0.4021,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC499",
+        "info": "Woman by the Tagus river, 60x40 cm, Acrylic on Canvas, 2023",
+        "y": 0.3016,
+        "p": 0.3896,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC266",
+        "info": "Family of three-12, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": -2.2745,
+        "p": 0.4021,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC267",
+        "info": "Couple-55, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": 1.1435,
+        "p": 0.4147,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC403",
+        "info": "Mother and daugther-2, 50x60 cm, Acrylic on Canvas, 2022",
+        "y": -2.0735,
+        "p": -0.3896,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC135",
+        "info": "Family of four-10, 100x80 cm, Acrylic on Canvas, 2019",
+        "y": 0.5781,
+        "p": -0.4398,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC494",
+        "info": "Man-39, 40x60 cm, Acrylic on Canvas, 2023",
+        "y": -3.1039,
+        "p": 0.3644,
+        "w": 160,
         "h": 241
     },
     {
         "id": "AC61",
         "info": "Woman-7, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": -2.1112,
-        "p": 0.3142,
+        "y": 0.0,
+        "p": 0.3644,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC140",
-        "info": "Family of four-11, 120x80 cm, Acrylic on Canvas, 2019",
-        "y": -1.8473,
-        "p": -0.3896,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC267",
-        "info": "Couple-55, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.1488,
-        "p": -0.377,
-        "w": 321,
-        "h": 241
-    },
-    {
         "id": "AC409",
         "info": "Couple-83, 60x50 cm, Acrylic on Canvas, 2022",
-        "y": -2.5887,
-        "p": -0.3519,
+        "y": -0.6283,
+        "p": 0.4021,
         "w": 241,
         "h": 201
     },
     {
         "id": "AC52",
         "info": "Woman-6, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 1.2818,
-        "p": 0.3393,
+        "y": 2.8274,
+        "p": 0.377,
         "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC166",
-        "info": "Young man-5, 70x100 cm, Acrylic on Canvas, 2020",
-        "y": -1.6085,
-        "p": 0.4021,
-        "w": 281,
-        "h": 402
-    },
-    {
-        "id": "AC461",
-        "info": "Couple-96, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.1382,
-        "p": -0.3519,
-        "w": 241,
         "h": 160
     },
     {
         "id": "AC296",
         "info": "Couple-62, 70x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.7143,
-        "p": 0.3644,
+        "y": 0.8545,
+        "p": -0.4147,
         "w": 281,
         "h": 241
     },
     {
-        "id": "AC464",
-        "info": "Two sisters-2, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 2.84,
-        "p": -0.3644,
-        "w": 241,
+        "id": "AC552",
+        "info": "Best friends forever, 50x40 cm, Acrylic on Canvas, 2026",
+        "y": 1.6211,
+        "p": 0.4021,
+        "w": 201,
         "h": 160
-    },
-    {
-        "id": "AC135",
-        "info": "Family of four-10, 100x80 cm, Acrylic on Canvas, 2019",
-        "y": -0.6786,
-        "p": 0.3896,
-        "w": 402,
-        "h": 321
     },
     {
         "id": "AC297",
         "info": "Woman-36, 70x60 cm, Acrylic on Canvas, 2021",
-        "y": -1.7342,
-        "p": 0.377,
+        "y": 2.928,
+        "p": 0.4147,
         "w": 281,
         "h": 241
     },
     {
-        "id": "AC5",
-        "info": "Woman-2, 40x40 cm, Acrylic on Canvas, 2017",
-        "y": -2.3122,
-        "p": 0.3393,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC451",
-        "info": "Couple-94, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.7665,
-        "p": -0.377,
+        "id": "AC461",
+        "info": "Couple-96, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": -0.9173,
+        "p": -0.4147,
         "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC416",
-        "info": "Mother with baby-5, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": 2.9405,
-        "p": -0.3644,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC1",
-        "info": "Man, 40x40 cm, Acrylic on Canvas, 2016",
-        "y": -2.2619,
-        "p": -0.3644,
-        "w": 160,
         "h": 160
     },
     {
         "id": "AC261",
         "info": "Brothers with dogs, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.3823,
-        "p": -0.3896,
+        "y": 2.1112,
+        "p": -0.4273,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC453",
-        "info": "Bride and groom-4, 40x60 cm, Acrylic on Canvas, 2022",
-        "y": 1.4954,
-        "p": -0.3896,
-        "w": 160,
-        "h": 241
+        "id": "AC464",
+        "info": "Two sisters-2, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": -1.6336,
+        "p": -0.4147,
+        "w": 241,
+        "h": 160
     },
     {
-        "id": "AC402",
-        "info": "Girl-12, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": 1.8221,
-        "p": -0.377,
+        "id": "AC5",
+        "info": "Woman-2, 40x40 cm, Acrylic on Canvas, 2017",
+        "y": 2.7395,
+        "p": 0.4147,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC1",
+        "info": "Man, 40x40 cm, Acrylic on Canvas, 2016",
+        "y": -0.2513,
+        "p": -0.4273,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC101",
+        "info": "Couple-21, 100x80 cm, Acrylic on Canvas, 2019",
+        "y": 0.7917,
+        "p": 0.4524,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC416",
+        "info": "Mother with baby-5, 50x50 cm, Acrylic on Canvas, 2022",
+        "y": 1.4954,
+        "p": 0.4273,
         "w": 201,
         "h": 201
     },
     {
-        "id": "AC445",
-        "info": "Couple-92, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -2.0106,
-        "p": -0.377,
+        "id": "AC451",
+        "info": "Couple-94, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": -0.3519,
+        "p": -0.4273,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC281",
         "info": "Family of four-15, 80x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.3393,
-        "p": 0.377,
+        "y": -1.7216,
+        "p": 0.4273,
         "w": 321,
         "h": 201
     },
     {
         "id": "AC243",
         "info": "Couple-51, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.3697,
-        "p": 0.3896,
+        "y": -0.4775,
+        "p": -0.4524,
         "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC402",
+        "info": "Girl-12, 50x50 cm, Acrylic on Canvas, 2022",
+        "y": -2.375,
+        "p": -0.4398,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC453",
+        "info": "Bride and groom-4, 40x60 cm, Acrylic on Canvas, 2022",
+        "y": -2.1363,
+        "p": 0.4398,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC244",
+        "info": "Grandmother and boys, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": 2.6012,
+        "p": -0.4524,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC97",
+        "info": "Gilberto Gil, 100x80 cm, Acrylic on Canvas, 2019",
+        "y": 0.1257,
+        "p": 0.465,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC293",
+        "info": "Man-20, 60x60 cm, Acrylic on Canvas, 2021",
+        "y": -2.7269,
+        "p": -0.4524,
+        "w": 241,
         "h": 241
     },
     {
         "id": "AC358",
         "info": "Woman-45, 50x60 cm, Acrylic on Canvas, 2021",
-        "y": -0.1131,
-        "p": 0.3896,
+        "y": -2.174,
+        "p": -0.4524,
         "w": 201,
         "h": 241
+    },
+    {
+        "id": "AC445",
+        "info": "Couple-92, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": 0.0,
+        "p": -0.4398,
+        "w": 241,
+        "h": 160
     },
     {
         "id": "AC393",
         "info": "Woman-48, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": 2.2117,
-        "p": -0.3896,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC435",
-        "info": "Family of three-17, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.4954,
-        "p": 0.377,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC244",
-        "info": "Grandmother and boys, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.6515,
-        "p": -0.4021,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC293",
-        "info": "Man-20, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.2745,
-        "p": 0.4021,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC101",
-        "info": "Couple-21, 100x80 cm, Acrylic on Canvas, 2019",
-        "y": 0.0,
-        "p": -0.4273,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC429",
-        "info": "Dog-6, 40x60 cm, Acrylic on Canvas, 2022",
-        "y": -2.3876,
-        "p": 0.4021,
-        "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC399",
-        "info": "Man-33, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": 0.1382,
-        "p": -0.4021,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC430",
-        "info": "Family of four-26, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -2.4881,
-        "p": 0.3896,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC97",
-        "info": "Gilberto Gil, 100x80 cm, Acrylic on Canvas, 2019",
-        "y": -2.3876,
-        "p": -0.4273,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC384",
-        "info": "Man-30, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": 0.465,
-        "p": 0.4021,
+        "y": 2.7143,
+        "p": -0.4398,
         "w": 201,
         "h": 201
     },
     {
         "id": "AC167",
         "info": "Couple-32, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.9478,
-        "p": 0.4147,
+        "y": 0.4398,
+        "p": 0.4524,
         "w": 362,
         "h": 241
     },
     {
+        "id": "AC435",
+        "info": "Family of three-17, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": 0.4398,
+        "p": -0.4398,
+        "w": 241,
+        "h": 160
+    },
+    {
         "id": "AC232",
         "info": "Family of three-8, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.6138,
-        "p": 0.4147,
+        "y": 1.7342,
+        "p": 0.4524,
         "w": 321,
         "h": 241
     },
     {
+        "id": "AC152",
+        "info": "Mother with baby, 90x60 cm, Acrylic on Canvas, 2020",
+        "y": -1.8724,
+        "p": 0.4524,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC236",
+        "info": "Family of three-9, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": -2.6766,
+        "p": 0.4524,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC399",
+        "info": "Man-33, 50x50 cm, Acrylic on Canvas, 2022",
+        "y": -0.5152,
+        "p": 0.4398,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC429",
+        "info": "Dog-6, 40x60 cm, Acrylic on Canvas, 2022",
+        "y": 1.2818,
+        "p": -0.4524,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC153",
+        "info": "Kids in a boat, 90x60 cm, Acrylic on Canvas, 2020",
+        "y": -0.1382,
+        "p": -0.465,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC430",
+        "info": "Family of four-26, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": -1.2064,
+        "p": 0.4398,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC344",
+        "info": "Two brothers reading, 50x60 cm, Acrylic on Canvas, 2021",
+        "y": 1.3823,
+        "p": 0.4524,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC384",
+        "info": "Man-30, 50x50 cm, Acrylic on Canvas, 2021",
+        "y": 2.8149,
+        "p": -0.4524,
+        "w": 201,
+        "h": 201
+    },
+    {
         "id": "AC433",
         "info": "Woman-52, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.5529,
-        "p": -0.4021,
+        "y": 1.3823,
+        "p": -0.4524,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC213",
+        "info": "Couple-44, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": -1.9352,
+        "p": -0.465,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC434",
+        "info": "Couple-89, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": 1.2692,
+        "p": 0.4524,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC472",
         "info": "Woman-60, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": -2.1112,
-        "p": 0.3896,
+        "y": 0.0,
+        "p": 0.4398,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC344",
-        "info": "Two brothers reading, 50x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.8042,
-        "p": -0.4147,
+        "id": "AC334",
+        "info": "Woman in a bench B&W, 50x60 cm, Acrylic on Canvas, 2021",
+        "y": -2.6264,
+        "p": -0.465,
         "w": 201,
         "h": 241
     },
     {
-        "id": "AC434",
-        "info": "Couple-89, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.3949,
-        "p": -0.4021,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC236",
-        "info": "Family of three-9, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.2513,
-        "p": -0.4273,
-        "w": 321,
-        "h": 241
+        "id": "AC487",
+        "info": "Family of trees, 155x90 cm, Acrylic on Canvas, 2023",
+        "y": -1.3195,
+        "p": -0.5027,
+        "w": 623,
+        "h": 362
     },
     {
         "id": "AC421",
         "info": "Family of four-24, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.508,
-        "p": -0.4021,
+        "y": 0.2765,
+        "p": -0.465,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC423",
+        "info": "Couple-86, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": 1.131,
+        "p": -0.465,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC504",
         "info": "Couple honeymoon, 40x30 cm, Acrylic on Canvas, 2023",
-        "y": 0.1759,
-        "p": 0.4021,
+        "y": 2.9028,
+        "p": -0.4398,
         "w": 160,
         "h": 120
     },
     {
-        "id": "AC152",
-        "info": "Mother with baby, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.4901,
-        "p": 0.4273,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC334",
-        "info": "Woman in a bench B&W, 50x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.9352,
-        "p": 0.4273,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC423",
-        "info": "Couple-86, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 2.9405,
-        "p": 0.4021,
+        "id": "AC221",
+        "info": "Siblings-4, 60x80 cm, Acrylic on Canvas, 2020",
+        "y": -1.508,
+        "p": -0.4901,
         "w": 241,
-        "h": 160
+        "h": 321
     },
     {
         "id": "AC500",
         "info": "Couple-102, 40x30 cm, Acrylic on Canvas, 2023",
-        "y": 2.0232,
-        "p": 0.4021,
+        "y": 2.4881,
+        "p": 0.4398,
         "w": 160,
         "h": 120
     },
     {
-        "id": "AC153",
-        "info": "Kids in a boat, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": -3.0411,
-        "p": 0.4273,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC447",
-        "info": "Three siblings-2, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.6912,
-        "p": -0.4147,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC213",
-        "info": "Couple-44, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.5761,
-        "p": 0.4273,
-        "w": 321,
-        "h": 241
-    },
-    {
         "id": "AC370",
         "info": "Grandmother, mother and son, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": 1.5834,
-        "p": -0.4273,
+        "y": 1.6462,
+        "p": -0.465,
         "w": 201,
         "h": 201
     },
     {
         "id": "AC317",
         "info": "Couple-64, 60x50 cm, Acrylic on Canvas, 2021",
-        "y": 1.6839,
-        "p": -0.4273,
+        "y": -2.4756,
+        "p": -0.465,
         "w": 241,
         "h": 201
     },
     {
-        "id": "AC414",
-        "info": "Woman-50, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 2.8274,
-        "p": 0.4147,
-        "w": 241,
+        "id": "AC53",
+        "info": "Couple-9, 100x80 cm, Acrylic on Canvas, 2018",
+        "y": 0.6032,
+        "p": 0.4901,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC224",
+        "info": "Emigrant monument Azores, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": 2.174,
+        "p": 0.4775,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC248",
+        "info": "Family of five-7, 70x60 cm, Acrylic on Canvas, 2020",
+        "y": 0.2765,
+        "p": 0.4775,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC447",
+        "info": "Three siblings-2, 40x40 cm, Acrylic on Canvas, 2022",
+        "y": 2.8149,
+        "p": 0.4524,
+        "w": 160,
         "h": 160
     },
     {
         "id": "AC362",
         "info": "Grandfather and son, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": 0.8042,
-        "p": 0.4273,
+        "y": -0.7288,
+        "p": 0.465,
         "w": 201,
         "h": 201
     },
     {
-        "id": "AC221",
-        "info": "Siblings-4, 60x80 cm, Acrylic on Canvas, 2020",
-        "y": 0.6786,
-        "p": 0.4524,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC418",
-        "info": "Couple-85, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.1382,
-        "p": -0.4273,
+        "id": "AC414",
+        "info": "Woman-50, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": 2.5887,
+        "p": 0.465,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC248",
-        "info": "Family of five-7, 70x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.3248,
-        "p": -0.4524,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC224",
-        "info": "Emigrant monument Azores, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.463,
-        "p": -0.4524,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC487",
-        "info": "Family of trees, 155x90 cm, Acrylic on Canvas, 2023",
-        "y": -1.1938,
-        "p": -0.4901,
-        "w": 623,
-        "h": 362
-    },
-    {
         "id": "AC206",
         "info": "Grandparents and son, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.551,
-        "p": -0.4524,
+        "y": -2.9782,
+        "p": 0.4775,
         "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC418",
+        "info": "Couple-85, 60x40 cm, Acrylic on Canvas, 2022",
+        "y": 0.9676,
+        "p": -0.4775,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC69",
+        "info": "Family of four-5, 90x70 cm, Acrylic on Canvas, 2018",
+        "y": -2.8274,
+        "p": 0.4901,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC81",
+        "info": "Family of four-6, 100x60 cm, Acrylic on Canvas, 2019",
+        "y": -1.7719,
+        "p": -0.4901,
+        "w": 402,
         "h": 241
     },
     {
         "id": "AC273",
         "info": "Man with cat, 70x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.8294,
-        "p": 0.4398,
+        "y": 1.4954,
+        "p": -0.4775,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC485",
-        "info": "Man-38, 27x35 cm, Acrylic on Canvas, 2023",
-        "y": -0.2513,
-        "p": 0.1257,
-        "w": 108,
-        "h": 140
+        "id": "AC36",
+        "info": "Couple-6, 95x75 cm, Acrylic on Canvas, 2018",
+        "y": -0.9425,
+        "p": -0.5152,
+        "w": 382,
+        "h": 301
     },
     {
-        "id": "AC489",
-        "info": "Woman-61, 27x35 cm, Acrylic on Canvas, 2023",
-        "y": -2.928,
-        "p": -0.1885,
-        "w": 108,
-        "h": 140
+        "id": "AC548",
+        "info": "Woman with dog-6, 25x25 cm, Acrylic on Canvas, 2026",
+        "y": 0.9676,
+        "p": -0.2388,
+        "w": 100,
+        "h": 100
     },
     {
-        "id": "AC462",
-        "info": "Woman-59, 30x40 cm, Acrylic on Canvas, 2022",
-        "y": 2.752,
-        "p": -0.3896,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC53",
-        "info": "Couple-9, 100x80 cm, Acrylic on Canvas, 2018",
-        "y": 2.4127,
-        "p": 0.465,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC81",
-        "info": "Family of four-6, 100x60 cm, Acrylic on Canvas, 2019",
-        "y": 2.8651,
-        "p": -0.465,
-        "w": 402,
-        "h": 241
-    },
-    {
-        "id": "AC69",
-        "info": "Family of four-5, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": 2.1363,
-        "p": 0.4524,
+        "id": "AC57",
+        "info": "Couple-11, 90x70 cm, Acrylic on Canvas, 2018",
+        "y": -3.0411,
+        "p": -0.5027,
         "w": 362,
         "h": 281
     },
     {
-        "id": "AC477",
-        "info": "Baby Girl-2, 27x35 cm, Acrylic on Canvas, 2022",
-        "y": 0.8168,
-        "p": 0.2136,
+        "id": "AC485",
+        "info": "Man-38, 27x35 cm, Acrylic on Canvas, 2023",
+        "y": -1.3697,
+        "p": -0.3393,
         "w": 108,
         "h": 140
     },
     {
         "id": "AC113",
         "info": "Young couple-6, 90x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.5781,
-        "p": -0.465,
+        "y": -1.1058,
+        "p": -0.5027,
         "w": 362,
         "h": 241
     },
     {
-        "id": "AC36",
-        "info": "Couple-6, 95x75 cm, Acrylic on Canvas, 2018",
-        "y": -0.6912,
-        "p": -0.4775,
-        "w": 382,
-        "h": 301
+        "id": "AC489",
+        "info": "Woman-61, 27x35 cm, Acrylic on Canvas, 2023",
+        "y": 1.1058,
+        "p": -0.3644,
+        "w": 108,
+        "h": 140
     },
     {
-        "id": "AC57",
-        "info": "Couple-11, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": -2.8903,
-        "p": -0.465,
+        "id": "AC462",
+        "info": "Woman-59, 30x40 cm, Acrylic on Canvas, 2022",
+        "y": 0.9048,
+        "p": 0.4273,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC92",
+        "info": "Babies siblings, 90x60 cm, Acrylic on Canvas, 2019",
+        "y": 1.885,
+        "p": 0.5027,
         "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC249",
-        "info": "Couple-53, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.2441,
-        "p": 0.4398,
-        "w": 241,
         "h": 241
     },
     {
         "id": "AC179",
         "info": "Couple-35, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -3.0411,
-        "p": -0.465,
+        "y": 1.7593,
+        "p": -0.4901,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC92",
-        "info": "Babies siblings, 90x60 cm, Acrylic on Canvas, 2019",
-        "y": -2.2242,
-        "p": 0.465,
-        "w": 362,
+        "id": "AC249",
+        "info": "Couple-53, 60x60 cm, Acrylic on Canvas, 2020",
+        "y": 2.4379,
+        "p": -0.4901,
+        "w": 241,
         "h": 241
+    },
+    {
+        "id": "AC37",
+        "info": "Young couple, 90x70 cm, Acrylic on Canvas, 2018",
+        "y": 3.0683,
+        "p": -0.5152,
+        "w": 362,
+        "h": 281
     },
     {
         "id": "AC156",
         "info": "Grandmother with four children, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 3.0662,
-        "p": 0.465,
+        "y": 1.0053,
+        "p": 0.5027,
         "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC31",
+        "info": "Man-3, 90x70 cm, Acrylic on Canvas, 2018",
+        "y": -0.1131,
+        "p": 0.5152,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC477",
+        "info": "Baby Girl-2, 27x35 cm, Acrylic on Canvas, 2022",
+        "y": -3.1165,
+        "p": -0.3644,
+        "w": 108,
+        "h": 140
+    },
+    {
+        "id": "AC129",
+        "info": "Family of six-5, 120x80 cm, Acrylic on Canvas, 2019",
+        "y": -0.6535,
+        "p": -0.5404,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC162",
+        "info": "Couple-30, 60x80 cm, Acrylic on Canvas, 2020",
+        "y": -2.0609,
+        "p": -0.5152,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC85",
+        "info": "Young couple-2, 90x60 cm, Acrylic on Canvas, 2019",
+        "y": 3.0662,
+        "p": 0.5027,
+        "w": 362,
         "h": 241
     },
     {
         "id": "AC285",
         "info": "Two brothers-2, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.2136,
-        "p": 0.4398,
+        "y": 1.5959,
+        "p": 0.4901,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC38",
+        "info": "Mother and daughter B&W, 80x70 cm, Acrylic on Canvas, 2018",
+        "y": 2.0358,
+        "p": 0.5027,
+        "w": 321,
+        "h": 281
+    },
+    {
+        "id": "AC286",
+        "info": "Couple-60, 60x50 cm, Acrylic on Canvas, 2020",
+        "y": -1.6211,
+        "p": -0.5027,
         "w": 241,
         "h": 201
     },
     {
         "id": "AC313",
         "info": "Woman-39, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": 1.5457,
-        "p": 0.4398,
+        "y": -3.0913,
+        "p": 0.465,
         "w": 201,
         "h": 201
     },
     {
-        "id": "AC286",
-        "info": "Couple-60, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.377,
-        "p": -0.465,
-        "w": 241,
-        "h": 201
+        "id": "AC15",
+        "info": "Family of four, 90x70 cm, Acrylic on Canvas, 2017",
+        "y": -2.2494,
+        "p": 0.5152,
+        "w": 362,
+        "h": 281
     },
     {
         "id": "AC304",
         "info": "Man-21, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": -0.4524,
-        "p": -0.465,
+        "y": 2.2242,
+        "p": -0.5027,
         "w": 201,
         "h": 201
-    },
-    {
-        "id": "AC162",
-        "info": "Couple-30, 60x80 cm, Acrylic on Canvas, 2020",
-        "y": -1.0053,
-        "p": -0.4901,
-        "w": 241,
-        "h": 321
     },
     {
         "id": "AC353",
         "info": "Couple-72, 60x40 cm, Acrylic on Canvas, 2021",
-        "y": 1.9227,
-        "p": -0.4524,
+        "y": -0.6158,
+        "p": 0.4901,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC392",
-        "info": "Father and baby, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": 1.2818,
-        "p": 0.4147,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC37",
-        "info": "Young couple, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": 2.0609,
-        "p": -0.4775,
+        "id": "AC13",
+        "info": "Couple-2, 90x70 cm, Acrylic on Canvas, 2017",
+        "y": -0.3016,
+        "p": -0.5278,
         "w": 362,
         "h": 281
-    },
-    {
-        "id": "AC441",
-        "info": "Woman-54, 30x30 cm, Acrylic on Canvas, 2022",
-        "y": 0.8796,
-        "p": -0.2765,
-        "w": 120,
-        "h": 120
-    },
-    {
-        "id": "AC85",
-        "info": "Young couple-2, 90x60 cm, Acrylic on Canvas, 2019",
-        "y": -0.8545,
-        "p": -0.4775,
-        "w": 362,
-        "h": 241
     },
     {
         "id": "AC292",
         "info": "Man-19, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": -1.9981,
-        "p": -0.465,
+        "y": -2.2745,
+        "p": -0.5027,
         "w": 201,
         "h": 201
     },
     {
-        "id": "AC31",
-        "info": "Man-3, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": 0.289,
-        "p": 0.4775,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC38",
-        "info": "Mother and daughter B&W, 80x70 cm, Acrylic on Canvas, 2018",
-        "y": 0.9173,
-        "p": 0.4775,
-        "w": 321,
-        "h": 281
-    },
-    {
-        "id": "AC396",
-        "info": "Man with bird, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.8347,
-        "p": 0.4273,
+        "id": "AC392",
+        "info": "Father and baby, 40x40 cm, Acrylic on Canvas, 2022",
+        "y": -0.2262,
+        "p": 0.4901,
         "w": 160,
         "h": 160
     },
     {
+        "id": "AC122",
+        "info": "Young sisters, 60x80 cm, Acrylic on Canvas, 2019",
+        "y": 2.3248,
+        "p": -0.5278,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC441",
+        "info": "Woman-54, 30x30 cm, Acrylic on Canvas, 2022",
+        "y": -1.043,
+        "p": 0.4901,
+        "w": 120,
+        "h": 120
+    },
+    {
+        "id": "AC250",
+        "info": "Couple-54, 60x50 cm, Acrylic on Canvas, 2020",
+        "y": 2.7018,
+        "p": 0.5027,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC127",
+        "info": "Young couple-10, 80x60 cm, Acrylic on Canvas, 2019",
+        "y": 0.1257,
+        "p": -0.5278,
+        "w": 321,
+        "h": 241
+    },
+    {
         "id": "AC366",
         "info": "Couple-74, 50x40 cm, Acrylic on Canvas, 2021",
-        "y": 0.5655,
-        "p": 0.4524,
+        "y": 0.7163,
+        "p": -0.5027,
         "w": 201,
+        "h": 160
+    },
+    {
+        "id": "AC396",
+        "info": "Man with bird, 40x40 cm, Acrylic on Canvas, 2022",
+        "y": 0.8042,
+        "p": -0.5027,
+        "w": 160,
         "h": 160
     },
     {
         "id": "AC446",
         "info": "Woman-55, 30x30 cm, Acrylic on Canvas, 2022",
-        "y": -2.2494,
-        "p": -0.4398,
+        "y": -1.1058,
+        "p": 0.4901,
         "w": 120,
         "h": 120
     },
     {
-        "id": "AC129",
-        "info": "Family of six-5, 120x80 cm, Acrylic on Canvas, 2019",
-        "y": 1.6965,
-        "p": 0.4901,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC250",
-        "info": "Couple-54, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": -1.4954,
-        "p": 0.465,
+        "id": "AC187",
+        "info": "Man-12, 60x60 cm, Acrylic on Canvas, 2020",
+        "y": -2.84,
+        "p": -0.5278,
         "w": 241,
-        "h": 201
+        "h": 241
     },
     {
         "id": "AC411",
         "info": "Grandmother and baby, 40x30 cm, Acrylic on Canvas, 2022",
-        "y": 1.7844,
-        "p": -0.4524,
+        "y": -0.7917,
+        "p": -0.5027,
         "w": 160,
         "h": 120
     },
     {
-        "id": "AC15",
-        "info": "Family of four, 90x70 cm, Acrylic on Canvas, 2017",
-        "y": 0.9299,
-        "p": -0.4901,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC122",
-        "info": "Young sisters, 60x80 cm, Acrylic on Canvas, 2019",
-        "y": -0.3267,
-        "p": 0.4901,
-        "w": 241,
+        "id": "AC49",
+        "info": "Couple-8, 100x80 cm, Acrylic on Canvas, 2018",
+        "y": -0.8671,
+        "p": 0.5404,
+        "w": 402,
         "h": 321
-    },
-    {
-        "id": "AC127",
-        "info": "Young couple-10, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.6336,
-        "p": -0.4901,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC13",
-        "info": "Couple-2, 90x70 cm, Acrylic on Canvas, 2017",
-        "y": -2.1237,
-        "p": -0.4901,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC187",
-        "info": "Man-12, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.7018,
-        "p": 0.4775,
-        "w": 241,
-        "h": 241
     },
     {
         "id": "AC263",
         "info": "Woman-31, 50x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.1865,
-        "p": -0.4901,
+        "y": -0.3142,
+        "p": 0.5278,
         "w": 201,
         "h": 241
     },
     {
         "id": "AC240",
         "info": "Father and daugter, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": -2.6766,
-        "p": -0.4775,
+        "y": 1.131,
+        "p": 0.5152,
         "w": 241,
         "h": 201
     },
     {
-        "id": "AC272",
-        "info": "Man-18, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 1.0304,
-        "p": 0.4775,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC356",
-        "info": "Couple B&W-3, 40x40 cm, Acrylic on Canvas, 2021",
-        "y": -1.709,
-        "p": 0.465,
-        "w": 160,
-        "h": 160
+        "id": "AC43",
+        "info": "Family of four-3, 100x80 cm, Acrylic on Canvas, 2018",
+        "y": 2.3373,
+        "p": 0.5404,
+        "w": 402,
+        "h": 321
     },
     {
         "id": "AC108",
         "info": "Woman by the sea, 60x80 cm, Acrylic on Canvas, 2019",
-        "y": 1.131,
-        "p": 0.5027,
+        "y": 1.4828,
+        "p": 0.5404,
         "w": 241,
         "h": 321
     },
     {
         "id": "AC175",
         "info": "Mother with baby-2, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.086,
-        "p": 0.4901,
+        "y": -0.4147,
+        "p": 0.5278,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC303",
-        "info": "Family of four-18, 40x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.8347,
-        "p": 0.4775,
-        "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC49",
-        "info": "Couple-8, 100x80 cm, Acrylic on Canvas, 2018",
-        "y": -2.7772,
-        "p": 0.5027,
-        "w": 402,
-        "h": 321
-    },
-    {
         "id": "AC115",
         "info": "Grandmother and children, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": -0.2639,
-        "p": -0.5027,
+        "y": -1.7216,
+        "p": 0.5278,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC251",
-        "info": "Woman-30, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -2.4756,
-        "p": 0.4775,
+        "id": "AC272",
+        "info": "Man-18, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": 2.4756,
+        "p": 0.5152,
         "w": 201,
         "h": 201
     },
     {
+        "id": "AC116",
+        "info": "Young couple-8, 80x60 cm, Acrylic on Canvas, 2019",
+        "y": -2.0232,
+        "p": 0.5278,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC133",
+        "info": "Young couple-11, 90x70 cm, Acrylic on Canvas, 2019",
+        "y": 0.4147,
+        "p": -0.5404,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC303",
+        "info": "Family of four-18, 40x60 cm, Acrylic on Canvas, 2021",
+        "y": 2.9028,
+        "p": -0.5278,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC356",
+        "info": "Couple B&W-3, 40x40 cm, Acrylic on Canvas, 2021",
+        "y": 2.8903,
+        "p": 0.5027,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC251",
+        "info": "Woman-30, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": 0.0,
+        "p": -0.5278,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC174",
+        "info": "Couple-33, 70x50 cm, Acrylic on Canvas, 2020",
+        "y": 1.8975,
+        "p": -0.5278,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC229",
+        "info": "Woman-29, 60x50 cm, Acrylic on Canvas, 2020",
+        "y": 2.0106,
+        "p": -0.5278,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC68",
+        "info": "Family of three-5, 90x70 cm, Acrylic on Canvas, 2018",
+        "y": -0.465,
+        "p": -0.5655,
+        "w": 362,
+        "h": 281
+    },
+    {
         "id": "AC385",
         "info": "Father and daugther, 40x30 cm, Acrylic on Canvas, 2021",
-        "y": -2.7772,
-        "p": -0.465,
+        "y": 2.1112,
+        "p": -0.5152,
         "w": 160,
         "h": 120
     },
     {
         "id": "AC341",
         "info": "Couple-69, 40x40 cm, Acrylic on Canvas, 2021",
-        "y": -2.9028,
-        "p": 0.465,
+        "y": 0.0,
+        "p": 0.5152,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC116",
-        "info": "Young couple-8, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": 1.3823,
-        "p": -0.5027,
+        "id": "AC93",
+        "info": "Couple-18, 80x60 cm, Acrylic on Canvas, 2019",
+        "y": 2.7395,
+        "p": -0.5529,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC386",
         "info": "Man-31, 30x40 cm, Acrylic on Canvas, 2021",
-        "y": 0.465,
-        "p": -0.465,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC229",
-        "info": "Woman-29, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.5529,
-        "p": -0.4901,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC174",
-        "info": "Couple-33, 70x50 cm, Acrylic on Canvas, 2020",
-        "y": -1.3823,
-        "p": -0.4901,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC43",
-        "info": "Family of four-3, 100x80 cm, Acrylic on Canvas, 2018",
-        "y": 0.0,
-        "p": 0.5152,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC368",
-        "info": "Man-29, 30x40 cm, Acrylic on Canvas, 2021",
-        "y": 2.752,
-        "p": -0.465,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC133",
-        "info": "Young couple-11, 90x70 cm, Acrylic on Canvas, 2019",
-        "y": 2.6138,
-        "p": -0.5152,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC93",
-        "info": "Couple-18, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.4398,
-        "p": 0.5027,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC68",
-        "info": "Family of three-5, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": 1.2692,
-        "p": 0.5152,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC121",
-        "info": "Woman with dog-2, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.4954,
+        "y": 0.8796,
         "p": -0.5027,
-        "w": 241,
-        "h": 241
+        "w": 120,
+        "h": 160
     },
     {
-        "id": "AC176",
-        "info": "Family of four-13, 80x40 cm, Acrylic on Canvas, 2020",
-        "y": -1.3697,
-        "p": 0.4901,
-        "w": 321,
-        "h": 160
+        "id": "AC33",
+        "info": "Woman-5, 70x90 cm, Acrylic on Canvas, 2018",
+        "y": -1.2064,
+        "p": 0.5529,
+        "w": 281,
+        "h": 362
     },
     {
         "id": "AC417",
         "info": "Seaside sitting couple, 90x60 cm, Acrylic on Canvas, 2022",
-        "y": -1.7844,
-        "p": -0.5152,
+        "y": 0.5781,
+        "p": -0.5655,
         "w": 362,
         "h": 241
     },
     {
-        "id": "AC343",
-        "info": "Man-25, 30x40 cm, Acrylic on Canvas, 2021",
-        "y": 0.1759,
-        "p": 0.4775,
+        "id": "AC121",
+        "info": "Woman with dog-2, 60x60 cm, Acrylic on Canvas, 2019",
+        "y": 1.3823,
+        "p": -0.5529,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC368",
+        "info": "Man-29, 30x40 cm, Acrylic on Canvas, 2021",
+        "y": 0.9048,
+        "p": 0.5027,
         "w": 120,
         "h": 160
     },
     {
         "id": "AC42",
         "info": "Family of three-3, 100x60 cm, Acrylic on Canvas, 2018",
-        "y": 3.0411,
-        "p": -0.5152,
+        "y": 1.1058,
+        "p": -0.5655,
         "w": 402,
         "h": 241
     },
     {
-        "id": "AC33",
-        "info": "Woman-5, 70x90 cm, Acrylic on Canvas, 2018",
-        "y": 1.4074,
+        "id": "AC30",
+        "info": "Family of three-2, 90x70 cm, Acrylic on Canvas, 2018",
+        "y": 2.5761,
+        "p": -0.5655,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC176",
+        "info": "Family of four-13, 80x40 cm, Acrylic on Canvas, 2020",
+        "y": 1.2566,
         "p": 0.5278,
-        "w": 281,
-        "h": 362
+        "w": 321,
+        "h": 160
     },
     {
         "id": "AC136",
         "info": "Woman-15, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": 2.9405,
-        "p": 0.5027,
+        "y": 0.2513,
+        "p": -0.5655,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC197",
-        "info": "Woman-22, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.6283,
-        "p": 0.5027,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC274",
-        "info": "Couple-56, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 2.8149,
-        "p": 0.4901,
-        "w": 241,
-        "h": 160
-    },
-    {
         "id": "AC67",
         "info": "Couple-15, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 0.7288,
-        "p": -0.5278,
+        "y": -2.3876,
+        "p": -0.5655,
         "w": 321,
         "h": 241
     },
     {
         "id": "AC83",
         "info": "Couple-16, 70x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.8096,
-        "p": 0.5152,
+        "y": 2.5887,
+        "p": 0.5529,
         "w": 281,
         "h": 241
     },
     {
-        "id": "AC30",
-        "info": "Family of three-2, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": -1.9478,
-        "p": 0.5278,
-        "w": 362,
-        "h": 281
+        "id": "AC197",
+        "info": "Woman-22, 60x50 cm, Acrylic on Canvas, 2020",
+        "y": 1.2441,
+        "p": -0.5529,
+        "w": 241,
+        "h": 201
     },
     {
         "id": "AC142",
         "info": "Grandfather and daughter, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": 2.2745,
-        "p": 0.5152,
+        "y": 1.6085,
+        "p": -0.5655,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC211",
-        "info": "Woman-24, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.1382,
-        "p": -0.5027,
-        "w": 201,
-        "h": 201
+        "id": "AC343",
+        "info": "Man-25, 30x40 cm, Acrylic on Canvas, 2021",
+        "y": -2.928,
+        "p": -0.5152,
+        "w": 120,
+        "h": 160
     },
     {
         "id": "AC64",
         "info": "Bride and groom, 60x70 cm, Acrylic on Canvas, 2018",
-        "y": -2.3625,
-        "p": 0.5152,
+        "y": -2.174,
+        "p": -0.5655,
         "w": 241,
         "h": 281
     },
     {
-        "id": "AC139",
-        "info": "Siblings-3, 70x50 cm, Acrylic on Canvas, 2019",
-        "y": -2.5887,
-        "p": 0.5152,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC216",
-        "info": "Baby-4, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.1382,
-        "p": -0.5152,
-        "w": 201,
-        "h": 201
+        "id": "AC274",
+        "info": "Couple-56, 60x40 cm, Acrylic on Canvas, 2020",
+        "y": 0.9676,
+        "p": -0.5529,
+        "w": 241,
+        "h": 160
     },
     {
         "id": "AC79",
         "info": "Father and son-3, 70x60 cm, Acrylic on Canvas, 2019",
-        "y": 1.0681,
-        "p": -0.5278,
+        "y": 0.4021,
+        "p": 0.5655,
         "w": 281,
         "h": 241
     },
     {
-        "id": "AC217",
-        "info": "Boy-3, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -2.2494,
-        "p": -0.5152,
+        "id": "AC139",
+        "info": "Siblings-3, 70x50 cm, Acrylic on Canvas, 2019",
+        "y": 1.709,
+        "p": 0.5529,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC211",
+        "info": "Woman-24, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": -0.5152,
+        "p": 0.5404,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC50",
+        "info": "Marriage family, 90x60 cm, Acrylic on Canvas, 2018",
+        "y": -1.8724,
+        "p": 0.5655,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC39",
+        "info": "Agostinho da Silva, 80x60 cm, Acrylic on Canvas, 2018",
+        "y": -2.4002,
+        "p": 0.5655,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC44",
+        "info": "John Lennon and Yoko Ono, 80x60 cm, Acrylic on Canvas, 2018",
+        "y": -2.5384,
+        "p": 0.5655,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC216",
+        "info": "Baby-4, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": 2.8023,
+        "p": 0.5404,
         "w": 201,
         "h": 201
     },
     {
         "id": "AC145",
         "info": "Couple-25, 70x50 cm, Acrylic on Canvas, 2019",
-        "y": 0.2513,
-        "p": -0.5278,
+        "y": -2.6766,
+        "p": 0.5529,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC219",
-        "info": "Girl-7, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 1.1812,
-        "p": -0.5278,
+        "id": "AC102",
+        "info": "Young woman, 60x60 cm, Acrylic on Canvas, 2019",
+        "y": -2.5133,
+        "p": -0.5655,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC217",
+        "info": "Boy-3, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": -2.7269,
+        "p": -0.5529,
         "w": 201,
         "h": 201
     },
     {
-        "id": "AC39",
-        "info": "Agostinho da Silva, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 1.5205,
-        "p": -0.5278,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC50",
-        "info": "Marriage family, 90x60 cm, Acrylic on Canvas, 2018",
-        "y": 1.6713,
-        "p": -0.5278,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC44",
-        "info": "John Lennon and Yoko Ono, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": -0.1634,
-        "p": 0.5404,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC102",
-        "info": "Young woman, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.7917,
-        "p": 0.5278,
+        "id": "AC112",
+        "info": "Jose fanha, 60x60 cm, Acrylic on Canvas, 2019",
+        "y": -0.7288,
+        "p": 0.5655,
         "w": 241,
         "h": 241
+    },
+    {
+        "id": "AC219",
+        "info": "Girl-7, 50x50 cm, Acrylic on Canvas, 2020",
+        "y": 1.3697,
+        "p": 0.5529,
+        "w": 201,
+        "h": 201
     },
     {
         "id": "AC241",
         "info": "Couple-49, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 1.8096,
-        "p": -0.5278,
+        "y": -1.5708,
+        "p": 0.5529,
         "w": 241,
         "h": 160
-    },
-    {
-        "id": "AC112",
-        "info": "Jose fanha, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": -0.4398,
-        "p": 0.5404,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC316",
-        "info": "Girl-10, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": 2.0106,
-        "p": 0.465,
-        "w": 120,
-        "h": 120
-    },
-    {
-        "id": "AC319",
-        "info": "Young man-7, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": -0.3644,
-        "p": -0.4775,
-        "w": 120,
-        "h": 120
     },
     {
         "id": "AC171",
         "info": "Family of four-12, 80x40 cm, Acrylic on Canvas, 2019",
-        "y": -0.754,
-        "p": 0.5278,
+        "y": -0.1131,
+        "p": -0.5655,
         "w": 321,
         "h": 160
     },
     {
+        "id": "AC316",
+        "info": "Girl-10, 30x30 cm, Acrylic on Canvas, 2021",
+        "y": -0.9802,
+        "p": 0.5027,
+        "w": 120,
+        "h": 120
+    },
+    {
+        "id": "AC34",
+        "info": "Man-4, 70x60 cm, Acrylic on Canvas, 2018",
+        "y": 1.4954,
+        "p": -0.5781,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC319",
+        "info": "Young man-7, 30x30 cm, Acrylic on Canvas, 2021",
+        "y": -2.1237,
+        "p": 0.5278,
+        "w": 120,
+        "h": 120
+    },
+    {
         "id": "AC309",
         "info": "Woman-38, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": 0.1131,
-        "p": 0.4775,
+        "y": -3.0788,
+        "p": 0.5404,
         "w": 120,
         "h": 120
     },
@@ -3451,559 +3739,551 @@
         "id": "AC295",
         "info": "Woman-35, 40x30 cm, Acrylic on Canvas, 2021",
         "y": -1.8975,
-        "p": -0.4901,
+        "p": -0.5529,
         "w": 160,
         "h": 120
     },
     {
-        "id": "AC310",
-        "info": "Boy-5, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": 1.2566,
-        "p": -0.5152,
-        "w": 120,
-        "h": 120
-    },
-    {
-        "id": "AC34",
-        "info": "Man-4, 70x60 cm, Acrylic on Canvas, 2018",
-        "y": 1.9227,
-        "p": -0.5404,
-        "w": 281,
-        "h": 241
-    },
-    {
         "id": "AC87",
         "info": "Best friends, 70x50 cm, Acrylic on Canvas, 2019",
-        "y": 2.5635,
-        "p": 0.5278,
+        "y": 0.754,
+        "p": 0.5655,
         "w": 281,
         "h": 201
+    },
+    {
+        "id": "AC310",
+        "info": "Boy-5, 30x30 cm, Acrylic on Canvas, 2021",
+        "y": -1.9729,
+        "p": -0.5529,
+        "w": 120,
+        "h": 120
     },
     {
         "id": "AC90",
         "info": "Young couple-4, 70x50 cm, Acrylic on Canvas, 2019",
-        "y": -3.0034,
-        "p": 0.5278,
+        "y": -1.0807,
+        "p": 0.5655,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC291",
-        "info": "Girl-9, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": -0.5278,
-        "p": 0.5152,
-        "w": 120,
-        "h": 120
-    },
-    {
         "id": "AC12",
         "info": "Young man, 60x70 cm, Acrylic on Canvas, 2017",
-        "y": 0.5655,
-        "p": 0.5529,
+        "y": -2.6264,
+        "p": -0.5781,
         "w": 241,
         "h": 281
     },
     {
         "id": "AC157",
         "info": "Man-10, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 1.9227,
-        "p": 0.5278,
+        "y": -0.8042,
+        "p": -0.5781,
         "w": 201,
         "h": 201
     },
     {
+        "id": "AC291",
+        "info": "Girl-9, 30x30 cm, Acrylic on Canvas, 2021",
+        "y": 0.0754,
+        "p": 0.5655,
+        "w": 120,
+        "h": 120
+    },
+    {
         "id": "AC235",
         "info": "Boy-4, 40x50 cm, Acrylic on Canvas, 2020",
-        "y": -3.1039,
-        "p": 0.5278,
+        "y": 0.1508,
+        "p": 0.5781,
         "w": 160,
+        "h": 201
+    },
+    {
+        "id": "AC82",
+        "info": "Family of four-7, 80x40 cm, Acrylic on Canvas, 2019",
+        "y": 0.7288,
+        "p": -0.5781,
+        "w": 321,
+        "h": 160
+    },
+    {
+        "id": "AC210",
+        "info": "Woman with dog-3, 80x60 cm, Acrylic on Canvas, 2020",
+        "y": 0.2639,
+        "p": 0.5906,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC75",
+        "info": "Young man-4, 70x50 cm, Acrylic on Canvas, 2018",
+        "y": 2.174,
+        "p": 0.5781,
+        "w": 281,
         "h": 201
     },
     {
         "id": "AC237",
         "info": "Flautist, 50x40 cm, Acrylic on Canvas, 2020",
-        "y": -0.8671,
-        "p": 0.5278,
+        "y": -0.6158,
+        "p": 0.5655,
         "w": 201,
         "h": 160
     },
     {
-        "id": "AC82",
-        "info": "Family of four-7, 80x40 cm, Acrylic on Canvas, 2019",
-        "y": 0.0,
-        "p": -0.5404,
-        "w": 321,
-        "h": 160
-    },
-    {
-        "id": "AC75",
-        "info": "Young man-4, 70x50 cm, Acrylic on Canvas, 2018",
-        "y": -2.3625,
-        "p": -0.5404,
-        "w": 281,
-        "h": 201
-    },
-    {
         "id": "AC255",
         "info": "Family of three-10, 40x30 cm, Acrylic on Canvas, 2020",
-        "y": 1.508,
-        "p": 0.5152,
+        "y": -0.2262,
+        "p": 0.5655,
         "w": 160,
         "h": 120
-    },
-    {
-        "id": "AC210",
-        "info": "Woman with dog-3, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.3896,
-        "p": -0.5655,
-        "w": 321,
-        "h": 241
     },
     {
         "id": "AC256",
         "info": "Family of three-11, 40x30 cm, Acrylic on Canvas, 2020",
-        "y": -1.5959,
-        "p": 0.5152,
-        "w": 160,
-        "h": 120
-    },
-    {
-        "id": "AC259",
-        "info": "Boy with dog, 40x30 cm, Acrylic on Canvas, 2020",
-        "y": -2.7772,
-        "p": -0.5278,
+        "y": 1.5834,
+        "p": 0.5655,
         "w": 160,
         "h": 120
     },
     {
         "id": "AC170",
         "info": "Girl-5, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 2.2871,
-        "p": -0.5404,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC260",
-        "info": "Young man with dog, 30x40 cm, Acrylic on Canvas, 2020",
-        "y": 2.7269,
-        "p": -0.5404,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC172",
-        "info": "Family of three-7, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": -1.2441,
-        "p": 0.5404,
+        "y": 0.8545,
+        "p": -0.5781,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC51",
         "info": "Man-5, 50x70 cm, Acrylic on Canvas, 2018",
-        "y": 2.3876,
-        "p": -0.5655,
+        "y": -2.9531,
+        "p": 0.5906,
         "w": 201,
         "h": 281
     },
     {
-        "id": "AC265",
-        "info": "Young woman-4, 30x40 cm, Acrylic on Canvas, 2020",
-        "y": -1.6713,
-        "p": 0.5404,
-        "w": 120,
-        "h": 160
+        "id": "AC259",
+        "info": "Boy with dog, 40x30 cm, Acrylic on Canvas, 2020",
+        "y": -1.6085,
+        "p": -0.5781,
+        "w": 160,
+        "h": 120
     },
     {
-        "id": "AC177",
-        "info": "Couple-34, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": -0.3896,
-        "p": -0.5529,
+        "id": "AC172",
+        "info": "Family of three-7, 60x40 cm, Acrylic on Canvas, 2020",
+        "y": 0.8671,
+        "p": 0.5781,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC23",
-        "info": "Girl-4, 70x50 cm, Acrylic on Canvas, 2018",
-        "y": -2.4881,
-        "p": -0.5529,
-        "w": 281,
-        "h": 201
+        "id": "AC260",
+        "info": "Young man with dog, 30x40 cm, Acrylic on Canvas, 2020",
+        "y": -0.9802,
+        "p": 0.5781,
+        "w": 120,
+        "h": 160
     },
     {
         "id": "AC46",
         "info": "Manu Chao, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 2.0358,
-        "p": 0.5655,
+        "y": -1.7216,
+        "p": -0.6032,
         "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC47",
+        "info": "Woman with dog, 80x60 cm, Acrylic on Canvas, 2018",
+        "y": 1.7342,
+        "p": -0.6032,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC23",
+        "info": "Girl-4, 70x50 cm, Acrylic on Canvas, 2018",
+        "y": 2.4379,
+        "p": -0.5906,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC177",
+        "info": "Couple-34, 60x40 cm, Acrylic on Canvas, 2020",
+        "y": 2.9028,
+        "p": 0.5781,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC265",
+        "info": "Young woman-4, 30x40 cm, Acrylic on Canvas, 2020",
+        "y": -1.8221,
+        "p": -0.5906,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC88",
+        "info": "Young couple-3, 70x60 cm, Acrylic on Canvas, 2019",
+        "y": 2.1237,
+        "p": -0.6032,
+        "w": 281,
         "h": 241
     },
     {
         "id": "AC158",
         "info": "Couple-28, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 0.1382,
-        "p": 0.5529,
+        "y": 2.7018,
+        "p": 0.5906,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC47",
-        "info": "Woman with dog, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 0.5278,
-        "p": -0.5781,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC88",
-        "info": "Young couple-3, 70x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.9227,
-        "p": -0.5781,
-        "w": 281,
-        "h": 241
-    },
-    {
         "id": "AC154",
         "info": "Man with dog at the beach, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": -1.4954,
-        "p": 0.5529,
+        "y": -2.7897,
+        "p": 0.5906,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC10",
         "info": "Family of three, 80x40 cm, Acrylic on Canvas, 2017",
-        "y": -2.6264,
-        "p": -0.5655,
+        "y": -1.0933,
+        "p": -0.6032,
         "w": 321,
         "h": 160
     },
     {
         "id": "AC407",
         "info": "Couple-81, 70x50 cm, Acrylic on Canvas, 2022",
-        "y": 2.8274,
-        "p": -0.5655,
+        "y": -1.508,
+        "p": -0.6032,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC203",
-        "info": "Girl-6, 30x40 cm, Acrylic on Canvas, 2020",
-        "y": -2.8903,
-        "p": 0.5404,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC143",
-        "info": "Couple-23, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": 2.1614,
-        "p": 0.5529,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC405",
-        "info": "Couple-80, 50x70 cm, Acrylic on Canvas, 2022",
-        "y": 2.4881,
-        "p": -0.5655,
-        "w": 201,
-        "h": 281
-    },
-    {
         "id": "AC0",
         "info": "Woman, 40x100 cm, Acrylic on Canvas, 2016",
-        "y": -3.0034,
-        "p": -0.6032,
+        "y": 2.2242,
+        "p": -0.6409,
         "w": 160,
         "h": 402
     },
     {
-        "id": "AC120",
-        "info": "Grandmother and grandson, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": -2.8777,
-        "p": -0.5655,
+        "id": "AC405",
+        "info": "Couple-80, 50x70 cm, Acrylic on Canvas, 2022",
+        "y": -2.2745,
+        "p": -0.6158,
+        "w": 201,
+        "h": 281
+    },
+    {
+        "id": "AC143",
+        "info": "Couple-23, 60x40 cm, Acrylic on Canvas, 2019",
+        "y": -2.9531,
+        "p": -0.6032,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC114",
-        "info": "Young couple-7, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": 0.6786,
-        "p": 0.5655,
+        "id": "AC203",
+        "info": "Girl-6, 30x40 cm, Acrylic on Canvas, 2020",
+        "y": 0.0,
+        "p": 0.5906,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC120",
+        "info": "Grandmother and grandson, 60x40 cm, Acrylic on Canvas, 2019",
+        "y": -3.0662,
+        "p": -0.6032,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC138",
         "info": "Siblings-2, 70x50 cm, Acrylic on Canvas, 2019",
-        "y": -2.1991,
-        "p": 0.5655,
+        "y": 0.5278,
+        "p": 0.6032,
         "w": 281,
         "h": 201
     },
     {
+        "id": "AC114",
+        "info": "Young couple-7, 60x40 cm, Acrylic on Canvas, 2019",
+        "y": 0.6409,
+        "p": 0.6032,
+        "w": 241,
+        "h": 160
+    },
+    {
         "id": "AC11",
         "info": "Man-2, 50x60 cm, Acrylic on Canvas, 2017",
-        "y": -3.0913,
-        "p": -0.5781,
+        "y": 0.9676,
+        "p": 0.6158,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC7",
+        "info": "Sailor, 50x60 cm, Acrylic on Canvas, 2017",
+        "y": 1.0681,
+        "p": 0.6158,
         "w": 201,
         "h": 241
     },
     {
         "id": "AC132",
         "info": "Dog, 40x40 cm, Acrylic on Canvas, 2019",
-        "y": 1.0304,
-        "p": 0.5655,
+        "y": 1.1561,
+        "p": 0.6032,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC7",
-        "info": "Sailor, 50x60 cm, Acrylic on Canvas, 2017",
-        "y": -2.463,
-        "p": 0.5781,
-        "w": 201,
-        "h": 241
-    },
-    {
         "id": "AC28",
         "info": "Couple-5, 70x50 cm, Acrylic on Canvas, 2018",
-        "y": 3.0536,
-        "p": 0.5655,
+        "y": 1.8347,
+        "p": 0.6032,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC25",
+        "info": "Father and son, 70x50 cm, Acrylic on Canvas, 2018",
+        "y": 3.0159,
+        "p": 0.6032,
         "w": 281,
         "h": 201
     },
     {
         "id": "AC149",
         "info": "Young couple-15, 40x30 cm, Acrylic on Canvas, 2020",
-        "y": -0.4901,
-        "p": -0.5655,
+        "y": -2.1363,
+        "p": 0.5906,
         "w": 160,
         "h": 120
     },
     {
         "id": "AC80",
         "info": "Man-7, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": -1.3572,
-        "p": 0.5655,
+        "y": 1.2566,
+        "p": 0.6032,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC25",
-        "info": "Father and son, 70x50 cm, Acrylic on Canvas, 2018",
-        "y": -0.8419,
-        "p": -0.5781,
-        "w": 281,
-        "h": 201
-    },
-    {
         "id": "AC24",
         "info": "Boy, 50x70 cm, Acrylic on Canvas, 2018",
-        "y": 2.6766,
-        "p": 0.5906,
+        "y": 1.9478,
+        "p": 0.6283,
         "w": 201,
         "h": 281
     },
     {
         "id": "AC27",
         "info": "Couple-4, 60x50 cm, Acrylic on Canvas, 2018",
-        "y": 2.3876,
-        "p": 0.5781,
+        "y": 2.0483,
+        "p": 0.6158,
         "w": 241,
         "h": 201
     },
     {
         "id": "AC215",
         "info": "Woman-26, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 2.7772,
-        "p": 0.5781,
+        "y": 2.4756,
+        "p": 0.6158,
         "w": 201,
         "h": 201
     },
     {
-        "id": "AC65",
-        "info": "Baby-3, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": -0.5655,
-        "p": -0.5781,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC32",
-        "info": "Antarctic marathoners, 60x40 cm, Acrylic on Canvas, 2018",
-        "y": -0.666,
-        "p": -0.5781,
-        "w": 241,
-        "h": 160
-    },
-    {
         "id": "AC20",
         "info": "Couple-3, 60x50 cm, Acrylic on Canvas, 2018",
-        "y": -1.3823,
-        "p": -0.5906,
+        "y": -3.0536,
+        "p": 0.6158,
         "w": 241,
         "h": 201
     },
     {
-        "id": "AC73",
-        "info": "Young man-2, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 2.0232,
-        "p": -0.5781,
+        "id": "AC32",
+        "info": "Antarctic marathoners, 60x40 cm, Acrylic on Canvas, 2018",
+        "y": -0.9048,
+        "p": -0.6158,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC65",
+        "info": "Baby-3, 40x40 cm, Acrylic on Canvas, 2018",
+        "y": 0.0,
+        "p": -0.6158,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC19",
         "info": "Family of six-4, 60x40 cm, Acrylic on Canvas, 2017",
-        "y": 0.2513,
-        "p": 0.5781,
+        "y": -1.2189,
+        "p": -0.6158,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC76",
-        "info": "Woman-8, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 2.0986,
-        "p": -0.5781,
+        "id": "AC73",
+        "info": "Young man-2, 40x40 cm, Acrylic on Canvas, 2018",
+        "y": -1.3195,
+        "p": -0.6158,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC17",
         "info": "Family of six-2, 60x40 cm, Acrylic on Canvas, 2017",
-        "y": 0.9048,
-        "p": 0.5781,
+        "y": 1.8598,
+        "p": -0.6158,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC78",
-        "info": "Woman B&W, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 1.8347,
-        "p": 0.5781,
+        "id": "AC76",
+        "info": "Woman-8, 40x40 cm, Acrylic on Canvas, 2018",
+        "y": -1.3949,
+        "p": -0.6158,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC18",
         "info": "Family of six-3, 60x40 cm, Acrylic on Canvas, 2017",
-        "y": 0.1257,
-        "p": -0.5906,
+        "y": 1.9729,
+        "p": -0.6158,
         "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC78",
+        "info": "Woman B&W, 40x40 cm, Acrylic on Canvas, 2018",
+        "y": 2.9782,
+        "p": -0.6158,
+        "w": 160,
         "h": 160
     },
     {
         "id": "AC450",
         "info": "Family of three-18, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.8545,
-        "p": -0.5906,
+        "y": 3.0788,
+        "p": -0.6158,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC22",
         "info": "Baby-2, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 0.955,
-        "p": -0.5906,
+        "y": -0.0754,
+        "p": 0.6158,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC239",
         "info": "Girl-8, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": -1.6085,
-        "p": -0.5906,
+        "y": -2.2368,
+        "p": 0.6158,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC130",
+        "info": "Cats and dog, 60x40 cm, Acrylic on Canvas, 2019",
+        "y": 0.1005,
+        "p": -0.6283,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC6",
         "info": "Woman-3, 40x40 cm, Acrylic on Canvas, 2017",
-        "y": 1.2692,
-        "p": -0.5906,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC130",
-        "info": "Cats and dog, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": -2.0358,
-        "p": -0.5906,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC2",
-        "info": "Girl, 40x40 cm, Acrylic on Canvas, 2016",
-        "y": -2.1363,
-        "p": -0.5906,
+        "y": -0.1508,
+        "p": 0.6158,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC134",
         "info": "Young couple-12, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": -0.5529,
-        "p": 0.5906,
+        "y": -0.2388,
+        "p": -0.6283,
         "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC2",
+        "info": "Girl, 40x40 cm, Acrylic on Canvas, 2016",
+        "y": -0.3393,
+        "p": -0.6283,
+        "w": 160,
         "h": 160
     },
     {
         "id": "AC4",
         "info": "Girl-3, 40x40 cm, Acrylic on Canvas, 2016",
-        "y": 2.174,
-        "p": -0.5906,
+        "y": 0.955,
+        "p": -0.6283,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC26",
         "info": "Father and son-2, 60x40 cm, Acrylic on Canvas, 2018",
-        "y": -0.9676,
-        "p": 0.5906,
+        "y": -1.9101,
+        "p": -0.6283,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC478",
         "info": "Father and daugther-2, 40x30 cm, Acrylic on Canvas, 2022",
-        "y": 1.508,
-        "p": 0.5781,
+        "y": -2.0106,
+        "p": -0.6158,
         "w": 160,
         "h": 120
     },
     {
         "id": "AC381",
         "info": "Couple-78, 40x30 cm, Charcoal on Paper, 2021",
-        "y": -1.5959,
-        "p": 0.5781,
+        "y": -2.8149,
+        "p": -0.6158,
         "w": 160,
         "h": 120
     },
     {
         "id": "AC21",
         "info": "Baby, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": -1.0681,
-        "p": 0.5906,
+        "y": 2.8526,
+        "p": -0.6283,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC3",
         "info": "Girl-2, 40x40 cm, Acrylic on Canvas, 2016",
-        "y": -1.1435,
-        "p": 0.5906,
+        "y": 2.9592,
+        "p": 0.5027,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC124",
         "info": "Woman-14, 20x30 cm, Acrylic on Canvas, 2019",
-        "y": -0.2513,
-        "p": -0.1131,
+        "y": 3.1165,
+        "p": 0.1131,
         "w": 80,
         "h": 120
     }
