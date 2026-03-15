@@ -1,5 +1,21 @@
 [
     {
+        "id": "image1",
+        "info": "Obra image1",
+        "y": 0.0,
+        "p": 1.0989,
+        "w": 16099,
+        "h": 2418
+    },
+    {
+        "id": "image1-1",
+        "info": "Obra image1-1",
+        "y": 0.0,
+        "p": -1.1157,
+        "w": 16099,
+        "h": 2332
+    },
+    {
         "id": "AC551",
         "info": "Woman-69, 80x120 cm, Acrylic on Canvas, 2026",
         "y": 0.0,
@@ -362,7 +378,7 @@
     {
         "id": "AC440",
         "info": "Woman-53, 100x100 cm, Acrylic on Canvas, 2022",
-        "y": -3.0285,
+        "y": -3.0584,
         "p": -0.1382,
         "w": 402,
         "h": 402
@@ -442,7 +458,7 @@
     {
         "id": "AC425",
         "info": "Family of four-25, 100x80 cm, Acrylic on Canvas, 2022",
-        "y": -3.0285,
+        "y": -3.0594,
         "p": 0.1257,
         "w": 402,
         "h": 321
@@ -1802,7 +1818,7 @@
     {
         "id": "AC458",
         "info": "Family of three-19, 30x40 cm, Acrylic on Canvas, 2022",
-        "y": 3.1165,
+        "y": 3.107,
         "p": -0.2011,
         "w": 120,
         "h": 160
@@ -2442,7 +2458,7 @@
     {
         "id": "AC312",
         "info": "Young man-6, 60x70 cm, Acrylic on Canvas, 2021",
-        "y": 3.0411,
+        "y": 3.0668,
         "p": 0.3896,
         "w": 241,
         "h": 281
@@ -3042,7 +3058,7 @@
     {
         "id": "AC57",
         "info": "Couple-11, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": -3.0411,
+        "y": -3.0598,
         "p": -0.5027,
         "w": 362,
         "h": 281
