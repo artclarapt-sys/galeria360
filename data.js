@@ -40,7 +40,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "ArtClara",
+  "name": "ArtClara Gallery 2026",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
