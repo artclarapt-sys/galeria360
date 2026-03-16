@@ -13,8 +13,11 @@
   });
 
   var Marzipano = window.Marzipano;
+  var screenfull = window.screenfull; // Adicionado para lidar com o ecrã inteiro
   var data = window.APP_DATA;
+  
   var panoElement = document.querySelector('#pano');
+  var fullscreenToggleElement = document.querySelector('#fullscreenToggle'); // O novo botão
 
   // --- 1. LER PARÂMETROS DO URL ---
   var urlParams = new URLSearchParams(window.location.search);
@@ -70,6 +73,25 @@
 
   viewer.startMovement(autorotate);
   viewer.setIdleMovement(3000, autorotate);
+
+  // --- LÓGICA DO ECRÃ INTEIRO ---
+  if (screenfull && screenfull.enabled && fullscreenToggleElement) {
+    document.body.classList.add('fullscreen-enabled');
+    
+    fullscreenToggleElement.addEventListener('click', function() {
+      screenfull.toggle();
+    });
+    
+    screenfull.on('change', function() {
+      if (screenfull.isFullscreen) {
+        fullscreenToggleElement.classList.add('enabled');
+      } else {
+        fullscreenToggleElement.classList.remove('enabled');
+      }
+    });
+  } else {
+    document.body.classList.add('fullscreen-disabled');
+  }
 
   // --- TOOLTIP E HOTSPOTS ---
   var tooltip = document.createElement('div');

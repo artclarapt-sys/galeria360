@@ -61,31 +61,46 @@ html, body, #container, #pano {
   white-space: nowrap;
 }
 
-/* Estilos para o botão de ecrã inteiro */
-.btn-fullscreen {
+/* --- Botão Fullscreen --- */
+#fullscreenToggle {
+  display: none;
   position: absolute;
   top: 20px;
-  right: 45px;
-  width: 44px;
-  height: 44px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  z-index: 10001; /* Garante que fica por cima do pano e da tooltip */
   cursor: pointer;
-  z-index: 999; /* Garante que fica por cima do canvas do Marzipano */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s ease;
 }
 
-.btn-fullscreen:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+body.fullscreen-enabled #fullscreenToggle {
+  display: block;
 }
 
-/* Esconder o botão no iOS se não for suportado nativamente (opcional) */
-@supports (-webkit-touch-callout: none) {
-  /* O iOS Safari tem limitações conhecidas com a API de fullscreen em iframes,
-     mas em versões recentes já suporta melhor. Podes deixar assim e testar. */
+#fullscreenToggle .icon {
+  position: absolute;
+  top: 25px;
+  right: 45px;
+  width: 30px;
+  height: 30px;
+}
+
+#fullscreenToggle .icon.on {
+  display: none;
+}
+
+#fullscreenToggle .icon.off {
+  display: block;
+}
+
+#fullscreenToggle.enabled .icon.on {
+  display: block;
+}
+
+#fullscreenToggle.enabled .icon.off {
+  display: none;
+}
 }
