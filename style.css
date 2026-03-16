@@ -57,7 +57,7 @@ html, body, #container, #pano {
   transform: translateX(-50%); 
   
   color: #fff;
-  font-size: 18px;
+  font-size: 45px;
   font-family: sans-serif;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), -1px -1px 4px rgba(0, 0, 0, 1);
   pointer-events: none; /* Mantém o ecrã tátil limpo para o Zoom */
