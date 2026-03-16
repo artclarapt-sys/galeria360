@@ -1,15 +1,21 @@
 'use strict';
 
 (function() {
+  // --- A TUA LÓGICA DO 2px=1px ---
+  // Enganamos o Marzipano para ele ignorar a super resolução do S24 Ultra.
+  // Isto evita o ecrã em branco (estouro de WebGL) e liberta o zoom!
+  Object.defineProperty(window, 'devicePixelRatio', {
+    get: function() { return 1; }
+  });
+
   var Marzipano = window.Marzipano;
   var data = window.APP_DATA;
   var panoElement = document.querySelector('#pano');
 
-  // --- 1. LER PARÂMETROS DO URL (Injetados pelo Shopify) ---
+  // --- 1. LER PARÂMETROS DO URL ---
   var urlParams = new URLSearchParams(window.location.search);
-  var degToRad = Math.PI / 180; // Fator de conversão de Graus para Radianos
+  var degToRad = Math.PI / 180;
 
-  // 2. Extrair os valores e converter para radianos
   var urlFov = urlParams.has('fov') ? parseFloat(urlParams.get('fov')) * degToRad : null;
   var urlPitch = urlParams.has('pitch') ? parseFloat(urlParams.get('pitch')) * degToRad : null;
   var urlYaw = urlParams.has('yaw') ? parseFloat(urlParams.get('yaw')) * degToRad : null;
@@ -23,29 +29,18 @@
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
     
-    var maxFov = 120 * degToRad; 
-    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); 
+    var maxFov = 120 * degToRad;
+    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // O limite de 10º do Shopify
     
-    // --- O LIMITADOR INTELIGENTE ---
+    // Como o ecrã agora é "falsamente" normal, usamos o limitador original em segurança
+    var baseLimiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, maxFov);
+    
     var limiter = function(params) {
-      var safeParams = {};
-      
-      // Se o Marzipano pedir Rotação, nós deixamos passar
-      if (params.yaw !== undefined) {
-        safeParams.yaw = params.yaw;
-      }
-      
-      // Se pedir Inclinação, bloqueamos nos limites físicos (Cima/Baixo)
-      if (params.pitch !== undefined) {
-        safeParams.pitch = Math.max(-Math.PI/2, Math.min(params.pitch, Math.PI/2));
-      }
-      
-      // Se pedir Zoom (Afastar/Aproximar), esmagamos qualquer restrição de densidade de ecrã do S24!
-      if (params.fov !== undefined) {
-        safeParams.fov = Math.max(minFov, Math.min(params.fov, maxFov));
-      }
-      
-      return safeParams;
+      var p = baseLimiter(params);
+      // Esmagamos o limite de zoom com o valor do Shopify, sem dar o erro "Bad View"
+      var fovRequest = params.fov !== undefined ? params.fov : p.fov;
+      p.fov = Math.max(minFov, Math.min(fovRequest, maxFov));
+      return p;
     };
     
     // --- 3. APLICAR POV E ZOOM INICIAIS ---
@@ -68,9 +63,7 @@
     targetFov: urlFov !== null ? urlFov : Math.PI/2
   });
 
-  // Ativa a rotação imediatamente
   viewer.startMovement(autorotate);
-  // Se o utilizador mexer, para 3 segundos e volta a rodar
   viewer.setIdleMovement(3000, autorotate);
 
   // --- TOOLTIP E HOTSPOTS ---
