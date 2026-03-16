@@ -5,11 +5,11 @@
   var data = window.APP_DATA;
   var panoElement = document.querySelector('#pano');
 
-  // --- 1. LER PARÂMETROS DO URL ---
+  // --- 1. LER PARÂMETROS DO URL (Injetados pelo Shopify) ---
   var urlParams = new URLSearchParams(window.location.search);
   var degToRad = Math.PI / 180; // Fator de conversão de Graus para Radianos
 
-  // 2. Extrair os valores
+  // 2. Extrair os valores e converter para radianos
   var urlFov = urlParams.has('fov') ? parseFloat(urlParams.get('fov')) * degToRad : null;
   var urlPitch = urlParams.has('pitch') ? parseFloat(urlParams.get('pitch')) * degToRad : null;
   var urlYaw = urlParams.has('yaw') ? parseFloat(urlParams.get('yaw')) * degToRad : null;
@@ -23,16 +23,16 @@
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
     
-    var maxFov = 120 * degToRad; 
-    var minFov = urlMinFov !== null ? urlMinFov : (5 * degToRad);
+    var maxFov = 120 * degToRad; // Limite máximo de zoom out
+    var minFov = urlMinFov !== null ? urlMinFov : (5 * degToRad); // 5º por defeito se não houver URL
     
-    // O VERDADEIRO SEGREDO: Um limitador customizado!
-    // Ignora a resolução das imagens e a densidade de ecrã do S24 Ultra.
+    // --- LIMITADOR MANUAL ---
+    // Ignora a resolução das imagens e a densidade de ecrã (como a do S24 Ultra)
     var limiter = function(params) {
       return {
         yaw: params.yaw,
-        pitch: Math.max(-Math.PI/2, Math.min(params.pitch, Math.PI/2)), // Bloqueia olhar demasiado para cima/baixo
-        fov: Math.max(minFov, Math.min(params.fov, maxFov))             // Força o zoom exato que o Shopify manda
+        pitch: Math.max(-Math.PI/2, Math.min(params.pitch, Math.PI/2)), // Limite de Cima/Baixo
+        fov: Math.max(minFov, Math.min(params.fov, maxFov))             // Força o zoom exato
       };
     };
     
@@ -64,10 +64,10 @@
   // --- TOOLTIP E HOTSPOTS ---
   var tooltip = document.createElement('div');
   tooltip.className = 'quadro-tooltip';
-  tooltip.style.pointerEvents = 'none'; /* <--- O SEGREDO 1: O rato atravessa a tooltip */
+  tooltip.style.pointerEvents = 'none';
   document.body.appendChild(tooltip);
 
-function carregarHotspots() {
+  function carregarHotspots() {
     fetch('galeria.json')
       .then(res => res.json())
       .then(quadros => {
@@ -79,14 +79,12 @@ function carregarHotspots() {
           a.style.height = q.h + 'px';
           a.style.cursor = 'pointer'; 
           
-          // Prevenções de arrasto do browser
           a.draggable = false; 
           a.style.userSelect = 'none'; 
           a.style.webkitUserSelect = 'none';
           a.style.webkitUserDrag = 'none';
           a.style.touchAction = 'none';
           
-          // <--- O SEGREDO 2: Bloquear o drag nativo do HTML5 --->
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
           let startX = 0;
@@ -106,7 +104,6 @@ function carregarHotspots() {
             }
           });
 
-          // --- 3. TOOLTIP ---
           a.addEventListener('mouseenter', () => { 
             tooltip.innerHTML = q.info; 
             tooltip.style.opacity = '1'; 
