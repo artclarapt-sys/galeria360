@@ -51,10 +51,10 @@ html, body, #container, #pano {
   left: 50%;
   bottom: calc(-21.43% - 30px); /* Ajusta este 15px para subir ou descer */
   transform: translateX(-50%); 
-  color: #fff;
+  color: #333;
   font-size: 20px;
   font-family: sans-serif;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), -1px -1px 4px rgba(0, 0, 0, 1);
+  /* text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), -1px -1px 4px rgba(0, 0, 0, 1); */
   pointer-events: none; /* OBRIGATÓRIO: Mantém o ecrã tátil limpo para o Zoom */
   opacity: 0.8;
   text-align: center;
