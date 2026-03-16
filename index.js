@@ -1,10 +1,8 @@
 'use strict';
 
 (function() {
-  // Guardamos o rácio original do ecrã
+  // --- 1. PREVENÇÃO DE ECRÃ BRANCO NO ZOOM ---
   var raloReal = window.devicePixelRatio || 1;
-  
-  // Limitamos a um máximo de 2 para manter a nitidez sem crashar
   var dprSeguro = Math.min(raloReal, 1.2); 
 
   Object.defineProperty(window, 'devicePixelRatio', {
@@ -12,40 +10,73 @@
   });
 
   var Marzipano = window.Marzipano;
+  var bowser = window.bowser;
+  var screenfull = window.screenfull;
   var data = window.APP_DATA;
-  var panoElement = document.querySelector('#pano');
 
-  // --- 1. LER PARÂMETROS DO URL (CORRIGIDO E SEGURO) ---
+  // Grab elements from DOM.
+  var panoElement = document.querySelector('#pano');
+  var autorotateToggleElement = document.querySelector('#autorotateToggle');
+  var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
+
+  // Detect desktop or mobile mode.
+  if (window.matchMedia) {
+    var setMode = function() {
+      if (mql.matches) {
+        document.body.classList.remove('desktop');
+        document.body.classList.add('mobile');
+      } else {
+        document.body.classList.remove('mobile');
+        document.body.classList.add('desktop');
+      }
+    };
+    var mql = matchMedia("(max-width: 500px), (max-height: 500px)");
+    setMode();
+    mql.addListener(setMode);
+  } else {
+    document.body.classList.add('desktop');
+  }
+
+  // Detect whether we are on a touch device.
+  document.body.classList.add('no-touch');
+  window.addEventListener('touchstart', function() {
+    document.body.classList.remove('no-touch');
+    document.body.classList.add('touch');
+  });
+
+  // Use tooltip fallback mode on IE < 11.
+  if (bowser.msie && parseFloat(bowser.version) < 11) {
+    document.body.classList.add('tooltip-fallback');
+  }
+
+  // Viewer options.
+  var viewerOpts = {
+    controls: {
+      mouseViewMode: data.settings.mouseViewMode
+    }
+  };
+
+  // Initialize viewer.
+  var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
+
+  // --- 2. LER PARÂMETROS DO URL (SHOPIFY) ---
   var urlParams = new URLSearchParams(window.location.search);
   var degToRad = Math.PI / 180;
 
-  // Esta função garante que se o Shopify enviar um valor vazio, a câmara não bloqueia com um "NaN"
-  function getSafeParam(param) {
-    if (!urlParams.has(param)) return null;
-    var valorStr = urlParams.get(param);
-    // Ignora valores vazios ou nulos que o Shopify possa injetar
-    if (valorStr === '' || valorStr === 'null' || valorStr === 'undefined') return null;
-    var val = parseFloat(valorStr);
-    return isNaN(val) ? null : val * degToRad;
-  }
+  var urlFov = urlParams.has('fov') ? parseFloat(urlParams.get('fov')) * degToRad : null;
+  var urlPitch = urlParams.has('pitch') ? parseFloat(urlParams.get('pitch')) * degToRad : null;
+  var urlYaw = urlParams.has('yaw') ? parseFloat(urlParams.get('yaw')) * degToRad : null;
+  var urlMinFov = urlParams.has('minFov') ? parseFloat(urlParams.get('minFov')) * degToRad : null;
+  var urlMaxFov = urlParams.has('maxFov') ? parseFloat(urlParams.get('maxFov')) * degToRad : null;
 
-  var urlFov = getSafeParam('fov');
-  var urlPitch = getSafeParam('pitch');
-  var urlYaw = getSafeParam('yaw');
-  var urlMinFov = getSafeParam('minFov');
-  var urlMaxFov = getSafeParam('maxFov');
-
-  var viewer = new Marzipano.Viewer(panoElement, {
-    controls: { mouseViewMode: data.settings.mouseViewMode }
-  });
-
+  // Create scenes.
   var scenes = data.scenes.map(function(sceneData) {
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
-    
-    // --- 2. DEFINIR LIMITES DE ZOOM ---
-    var maxFov = urlMaxFov !== null ? urlMaxFov : (120 * degToRad); 
-    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); 
+
+    // --- 3. DEFINIR LIMITES DE ZOOM ---
+    var maxFov = urlMaxFov !== null ? urlMaxFov : (120 * degToRad); // Usa o URL ou 120 por defeito
+    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // O limite de 10º (ou do URL)
     
     var baseLimiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, maxFov);
     
@@ -55,31 +86,84 @@
       p.fov = Math.max(minFov, Math.min(fovRequest, maxFov));
       return p;
     };
-    
-    // --- 3. APLICAR POV E ZOOM INICIAIS ---
+
+    // --- 4. APLICAR POV E ZOOM INICIAIS ---
     var initView = Object.assign({}, sceneData.initialViewParameters);
-    
     if (urlFov !== null) initView.fov = urlFov;
     if (urlPitch !== null) initView.pitch = urlPitch;
     if (urlYaw !== null) initView.yaw = urlYaw;
 
     var view = new Marzipano.RectilinearView(initView, limiter);
-    var scene = viewer.createScene({ source: source, geometry: geometry, view: view, pinFirstLevel: true });
-    
+
+    var scene = viewer.createScene({
+      source: source,
+      geometry: geometry,
+      view: view,
+      pinFirstLevel: true
+    });
+
     return { scene: scene, view: view };
   });
 
-  // --- 4. ROTAÇÃO AUTOMÁTICA ---
+  // --- 5. ROTAÇÃO AUTOMÁTICA ---
   var autorotate = Marzipano.autorotate({
     yawSpeed: 0.05,
     targetPitch: urlPitch !== null ? urlPitch : 0,
     targetFov: urlFov !== null ? urlFov : Math.PI/2
   });
+  
+  // Set handler for autorotate toggle (botão na interface)
+  if(autorotateToggleElement) {
+    autorotateToggleElement.addEventListener('click', function() {
+      if (autorotateToggleElement.classList.contains('enabled')) {
+        autorotateToggleElement.classList.remove('enabled');
+        viewer.stopMovement();
+        viewer.setIdleMovement(Infinity);
+      } else {
+        autorotateToggleElement.classList.add('enabled');
+        viewer.startMovement(autorotate);
+        viewer.setIdleMovement(3000, autorotate);
+      }
+    });
+  }
 
-  viewer.startMovement(autorotate);
-  viewer.setIdleMovement(3000, autorotate);
+  // --- 6. FULLSCREEN (Usando screenfull.js original) ---
+  if (screenfull.enabled && fullscreenToggleElement) {
+    document.body.classList.add('fullscreen-enabled');
+    fullscreenToggleElement.addEventListener('click', function() {
+      screenfull.toggle();
+    });
+    screenfull.on('change', function() {
+      if (screenfull.isFullscreen) {
+        fullscreenToggleElement.classList.add('enabled');
+      } else {
+        fullscreenToggleElement.classList.remove('enabled');
+      }
+    });
+  } else {
+    document.body.classList.add('fullscreen-disabled');
+  }
 
-  // --- 5. TOOLTIP E HOTSPOTS ---
+  // --- 7. CONTROLOS DE VISTA NO ECRÃ (Botões + / - / setas) ---
+  var viewUpElement = document.querySelector('#viewUp');
+  var viewDownElement = document.querySelector('#viewDown');
+  var viewLeftElement = document.querySelector('#viewLeft');
+  var viewRightElement = document.querySelector('#viewRight');
+  var viewInElement = document.querySelector('#viewIn');
+  var viewOutElement = document.querySelector('#viewOut');
+
+  var velocity = 0.7;
+  var friction = 3;
+  var controls = viewer.controls();
+  if(viewUpElement) controls.registerMethod('upElement',    new Marzipano.ElementPressControlMethod(viewUpElement,     'y', -velocity, friction), true);
+  if(viewDownElement) controls.registerMethod('downElement',  new Marzipano.ElementPressControlMethod(viewDownElement,   'y',  velocity, friction), true);
+  if(viewLeftElement) controls.registerMethod('leftElement',  new Marzipano.ElementPressControlMethod(viewLeftElement,   'x', -velocity, friction), true);
+  if(viewRightElement) controls.registerMethod('rightElement', new Marzipano.ElementPressControlMethod(viewRightElement,  'x',  velocity, friction), true);
+  if(viewInElement) controls.registerMethod('inElement',    new Marzipano.ElementPressControlMethod(viewInElement,  'zoom', -velocity, friction), true);
+  if(viewOutElement) controls.registerMethod('outElement',   new Marzipano.ElementPressControlMethod(viewOutElement, 'zoom',  velocity, friction), true);
+
+
+  // --- 8. TOOLTIP E HOTSPOTS PERSONALIZADOS ---
   var tooltip = document.createElement('div');
   tooltip.className = 'quadro-tooltip';
   tooltip.style.pointerEvents = 'none';
@@ -91,10 +175,12 @@
       .then(quadros => {
         quadros.forEach(q => {
           var a = document.createElement('div');
+          
           a.className = 'hotspot-quadro';
           a.style.width = q.w + 'px';
           a.style.height = q.h + 'px';
           a.style.cursor = 'pointer'; 
+          
           a.draggable = false; 
           a.style.userSelect = 'none'; 
           a.style.webkitUserSelect = 'none';
@@ -111,7 +197,8 @@
           
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
-          let startX = 0, startY = 0;
+          let startX = 0;
+          let startY = 0;
 
           a.addEventListener('pointerdown', (e) => {
             startX = e.clientX;
@@ -121,6 +208,7 @@
           a.addEventListener('pointerup', (e) => {
             let diffX = Math.abs(e.clientX - startX);
             let diffY = Math.abs(e.clientY - startY);
+            
             if (diffX < 5 && diffY < 5) {
               window.open('https://www.artclara.pt/pages/portefolio#' + q.id, '_blank');
             }
@@ -145,51 +233,16 @@
       });
   }
 
+  // Iniciar a primeira cena
   scenes[0].scene.switchTo();
-  carregarHotspots();
-
-  // --- 6. LÓGICA DE FULL SCREEN ---
-  var btnFullscreen = document.getElementById('btn-fullscreen');
-  var docElm = document.body; 
-
-  var iconEnter = '<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M5 5h5v2H7v3H5V5zm9 0h5v5h-2V7h-3V5zm5 9h-2v3h-3v2h5v-5zm-14 0h2v3h3v2H5v-5z"/></svg>';
-  var iconExit = '<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"/></svg>';
-
-  if (btnFullscreen) {
-    btnFullscreen.innerHTML = iconEnter;
-
-    btnFullscreen.addEventListener('click', function() {
-      var isInFullScreen = (document.fullscreenElement && document.fullscreenElement !== null) ||
-                           (document.webkitFullscreenElement && document.webkitFullscreenElement !== null) ||
-                           (document.mozFullScreenElement && document.mozFullScreenElement !== null) ||
-                           (document.msFullscreenElement && document.msFullscreenElement !== null);
-
-      if (!isInFullScreen) {
-        if (docElm.requestFullscreen) { docElm.requestFullscreen(); }
-        else if (docElm.mozRequestFullScreen) { docElm.mozRequestFullScreen(); }
-        else if (docElm.webkitRequestFullScreen) { docElm.webkitRequestFullScreen(); }
-        else if (docElm.msRequestFullscreen) { docElm.msRequestFullscreen(); }
-      } else {
-        if (document.exitFullscreen) { document.exitFullscreen(); }
-        else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
-        else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); }
-        else if (document.msExitFullscreen) { document.msExitFullscreen(); }
-      }
-    });
-
-    var updateIcon = function() {
-      var isInFullScreen = (document.fullscreenElement && document.fullscreenElement !== null) ||
-                           (document.webkitFullscreenElement && document.webkitFullscreenElement !== null) ||
-                           (document.mozFullScreenElement && document.mozFullScreenElement !== null) ||
-                           (document.msFullscreenElement && document.msFullscreenElement !== null);
-      
-      btnFullscreen.innerHTML = isInFullScreen ? iconExit : iconEnter;
-    };
-
-    document.addEventListener('fullscreenchange', updateIcon);
-    document.addEventListener('webkitfullscreenchange', updateIcon);
-    document.addEventListener('mozfullscreenchange', updateIcon);
-    document.addEventListener('MSFullscreenChange', updateIcon);
+  
+  // Iniciar a rotação automática se ativado no data.js
+  if (data.settings.autorotateEnabled) {
+    if(autorotateToggleElement) autorotateToggleElement.classList.add('enabled');
+    viewer.startMovement(autorotate);
+    viewer.setIdleMovement(3000, autorotate);
   }
+
+  carregarHotspots();
 
 })();
