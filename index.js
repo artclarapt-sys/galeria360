@@ -29,7 +29,7 @@
     var limiter = function(params) {
       var p = baseLimiter(params);
       // Força o zoom a não passar do limite mínimo definido
-      p.fov = Math.max(minFov, Math.min(p.fov, maxFov));
+      p.fov = Math.max(minFov, Math.min(params.fov, maxFov));
       return p;
     };
     
