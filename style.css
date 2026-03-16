@@ -50,14 +50,14 @@ html, body, #container, #pano {
   position: absolute;
   left: 50%;
   
-  /* O segredo: desce o equivalente ao resto da pintura (-21.43%) + 15px de margem livre */
+  /* O segredo: desce o equivalente ao resto da pintura (-21.43%) + 25px de margem livre */
   bottom: calc(-21.43% - 25px);
   
   /* Centra o texto nele mesmo apenas no eixo X */
   transform: translateX(-50%); 
   
   color: #fff;
-  font-size: 45px;
+  font-size: 20px;
   font-family: sans-serif;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), -1px -1px 4px rgba(0, 0, 0, 1);
   pointer-events: none; /* Mantém o ecrã tátil limpo para o Zoom */
