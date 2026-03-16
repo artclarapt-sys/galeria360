@@ -5,11 +5,11 @@
   var data = window.APP_DATA;
   var panoElement = document.querySelector('#pano');
 
-  // --- 1. LER PARÂMETROS DO URL (Injetados pelo Shopify) ---
+  // --- 1. LER PARÂMETROS DO URL ---
   var urlParams = new URLSearchParams(window.location.search);
   var degToRad = Math.PI / 180; // Fator de conversão de Graus para Radianos
 
-  // 2. Extrair os valores e converter para radianos (null se não existirem no URL)
+  // 2. Extrair os valores
   var urlFov = urlParams.has('fov') ? parseFloat(urlParams.get('fov')) * degToRad : null;
   var urlPitch = urlParams.has('pitch') ? parseFloat(urlParams.get('pitch')) * degToRad : null;
   var urlYaw = urlParams.has('yaw') ? parseFloat(urlParams.get('yaw')) * degToRad : null;
@@ -22,21 +22,19 @@
   var scenes = data.scenes.map(function(sceneData) {
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
-    var maxFov = 120 * degToRad; // Limite máximo de zoom out
-    var minFov = urlMinFov !== null ? urlMinFov : (5 * degToRad); // Usa o limite do Shopify, ou 5º por defeito
     
-    // O SEGREDO: Usamos o limitador "pitchfov" que ignora a resolução da imagem.
-    // Ele obedece estritamente aos limites de Cima/Baixo (-90 a 90 graus) e aos nossos limites de FOV.
+    var maxFov = 120 * degToRad; 
+    var minFov = urlMinFov !== null ? urlMinFov : (5 * degToRad);
+    
+    // O SEGREDO: O pitchfov força o Marzipano a ignorar a densidade de ecrã (como a do teu S24 Ultra)
     var limiter = Marzipano.RectilinearView.limit.pitchfov(
-      -Math.PI/2, Math.PI/2, // Limite de Pitch (Cima e Baixo)
-      minFov, maxFov         // Limites exatos do Zoom (Aproximação e Afastamento)
+      -Math.PI/2, Math.PI/2,
+      minFov, maxFov
     );
     
     // --- 3. APLICAR POV E ZOOM INICIAIS ---
-    // Copiamos os parâmetros originais definidos no Marzipano Tool para não alterar o objeto base
     var initView = Object.assign({}, sceneData.initialViewParameters);
     
-    // Substituímos pelos valores vindos do URL do Shopify, caso o utilizador tenha mexido neles
     if (urlFov !== null) initView.fov = urlFov;
     if (urlPitch !== null) initView.pitch = urlPitch;
     if (urlYaw !== null) initView.yaw = urlYaw;
@@ -48,7 +46,6 @@
   });
 
   // --- ROTAÇÃO AUTOMÁTICA ---
-  // 4. Manter a rotação automática alinhada com os parâmetros escolhidos no Shopify
   var autorotate = Marzipano.autorotate({
     yawSpeed: 0.05,
     targetPitch: urlPitch !== null ? urlPitch : 0,
