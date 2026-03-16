@@ -51,7 +51,7 @@ html, body, #container, #pano {
   left: 50%;
   
   /* O segredo: desce o equivalente ao resto da pintura (-21.43%) + 15px de margem livre */
-  bottom: calc(-21.43% - 15px);
+  bottom: calc(-21.43% - 25px);
   
   /* Centra o texto nele mesmo apenas no eixo X */
   transform: translateX(-50%); 
