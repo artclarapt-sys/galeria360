@@ -1,7 +1,7 @@
 'use strict';
 
 (function() {
-  // --- 1. PREVENÇÃO DE ECRÃ BRANCO NO ZOOM ---
+  // --- 1. PREVENÇÃO DE ECRÃ BRANCO NO ZOOM (DPR) ---
   var raloReal = window.devicePixelRatio || 1;
   var dprSeguro = Math.min(raloReal, 1.2); 
 
@@ -10,15 +10,15 @@
   });
 
   var Marzipano = window.Marzipano;
-  var screenfull = window.screenfull; // Mantemos o screenfull, mas com verificação segura
+  var screenfull = window.screenfull; 
   var data = window.APP_DATA;
 
-  // Grab elements from DOM.
+  // Grab elements from DOM
   var panoElement = document.querySelector('#pano');
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
 
-  // Detect desktop or mobile mode.
+  // Modo Desktop / Mobile
   if (window.matchMedia) {
     var setMode = function() {
       if (mql.matches) {
@@ -36,54 +36,63 @@
     document.body.classList.add('desktop');
   }
 
-  // Detect whether we are on a touch device.
+  // Touch device flag
   document.body.classList.add('no-touch');
   window.addEventListener('touchstart', function() {
     document.body.classList.remove('no-touch');
     document.body.classList.add('touch');
   });
 
-  // A verificação do Bowser (Internet Explorer) foi removida daqui por ser obsoleta e causar conflitos.
-
-  // Viewer options.
+  // Inicializar o Viewer
   var viewerOpts = {
     controls: {
       mouseViewMode: data.settings.mouseViewMode
     }
   };
-
-  // Initialize viewer.
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
 
-  // --- 2. LER PARÂMETROS DO URL (SHOPIFY) ---
+  // --- 2. LER PARÂMETROS DO URL COM SEGURANÇA MÁXIMA ---
+  // Se o Shopify mandar vazio, evitamos o "NaN" que congela a câmara!
   var urlParams = new URLSearchParams(window.location.search);
   var degToRad = Math.PI / 180;
 
-  var urlFov = urlParams.has('fov') ? parseFloat(urlParams.get('fov')) * degToRad : null;
-  var urlPitch = urlParams.has('pitch') ? parseFloat(urlParams.get('pitch')) * degToRad : null;
-  var urlYaw = urlParams.has('yaw') ? parseFloat(urlParams.get('yaw')) * degToRad : null;
-  var urlMinFov = urlParams.has('minFov') ? parseFloat(urlParams.get('minFov')) * degToRad : null;
-  var urlMaxFov = urlParams.has('maxFov') ? parseFloat(urlParams.get('maxFov')) * degToRad : null;
+  function getSafeParam(paramName) {
+    if (urlParams.has(paramName)) {
+      var val = parseFloat(urlParams.get(paramName));
+      if (!isNaN(val)) {
+        return val * degToRad; // Devolve o valor válido em radianos
+      }
+    }
+    return null; // Devolve null se estiver vazio ou não for número
+  }
 
-  // Create scenes.
+  var urlFov    = getSafeParam('fov');
+  var urlPitch  = getSafeParam('pitch');
+  var urlYaw    = getSafeParam('yaw');
+  var urlMinFov = getSafeParam('minFov');
+  var urlMaxFov = getSafeParam('maxFov');
+
+  // --- 3. CRIAR A CENA COM LIMITADORES SEGUROS ---
   var scenes = data.scenes.map(function(sceneData) {
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
 
-    // --- 3. DEFINIR LIMITES DE ZOOM ---
-    var maxFov = urlMaxFov !== null ? urlMaxFov : (120 * degToRad); // Usa o URL ou 120 por defeito
-    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // O limite de 10º (ou do URL)
+    // Usa os limites do URL, ou falha em segurança para os padrões (10º e 120º)
+    var maxFov = urlMaxFov !== null ? urlMaxFov : (120 * degToRad); 
+    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad);
     
-    var baseLimiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, maxFov);
+    // Limite base tradicional do Marzipano (não tocar para manter a fluidez nativa)
+    var baseLimiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, 100 * degToRad, 120 * degToRad);
     
+    // O nosso limitador customizado à prova de erro
     var limiter = function(params) {
       var p = baseLimiter(params);
-      var fovRequest = params.fov !== undefined ? params.fov : p.fov;
-      p.fov = Math.max(minFov, Math.min(fovRequest, maxFov));
+      var reqFov = params.fov !== undefined ? params.fov : p.fov;
+      p.fov = Math.max(minFov, Math.min(reqFov, maxFov));
       return p;
     };
 
-    // --- 4. APLICAR POV E ZOOM INICIAIS ---
+    // Parâmetros Iniciais
     var initView = Object.assign({}, sceneData.initialViewParameters);
     if (urlFov !== null) initView.fov = urlFov;
     if (urlPitch !== null) initView.pitch = urlPitch;
@@ -101,14 +110,13 @@
     return { scene: scene, view: view };
   });
 
-  // --- 5. ROTAÇÃO AUTOMÁTICA ---
+  // --- 4. ROTAÇÃO AUTOMÁTICA ---
   var autorotate = Marzipano.autorotate({
     yawSpeed: 0.05,
     targetPitch: urlPitch !== null ? urlPitch : 0,
     targetFov: urlFov !== null ? urlFov : Math.PI/2
   });
   
-  // Set handler for autorotate toggle (botão na interface)
   if(autorotateToggleElement) {
     autorotateToggleElement.addEventListener('click', function() {
       if (autorotateToggleElement.classList.contains('enabled')) {
@@ -123,7 +131,7 @@
     });
   }
 
-  // --- 6. FULLSCREEN (Com verificação de segurança) ---
+  // --- 5. FULLSCREEN SEGURO ---
   if (screenfull && screenfull.enabled && fullscreenToggleElement) {
     document.body.classList.add('fullscreen-enabled');
     fullscreenToggleElement.addEventListener('click', function() {
@@ -140,7 +148,11 @@
     document.body.classList.add('fullscreen-disabled');
   }
 
-  // --- 7. CONTROLOS DE VISTA NO ECRÃ (Botões + / - / setas) ---
+  // --- 6. REGISTO DE CONTROLOS NATIVOS (UI) ---
+  var velocity = 0.7;
+  var friction = 3;
+  var controls = viewer.controls();
+  
   var viewUpElement = document.querySelector('#viewUp');
   var viewDownElement = document.querySelector('#viewDown');
   var viewLeftElement = document.querySelector('#viewLeft');
@@ -148,18 +160,14 @@
   var viewInElement = document.querySelector('#viewIn');
   var viewOutElement = document.querySelector('#viewOut');
 
-  var velocity = 0.7;
-  var friction = 3;
-  var controls = viewer.controls();
-  if(viewUpElement) controls.registerMethod('upElement',    new Marzipano.ElementPressControlMethod(viewUpElement,     'y', -velocity, friction), true);
-  if(viewDownElement) controls.registerMethod('downElement',  new Marzipano.ElementPressControlMethod(viewDownElement,   'y',  velocity, friction), true);
-  if(viewLeftElement) controls.registerMethod('leftElement',  new Marzipano.ElementPressControlMethod(viewLeftElement,   'x', -velocity, friction), true);
-  if(viewRightElement) controls.registerMethod('rightElement', new Marzipano.ElementPressControlMethod(viewRightElement,  'x',  velocity, friction), true);
-  if(viewInElement) controls.registerMethod('inElement',    new Marzipano.ElementPressControlMethod(viewInElement,  'zoom', -velocity, friction), true);
-  if(viewOutElement) controls.registerMethod('outElement',   new Marzipano.ElementPressControlMethod(viewOutElement, 'zoom',  velocity, friction), true);
+  if(viewUpElement) controls.registerMethod('upElement', new Marzipano.ElementPressControlMethod(viewUpElement, 'y', -velocity, friction), true);
+  if(viewDownElement) controls.registerMethod('downElement', new Marzipano.ElementPressControlMethod(viewDownElement, 'y', velocity, friction), true);
+  if(viewLeftElement) controls.registerMethod('leftElement', new Marzipano.ElementPressControlMethod(viewLeftElement, 'x', -velocity, friction), true);
+  if(viewRightElement) controls.registerMethod('rightElement', new Marzipano.ElementPressControlMethod(viewRightElement, 'x', velocity, friction), true);
+  if(viewInElement) controls.registerMethod('inElement', new Marzipano.ElementPressControlMethod(viewInElement, 'zoom', -velocity, friction), true);
+  if(viewOutElement) controls.registerMethod('outElement', new Marzipano.ElementPressControlMethod(viewOutElement, 'zoom', velocity, friction), true);
 
-
-  // --- 8. TOOLTIP E HOTSPOTS PERSONALIZADOS ---
+  // --- 7. TOOLTIPS E HOTSPOTS DA GALERIA ---
   var tooltip = document.createElement('div');
   tooltip.className = 'quadro-tooltip';
   tooltip.style.pointerEvents = 'none';
@@ -229,10 +237,9 @@
       });
   }
 
-  // Iniciar a primeira cena
+  // --- 8. INICIAR CENA ---
   scenes[0].scene.switchTo();
   
-  // Iniciar a rotação automática se ativado no data.js
   if (data.settings.autorotateEnabled) {
     if(autorotateToggleElement) autorotateToggleElement.classList.add('enabled');
     viewer.startMovement(autorotate);
