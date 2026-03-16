@@ -31,7 +31,6 @@
       -Math.PI/2, Math.PI/2, // Limite de Pitch (Cima e Baixo)
       minFov, maxFov         // Limites exatos do Zoom (Aproximação e Afastamento)
     );
-    };
     
     // --- 3. APLICAR POV E ZOOM INICIAIS ---
     // Copiamos os parâmetros originais definidos no Marzipano Tool para não alterar o objeto base
