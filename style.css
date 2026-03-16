@@ -52,7 +52,7 @@ html, body, #container, #pano {
   transform: translateX(-50%); 
   
   /* Cor ligeiramente mais escura que o bege do fundo para o "fundo" do entalhe */
-  color: rgba(0, 0, 0, 0.1); 
+  color: rgba(0, 0, 0, 0.03); 
   
   font-size: 25px;
   font-family: sans-serif;
