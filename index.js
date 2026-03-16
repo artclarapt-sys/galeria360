@@ -90,26 +90,26 @@
           a.style.webkitUserDrag = 'none';
           a.style.touchAction = 'none';
 
-          // --- INÍCIO: DATA NO CENTRO INFERIOR (SEGURO PARA MOBILE) ---
+          // --- INÍCIO: DATA FORA DA PINTURA, CENTRADA POR BAIXO ---
           let extrairAno = q.info.match(/\b(\d{4})\s*$/);
           if (extrairAno) {
             let labelAno = document.createElement('div');
             labelAno.className = 'ano-obra';
             labelAno.innerText = extrairAno[1];
             
-            // Calculamos apenas o espaço em falta na vertical (os 30% que faltam)
+            // Calculamos o espaço até à borda real da pintura
             let margemY = ((q.h / 0.7) - q.h) / 2;
             
-            // Colocamos o elemento a 50% da largura e usamos "translate(-50%, ...)" 
-            // para o centrar no próprio eixo de forma perfeita.
             labelAno.style.position = 'absolute';
             labelAno.style.left = '50%';
             labelAno.style.bottom = '0px';
-            labelAno.style.transform = `translate(-50%, ${margemY - 5}px)`;
+            
+            // Aqui é que está o segredo: margemY leva à borda, + 15px atira-o para fora!
+            labelAno.style.transform = `translate(-50%, ${margemY + 15}px)`;
             
             a.appendChild(labelAno);
           }
-          // --- FIM: DATA NO CENTRO INFERIOR ---
+          // --- FIM: DATA FORA DA PINTURA ---
 
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
