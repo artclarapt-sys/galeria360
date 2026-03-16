@@ -55,8 +55,8 @@ html, body, #container, #pano {
   color: rgba(0, 0, 0, 0.2); 
   
   font-size: 20px;
-  font-family: arial;
-  font-weight: bold; /* O efeito funciona melhor com fontes mais grossas */
+  font-family: sans-serif;
+  font-weight: 900; /* O efeito funciona melhor com fontes mais grossas */
   
   /* O TRUQUE: Sombras que criam profundidade */
   text-shadow: 
