@@ -1,6 +1,13 @@
 'use strict';
 
 (function() {
+  // --- A TUA LÓGICA DO 2px=1px ---
+  // Enganamos o Marzipano para ele ignorar a super resolução do S24 Ultra.
+  // Isto evita o ecrã em branco (estouro de WebGL) e liberta o zoom!
+  Object.defineProperty(window, 'devicePixelRatio', {
+    get: function() { return 1; }
+  });
+
   var Marzipano = window.Marzipano;
   var data = window.APP_DATA;
   var panoElement = document.querySelector('#pano');
@@ -25,21 +32,14 @@
     var maxFov = 120 * degToRad;
     var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // O limite de 10º do Shopify
     
-    // O limitador base do Marzipano (que no S24 bloqueia aos 20º)
+    // Como o ecrã agora é "falsamente" normal, usamos o limitador original em segurança
     var baseLimiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, maxFov);
     
     var limiter = function(params) {
-      // 1. Deixamos o Marzipano calcular a segurança para não dar erro "Bad View"
       var p = baseLimiter(params);
-      
-      // 2. FORÇAMOS o nosso Zoom, ignorando o bloqueio de resolução dele!
-      if (params.fov !== undefined) {
-        // Se o utilizador mexeu no zoom (dedos), forçamos até aos 10º
-        p.fov = Math.max(minFov, Math.min(params.fov, maxFov));
-      } else {
-        // Se a imagem está só a rodar sozinha, garantimos que se mantém no zoom atual
-        p.fov = Math.max(minFov, Math.min(p.fov, maxFov));
-      }
+      // Esmagamos o limite de zoom com o valor do Shopify, sem dar o erro "Bad View"
+      var fovRequest = params.fov !== undefined ? params.fov : p.fov;
+      p.fov = Math.max(minFov, Math.min(fovRequest, maxFov));
       return p;
     };
     
@@ -90,16 +90,6 @@
           a.style.webkitUserDrag = 'none';
           a.style.touchAction = 'none';
           
-          // --- ADIÇÃO DA DATA (POSIÇÃO CONTROLADA APENAS PELO CSS) ---
-          let extrairAno = q.info.match(/\b(\d{4})\s*$/);
-          if (extrairAno) {
-            let labelAno = document.createElement('div');
-            labelAno.className = 'ano-obra';
-            labelAno.innerText = extrairAno[1];
-            a.appendChild(labelAno);
-          }
-          // -----------------------------------------------------------
-
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
           let startX = 0;
