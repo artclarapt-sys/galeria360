@@ -45,15 +45,14 @@ html, body, #container, #pano {
   cursor: pointer;
 }
 
-/* Estilo do Ano no canto inferior direito do quadro */
+/* Estilo do Ano centrado na base do quadro */
 .ano-obra {
-  position: absolute;
-  bottom: 5px;
-  right: 8px;
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   font-family: sans-serif;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), -1px -1px 4px rgba(0, 0, 0, 1);
-  pointer-events: none; /* Para não interferir com o clique/arrasto do rato */
-  opacity: 0.7; /* Ligeiramente transparente para ser discreto */
+  pointer-events: none; /* Mantém o quadro limpo para zoom e cliques mobile */
+  opacity: 0.7;
+  text-align: center;
+  white-space: nowrap; /* Garante que o número fica sempre na mesma linha */
 }

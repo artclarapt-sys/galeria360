@@ -89,28 +89,27 @@
           a.style.webkitUserSelect = 'none';
           a.style.webkitUserDrag = 'none';
           a.style.touchAction = 'none';
-          
-          // --- INÍCIO: DATA NO CANTO EXATO DA PINTURA ---
-          // Extrair os 4 dígitos do ano do final da informação
-          var extrairAno = q.info.match(/\b(\d{4})\s*$/);
+
+          // --- INÍCIO: DATA NO CENTRO INFERIOR (SEGURO PARA MOBILE) ---
+          let extrairAno = q.info.match(/\b(\d{4})\s*$/);
           if (extrairAno) {
-            var labelAno = document.createElement('div');
+            let labelAno = document.createElement('div');
             labelAno.className = 'ano-obra';
             labelAno.innerText = extrairAno[1];
             
-            // Calculamos a dimensão original (100%) já que o 'q.w'/'q.h' estão a 70%
-            // E encontramos a diferença a empurrar para fora (margem extra)
-            var margemX = ((q.w / 0.7) - q.w) / 2;
-            var margemY = ((q.h / 0.7) - q.h) / 2;
+            // Calculamos apenas o espaço em falta na vertical (os 30% que faltam)
+            let margemY = ((q.h / 0.7) - q.h) / 2;
             
-            // Empurramos o texto com valores negativos para cobrir o espaço que falta (+ margem de respiração)
+            // Colocamos o elemento a 50% da largura e usamos "translate(-50%, ...)" 
+            // para o centrar no próprio eixo de forma perfeita.
             labelAno.style.position = 'absolute';
-            labelAno.style.right = -(margemX - 8) + 'px'; 
-            labelAno.style.bottom = -(margemY - 5) + 'px';
+            labelAno.style.left = '50%';
+            labelAno.style.bottom = '0px';
+            labelAno.style.transform = `translate(-50%, ${margemY - 5}px)`;
             
             a.appendChild(labelAno);
           }
-          // --- FIM: DATA NO CANTO EXATO DA PINTURA ---
+          // --- FIM: DATA NO CENTRO INFERIOR ---
 
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
