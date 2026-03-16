@@ -24,7 +24,7 @@
   var urlPitch = urlParams.has('pitch') ? parseFloat(urlParams.get('pitch')) * degToRad : null;
   var urlYaw = urlParams.has('yaw') ? parseFloat(urlParams.get('yaw')) * degToRad : null;
   var urlMinFov = urlParams.has('minFov') ? parseFloat(urlParams.get('minFov')) * degToRad : null;
-  var urlMaxFov = urlParams.has('maxFov') ? parseFloat(urlParams.get('maxFov')) * degToRad : null; // NOVA LINHA
+  var urlMaxFov = urlParams.has('maxFov') ? parseFloat(urlParams.get('maxFov')) * degToRad : null;
 
   var viewer = new Marzipano.Viewer(panoElement, {
     controls: { mouseViewMode: data.settings.mouseViewMode }
@@ -34,8 +34,9 @@
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
     
+    // --- 2. DEFINIR LIMITES DE ZOOM ---
     var maxFov = urlMaxFov !== null ? urlMaxFov : (120 * degToRad); // Usa o URL ou 120 por defeito
-    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // O limite de 10º do Shopify
+    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // O limite de 10º (ou do URL)
     
     // Como o ecrã agora é "falsamente" normal, usamos o limitador original em segurança
     var baseLimiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, maxFov);
@@ -61,7 +62,7 @@
     return { scene: scene, view: view };
   });
 
-  // --- ROTAÇÃO AUTOMÁTICA ---
+  // --- 4. ROTAÇÃO AUTOMÁTICA ---
   var autorotate = Marzipano.autorotate({
     yawSpeed: 0.05,
     targetPitch: urlPitch !== null ? urlPitch : 0,
@@ -71,7 +72,7 @@
   viewer.startMovement(autorotate);
   viewer.setIdleMovement(3000, autorotate);
 
-  // --- TOOLTIP E HOTSPOTS ---
+  // --- 5. TOOLTIP E HOTSPOTS ---
   var tooltip = document.createElement('div');
   tooltip.className = 'quadro-tooltip';
   tooltip.style.pointerEvents = 'none';
@@ -145,4 +146,52 @@
 
   scenes[0].scene.switchTo();
   carregarHotspots();
+
+  // --- 6. LÓGICA DE FULL SCREEN ---
+  var btnFullscreen = document.getElementById('btn-fullscreen');
+  var docElm = document.body; // Expandimos o body inteiro
+
+  // Ícones SVG para alternar dinamicamente
+  var iconEnter = '<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M5 5h5v2H7v3H5V5zm9 0h5v5h-2V7h-3V5zm5 9h-2v3h-3v2h5v-5zm-14 0h2v3h3v2H5v-5z"/></svg>';
+  var iconExit = '<svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"/></svg>';
+
+  if (btnFullscreen) {
+    // Definir ícone inicial
+    btnFullscreen.innerHTML = iconEnter;
+
+    btnFullscreen.addEventListener('click', function() {
+      var isInFullScreen = (document.fullscreenElement && document.fullscreenElement !== null) ||
+                           (document.webkitFullscreenElement && document.webkitFullscreenElement !== null) ||
+                           (document.mozFullScreenElement && document.mozFullScreenElement !== null) ||
+                           (document.msFullscreenElement && document.msFullscreenElement !== null);
+
+      if (!isInFullScreen) {
+        if (docElm.requestFullscreen) { docElm.requestFullscreen(); }
+        else if (docElm.mozRequestFullScreen) { docElm.mozRequestFullScreen(); }
+        else if (docElm.webkitRequestFullScreen) { docElm.webkitRequestFullScreen(); }
+        else if (docElm.msRequestFullscreen) { docElm.msRequestFullscreen(); }
+      } else {
+        if (document.exitFullscreen) { document.exitFullscreen(); }
+        else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
+        else if (document.mozCancelFullScreen) { document.mozCancelFullScreen(); }
+        else if (document.msExitFullscreen) { document.msExitFullscreen(); }
+      }
+    });
+
+    // Event listener para mudar o ícone quando o estado do fullscreen altera
+    var updateIcon = function() {
+      var isInFullScreen = (document.fullscreenElement && document.fullscreenElement !== null) ||
+                           (document.webkitFullscreenElement && document.webkitFullscreenElement !== null) ||
+                           (document.mozFullScreenElement && document.mozFullScreenElement !== null) ||
+                           (document.msFullscreenElement && document.msFullscreenElement !== null);
+      
+      btnFullscreen.innerHTML = isInFullScreen ? iconExit : iconEnter;
+    };
+
+    document.addEventListener('fullscreenchange', updateIcon);
+    document.addEventListener('webkitfullscreenchange', updateIcon);
+    document.addEventListener('mozfullscreenchange', updateIcon);
+    document.addEventListener('MSFullscreenChange', updateIcon);
+  }
+
 })();

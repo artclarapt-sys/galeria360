@@ -60,3 +60,32 @@ html, body, #container, #pano {
   text-align: center;
   white-space: nowrap;
 }
+
+/* Estilos para o botão de ecrã inteiro */
+.btn-fullscreen {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999; /* Garante que fica por cima do canvas do Marzipano */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-fullscreen:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Esconder o botão no iOS se não for suportado nativamente (opcional) */
+@supports (-webkit-touch-callout: none) {
+  /* O iOS Safari tem limitações conhecidas com a API de fullscreen em iframes,
+     mas em versões recentes já suporta melhor. Podes deixar assim e testar. */
+}
