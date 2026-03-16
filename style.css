@@ -55,12 +55,12 @@ html, body, #container, #pano {
   color: rgba(0, 0, 0, 0.2); 
   
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: arial;
   font-weight: bold; /* O efeito funciona melhor com fontes mais grossas */
   
   /* O TRUQUE: Sombras que criam profundidade */
   text-shadow: 
-    -1px -1px 1px rgba(0, 0, 0, .1), /* Sombra superior interna */
+    -1px -1px 1px rgba(0, 0, 0, .3), /* Sombra superior interna */
     1px 1px 1px rgba(255, 255, 255, .3); /* Brilho inferior (luz na borda) */
 
   pointer-events: none;
