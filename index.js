@@ -89,27 +89,16 @@
           a.style.webkitUserSelect = 'none';
           a.style.webkitUserDrag = 'none';
           a.style.touchAction = 'none';
-
-          // --- INÍCIO: DATA FORA DA PINTURA, CENTRADA POR BAIXO ---
+          
+          // --- ADIÇÃO DA DATA (POSIÇÃO CONTROLADA APENAS PELO CSS) ---
           let extrairAno = q.info.match(/\b(\d{4})\s*$/);
           if (extrairAno) {
             let labelAno = document.createElement('div');
             labelAno.className = 'ano-obra';
             labelAno.innerText = extrairAno[1];
-            
-            // Calculamos o espaço até à borda real da pintura
-            let margemY = ((q.h / 0.7) - q.h) / 2;
-            
-            labelAno.style.position = 'absolute';
-            labelAno.style.left = '50%';
-            labelAno.style.bottom = '0px';
-            
-            // Aqui é que está o segredo: margemY leva à borda, + 15px atira-o para fora!
-            labelAno.style.transform = `translate(-50%, ${margemY + 15}px)`;
-            
             a.appendChild(labelAno);
           }
-          // --- FIM: DATA FORA DA PINTURA ---
+          // -----------------------------------------------------------
 
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
