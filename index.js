@@ -6,7 +6,7 @@
   
   // Limitamos a um máximo de 2 (ou 1.5 se ainda der problemas no S24)
   // Isto mantém a nitidez alta, mas evita o ecrã branco no zoom extremo!
-  var dprSeguro = Math.min(raloReal, 2.3); 
+  var dprSeguro = Math.min(raloReal, 2.2); 
 
   Object.defineProperty(window, 'devicePixelRatio', {
     get: function() { return dprSeguro; }
@@ -93,6 +93,16 @@
           a.style.webkitUserSelect = 'none';
           a.style.webkitUserDrag = 'none';
           a.style.touchAction = 'none';
+
+          // --- ADIÇÃO DA DATA ---
+          var extrairAno = q.info.match(/\b(\d{4})\s*$/);
+          if (extrairAno) {
+            var labelAno = document.createElement('div');
+            labelAno.className = 'ano-obra';
+            labelAno.innerText = extrairAno[1];
+            a.appendChild(labelAno);
+          }
+          // ----------------------
           
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
