@@ -1,13 +1,6 @@
 'use strict';
 
 (function() {
-  // --- A TUA LÓGICA DO 2px=1px ---
-  // Enganamos o Marzipano para ele ignorar a super resolução do S24 Ultra.
-  // Isto evita o ecrã em branco (estouro de WebGL) e liberta o zoom!
-  Object.defineProperty(window, 'devicePixelRatio', {
-    get: function() { return 1; }
-  });
-
   var Marzipano = window.Marzipano;
   var data = window.APP_DATA;
   var panoElement = document.querySelector('#pano');
@@ -32,14 +25,21 @@
     var maxFov = 120 * degToRad;
     var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // O limite de 10º do Shopify
     
-    // Como o ecrã agora é "falsamente" normal, usamos o limitador original em segurança
+    // O limitador base do Marzipano (que no S24 bloqueia aos 20º)
     var baseLimiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, maxFov);
     
     var limiter = function(params) {
+      // 1. Deixamos o Marzipano calcular a segurança para não dar erro "Bad View"
       var p = baseLimiter(params);
-      // Esmagamos o limite de zoom com o valor do Shopify, sem dar o erro "Bad View"
-      var fovRequest = params.fov !== undefined ? params.fov : p.fov;
-      p.fov = Math.max(minFov, Math.min(fovRequest, maxFov));
+      
+      // 2. FORÇAMOS o nosso Zoom, ignorando o bloqueio de resolução dele!
+      if (params.fov !== undefined) {
+        // Se o utilizador mexeu no zoom (dedos), forçamos até aos 10º
+        p.fov = Math.max(minFov, Math.min(params.fov, maxFov));
+      } else {
+        // Se a imagem está só a rodar sozinha, garantimos que se mantém no zoom atual
+        p.fov = Math.max(minFov, Math.min(p.fov, maxFov));
+      }
       return p;
     };
     
