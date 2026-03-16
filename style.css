@@ -51,7 +51,7 @@ html, body, #container, #pano {
   bottom: 5px;
   right: 8px;
   color: #fff;
-  font-size: 12px;
+  font-size: 16px;
   font-family: sans-serif;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), -1px -1px 4px rgba(0, 0, 0, 1);
   pointer-events: none; /* Para não interferir com o clique/arrasto do rato */

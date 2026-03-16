@@ -89,18 +89,29 @@
           a.style.webkitUserSelect = 'none';
           a.style.webkitUserDrag = 'none';
           a.style.touchAction = 'none';
-
-          // --- ADICIONAR O ANO DA OBRA ---
-          // Procura 4 dígitos no final do texto "q.info" (ex: "2026")
-          let extrairAno = q.info.match(/\b(\d{4})\s*$/);
+          
+          // --- INÍCIO: DATA NO CANTO EXATO DA PINTURA ---
+          // Extrair os 4 dígitos do ano do final da informação
+          var extrairAno = q.info.match(/\b(\d{4})\s*$/);
           if (extrairAno) {
-            let labelAno = document.createElement('div');
+            var labelAno = document.createElement('div');
             labelAno.className = 'ano-obra';
             labelAno.innerText = extrairAno[1];
+            
+            // Calculamos a dimensão original (100%) já que o 'q.w'/'q.h' estão a 70%
+            // E encontramos a diferença a empurrar para fora (margem extra)
+            var margemX = ((q.w / 0.7) - q.w) / 2;
+            var margemY = ((q.h / 0.7) - q.h) / 2;
+            
+            // Empurramos o texto com valores negativos para cobrir o espaço que falta (+ margem de respiração)
+            labelAno.style.position = 'absolute';
+            labelAno.style.right = -(margemX - 8) + 'px'; 
+            labelAno.style.bottom = -(margemY - 5) + 'px';
+            
             a.appendChild(labelAno);
           }
-          // -------------------------------
-          
+          // --- FIM: DATA NO CANTO EXATO DA PINTURA ---
+
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
           let startX = 0;
