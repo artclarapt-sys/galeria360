@@ -23,23 +23,29 @@
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
     
-    var maxFov = 120 * degToRad; // Limite máximo de zoom out
-    var minFov = urlMinFov !== null ? urlMinFov : (5 * degToRad); // 5º ou o valor do Shopify
+    var maxFov = 120 * degToRad; 
+    var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); 
     
-    // O TEU TRUQUE EM AÇÃO: Multiplicamos a resolução da imagem lida pelo Marzipano.
-    // Usamos o Device Pixel Ratio (a tal densidade do ecrã) para compensar ecrãs como o do S24 Ultra.
-    var dpr = window.devicePixelRatio || 1;
-    var fakeFaceSize = sceneData.faceSize * dpr * 3; // Enganamos o Marzipano com 3x a resolução
-    
-    // Voltamos a usar o limitador seguro do Marzipano para nunca dar erro "Bad View"
-    var baseLimiter = Marzipano.RectilinearView.limit.traditional(fakeFaceSize, maxFov);
-    
+    // --- O LIMITADOR INTELIGENTE ---
     var limiter = function(params) {
-      var p = baseLimiter(params);
-      // Como a resolução "falsa" é gigante, o limite interno do Marzipano desceu drasticamente.
-      // Agora o teu limite do Shopify (minFov) é quem manda!
-      p.fov = Math.max(minFov, Math.min(p.fov, maxFov));
-      return p;
+      var safeParams = {};
+      
+      // Se o Marzipano pedir Rotação, nós deixamos passar
+      if (params.yaw !== undefined) {
+        safeParams.yaw = params.yaw;
+      }
+      
+      // Se pedir Inclinação, bloqueamos nos limites físicos (Cima/Baixo)
+      if (params.pitch !== undefined) {
+        safeParams.pitch = Math.max(-Math.PI/2, Math.min(params.pitch, Math.PI/2));
+      }
+      
+      // Se pedir Zoom (Afastar/Aproximar), esmagamos qualquer restrição de densidade de ecrã do S24!
+      if (params.fov !== undefined) {
+        safeParams.fov = Math.max(minFov, Math.min(params.fov, maxFov));
+      }
+      
+      return safeParams;
     };
     
     // --- 3. APLICAR POV E ZOOM INICIAIS ---
