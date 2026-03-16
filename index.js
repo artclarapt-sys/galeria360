@@ -19,7 +19,7 @@
     controls: { mouseViewMode: data.settings.mouseViewMode }
   });
 
-  vvar scenes = data.scenes.map(function(sceneData) {
+  var scenes = data.scenes.map(function(sceneData) {
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
     
@@ -53,7 +53,7 @@
     var scene = viewer.createScene({ source: source, geometry: geometry, view: view, pinFirstLevel: true });
     
     return { scene: scene, view: view };
-  }););
+  });
 
   // --- ROTAÇÃO AUTOMÁTICA ---
   var autorotate = Marzipano.autorotate({
