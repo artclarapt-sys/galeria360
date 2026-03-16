@@ -60,8 +60,8 @@ html, body, #container, #pano {
   
   /* O TRUQUE: Sombras que criam profundidade */
   text-shadow: 
-    -1px -1px 1px rgba(0, 0, 0, .3), /* Sombra superior interna */
-    1px 1px 1px rgba(255, 255, 255, .7); /* Brilho inferior (luz na borda) */
+    -1px -1px 1px rgba(0, 0, 0, .1), /* Sombra superior interna */
+    1px 1px 1px rgba(255, 255, 255, .3); /* Brilho inferior (luz na borda) */
 
   pointer-events: none;
   opacity: 0.9;
