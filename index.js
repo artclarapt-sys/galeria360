@@ -26,11 +26,15 @@
     var maxFov = 120 * degToRad; 
     var minFov = urlMinFov !== null ? urlMinFov : (5 * degToRad);
     
-    // O SEGREDO: O pitchfov força o Marzipano a ignorar a densidade de ecrã (como a do teu S24 Ultra)
-    var limiter = Marzipano.RectilinearView.limit.pitchfov(
-      -Math.PI/2, Math.PI/2,
-      minFov, maxFov
-    );
+    // O VERDADEIRO SEGREDO: Um limitador customizado!
+    // Ignora a resolução das imagens e a densidade de ecrã do S24 Ultra.
+    var limiter = function(params) {
+      return {
+        yaw: params.yaw,
+        pitch: Math.max(-Math.PI/2, Math.min(params.pitch, Math.PI/2)), // Bloqueia olhar demasiado para cima/baixo
+        fov: Math.max(minFov, Math.min(params.fov, maxFov))             // Força o zoom exato que o Shopify manda
+      };
+    };
     
     // --- 3. APLICAR POV E ZOOM INICIAIS ---
     var initView = Object.assign({}, sceneData.initialViewParameters);
