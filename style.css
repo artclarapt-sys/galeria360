@@ -65,7 +65,7 @@ html, body, #container, #pano {
 .btn-fullscreen {
   position: absolute;
   top: 20px;
-  right: 35px;
+  left: 35px;
   width: 44px;
   height: 44px;
   background-color: rgba(0, 0, 0, 0.5);
