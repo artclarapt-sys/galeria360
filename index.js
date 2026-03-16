@@ -6,7 +6,7 @@
   
   // Limitamos a um máximo de 2 (ou 1.5 se ainda der problemas no S24)
   // Isto mantém a nitidez alta, mas evita o ecrã branco no zoom extremo!
-  var dprSeguro = Math.min(raloReal, 1); 
+  var dprSeguro = Math.min(raloReal, 2); 
 
   Object.defineProperty(window, 'devicePixelRatio', {
     get: function() { return dprSeguro; }
