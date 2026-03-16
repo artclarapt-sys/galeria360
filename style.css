@@ -52,7 +52,7 @@ html, body, #container, #pano {
   bottom: calc(-21.43% - 25px); /* Ajusta este 15px para subir ou descer */
   transform: translateX(-50%); 
   color: #fff;
-  font-size: 13px;
+  font-size: 20px;
   font-family: sans-serif;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), -1px -1px 4px rgba(0, 0, 0, 1);
   pointer-events: none; /* OBRIGATÓRIO: Mantém o ecrã tátil limpo para o Zoom */
