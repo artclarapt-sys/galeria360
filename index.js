@@ -24,6 +24,7 @@
   var urlPitch = urlParams.has('pitch') ? parseFloat(urlParams.get('pitch')) * degToRad : null;
   var urlYaw = urlParams.has('yaw') ? parseFloat(urlParams.get('yaw')) * degToRad : null;
   var urlMinFov = urlParams.has('minFov') ? parseFloat(urlParams.get('minFov')) * degToRad : null;
+  var urlMaxFov = urlParams.has('maxFov') ? parseFloat(urlParams.get('maxFov')) * degToRad : null;
 
   var viewer = new Marzipano.Viewer(panoElement, {
     controls: { mouseViewMode: data.settings.mouseViewMode }
@@ -33,7 +34,7 @@
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
     
-    var maxFov = 120 * degToRad;
+    var maxFov = urlMaxFov !== null ? urlMaxFov : (120 * degToRad); // Usa o URL ou 120 por defeito
     var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // O limite de 10º do Shopify
     
     // Como o ecrã agora é "falsamente" normal, usamos o limitador original em segurança
@@ -45,6 +46,7 @@
       var fovRequest = params.fov !== undefined ? params.fov : p.fov;
       p.fov = Math.max(minFov, Math.min(fovRequest, maxFov));
       return p;
+    };
     };
     
     // --- 3. APLICAR POV E ZOOM INICIAIS ---
