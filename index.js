@@ -6,7 +6,7 @@
   
   // Limitamos a um máximo de 2 (ou 1.5 se ainda der problemas no S24)
   // Isto mantém a nitidez alta, mas evita o ecrã branco no zoom extremo!
-  var dprSeguro = Math.min(raloReal, 1.2); 
+  var dprSeguro = Math.min(raloReal, 2.5); 
 
   Object.defineProperty(window, 'devicePixelRatio', {
     get: function() { return dprSeguro; }
@@ -24,7 +24,6 @@
   var urlPitch = urlParams.has('pitch') ? parseFloat(urlParams.get('pitch')) * degToRad : null;
   var urlYaw = urlParams.has('yaw') ? parseFloat(urlParams.get('yaw')) * degToRad : null;
   var urlMinFov = urlParams.has('minFov') ? parseFloat(urlParams.get('minFov')) * degToRad : null;
-  var urlMaxFov = urlParams.has('maxFov') ? parseFloat(urlParams.get('maxFov')) * degToRad : null;
 
   var viewer = new Marzipano.Viewer(panoElement, {
     controls: { mouseViewMode: data.settings.mouseViewMode }
@@ -34,8 +33,7 @@
     var source = Marzipano.ImageUrlSource.fromString("tiles/" + sceneData.id + "/{z}/{f}/{y}/{x}.webp", { cubeMapPreviewUrl: "tiles/" + sceneData.id + "/preview.webp" });
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
     
-    // Aplicar a limitação de Zoom Out (maxFov) e Zoom In (minFov)
-    var maxFov = urlMaxFov !== null ? urlMaxFov : (120 * degToRad);
+    var maxFov = 120 * degToRad;
     var minFov = urlMinFov !== null ? urlMinFov : (10 * degToRad); // O limite de 10º do Shopify
     
     // Como o ecrã agora é "falsamente" normal, usamos o limitador original em segurança
