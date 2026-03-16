@@ -10,8 +10,7 @@
   });
 
   var Marzipano = window.Marzipano;
-  var bowser = window.bowser;
-  var screenfull = window.screenfull;
+  var screenfull = window.screenfull; // Mantemos o screenfull, mas com verificação segura
   var data = window.APP_DATA;
 
   // Grab elements from DOM.
@@ -44,10 +43,7 @@
     document.body.classList.add('touch');
   });
 
-  // Use tooltip fallback mode on IE < 11.
-  if (bowser.msie && parseFloat(bowser.version) < 11) {
-    document.body.classList.add('tooltip-fallback');
-  }
+  // A verificação do Bowser (Internet Explorer) foi removida daqui por ser obsoleta e causar conflitos.
 
   // Viewer options.
   var viewerOpts = {
@@ -127,8 +123,8 @@
     });
   }
 
-  // --- 6. FULLSCREEN (Usando screenfull.js original) ---
-  if (screenfull.enabled && fullscreenToggleElement) {
+  // --- 6. FULLSCREEN (Com verificação de segurança) ---
+  if (screenfull && screenfull.enabled && fullscreenToggleElement) {
     document.body.classList.add('fullscreen-enabled');
     fullscreenToggleElement.addEventListener('click', function() {
       screenfull.toggle();
