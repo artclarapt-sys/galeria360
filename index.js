@@ -1,11 +1,15 @@
 'use strict';
 
 (function() {
-  // --- A TUA LÓGICA DO 2px=1px ---
-  // Enganamos o Marzipano para ele ignorar a super resolução do S24 Ultra.
-  // Isto evita o ecrã em branco (estouro de WebGL) e liberta o zoom!
+  // Guardamos o rácio original do ecrã
+  var raloReal = window.devicePixelRatio || 1;
+  
+  // Limitamos a um máximo de 2 (ou 1.5 se ainda der problemas no S24)
+  // Isto mantém a nitidez alta, mas evita o ecrã branco no zoom extremo!
+  var dprSeguro = Math.min(raloReal, 2); 
+
   Object.defineProperty(window, 'devicePixelRatio', {
-    get: function() { return 1; }
+    get: function() { return dprSeguro; }
   });
 
   var Marzipano = window.Marzipano;
@@ -89,16 +93,6 @@
           a.style.webkitUserSelect = 'none';
           a.style.webkitUserDrag = 'none';
           a.style.touchAction = 'none';
-
-         / --- ADIÇÃO DA DATA (POSIÇÃO CONTROLADA APENAS PELO CSS) ---
-          let extrairAno = q.info.match(/\b(\d{4})\s*$/);
-          if (extrairAno) {
-            let labelAno = document.createElement('div');
-            labelAno.className = 'ano-obra';
-            labelAno.innerText = extrairAno[1];
-            a.appendChild(labelAno);
-          }
-          // ----------------------------------------------------------
           
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
