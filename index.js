@@ -24,24 +24,34 @@
     var geometry = new Marzipano.CubeGeometry(sceneData.levels);
     
     var maxFov = 120 * degToRad; // Limite máximo de zoom out
-    var minFov = urlMinFov !== null ? urlMinFov : (5 * degToRad); // 5º por defeito se não houver URL
     
-    // --- LIMITADOR MANUAL ---
-    // Ignora a resolução das imagens e a densidade de ecrã (como a do S24 Ultra)
+    // Garantimos que não há NaNs vindos do URL
+    var safeMinFov = (urlMinFov !== null && !isNaN(urlMinFov)) ? urlMinFov : (5 * degToRad);
+    
+    // 1. Usamos o limitador nativo para processar yaw/pitch/roll de forma segura sem dar erros de "Bad view"
+    var baseLimiter = Marzipano.RectilinearView.limit.traditional(sceneData.faceSize, maxFov);
+    
     var limiter = function(params) {
-      return {
-        yaw: params.yaw,
-        pitch: Math.max(-Math.PI/2, Math.min(params.pitch, Math.PI/2)), // Limite de Cima/Baixo
-        fov: Math.max(minFov, Math.min(params.fov, maxFov))             // Força o zoom exato
-      };
+      // Deixa o Marzipano estruturar o objeto base e proteger contra 'undefined'
+      var p = baseLimiter(params);
+      
+      // O SEGREDO: Se o utilizador pediu um Zoom (params.fov), usamos esse. 
+      // Se for uma atualização de rotação automática onde params.fov é undefined, usamos o p.fov do Marzipano para não rebentar.
+      var requestedFov = (params.fov !== undefined && !isNaN(params.fov)) ? params.fov : p.fov;
+      
+      // Sobrescrevemos o Zoom forçando a passar pelos limites de resolução do ecrã!
+      p.fov = Math.max(safeMinFov, Math.min(requestedFov, maxFov));
+      
+      return p;
     };
     
     // --- 3. APLICAR POV E ZOOM INICIAIS ---
     var initView = Object.assign({}, sceneData.initialViewParameters);
     
-    if (urlFov !== null) initView.fov = urlFov;
-    if (urlPitch !== null) initView.pitch = urlPitch;
-    if (urlYaw !== null) initView.yaw = urlYaw;
+    // Evitamos NaNs no arranque da câmara
+    if (urlFov !== null && !isNaN(urlFov)) initView.fov = urlFov;
+    if (urlPitch !== null && !isNaN(urlPitch)) initView.pitch = urlPitch;
+    if (urlYaw !== null && !isNaN(urlYaw)) initView.yaw = urlYaw;
 
     var view = new Marzipano.RectilinearView(initView, limiter);
     var scene = viewer.createScene({ source: source, geometry: geometry, view: view, pinFirstLevel: true });
