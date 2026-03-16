@@ -48,7 +48,7 @@ html, body, #container, #pano {
 /* Estilo do Ano - Fora da pintura, centrado na base */
 .ano-obra {
   position: absolute;
-  left: 50%;
+  right: -21.43%;
   bottom: calc(-21.43% - 30px); /* Ajusta este 15px para subir ou descer */
   transform: translateX(-50%); 
   color: #333;
