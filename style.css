@@ -45,13 +45,22 @@ html, body, #container, #pano {
   cursor: pointer;
 }
 
-/* Estilo do Ano centrado fora do quadro, por baixo */
+/* Estilo do Ano - Fora da pintura, centrado na base */
 .ano-obra {
+  position: absolute;
+  left: 50%;
+  
+  /* O segredo: desce o equivalente ao resto da pintura (-21.43%) + 15px de margem livre */
+  bottom: calc(-21.43% - 15px);
+  
+  /* Centra o texto nele mesmo apenas no eixo X */
+  transform: translateX(-50%); 
+  
   color: #fff;
-  font-size: 16px; /* Aumentei um bocadinho, ajusta se precisares */
+  font-size: 18px;
   font-family: sans-serif;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), -1px -1px 4px rgba(0, 0, 0, 1);
-  pointer-events: none; /* Mantém o ecrã limpo para o Zoom! */
+  pointer-events: none; /* Mantém o ecrã tátil limpo para o Zoom */
   opacity: 0.8;
   text-align: center;
   white-space: nowrap;
