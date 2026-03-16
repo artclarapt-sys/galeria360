@@ -93,6 +93,16 @@
           a.style.webkitUserSelect = 'none';
           a.style.webkitUserDrag = 'none';
           a.style.touchAction = 'none';
+
+          // --- ADIÇÃO DA DATA ---
+          var extrairAno = q.info.match(/\b(\d{4})\s*$/);
+          if (extrairAno) {
+            var labelAno = document.createElement('div');
+            labelAno.className = 'ano-obra';
+            labelAno.innerText = extrairAno[1];
+            a.appendChild(labelAno);
+          }
+          // ----------------------
           
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
