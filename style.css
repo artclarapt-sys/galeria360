@@ -61,33 +61,42 @@ html, body, #container, #pano {
   white-space: nowrap;
 }
 
-/* --- Botão Fullscreen --- */
+/* --- Botão Fullscreen (CORRIGIDO) --- */
 #fullscreenToggle {
-  display: none;
+  display: none; /* Escondido por defeito */
   position: absolute;
   top: 20px;
-  right: 50px; /* Ajustado para 50px */
+  right: 50px;
   width: 40px;
   height: 40px;
-  padding: 5px;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 4px;
-  z-index: 10001; /* Garante que fica por cima do pano e da tooltip */
+  z-index: 10001; /* Garante que fica por cima */
   cursor: pointer;
+  
+  /* --- ESTA É A CORREÇÃO: Usar Flexbox para centralizar --- */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Removemos o padding antigo */
 }
 
+/* Mostra o botão apenas se o fullscreen estiver ativado no browser */
 body.fullscreen-enabled #fullscreenToggle {
-  display: block;
+  display: flex; /* Mudado de 'block' para 'flex' */
 }
 
 #fullscreenToggle .icon {
-  position: absolute;
-  top: 5px;
-  right: 5px;
+  /* --- ESTA É A CORREÇÃO: Removemos o posicionamento absoluto --- */
+  /* position: absolute; */
+  /* top: 5px; */
+  /* right: 5px; */
   width: 30px;
   height: 30px;
+  display: block; /* Garante que ocupa o espaço correto */
 }
 
+/* Lógica de troca de ícones mantém-se */
 #fullscreenToggle .icon.on {
   display: none;
 }
