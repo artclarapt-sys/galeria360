@@ -45,18 +45,26 @@ html, body, #container, #pano {
   cursor: pointer;
 }
 
-/* Estilo do Ano - Fora da pintura, centrado na base */
 .ano-obra {
   position: absolute;
   right: -21.43%;
-  bottom: calc(-21.43% - 30px); /* Ajusta este 15px para subir ou descer */
+  bottom: calc(-21.43% - 30px);
   transform: translateX(-50%); 
-  color: #333;
+  
+  /* Cor ligeiramente mais escura que o bege do fundo para o "fundo" do entalhe */
+  color: rgba(0, 0, 0, 0.2); 
+  
   font-size: 20px;
   font-family: sans-serif;
-  /* text-shadow: 1px 1px 4px rgba(0, 0, 0, 1), -1px -1px 4px rgba(0, 0, 0, 1); */
-  pointer-events: none; /* OBRIGATÓRIO: Mantém o ecrã tátil limpo para o Zoom */
-  opacity: 0.8;
+  font-weight: bold; /* O efeito funciona melhor com fontes mais grossas */
+  
+  /* O TRUQUE: Sombras que criam profundidade */
+  text-shadow: 
+    -1px -1px 1px rgba(0, 0, 0, .3), /* Sombra superior interna */
+    1px 1px 1px rgba(255, 255, 255, .7); /* Brilho inferior (luz na borda) */
+
+  pointer-events: none;
+  opacity: 0.9;
   text-align: center;
   white-space: nowrap;
 }
