@@ -1,4275 +1,4282 @@
 [
-
+    {
+        "id": "image1",
+        "info": "Obra image1",
+        "y": 0.0,
+        "p": 1.1183,
+        "w": 16099,
+        "h": 2319
+    },
+    {
+        "id": "image1-1",
+        "info": "Obra image1-1",
+        "y": 0.0,
+        "p": -1.0214,
+        "w": 16099,
+        "h": 2815
+    },
     {
         "id": "AC551",
-        "info": "Woman-69, 80x120 cm, Acrylic on Canvas, 2026",
-        "y": 0.0,
-        "p": 0.0,
+        "info": "Obra AC551",
+        "y": -2.3459,
+        "p": -0.0034,
         "w": 321,
-        "h": 482
-    },
-    {
-        "id": "AC541",
-        "info": "Family of four-31, 120x80 cm, Acrylic on Canvas, 2026",
-        "y": -0.1759,
-        "p": 0.0,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC471",
-        "info": "Three brothers, 120x120 cm, Acrylic on Canvas, 2022",
-        "y": 0.1759,
-        "p": 0.0,
-        "w": 482,
         "h": 482
     },
     {
         "id": "AC532",
-        "info": "One, 95x75 cm, Acrylic on Canvas, 2025",
-        "y": -0.3644,
-        "p": 0.0,
+        "info": "Obra AC532",
+        "y": -2.4967,
+        "p": -0.0034,
         "w": 382,
         "h": 301
     },
     {
-        "id": "AC526",
-        "info": "Woman-67, 80x100 cm, Acrylic on Canvas, 2025",
-        "y": 0.3519,
-        "p": 0.0,
-        "w": 321,
-        "h": 402
-    },
-    {
-        "id": "AC427",
-        "info": "Family of five with a dog, 100x140 cm, Acrylic on Canvas, 2022",
-        "y": 0.5152,
-        "p": 0.0,
-        "w": 402,
-        "h": 563
-    },
-    {
-        "id": "AC525",
-        "info": "Man-40, 80x100 cm, Acrylic on Canvas, 2025",
-        "y": -0.5152,
-        "p": 0.0,
-        "w": 321,
-        "h": 402
-    },
-    {
-        "id": "AC105",
-        "info": "Horse rider, 70x90 cm, Acrylic on Canvas, 2019",
-        "y": -0.6535,
-        "p": 0.0,
-        "w": 281,
-        "h": 362
+        "id": "AC541",
+        "info": "Obra AC541",
+        "y": -2.17,
+        "p": -0.0034,
+        "w": 482,
+        "h": 321
     },
     {
         "id": "AC550",
-        "info": "Woman in towel, 60x100 cm, Acrylic on Canvas, 2026",
-        "y": 0.6535,
-        "p": 0.0,
+        "info": "Obra AC550",
+        "y": -2.6349,
+        "p": -0.0034,
         "w": 241,
         "h": 402
     },
     {
+        "id": "AC557",
+        "info": "Obra AC557",
+        "y": -1.994,
+        "p": -0.0034,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC529",
+        "info": "Obra AC529",
+        "y": -2.7731,
+        "p": -0.0034,
+        "w": 402,
+        "h": 241
+    },
+    {
+        "id": "AC534",
+        "info": "Obra AC534",
+        "y": -1.841,
+        "p": -0.0027,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC518",
+        "info": "Obra AC518",
+        "y": -2.9365,
+        "p": -0.0034,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC549",
+        "info": "Obra AC549",
+        "y": -1.6902,
+        "p": -0.0027,
+        "w": 321,
+        "h": 241
+    },
+    {
         "id": "AC400",
-        "info": "Dog-5, 100x100 cm, Acrylic on Canvas, 2022",
-        "y": 0.7917,
-        "p": 0.0,
+        "info": "Obra AC400",
+        "y": -1.9815,
+        "p": -0.1416,
         "w": 402,
         "h": 402
     },
     {
         "id": "AC329",
-        "info": "Seven siblings, 155x90 cm, Acrylic on Canvas, 2021",
-        "y": -0.8419,
-        "p": 0.0,
+        "info": "Obra AC329",
+        "y": -2.8234,
+        "p": -0.1416,
         "w": 623,
         "h": 362
     },
     {
-        "id": "AC557",
-        "info": "Family of four-32, 90x60 cm, Acrylic on Canvas, 2026",
-        "y": 0.955,
-        "p": 0.0,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC537",
-        "info": "Two dogs-2, 60x100 cm, Acrylic on Canvas, 2026",
-        "y": -1.0304,
-        "p": 0.0,
-        "w": 241,
-        "h": 402
-    },
-    {
         "id": "AC268",
-        "info": "Mahmound copy, 150x90 cm, Acrylic on Canvas, 2020",
-        "y": 1.1561,
-        "p": 0.0,
+        "info": "Obra AC268",
+        "y": -1.7678,
+        "p": -0.1416,
         "w": 603,
         "h": 362
     },
     {
-        "id": "AC234",
-        "info": "Family of five-6, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.1687,
-        "p": 0.0,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC546",
-        "info": "Woman-68, 60x100 cm, Acrylic on Canvas, 2026",
-        "y": -1.3069,
-        "p": 0.0,
-        "w": 241,
-        "h": 402
-    },
-    {
-        "id": "AC262",
-        "info": "Lewis Hamilton 92nd victory, 120x90 cm, Acrylic on Canvas, 2020",
-        "y": 1.3823,
-        "p": 0.0,
-        "w": 482,
-        "h": 362
-    },
-    {
-        "id": "AC512",
-        "info": "Family of five-11, 100x70 cm, Acrylic on Canvas, 2024",
-        "y": -1.4451,
-        "p": 0.0,
+        "id": "AC371",
+        "info": "Obra AC371",
+        "y": -3.0527,
+        "p": -0.1291,
         "w": 402,
-        "h": 281
+        "h": 321
+    },
+    {
+        "id": "AC539",
+        "info": "Obra AC539",
+        "y": -3.0763,
+        "p": -0.0034,
+        "w": 281,
+        "h": 241
     },
     {
         "id": "AC349",
-        "info": "Family of five at the beach, 120x80 cm, Acrylic on Canvas, 2021",
-        "y": 1.5834,
-        "p": 0.0,
+        "info": "Obra AC349",
+        "y": -1.9689,
+        "p": 0.1223,
         "w": 482,
         "h": 321
     },
     {
-        "id": "AC228",
-        "info": "Dog-2, 100x100 cm, Acrylic on Canvas, 2020",
-        "y": -1.6211,
-        "p": 0.0,
-        "w": 402,
-        "h": 402
-    },
-    {
-        "id": "AC529",
-        "info": "Family of three-23, 100x60 cm, Acrylic on Canvas, 2025",
-        "y": 1.7719,
-        "p": 0.0,
-        "w": 402,
-        "h": 241
-    },
-    {
-        "id": "AC371",
-        "info": "Family of three-16, 100x80 cm, Acrylic on Canvas, 2021",
-        "y": -1.797,
-        "p": 0.0,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC534",
-        "info": "Wedding couple-3, 90x60 cm, Acrylic on Canvas, 2025",
-        "y": 1.9352,
-        "p": 0.0,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC185",
-        "info": "Grandfather and daugther, 100x100 cm, Acrylic on Canvas, 2020",
-        "y": -1.9729,
-        "p": 0.0,
-        "w": 402,
-        "h": 402
-    },
-    {
-        "id": "AC324",
-        "info": "Woman-42, 80x100 cm, Acrylic on Canvas, 2021",
-        "y": 2.086,
-        "p": 0.0,
-        "w": 321,
-        "h": 402
-    },
-    {
-        "id": "AC119",
-        "info": "Woman-13, 100x100 cm, Acrylic on Canvas, 2019",
-        "y": -2.1488,
-        "p": 0.0,
-        "w": 402,
-        "h": 402
-    },
-    {
-        "id": "AC518",
-        "info": "Family of three-22, 90x60 cm, Acrylic on Canvas, 2024",
-        "y": 2.2368,
-        "p": 0.0,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC208",
-        "info": "Family of five-5, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": -2.3248,
-        "p": 0.0,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC359",
-        "info": "Family of five at the beach-2, 80x80 cm, Acrylic on Canvas, 2021",
-        "y": 2.3876,
-        "p": 0.0,
-        "w": 321,
-        "h": 321
-    },
-    {
-        "id": "AC549",
-        "info": "Grandmother and granddaughter, 80x60 cm, Acrylic on Canvas, 2026",
-        "y": -2.4881,
-        "p": 0.0,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC527",
-        "info": "Chef, 60x80 cm, Acrylic on Canvas, 2025",
-        "y": 2.5133,
-        "p": 0.0,
-        "w": 241,
-        "h": 321
+        "id": "AC545",
+        "info": "Obra AC545",
+        "y": -2.748,
+        "p": 0.0971,
+        "w": 281,
+        "h": 201
     },
     {
         "id": "AC401",
-        "info": "Five dogs, 80x70 cm, Acrylic on Canvas, 2022",
-        "y": -2.6264,
-        "p": 0.0,
+        "info": "Obra AC401",
+        "y": -2.8862,
+        "p": 0.1097,
         "w": 321,
         "h": 281
     },
     {
-        "id": "AC517",
-        "info": "Football player-2, 70x70 cm, Acrylic on Canvas, 2024",
-        "y": 2.6264,
-        "p": 0.0,
-        "w": 281,
-        "h": 281
-    },
-    {
-        "id": "AC521",
-        "info": "Mother and son B&W, 80x60 cm, Acrylic on Canvas, 2025",
-        "y": -2.7646,
-        "p": 0.0,
+        "id": "AC359",
+        "info": "Obra AC359",
+        "y": -1.793,
+        "p": 0.1223,
         "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC377",
-        "info": "Motorcycle ryder, 90x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.7646,
-        "p": 0.0,
-        "w": 362,
-        "h": 241
+        "h": 321
     },
     {
         "id": "AC481",
-        "info": "Mother and son-5, 60x80 cm, Acrylic on Canvas, 2023",
-        "y": -2.8903,
-        "p": 0.0,
+        "info": "Obra AC481",
+        "y": -3.0119,
+        "p": 0.1223,
         "w": 241,
         "h": 321
+    },
+    {
+        "id": "AC547",
+        "info": "Obra AC547",
+        "y": -1.6799,
+        "p": 0.1097,
+        "w": 201,
+        "h": 281
     },
     {
         "id": "AC474",
-        "info": "Man-37, 60x80 cm, Acrylic on Canvas, 2022",
-        "y": 2.9028,
-        "p": 0.0,
+        "info": "Obra AC474",
+        "y": -2.4715,
+        "p": -0.1416,
         "w": 241,
         "h": 321
     },
     {
-        "id": "AC373",
-        "info": "Two brothers-3, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": -3.0159,
-        "p": 0.0,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC476",
-        "info": "Couple-100, 100x100 cm, Acrylic on Canvas, 2022",
-        "y": 3.0411,
-        "p": 0.0,
-        "w": 402,
-        "h": 402
+        "id": "AC508",
+        "info": "Obra AC508",
+        "y": -2.1951,
+        "p": -0.1165,
+        "w": 362,
+        "h": 201
     },
     {
         "id": "AC501",
-        "info": "Eight siblings, 100x80 cm, Acrylic on Canvas, 2023",
-        "y": -1.1687,
-        "p": -0.1257,
+        "info": "Obra AC501",
+        "y": -2.1825,
+        "p": 0.1348,
         "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC523",
+        "info": "Obra AC523",
+        "y": -2.4841,
+        "p": 0.1348,
+        "w": 321,
         "h": 321
     },
     {
         "id": "AC200",
-        "info": "Woman with Barcelos rooster, 60x90 cm, Acrylic on Canvas, 2020",
-        "y": 0.9299,
-        "p": -0.1382,
+        "info": "Obra AC200",
+        "y": -2.5846,
+        "p": -0.1668,
         "w": 241,
         "h": 362
     },
     {
-        "id": "AC539",
-        "info": "Wedding couple-4, 70x60 cm, Acrylic on Canvas, 2026",
-        "y": -1.42,
-        "p": -0.1131,
-        "w": 281,
+        "id": "AC538",
+        "info": "Obra AC538",
+        "y": -1.5998,
+        "p": -0.1165,
+        "w": 160,
         "h": 241
-    },
-    {
-        "id": "AC160",
-        "info": "Couple-29, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.7593,
-        "p": -0.1131,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC523",
-        "info": "Family of four-29, 80x80 cm, Acrylic on Canvas, 2025",
-        "y": 1.9101,
-        "p": -0.1257,
-        "w": 321,
-        "h": 321
-    },
-    {
-        "id": "AC332",
-        "info": "Mother and son, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.2242,
-        "p": -0.1131,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC440",
-        "info": "Woman-53, 100x100 cm, Acrylic on Canvas, 2022",
-        "y": -3.0584,
-        "p": -0.1382,
-        "w": 402,
-        "h": 402
-    },
-    {
-        "id": "AC530",
-        "info": "Grandmother and children-2, 60x100 cm, Acrylic on Canvas, 2025",
-        "y": -2.5007,
-        "p": -0.1131,
-        "w": 402,
-        "h": 241
-    },
-    {
-        "id": "AC202",
-        "info": "Couple-41, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.6389,
-        "p": -0.1131,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC522",
-        "info": "Wedding couple, 60x70 cm, Acrylic on Canvas, 2025",
-        "y": -2.752,
-        "p": -0.1131,
-        "w": 241,
-        "h": 281
-    },
-    {
-        "id": "AC508",
-        "info": "Family of four-28, 90x50 cm, Acrylic on Canvas, 2023",
-        "y": 0.955,
-        "p": 0.1005,
-        "w": 362,
-        "h": 201
-    },
-    {
-        "id": "AC118",
-        "info": "Father and son-4, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": 2.7772,
-        "p": -0.1131,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC545",
-        "info": "Couple-107, 70x50 cm, Acrylic on Canvas, 2026",
-        "y": -1.1435,
-        "p": 0.1005,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC117",
-        "info": "Young couple-9, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.4326,
-        "p": 0.1131,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC519",
-        "info": "Family of five-12, 90x60 cm, Acrylic on Canvas, 2024",
-        "y": 1.7593,
-        "p": 0.1131,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC558",
-        "info": "Man-43, 50x70 cm, Acrylic on Canvas, 2026",
-        "y": 1.885,
-        "p": 0.1131,
-        "w": 201,
-        "h": 281
-    },
-    {
-        "id": "AC425",
-        "info": "Family of four-25, 100x80 cm, Acrylic on Canvas, 2022",
-        "y": -3.0594,
-        "p": 0.1257,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC71",
-        "info": "Twin brothers B&W, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 2.2242,
-        "p": 0.1131,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC339",
-        "info": "Boy-7, 120x120 cm, Acrylic on Canvas, 2021",
-        "y": -2.5133,
-        "p": 0.1634,
-        "w": 482,
-        "h": 482
-    },
-    {
-        "id": "AC40",
-        "info": "Antonio Variacoes, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 2.6389,
-        "p": 0.1131,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC505",
-        "info": "Family of six-7, 90x60 cm, Acrylic on Canvas, 2023",
-        "y": -2.6892,
-        "p": 0.1131,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC547",
-        "info": "Man with dog-3, 50x70 cm, Acrylic on Canvas, 2026",
-        "y": 2.752,
-        "p": 0.1131,
-        "w": 201,
-        "h": 281
-    },
-    {
-        "id": "AC390",
-        "info": "Man-32, 80x100 cm, Acrylic on Canvas, 2022",
-        "y": -0.3519,
-        "p": -0.1508,
-        "w": 321,
-        "h": 402
-    },
-    {
-        "id": "AC542",
-        "info": "Couple-107, 80x60 cm, Acrylic on Canvas, 2026",
-        "y": -0.1382,
-        "p": -0.1257,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC528",
-        "info": "Grandparents and daughter, 80x60 cm, Acrylic on Canvas, 2025",
-        "y": 1.5582,
-        "p": -0.1257,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC503",
-        "info": "Brother and sister, 100x50 cm, Acrylic on Canvas, 2023",
-        "y": -1.797,
-        "p": -0.1131,
-        "w": 402,
-        "h": 201
-    },
-    {
-        "id": "AC333",
-        "info": "Mother and son at wedding, 100x100 cm, Acrylic on Canvas, 2021",
-        "y": -0.6786,
-        "p": -0.1634,
-        "w": 402,
-        "h": 402
-    },
-    {
-        "id": "AC475",
-        "info": "Baía de São Martinho do Porto, 90x60 cm, Acrylic on Canvas, 2022",
-        "y": -2.3122,
-        "p": -0.1257,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC307",
-        "info": "Horse, 100x100 cm, Acrylic on Canvas, 2021",
-        "y": -0.8545,
-        "p": -0.1634,
-        "w": 402,
-        "h": 402
-    },
-    {
-        "id": "AC233",
-        "info": "Man-15, 70x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.3625,
-        "p": -0.1257,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC448",
-        "info": "Family of three in Gaia, 60x90 cm, Acrylic on Canvas, 2022",
-        "y": -2.6389,
-        "p": -0.1382,
-        "w": 241,
-        "h": 362
-    },
-    {
-        "id": "AC540",
-        "info": "Family of three-24, 50x50 cm, Acrylic on Canvas, 2026",
-        "y": 2.4756,
-        "p": -0.1131,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC468",
-        "info": "Couple-98, 70x50 cm, Acrylic on Canvas, 2022",
-        "y": -2.8651,
-        "p": -0.1131,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC463",
-        "info": "Man at the beach, 70x70 cm, Acrylic on Canvas, 2022",
-        "y": -0.3393,
-        "p": 0.1257,
-        "w": 281,
-        "h": 281
-    },
-    {
-        "id": "AC258",
-        "info": "Father and sons jumping, 90x150 cm, Acrylic on Canvas, 2020",
-        "y": 1.0681,
-        "p": -0.2011,
-        "w": 362,
-        "h": 603
     },
     {
         "id": "AC502",
-        "info": "Father and daugther-3, 60x50 cm, Acrylic on Canvas, 2023",
-        "y": 2.9028,
-        "p": -0.1131,
+        "info": "Obra AC502",
+        "y": -2.6098,
+        "p": 0.1348,
         "w": 241,
         "h": 201
     },
     {
-        "id": "AC183",
-        "info": "Bride and groom-3, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.1257,
-        "p": 0.1257,
-        "w": 241,
-        "h": 241
-    },
-    {
         "id": "AC490",
-        "info": "Woman at the window, 50x60 cm, Acrylic on Canvas, 2023",
-        "y": -0.2262,
-        "p": 0.1257,
+        "info": "Obra AC490",
+        "y": -2.3459,
+        "p": -0.1668,
         "w": 201,
         "h": 241
     },
     {
         "id": "AC531",
-        "info": "Couple-106, 50x50 cm, Acrylic on Canvas, 2025",
-        "y": 1.5331,
-        "p": 0.1131,
+        "info": "Obra AC531",
+        "y": -2.3687,
+        "p": 0.1433,
         "w": 201,
         "h": 201
     },
     {
-        "id": "AC8",
-        "info": "Woman-4, 70x60 cm, Acrylic on Canvas, 2017",
-        "y": -1.7719,
-        "p": 0.1257,
+        "id": "AC503",
+        "info": "Obra AC503",
+        "y": -2.2077,
+        "p": -0.217,
+        "w": 402,
+        "h": 201
+    },
+    {
+        "id": "AC528",
+        "info": "Obra AC528",
+        "y": -2.7354,
+        "p": 0.1977,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC475",
+        "info": "Obra AC475",
+        "y": -1.639,
+        "p": 0.2228,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC233",
+        "info": "Obra AC233",
+        "y": -2.8737,
+        "p": 0.2228,
         "w": 281,
         "h": 241
     },
     {
-        "id": "AC538",
-        "info": "Lawyer, 40x60 cm, Óleo on Canvas, 2026",
-        "y": 1.9729,
-        "p": 0.1131,
-        "w": 160,
-        "h": 241
+        "id": "AC425",
+        "info": "Obra AC425",
+        "y": -3.0527,
+        "p": -0.2673,
+        "w": 402,
+        "h": 321
     },
     {
-        "id": "AC413",
-        "info": "Couple-84, 70x70 cm, Acrylic on Canvas, 2022",
-        "y": 1.2064,
-        "p": -0.1382,
+        "id": "AC463",
+        "info": "Obra AC463",
+        "y": -2.3459,
+        "p": 0.2605,
         "w": 281,
         "h": 281
     },
     {
-        "id": "AC111",
-        "info": "Woman-12, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": -2.2871,
-        "p": 0.1257,
+        "id": "AC536",
+        "info": "Obra AC536",
+        "y": -2.0317,
+        "p": 0.2354,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC448",
+        "info": "Obra AC448",
+        "y": -2.6098,
+        "p": 0.2605,
         "w": 241,
+        "h": 362
+    },
+    {
+        "id": "AC264",
+        "info": "Obra AC264",
+        "y": -1.9186,
+        "p": 0.2479,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC497",
+        "info": "Obra AC497",
+        "y": -1.8181,
+        "p": 0.2605,
+        "w": 241,
+        "h": 281
+    },
+    {
+        "id": "AC465",
+        "info": "Obra AC465",
+        "y": -2.9868,
+        "p": 0.2354,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC395",
+        "info": "Obra AC395",
+        "y": -1.5998,
+        "p": 0.1097,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC554",
+        "info": "Obra AC554",
+        "y": -3.092,
+        "p": 0.2354,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC419",
+        "info": "Obra AC419",
+        "y": -2.4464,
+        "p": -0.2798,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC507",
+        "info": "Obra AC507",
+        "y": -3.1077,
+        "p": 0.0971,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC333",
+        "info": "Obra AC333",
+        "y": -2.7229,
+        "p": -0.305,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC469",
+        "info": "Obra AC469",
+        "y": -2.4715,
+        "p": 0.2479,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC391",
+        "info": "Obra AC391",
+        "y": -2.2077,
+        "p": 0.2605,
+        "w": 321,
         "h": 241
     },
     {
         "id": "AC376",
-        "info": "Family of four in Azores, 90x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.375,
-        "p": 0.1257,
+        "info": "Obra AC376",
+        "y": -2.0443,
+        "p": -0.2798,
         "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC352",
-        "info": "Man-27, 50x70 cm, Acrylic on Canvas, 2021",
-        "y": 1.3195,
-        "p": -0.1382,
-        "w": 201,
-        "h": 281
-    },
-    {
-        "id": "AC230",
-        "info": "Couple-47, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": -2.8526,
-        "p": 0.1382,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC419",
-        "info": "Man-35, 60x80 cm, Acrylic on Canvas, 2022",
-        "y": 2.5133,
-        "p": 0.1382,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC227",
-        "info": "Man-13, 50x70 cm, Acrylic on Canvas, 2020",
-        "y": 1.42,
-        "p": -0.1382,
-        "w": 201,
-        "h": 281
-    },
-    {
-        "id": "AC391",
-        "info": "Family of eight, 80x60 cm, Acrylic on Canvas, 2022",
-        "y": 2.8651,
-        "p": 0.1257,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC181",
-        "info": "Couple-37, 120x80 cm, Acrylic on Canvas, 2020",
-        "y": -0.6912,
-        "p": 0.1508,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC186",
-        "info": "Man-11, 100x100 cm, Acrylic on Canvas, 2020",
-        "y": -0.8796,
-        "p": 0.1634,
-        "w": 402,
-        "h": 402
-    },
-    {
-        "id": "AC305",
-        "info": "Family of four-19, 100x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.6912,
-        "p": -0.1382,
-        "w": 402,
-        "h": 241
-    },
-    {
-        "id": "AC264",
-        "info": "Man-17, 50x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.6336,
-        "p": 0.1257,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC515",
-        "info": "Couple-104, 50x80 cm, Acrylic on Canvas, 2024",
-        "y": 1.0807,
-        "p": 0.1508,
-        "w": 201,
-        "h": 321
-    },
-    {
-        "id": "AC151",
-        "info": "Couple-27, 150x90 cm, Acrylic on Canvas, 2020",
-        "y": -2.0106,
-        "p": -0.1634,
-        "w": 603,
-        "h": 362
-    },
-    {
-        "id": "AC497",
-        "info": "Couple-101, 60x70 cm, Acrylic on Canvas, 2023",
-        "y": 1.1812,
-        "p": 0.1382,
-        "w": 241,
-        "h": 281
-    },
-    {
-        "id": "AC360",
-        "info": "Couple Dancing, 60x80 cm, Acrylic on Canvas, 2021",
-        "y": 1.2943,
-        "p": 0.1508,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC536",
-        "info": "Baby boy-2, 70x50 cm, Acrylic on Canvas, 2026",
-        "y": 1.4074,
-        "p": 0.1257,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC302",
-        "info": "Family of four-17, 90x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.3519,
-        "p": -0.1382,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC223",
-        "info": "Man with dog-2, 80x80 cm, Acrylic on Canvas, 2020",
-        "y": -0.4901,
-        "p": -0.1634,
-        "w": 321,
-        "h": 321
-    },
-    {
-        "id": "AC147",
-        "info": "Sisters, 100x30 cm, Acrylic on Canvas, 2020",
-        "y": -1.5708,
-        "p": -0.1131,
-        "w": 402,
-        "h": 120
-    },
-    {
-        "id": "AC342",
-        "info": "Couple-70, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.0483,
-        "p": -0.1382,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC465",
-        "info": "Bride and groom-5, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.9927,
-        "p": -0.1257,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC253",
-        "info": "Young couple-16, 70x80 cm, Acrylic on Canvas, 2020",
-        "y": 3.0159,
-        "p": -0.1634,
-        "w": 281,
-        "h": 321
-    },
-    {
-        "id": "AC283",
-        "info": "Mother and boys, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.3519,
-        "p": 0.1382,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC326",
-        "info": "Couple at the window, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": -0.4775,
-        "p": 0.1382,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC455",
-        "info": "Girl with dog, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.3069,
-        "p": -0.1257,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC328",
-        "info": "Couple-67, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.6786,
-        "p": 0.1382,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC395",
-        "info": "Dog-4, 40x60 cm, Acrylic on Canvas, 2022",
-        "y": 0.8168,
-        "p": -0.1382,
-        "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC103",
-        "info": "Couple Paris, 120x80 cm, Acrylic on Canvas, 2019",
-        "y": -1.6085,
-        "p": 0.1634,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC315",
-        "info": "Woman-40, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": -1.2818,
-        "p": 0.1382,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC320",
-        "info": "Father and son by the river, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": -1.9101,
-        "p": 0.1382,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC321",
-        "info": "Couple-66, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": -2.0483,
-        "p": 0.1382,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC374",
-        "info": "Baby boy, 40x60 cm, Acrylic on Canvas, 2021",
-        "y": -2.174,
-        "p": -0.1382,
-        "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC146",
-        "info": "Young couple-14, 95x75 cm, Acrylic on Canvas, 2020",
-        "y": 3.0159,
-        "p": 0.1508,
-        "w": 382,
-        "h": 301
-    },
-    {
-        "id": "AC188",
-        "info": "Mother with daugthers, 70x90 cm, Acrylic on Canvas, 2020",
-        "y": 0.8168,
-        "p": 0.1634,
-        "w": 281,
-        "h": 362
-    },
-    {
-        "id": "AC406",
-        "info": "Man-34, 60x70 cm, Acrylic on Canvas, 2022",
-        "y": -1.0179,
-        "p": 0.1508,
-        "w": 241,
-        "h": 281
-    },
-    {
-        "id": "AC524",
-        "info": "Wedding couple-2, 50x60 cm, Acrylic on Canvas, 2025",
-        "y": 2.0609,
-        "p": 0.1382,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC91",
-        "info": "Family of five-4, 150x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.0628,
-        "p": -0.1634,
-        "w": 603,
-        "h": 241
-    },
-    {
-        "id": "AC56",
-        "info": "Siblings, 120x90 cm, Acrylic on Canvas, 2018",
-        "y": 0.0377,
-        "p": 0.1759,
-        "w": 482,
-        "h": 362
-    },
-    {
-        "id": "AC70",
-        "info": "Family of five-2, 120x80 cm, Acrylic on Canvas, 2018",
-        "y": -1.5834,
-        "p": -0.2136,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC106",
-        "info": "Young woman-2, 50x50 cm, Acrylic on Canvas, 2019",
-        "y": -2.1614,
-        "p": 0.1382,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC306",
-        "info": "Couple-63, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.5027,
-        "p": -0.1759,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC298",
-        "info": "Family of five-8, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.5027,
-        "p": 0.1759,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC59",
-        "info": "Family of three-4, 120x80 cm, Acrylic on Canvas, 2018",
-        "y": -1.7844,
-        "p": -0.2262,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC148",
-        "info": "Couple with dog, 70x90 cm, Acrylic on Canvas, 2020",
-        "y": 0.2011,
-        "p": 0.1759,
-        "w": 281,
-        "h": 362
-    },
-    {
-        "id": "AC554",
-        "info": "Black dog, 50x50 cm, Acrylic on Canvas, 2026",
-        "y": 0.9299,
-        "p": 0.2011,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC269",
-        "info": "Family of three-13, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.1435,
-        "p": 0.2011,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC469",
-        "info": "Three siblings-3, 70x50 cm, Acrylic on Canvas, 2022",
-        "y": -1.0053,
-        "p": -0.2136,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC94",
-        "info": "Young couple-5, 95x75 cm, Acrylic on Canvas, 2019",
-        "y": -1.332,
-        "p": -0.2388,
-        "w": 382,
-        "h": 301
-    },
-    {
-        "id": "AC252",
-        "info": "Man B&W, 60x80 cm, Acrylic on Canvas, 2020",
-        "y": 2.4756,
-        "p": -0.2262,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC14",
-        "info": "Family of six, 120x80 cm, Acrylic on Canvas, 2017",
-        "y": 1.7342,
-        "p": -0.2388,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC389",
-        "info": "Couple at the beach, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": -2.8651,
-        "p": -0.2136,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC242",
-        "info": "Couple-50, 60x80 cm, Acrylic on Canvas, 2020",
-        "y": 2.9028,
-        "p": -0.2262,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC513",
-        "info": "Young woman-7, 50x50 cm, Acrylic on Canvas, 2024",
-        "y": 2.1614,
-        "p": -0.2136,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC509",
-        "info": "Mother and son-7, 30x40 cm, Acrylic on Canvas, 2024",
-        "y": -3.1165,
-        "p": 0.0,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC9",
-        "info": "Couple, 100x80 cm, Acrylic on Canvas, 2017",
-        "y": -2.4756,
-        "p": -0.2388,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC363",
-        "info": "Mother and son-2, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.5205,
-        "p": 0.2136,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC99",
-        "info": "Family of three-6, 80x70 cm, Acrylic on Canvas, 2019",
-        "y": 2.6012,
-        "p": -0.2262,
-        "w": 321,
-        "h": 281
-    },
-    {
-        "id": "AC66",
-        "info": "Couple-14, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": 2.752,
-        "p": -0.2262,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC467",
-        "info": "Bride and groom-6, 60x50 cm, Acrylic on Canvas, 2022",
-        "y": -1.4074,
-        "p": 0.2136,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC365",
-        "info": "Woman-46, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": -2.752,
-        "p": -0.2262,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC507",
-        "info": "Baby Girl-3, 30x40 cm, Acrylic on Canvas, 2023",
-        "y": -0.2388,
-        "p": -0.1131,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC351",
-        "info": "Couple riding a motocycle, 40x40 cm, Acrylic on Canvas, 2021",
-        "y": 0.2262,
-        "p": -0.1382,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC201",
-        "info": "Couple-40, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.7467,
-        "p": 0.2262,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC137",
-        "info": "Woman and dogs, 90x60 cm, Acrylic on Canvas, 2019",
-        "y": 1.8975,
-        "p": 0.2262,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC60",
-        "info": "Couple-12, 80x80 cm, Acrylic on Canvas, 2018",
-        "y": 2.174,
-        "p": 0.2388,
-        "w": 321,
-        "h": 321
-    },
-    {
-        "id": "AC204",
-        "info": "Mother with baby-3, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.6389,
-        "p": 0.2262,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC141",
-        "info": "Young couple-13, 90x60 cm, Acrylic on Canvas, 2019",
-        "y": -2.6892,
-        "p": 0.2262,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC301",
-        "info": "Woman-37, 60x70 cm, Acrylic on Canvas, 2021",
-        "y": -0.1131,
-        "p": -0.2388,
-        "w": 241,
-        "h": 281
-    },
-    {
-        "id": "AC449",
-        "info": "Couple-93, 50x60 cm, Acrylic on Canvas, 2022",
-        "y": 1.3949,
-        "p": 0.2262,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC205",
-        "info": "Couple-42, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.5331,
-        "p": -0.2388,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC491",
-        "info": "Family of four-27, 120x80 cm, Acrylic on Canvas, 2023",
-        "y": 2.3122,
-        "p": -0.2513,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC520",
-        "info": "Woman with dog-5, 80x100 cm, Acrylic on Canvas, 2024",
-        "y": -2.2871,
-        "p": -0.2639,
-        "w": 321,
-        "h": 402
-    },
-    {
-        "id": "AC207",
-        "info": "Woman-23, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.1382,
-        "p": 0.2388,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC327",
-        "info": "Man-23, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": -0.2262,
-        "p": -0.2388,
-        "w": 241,
         "h": 241
     },
     {
         "id": "AC510",
-        "info": "Woman-65, 27x35 cm, Acrylic on Canvas, 2024",
-        "y": -2.375,
-        "p": 0.1005,
+        "info": "Obra AC510",
+        "y": -1.5896,
+        "p": -0.2045,
         "w": 108,
         "h": 140
     },
     {
-        "id": "AC367",
-        "info": "Couple-75, 70x50 cm, Acrylic on Canvas, 2021",
-        "y": -1.7719,
-        "p": 0.2262,
-        "w": 281,
+        "id": "AC467",
+        "info": "Obra AC467",
+        "y": -1.8412,
+        "p": -0.2746,
+        "w": 241,
         "h": 201
     },
     {
-        "id": "AC516",
-        "info": "Couple-105, 40x60 cm, Acrylic on Canvas, 2024",
-        "y": 2.752,
-        "p": 0.2262,
-        "w": 160,
+        "id": "AC406",
+        "info": "Obra AC406",
+        "y": -2.8611,
+        "p": -0.2798,
+        "w": 241,
+        "h": 281
+    },
+    {
+        "id": "AC258",
+        "info": "Obra AC258",
+        "y": -1.7124,
+        "p": -0.3678,
+        "w": 362,
+        "h": 603
+    },
+    {
+        "id": "AC449",
+        "info": "Obra AC449",
+        "y": -2.3459,
+        "p": -0.2798,
+        "w": 201,
         "h": 241
     },
     {
         "id": "AC492",
-        "info": "Woman-62, 27x35 cm, Acrylic on Canvas, 2023",
-        "y": 3.1039,
-        "p": -0.1257,
+        "info": "Obra AC492",
+        "y": -2.2959,
+        "p": 0.1421,
         "w": 108,
         "h": 140
     },
     {
-        "id": "AC486",
-        "info": "Football player, 40x60 cm, Acrylic on Canvas, 2023",
-        "y": 0.2262,
-        "p": -0.2388,
-        "w": 160,
-        "h": 241
-    },
-    {
         "id": "AC493",
-        "info": "Dog-7, 40x60 cm, Acrylic on Canvas, 2023",
-        "y": -0.2513,
-        "p": 0.2388,
+        "info": "Obra AC493",
+        "y": -1.5998,
+        "p": -0.2924,
         "w": 160,
         "h": 241
     },
     {
-        "id": "AC460",
-        "info": "Woman-58, 80x100 cm, Acrylic on Canvas, 2022",
-        "y": -2.2745,
-        "p": 0.2639,
-        "w": 321,
-        "h": 402
-    },
-    {
-        "id": "AC495",
-        "info": "Woman-63, 40x60 cm, Acrylic on Canvas, 2023",
-        "y": -0.3267,
-        "p": 0.2388,
-        "w": 160,
+        "id": "AC305",
+        "info": "Obra AC305",
+        "y": -2.2077,
+        "p": -0.3175,
+        "w": 402,
         "h": 241
     },
     {
-        "id": "AC131",
-        "info": "Woman in water, 60x80 cm, Acrylic on Canvas, 2019",
-        "y": 2.2996,
-        "p": 0.2513,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC480",
-        "info": "Mother and son-4, 60x40 cm, Acrylic on Canvas, 2023",
-        "y": 2.8526,
-        "p": 0.2262,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC62",
-        "info": "Man-6, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 1.6211,
-        "p": 0.2262,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC322",
-        "info": "Woman-41, 70x50 cm, Oil on Canvas, 2021",
-        "y": 0.3267,
-        "p": -0.2388,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC470",
-        "info": "Family of three-20, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.6283,
-        "p": -0.2388,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC144",
-        "info": "Couple-24, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.754,
-        "p": -0.2513,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC277",
-        "info": "Couple-57, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.1184,
-        "p": -0.2513,
+        "id": "AC389",
+        "info": "Obra AC389",
+        "y": -2.5595,
+        "p": -0.305,
         "w": 241,
         "h": 241
-    },
-    {
-        "id": "AC415",
-        "info": "Woman-51, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": 2.4002,
-        "p": 0.2262,
-        "w": 201,
-        "h": 201
     },
     {
         "id": "AC457",
-        "info": "Woman-57, 40x60 cm, Acrylic on Canvas, 2022",
-        "y": -2.1614,
-        "p": 0.2388,
+        "info": "Obra AC457",
+        "y": -2.7103,
+        "p": 0.3108,
         "w": 160,
         "h": 241
     },
     {
-        "id": "AC346",
-        "info": "Man-26, 50x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.1938,
-        "p": -0.2513,
-        "w": 201,
+        "id": "AC326",
+        "info": "Obra AC326",
+        "y": -2.0694,
+        "p": 0.3359,
+        "w": 321,
         "h": 241
     },
     {
-        "id": "AC543",
-        "info": "Man-41, 40x40 cm, Acrylic on Canvas, 2026",
-        "y": 1.2818,
-        "p": -0.2388,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC459",
-        "info": "Mother and daugther-4, 40x60 cm, Acrylic on Canvas, 2022",
-        "y": 1.3572,
-        "p": -0.2513,
-        "w": 160,
+        "id": "AC302",
+        "info": "Obra AC302",
+        "y": -2.8234,
+        "p": 0.3359,
+        "w": 362,
         "h": 241
-    },
-    {
-        "id": "AC544",
-        "info": "Woman-68, 40x40 cm, Acrylic on Canvas, 2026",
-        "y": 1.8724,
-        "p": -0.2388,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC173",
-        "info": "Woman-16, 30x40 cm, Acrylic on Canvas, 2020",
-        "y": -2.375,
-        "p": 0.1759,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC109",
-        "info": "Young woman-3, 60x80 cm, Acrylic on Canvas, 2019",
-        "y": 1.9729,
-        "p": -0.2639,
-        "w": 241,
-        "h": 321
     },
     {
         "id": "AC466",
-        "info": "Couple-97, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.3142,
-        "p": 0.2388,
+        "info": "Obra AC466",
+        "y": -2.9616,
+        "p": 0.3108,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC231",
-        "info": "Man-14, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.4273,
-        "p": 0.2513,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC439",
-        "info": "Grandparents and son-2, 100x80 cm, Acrylic on Canvas, 2022",
-        "y": 0.666,
-        "p": 0.2639,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC388",
-        "info": "Woman-47, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": -0.5278,
-        "p": 0.2388,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC454",
-        "info": "Girl-14, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 1.1812,
-        "p": 0.2388,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC84",
-        "info": "Couple-17, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.2818,
-        "p": 0.2513,
+        "id": "AC320",
+        "info": "Obra AC320",
+        "y": -1.6924,
+        "p": 0.3359,
         "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC95",
-        "info": "Man-9, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.9101,
-        "p": 0.2513,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC226",
-        "info": "Woman-28, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.0358,
-        "p": 0.2513,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC379",
-        "info": "Military man, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": 2.0232,
-        "p": 0.2388,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC514",
-        "info": "Woman-66, 40x40 cm, Acrylic on Canvas, 2024",
-        "y": 2.0735,
-        "p": -0.2388,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC72",
-        "info": "Twin brothers B&W-2, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": -3.0159,
-        "p": 0.2513,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC314",
-        "info": "Mother with baby-4, 50x60 cm, Acrylic on Canvas, 2021",
-        "y": -1.0179,
-        "p": 0.2639,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC431",
-        "info": "Pilot, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.8796,
-        "p": -0.2513,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC77",
-        "info": "Woman-9, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": -2.84,
-        "p": 0.2639,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC163",
-        "info": "Couple-31, 70x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.0,
-        "p": -0.2765,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC198",
-        "info": "Man with dog, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.5007,
-        "p": 0.2639,
-        "w": 241,
         "h": 241
     },
     {
         "id": "AC488",
-        "info": "Family of three-21, 40x40 cm, Acrylic on Canvas, 2023",
-        "y": -2.174,
-        "p": -0.2388,
+        "info": "Obra AC488",
+        "y": -3.0999,
+        "p": 0.3327,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC182",
-        "info": "Skater boy, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.1131,
-        "p": -0.2765,
+        "id": "AC321",
+        "info": "Obra AC321",
+        "y": -2.4841,
+        "p": 0.3485,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC365",
+        "info": "Obra AC365",
+        "y": -1.8396,
+        "p": -0.3938,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC220",
-        "info": "Couple-45, 70x50 cm, Acrylic on Canvas, 2020",
-        "y": -2.6264,
-        "p": -0.2639,
+        "id": "AC367",
+        "info": "Obra AC367",
+        "y": -1.9312,
+        "p": 0.3485,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC496",
-        "info": "Two brothers-5, 40x40 cm, Acrylic on Canvas, 2023",
-        "y": 2.9531,
-        "p": 0.2513,
-        "w": 160,
+        "id": "AC415",
+        "info": "Obra AC415",
+        "y": -2.2328,
+        "p": 0.361,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC431",
+        "info": "Obra AC431",
+        "y": -2.3459,
+        "p": 0.361,
+        "w": 241,
         "h": 160
     },
     {
-        "id": "AC184",
-        "info": "Father daugter and son, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.9782,
-        "p": -0.2765,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC279",
-        "info": "Couple-58, 50x60 cm, Acrylic on Canvas, 2020",
-        "y": -3.0788,
-        "p": -0.2765,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC55",
-        "info": "Couple-10, 60x80 cm, Acrylic on Canvas, 2018",
-        "y": -0.6283,
-        "p": 0.289,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC347",
-        "info": "Family mosaic, 120x100 cm, Acrylic on Canvas, 2021",
-        "y": 0.4775,
-        "p": 0.3142,
-        "w": 482,
-        "h": 402
-    },
-    {
-        "id": "AC284",
-        "info": "Two brothers, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.7414,
-        "p": 0.2639,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC48",
-        "info": "Zeca Afonso, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 1.043,
-        "p": 0.2765,
+        "id": "AC298",
+        "info": "Obra AC298",
+        "y": -2.0526,
+        "p": -0.3929,
         "w": 321,
         "h": 241
-    },
-    {
-        "id": "AC45",
-        "info": "Jose Saramago, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 3.0762,
-        "p": 0.2765,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC190",
-        "info": "Woman-19, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.2943,
-        "p": 0.2765,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC271",
-        "info": "Woman with dog-4, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.4398,
-        "p": -0.2765,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC335",
-        "info": "Couple-68, 155x90 cm, Acrylic on Canvas, 2021",
-        "y": -0.4147,
-        "p": -0.3142,
-        "w": 623,
-        "h": 362
-    },
-    {
-        "id": "AC159",
-        "info": "Boy-2, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 3.0159,
-        "p": -0.289,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC382",
-        "info": "Girl-11, 80x100 cm, Acrylic on Canvas, 2021",
-        "y": -1.9604,
-        "p": -0.3267,
-        "w": 321,
-        "h": 402
-    },
-    {
-        "id": "AC161",
-        "info": "Couple B&W-2, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.5205,
-        "p": 0.289,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC378",
-        "info": "Couple-76, 100x80 cm, Acrylic on Canvas, 2021",
-        "y": 0.8419,
-        "p": 0.3142,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC100",
-        "info": "Couple-20, 80x50 cm, Acrylic on Canvas, 2019",
-        "y": -0.6158,
-        "p": -0.3016,
-        "w": 321,
-        "h": 201
-    },
-    {
-        "id": "AC555",
-        "info": "Man-42, 20x30 cm, Acrylic on Canvas, 2026",
-        "y": 1.6588,
-        "p": -0.1005,
-        "w": 80,
-        "h": 120
-    },
-    {
-        "id": "AC155",
-        "info": "Father and son-5, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.6336,
-        "p": 0.289,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC290",
-        "info": "Woman-34, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": -2.0735,
-        "p": -0.289,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC86",
-        "info": "Man-8, 70x60 cm, Acrylic on Canvas, 2019",
-        "y": -0.754,
-        "p": -0.3016,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC278",
-        "info": "Woman-32, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.8671,
-        "p": -0.3016,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC511",
-        "info": "Young woman-6, 27x35 cm, Acrylic on Canvas, 2024",
-        "y": 1.0053,
-        "p": 0.1885,
-        "w": 108,
-        "h": 140
-    },
-    {
-        "id": "AC444",
-        "info": "Man and dog at the beach, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.0,
-        "p": 0.289,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC535",
-        "info": "Dog-8, 20x30 cm, Acrylic on Canvas, 2025",
-        "y": -1.6839,
-        "p": -0.1131,
-        "w": 80,
-        "h": 120
     },
     {
         "id": "AC473",
-        "info": "Couple-99, 40x30 cm, Acrylic on Canvas, 2022",
-        "y": -0.8419,
-        "p": 0.2765,
+        "info": "Obra AC473",
+        "y": -2.3459,
+        "p": -0.3678,
         "w": 160,
         "h": 120
     },
     {
-        "id": "AC336",
-        "info": "Family of four-21, 120x80 cm, Acrylic on Canvas, 2021",
-        "y": 0.1382,
-        "p": 0.3267,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC422",
-        "info": "Young woman-5, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.9173,
-        "p": 0.289,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC275",
-        "info": "Dog-3, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -1.1184,
-        "p": 0.3016,
+        "id": "AC388",
+        "info": "Obra AC388",
+        "y": -2.9616,
+        "p": -0.3804,
         "w": 201,
         "h": 201
     },
     {
+        "id": "AC242",
+        "info": "Obra AC242",
+        "y": -3.0842,
+        "p": -0.4055,
+        "w": 241,
+        "h": 321
+    },
+    {
         "id": "AC458",
-        "info": "Family of three-19, 30x40 cm, Acrylic on Canvas, 2022",
-        "y": 3.107,
-        "p": -0.2011,
+        "info": "Obra AC458",
+        "y": -1.5919,
+        "p": 0.3233,
         "w": 120,
         "h": 160
     },
     {
-        "id": "AC104",
-        "info": "Couple-22, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": -0.9676,
-        "p": -0.3142,
+        "id": "AC346",
+        "info": "Obra AC346",
+        "y": -1.8181,
+        "p": 0.3736,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC535",
+        "info": "Obra AC535",
+        "y": -2.6661,
+        "p": -0.126,
+        "w": 80,
+        "h": 120
+    },
+    {
+        "id": "AC322",
+        "info": "Obra AC322",
+        "y": -2.4464,
+        "p": -0.3929,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC379",
+        "info": "Obra AC379",
+        "y": -2.8611,
+        "p": -0.3929,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC422",
+        "info": "Obra AC422",
+        "y": -2.5972,
+        "p": 0.3736,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC314",
+        "info": "Obra AC314",
+        "y": -2.5595,
+        "p": -0.4181,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC182",
+        "info": "Obra AC182",
+        "y": -2.9616,
+        "p": 0.4113,
         "w": 241,
         "h": 241
     },
     {
-        "id": "AC482",
-        "info": "Man on a boat, 80x60 cm, Acrylic on Canvas, 2023",
-        "y": 1.508,
-        "p": 0.3267,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC483",
-        "info": "Mother and son-6, 80x60 cm, Acrylic on Canvas, 2023",
-        "y": -1.7593,
-        "p": 0.3267,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC195",
-        "info": "Couple-39, 50x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.1614,
-        "p": -0.3142,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC282",
-        "info": "Woman-33, 150x150 cm, Acrylic on Canvas, 2020",
-        "y": -2.4756,
-        "p": 0.3896,
-        "w": 603,
-        "h": 603
-    },
-    {
         "id": "AC404",
-        "info": "Young woman with dog, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.3949,
-        "p": 0.3016,
+        "info": "Obra AC404",
+        "y": -1.5998,
+        "p": -0.3929,
         "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC442",
-        "info": "Two dogs, 45x35 cm, Acrylic on Canvas, 2022",
-        "y": -2.8526,
-        "p": -0.3016,
-        "w": 181,
-        "h": 140
-    },
-    {
-        "id": "AC214",
-        "info": "Woman-25, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 1.6211,
-        "p": 0.3142,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC383",
-        "info": "Woman at the beach, 40x40 cm, Acrylic on Canvas, 2021",
-        "y": 2.8274,
-        "p": 0.3016,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC218",
-        "info": "Woman-27, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.5404,
-        "p": -0.3267,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC325",
-        "info": "Family of five-9, 100x70 cm, Acrylic on Canvas, 2021",
-        "y": 1.7593,
-        "p": 0.3393,
-        "w": 402,
-        "h": 281
-    },
-    {
-        "id": "AC428",
-        "info": "Mother and son-3, 30x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.4451,
-        "p": -0.2136,
-        "w": 120,
         "h": 160
     },
     {
         "id": "AC412",
-        "info": "Girl-13, 30x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.2064,
-        "p": -0.2388,
+        "info": "Obra AC412",
+        "y": -1.5919,
+        "p": -0.0061,
         "w": 120,
         "h": 160
     },
     {
-        "id": "AC270",
-        "info": "Mother and daugther, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 0.3016,
-        "p": 0.3142,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC289",
-        "info": "Family of four-16, 100x80 cm, Acrylic on Canvas, 2021",
-        "y": -1.4954,
-        "p": -0.3519,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC436",
-        "info": "Couple-90, 80x60 cm, Acrylic on Canvas, 2022",
-        "y": 2.6012,
-        "p": -0.3393,
+        "id": "AC483",
+        "info": "Obra AC483",
+        "y": -2.2328,
+        "p": -0.4306,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC437",
-        "info": "Couple-91, 60x80 cm, Acrylic on Canvas, 2022",
-        "y": 0.3267,
-        "p": -0.3519,
+        "id": "AC271",
+        "info": "Obra AC271",
+        "y": -3.0842,
+        "p": 0.43,
         "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC254",
-        "info": "Couple on motorcycle, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 1.1687,
-        "p": 0.3142,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC375",
-        "info": "Three friends, 50x30 cm, Acrylic on Canvas, 2021",
-        "y": 2.4002,
-        "p": 0.3016,
-        "w": 201,
-        "h": 120
-    },
-    {
-        "id": "AC432",
-        "info": "Couple-88, 80x60 cm, Acrylic on Canvas, 2022",
-        "y": 2.7395,
-        "p": -0.3393,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC189",
-        "info": "Woman-18, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.6409,
-        "p": -0.3267,
-        "w": 201,
         "h": 201
     },
     {
-        "id": "AC74",
-        "info": "Young man-3, 50x70 cm, Acrylic on Canvas, 2018",
-        "y": -2.174,
-        "p": -0.3393,
+        "id": "AC383",
+        "info": "Obra AC383",
+        "y": -2.6726,
+        "p": 0.4113,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC195",
+        "info": "Obra AC195",
+        "y": -2.66,
+        "p": -0.4432,
         "w": 201,
-        "h": 281
+        "h": 241
     },
     {
         "id": "AC438",
-        "info": "Two brothers-4, 30x25 cm, Acrylic on Canvas, 2022",
-        "y": 1.4326,
-        "p": -0.2262,
+        "info": "Obra AC438",
+        "y": -3.1077,
+        "p": 0.16,
         "w": 120,
         "h": 100
     },
     {
-        "id": "AC178",
-        "info": "Woman-17, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -1.6336,
-        "p": -0.3267,
+        "id": "AC164",
+        "info": "Obra AC164",
+        "y": -2.7606,
+        "p": -0.4432,
         "w": 201,
-        "h": 201
+        "h": 241
     },
     {
-        "id": "AC225",
-        "info": "Couple-46, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 0.8796,
-        "p": -0.3267,
-        "w": 241,
-        "h": 160
+        "id": "AC375",
+        "info": "Obra AC375",
+        "y": -2.1323,
+        "p": 0.4239,
+        "w": 201,
+        "h": 120
+    },
+    {
+        "id": "AC347",
+        "info": "Obra AC347",
+        "y": -1.6626,
+        "p": 0.4741,
+        "w": 482,
+        "h": 402
+    },
+    {
+        "id": "AC432",
+        "info": "Obra AC432",
+        "y": -2.0192,
+        "p": 0.449,
+        "w": 321,
+        "h": 241
     },
     {
         "id": "AC361",
-        "info": "Baby Girl, 30x40 cm, Acrylic on Canvas, 2021",
-        "y": -3.1165,
-        "p": 0.2388,
+        "info": "Obra AC361",
+        "y": -1.9303,
+        "p": -0.2654,
         "w": 120,
         "h": 160
     },
     {
-        "id": "AC498",
-        "info": "Woman-64, 60x60 cm, Acrylic on Canvas, 2023",
-        "y": -2.7395,
-        "p": -0.3393,
+        "id": "AC254",
+        "info": "Obra AC254",
+        "y": -2.3459,
+        "p": 0.4364,
         "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC364",
-        "info": "Man-28, 30x40 cm, Acrylic on Canvas, 2021",
-        "y": 3.1039,
-        "p": -0.2765,
-        "w": 120,
         "h": 160
-    },
-    {
-        "id": "AC247",
-        "info": "Couple-52, 150x90 cm, Acrylic on Canvas, 2020",
-        "y": 1.9729,
-        "p": 0.3644,
-        "w": 603,
-        "h": 362
-    },
-    {
-        "id": "AC54",
-        "info": "Couple with dogs, 50x70 cm, Acrylic on Canvas, 2018",
-        "y": 1.3949,
-        "p": 0.3393,
-        "w": 201,
-        "h": 281
     },
     {
         "id": "AC387",
-        "info": "Baby girl at the beach, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": 1.4326,
-        "p": -0.289,
+        "info": "Obra AC387",
+        "y": -2.0946,
+        "p": -0.1919,
         "w": 120,
         "h": 120
     },
     {
-        "id": "AC194",
-        "info": "Woman-20, 40x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.2818,
-        "p": -0.3393,
-        "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC350",
-        "info": "Couple-71, 40x30 cm, Acrylic on Canvas, 2021",
-        "y": 1.8724,
-        "p": -0.3142,
-        "w": 160,
-        "h": 120
-    },
-    {
-        "id": "AC299",
-        "info": "Mother and two kids, 80x80 cm, Acrylic on Canvas, 2021",
-        "y": 2.6264,
-        "p": 0.3519,
-        "w": 321,
-        "h": 321
-    },
-    {
-        "id": "AC408",
-        "info": "Couple-82, 80x60 cm, Acrylic on Canvas, 2022",
-        "y": -2.6766,
-        "p": 0.3393,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC300",
-        "info": "Three siblings, 80x80 cm, Acrylic on Canvas, 2021",
-        "y": 1.5331,
-        "p": -0.3644,
-        "w": 321,
-        "h": 321
-    },
-    {
-        "id": "AC196",
-        "info": "Woman-21, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 2.928,
-        "p": 0.3267,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC107",
-        "info": "Woman-10, 50x50 cm, Acrylic on Canvas, 2019",
-        "y": 2.7395,
-        "p": 0.3267,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC318",
-        "info": "Couple-65, 90x60 cm, Acrylic on Canvas, 2021",
-        "y": -0.1382,
-        "p": -0.3519,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC257",
-        "info": "Family of five B&W, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": -1.7719,
-        "p": -0.3644,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC398",
-        "info": "Couple-79, 80x60 cm, Acrylic on Canvas, 2022",
-        "y": 2.8777,
-        "p": -0.3519,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC222",
-        "info": "Australian White Sand Beach, 150x90 cm, Acrylic on Canvas, 2020",
-        "y": -0.1634,
-        "p": 0.377,
-        "w": 603,
-        "h": 362
-    },
-    {
-        "id": "AC380",
-        "info": "Couple-77, 60x80 cm, Acrylic on Canvas, 2021",
-        "y": 2.4756,
-        "p": -0.3644,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC164",
-        "info": "Bride and groom-2, 50x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.5278,
-        "p": 0.3393,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC553",
-        "info": "Couple-108, 60x50 cm, Acrylic on Canvas, 2026",
-        "y": -2.1488,
-        "p": 0.3393,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC246",
-        "info": "Man-16, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": -1.1058,
-        "p": -0.377,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC294",
-        "info": "Two woman and a dog, 60x90 cm, Acrylic on Canvas, 2021",
-        "y": 0.7414,
-        "p": -0.3896,
-        "w": 241,
-        "h": 362
-    },
-    {
-        "id": "AC369",
-        "info": "Family of six-6, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": -1.2692,
-        "p": -0.3644,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC323",
-        "info": "Man-22, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": 2.0609,
-        "p": -0.3142,
+        "id": "AC364",
+        "info": "Obra AC364",
+        "y": -2.3459,
+        "p": -0.4432,
         "w": 120,
-        "h": 120
-    },
-    {
-        "id": "AC354",
-        "info": "Couple-73, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.6713,
-        "p": -0.3644,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC168",
-        "info": "Grandparents with four children, 100x100 cm, Acrylic on Canvas, 2020",
-        "y": -0.377,
-        "p": 0.3896,
-        "w": 402,
-        "h": 402
-    },
-    {
-        "id": "AC96",
-        "info": "Couple-19, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": -2.4127,
-        "p": -0.3519,
-        "w": 241,
         "h": 160
-    },
-    {
-        "id": "AC424",
-        "info": "Man-36, 60x60 cm, Acrylic on Canvas, 2022",
-        "y": -2.5258,
-        "p": -0.3644,
-        "w": 241,
-        "h": 241
     },
     {
         "id": "AC479",
-        "info": "Grandparents and son-3, 60x50 cm, Acrylic on Canvas, 2023",
-        "y": -1.2189,
-        "p": 0.3519,
+        "info": "Obra AC479",
+        "y": -2.7731,
+        "p": 0.4364,
         "w": 241,
         "h": 201
     },
     {
-        "id": "AC426",
-        "info": "Couple-87, 60x60 cm, Acrylic on Canvas, 2022",
-        "y": -0.7414,
-        "p": 0.3644,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC394",
-        "info": "Family of four-22, 80x50 cm, Acrylic on Canvas, 2022",
-        "y": -1.8975,
-        "p": 0.3519,
-        "w": 321,
-        "h": 201
-    },
-    {
-        "id": "AC238",
-        "info": "Couple-48, 70x100 cm, Acrylic on Canvas, 2020",
-        "y": -2.0358,
-        "p": 0.3896,
-        "w": 281,
-        "h": 402
-    },
-    {
-        "id": "AC338",
-        "info": "Man-24, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.174,
-        "p": 0.3644,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC276",
-        "info": "Grandparents and daugther, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.9908,
-        "p": 0.3644,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC199",
-        "info": "Father son and bird, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": 2.2996,
-        "p": -0.3896,
+        "id": "AC325",
+        "info": "Obra AC325",
+        "y": -2.4841,
+        "p": 0.4741,
         "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC63",
-        "info": "Couple-13, 60x40 cm, Acrylic on Canvas, 2018",
-        "y": 0.0,
-        "p": -0.3644,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC191",
-        "info": "Couple-38, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": 0.1382,
-        "p": -0.4021,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC311",
-        "info": "Family of seven-2, 80x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.0053,
-        "p": -0.377,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC452",
-        "info": "Couple-95, 50x60 cm, Acrylic on Canvas, 2022",
-        "y": 1.1938,
-        "p": -0.3644,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC169",
-        "info": "Grandparents and kids, 100x80 cm, Acrylic on Canvas, 2020",
-        "y": -2.8777,
-        "p": -0.4021,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC443",
-        "info": "Mother and daugther-3, 60x50 cm, Acrylic on Canvas, 2022",
-        "y": 1.3823,
-        "p": -0.3644,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC150",
-        "info": "Couple-26, 120x80 cm, Acrylic on Canvas, 2020",
-        "y": -0.9048,
-        "p": 0.4021,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC410",
-        "info": "Woman-49, 50x70 cm, Acrylic on Canvas, 2022",
-        "y": 1.7844,
-        "p": -0.377,
-        "w": 201,
         "h": 281
     },
     {
-        "id": "AC245",
-        "info": "Family of seven, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.8274,
-        "p": 0.377,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC484",
-        "info": "Mother and daugther-5, 50x50 cm, Acrylic on Canvas, 2023",
-        "y": -2.6264,
-        "p": -0.3644,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC331",
-        "info": "Woman-43, 70x60 cm, Acrylic on Canvas, 2021",
-        "y": -3.0285,
-        "p": -0.3896,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC123",
-        "info": "Family of four-9, 120x80 cm, Acrylic on Canvas, 2019",
-        "y": 2.3499,
-        "p": 0.4021,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC397",
-        "info": "Family of four-23, 70x50 cm, Acrylic on Canvas, 2022",
-        "y": 0.6409,
-        "p": 0.377,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC98",
-        "info": "Family of four-8, 150x150 cm, Acrylic on Canvas, 2019",
-        "y": -1.3949,
-        "p": 0.465,
-        "w": 603,
-        "h": 603
-    },
-    {
-        "id": "AC280",
-        "info": "Couple-59, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.0053,
-        "p": 0.3896,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC456",
-        "info": "Woman-56, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": 2.5007,
-        "p": 0.3644,
-        "w": 201,
-        "h": 201
+        "id": "AC350",
+        "info": "Obra AC350",
+        "y": -1.9061,
+        "p": 0.4239,
+        "w": 160,
+        "h": 120
     },
     {
         "id": "AC533",
-        "info": "Family of four-30, 60x40 cm, Acrylic on Canvas, 2025",
-        "y": 0.4398,
-        "p": -0.3644,
+        "info": "Obra AC533",
+        "y": -2.2328,
+        "p": 0.449,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC140",
-        "info": "Family of four-11, 120x80 cm, Acrylic on Canvas, 2019",
-        "y": 1.9352,
-        "p": -0.4147,
-        "w": 482,
+        "id": "AC452",
+        "info": "Obra AC452",
+        "y": -1.9391,
+        "p": -0.3926,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC299",
+        "info": "Obra AC299",
+        "y": -2.4464,
+        "p": -0.506,
+        "w": 321,
         "h": 321
     },
     {
         "id": "AC506",
-        "info": "Couple-103, 60x40 cm, Acrylic on Canvas, 2023",
-        "y": 1.2818,
-        "p": 0.377,
+        "info": "Obra AC506",
+        "y": -2.8611,
+        "p": -0.4809,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC312",
-        "info": "Young man-6, 60x70 cm, Acrylic on Canvas, 2021",
-        "y": 3.0668,
-        "p": 0.3896,
+        "id": "AC394",
+        "info": "Obra AC394",
+        "y": -2.0946,
+        "p": -0.5221,
+        "w": 321,
+        "h": 201
+    },
+    {
+        "id": "AC300",
+        "info": "Obra AC300",
+        "y": -2.6475,
+        "p": 0.5244,
+        "w": 321,
+        "h": 321
+    },
+    {
+        "id": "AC443",
+        "info": "Obra AC443",
+        "y": -1.8935,
+        "p": 0.4993,
         "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC499",
+        "info": "Obra AC499",
+        "y": -3.0842,
+        "p": 0.5273,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC410",
+        "info": "Obra AC410",
+        "y": -2.9616,
+        "p": -0.4935,
+        "w": 201,
         "h": 281
     },
     {
-        "id": "AC110",
-        "info": "Woman-11, 35x45 cm, Acrylic on Canvas, 2019",
-        "y": -0.2513,
-        "p": -0.3393,
-        "w": 140,
-        "h": 181
+        "id": "AC456",
+        "info": "Obra AC456",
+        "y": -2.1323,
+        "p": 0.4993,
+        "w": 201,
+        "h": 201
     },
     {
-        "id": "AC212",
-        "info": "Couple-43, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": 3.0299,
-        "p": -0.4021,
-        "w": 362,
-        "h": 241
+        "id": "AC222",
+        "info": "Obra AC222",
+        "y": -1.7553,
+        "p": -0.5868,
+        "w": 603,
+        "h": 362
     },
     {
-        "id": "AC287",
-        "info": "Couple-61, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.6158,
-        "p": -0.4021,
+        "id": "AC354",
+        "info": "Obra AC354",
+        "y": -2.9216,
+        "p": 0.5244,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC192",
-        "info": "Family of four with dogs, 100x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.7791,
-        "p": -0.4147,
-        "w": 402,
-        "h": 241
+        "id": "AC397",
+        "info": "Obra AC397",
+        "y": -3.0763,
+        "p": -0.5419,
+        "w": 281,
+        "h": 201
     },
     {
-        "id": "AC166",
-        "info": "Young man-5, 70x100 cm, Acrylic on Canvas, 2020",
-        "y": -1.5834,
-        "p": 0.4273,
+        "id": "AC238",
+        "info": "Obra AC238",
+        "y": -2.3082,
+        "p": -0.5841,
         "w": 281,
         "h": 402
     },
     {
-        "id": "AC340",
-        "info": "Woman-44, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": -2.2745,
-        "p": -0.4021,
+        "id": "AC461",
+        "info": "Obra AC461",
+        "y": -2.3459,
+        "p": 0.5118,
         "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC288",
-        "info": "Family of three-14, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.0807,
-        "p": 0.4021,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC499",
-        "info": "Woman by the Tagus river, 60x40 cm, Acrylic on Canvas, 2023",
-        "y": 0.3016,
-        "p": 0.3896,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC266",
-        "info": "Family of three-12, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.2745,
-        "p": 0.4021,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC267",
-        "info": "Couple-55, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.1435,
-        "p": 0.4147,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC403",
-        "info": "Mother and daugther-2, 50x60 cm, Acrylic on Canvas, 2022",
-        "y": -2.0735,
-        "p": -0.3896,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC135",
-        "info": "Family of four-10, 100x80 cm, Acrylic on Canvas, 2019",
-        "y": 0.5781,
-        "p": -0.4398,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC494",
-        "info": "Man-39, 40x60 cm, Acrylic on Canvas, 2023",
-        "y": -3.1039,
-        "p": 0.3644,
-        "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC61",
-        "info": "Woman-7, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 0.0,
-        "p": 0.3644,
-        "w": 160,
         "h": 160
     },
     {
         "id": "AC409",
-        "info": "Couple-83, 60x50 cm, Acrylic on Canvas, 2022",
-        "y": -0.6283,
-        "p": 0.4021,
+        "info": "Obra AC409",
+        "y": -2.5721,
+        "p": -0.5437,
         "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC52",
-        "info": "Woman-6, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 2.8274,
-        "p": 0.377,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC296",
-        "info": "Couple-62, 70x60 cm, Acrylic on Canvas, 2021",
-        "y": 0.8545,
-        "p": -0.4147,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC552",
-        "info": "Best friends forever, 50x40 cm, Acrylic on Canvas, 2026",
-        "y": 1.6211,
-        "p": 0.4021,
-        "w": 201,
-        "h": 160
-    },
-    {
-        "id": "AC297",
-        "info": "Woman-36, 70x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.928,
-        "p": 0.4147,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC461",
-        "info": "Couple-96, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.9173,
-        "p": -0.4147,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC261",
-        "info": "Brothers with dogs, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.1112,
-        "p": -0.4273,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC464",
-        "info": "Two sisters-2, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.6336,
-        "p": -0.4147,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC5",
-        "info": "Woman-2, 40x40 cm, Acrylic on Canvas, 2017",
-        "y": 2.7395,
-        "p": 0.4147,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC1",
-        "info": "Man, 40x40 cm, Acrylic on Canvas, 2016",
-        "y": -0.2513,
-        "p": -0.4273,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC101",
-        "info": "Couple-21, 100x80 cm, Acrylic on Canvas, 2019",
-        "y": 0.7917,
-        "p": 0.4524,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC416",
-        "info": "Mother with baby-5, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": 1.4954,
-        "p": 0.4273,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC451",
-        "info": "Couple-94, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.3519,
-        "p": -0.4273,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC281",
-        "info": "Family of four-15, 80x50 cm, Acrylic on Canvas, 2020",
-        "y": -1.7216,
-        "p": 0.4273,
-        "w": 321,
-        "h": 201
-    },
-    {
-        "id": "AC243",
-        "info": "Couple-51, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.4775,
-        "p": -0.4524,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC402",
-        "info": "Girl-12, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": -2.375,
-        "p": -0.4398,
-        "w": 201,
         "h": 201
     },
     {
         "id": "AC453",
-        "info": "Bride and groom-4, 40x60 cm, Acrylic on Canvas, 2022",
-        "y": -2.1363,
-        "p": 0.4398,
+        "info": "Obra AC453",
+        "y": -1.5998,
+        "p": -0.4935,
         "w": 160,
         "h": 241
     },
     {
-        "id": "AC244",
-        "info": "Grandmother and boys, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.6012,
-        "p": -0.4524,
-        "w": 321,
+        "id": "AC245",
+        "info": "Obra AC245",
+        "y": -2.7103,
+        "p": -0.5563,
+        "w": 362,
         "h": 241
     },
     {
-        "id": "AC97",
-        "info": "Gilberto Gil, 100x80 cm, Acrylic on Canvas, 2019",
-        "y": 0.1257,
-        "p": 0.465,
-        "w": 402,
-        "h": 321
+        "id": "AC472",
+        "info": "Obra AC472",
+        "y": -2.2077,
+        "p": -0.5312,
+        "w": 160,
+        "h": 160
     },
     {
-        "id": "AC293",
-        "info": "Man-20, 60x60 cm, Acrylic on Canvas, 2021",
-        "y": -2.7269,
-        "p": -0.4524,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC358",
-        "info": "Woman-45, 50x60 cm, Acrylic on Canvas, 2021",
-        "y": -2.174,
-        "p": -0.4524,
-        "w": 201,
-        "h": 241
+        "id": "AC500",
+        "info": "Obra AC500",
+        "y": -2.6521,
+        "p": 0.6246,
+        "w": 160,
+        "h": 120
     },
     {
         "id": "AC445",
-        "info": "Couple-92, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.0,
-        "p": -0.4398,
+        "info": "Obra AC445",
+        "y": -2.2328,
+        "p": 0.5244,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC393",
-        "info": "Woman-48, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": 2.7143,
-        "p": -0.4398,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC167",
-        "info": "Couple-32, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.4398,
-        "p": 0.4524,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC435",
-        "info": "Family of three-17, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.4398,
-        "p": -0.4398,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC232",
-        "info": "Family of three-8, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.7342,
-        "p": 0.4524,
+        "id": "AC280",
+        "info": "Obra AC280",
+        "y": -2.0192,
+        "p": 0.601,
         "w": 321,
         "h": 241
-    },
-    {
-        "id": "AC152",
-        "info": "Mother with baby, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.8724,
-        "p": 0.4524,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC236",
-        "info": "Family of three-9, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.6766,
-        "p": 0.4524,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC399",
-        "info": "Man-33, 50x50 cm, Acrylic on Canvas, 2022",
-        "y": -0.5152,
-        "p": 0.4398,
-        "w": 201,
-        "h": 201
     },
     {
         "id": "AC429",
-        "info": "Dog-6, 40x60 cm, Acrylic on Canvas, 2022",
-        "y": 1.2818,
-        "p": -0.4524,
+        "info": "Obra AC429",
+        "y": -2.8234,
+        "p": -0.6155,
         "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC153",
-        "info": "Kids in a boat, 90x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.1382,
-        "p": -0.465,
-        "w": 362,
         "h": 241
     },
     {
         "id": "AC430",
-        "info": "Family of four-26, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": -1.2064,
-        "p": 0.4398,
+        "info": "Obra AC430",
+        "y": -2.1063,
+        "p": -0.6312,
         "w": 241,
         "h": 160
-    },
-    {
-        "id": "AC344",
-        "info": "Two brothers reading, 50x60 cm, Acrylic on Canvas, 2021",
-        "y": 1.3823,
-        "p": 0.4524,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC384",
-        "info": "Man-30, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": 2.8149,
-        "p": -0.4524,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC433",
-        "info": "Woman-52, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 1.3823,
-        "p": -0.4524,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC213",
-        "info": "Couple-44, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -1.9352,
-        "p": -0.465,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC434",
-        "info": "Couple-89, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 1.2692,
-        "p": 0.4524,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC472",
-        "info": "Woman-60, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.0,
-        "p": 0.4398,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC334",
-        "info": "Woman in a bench B&W, 50x60 cm, Acrylic on Canvas, 2021",
-        "y": -2.6264,
-        "p": -0.465,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC487",
-        "info": "Family of trees, 155x90 cm, Acrylic on Canvas, 2023",
-        "y": -1.3195,
-        "p": -0.5027,
-        "w": 623,
-        "h": 362
-    },
-    {
-        "id": "AC421",
-        "info": "Family of four-24, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.2765,
-        "p": -0.465,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC423",
-        "info": "Couple-86, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 1.131,
-        "p": -0.465,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC504",
-        "info": "Couple honeymoon, 40x30 cm, Acrylic on Canvas, 2023",
-        "y": 2.9028,
-        "p": -0.4398,
-        "w": 160,
-        "h": 120
-    },
-    {
-        "id": "AC221",
-        "info": "Siblings-4, 60x80 cm, Acrylic on Canvas, 2020",
-        "y": -1.508,
-        "p": -0.4901,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC500",
-        "info": "Couple-102, 40x30 cm, Acrylic on Canvas, 2023",
-        "y": 2.4881,
-        "p": 0.4398,
-        "w": 160,
-        "h": 120
-    },
-    {
-        "id": "AC370",
-        "info": "Grandmother, mother and son, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": 1.6462,
-        "p": -0.465,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC317",
-        "info": "Couple-64, 60x50 cm, Acrylic on Canvas, 2021",
-        "y": -2.4756,
-        "p": -0.465,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC53",
-        "info": "Couple-9, 100x80 cm, Acrylic on Canvas, 2018",
-        "y": 0.6032,
-        "p": 0.4901,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC224",
-        "info": "Emigrant monument Azores, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.174,
-        "p": 0.4775,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC248",
-        "info": "Family of five-7, 70x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.2765,
-        "p": 0.4775,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC447",
-        "info": "Three siblings-2, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": 2.8149,
-        "p": 0.4524,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC362",
-        "info": "Grandfather and son, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": -0.7288,
-        "p": 0.465,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC414",
-        "info": "Woman-50, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 2.5887,
-        "p": 0.465,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC206",
-        "info": "Grandparents and son, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.9782,
-        "p": 0.4775,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC418",
-        "info": "Couple-85, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.9676,
-        "p": -0.4775,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC69",
-        "info": "Family of four-5, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": -2.8274,
-        "p": 0.4901,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC81",
-        "info": "Family of four-6, 100x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.7719,
-        "p": -0.4901,
-        "w": 402,
-        "h": 241
-    },
-    {
-        "id": "AC273",
-        "info": "Man with cat, 70x50 cm, Acrylic on Canvas, 2020",
-        "y": 1.4954,
-        "p": -0.4775,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC36",
-        "info": "Couple-6, 95x75 cm, Acrylic on Canvas, 2018",
-        "y": -0.9425,
-        "p": -0.5152,
-        "w": 382,
-        "h": 301
     },
     {
         "id": "AC548",
-        "info": "Woman with dog-6, 25x25 cm, Acrylic on Canvas, 2026",
-        "y": 0.9676,
-        "p": -0.2388,
+        "info": "Obra AC548",
+        "y": -2.0946,
+        "p": -0.1039,
         "w": 100,
         "h": 100
     },
     {
-        "id": "AC57",
-        "info": "Couple-11, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": -3.0598,
-        "p": -0.5027,
-        "w": 362,
-        "h": 281
+        "id": "AC281",
+        "info": "Obra AC281",
+        "y": -1.9543,
+        "p": -0.491,
+        "w": 321,
+        "h": 201
+    },
+    {
+        "id": "AC384",
+        "info": "Obra AC384",
+        "y": -2.4464,
+        "p": 0.6089,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC358",
+        "info": "Obra AC358",
+        "y": -2.9114,
+        "p": -0.6155,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC421",
+        "info": "Obra AC421",
+        "y": -3.0842,
+        "p": 0.6167,
+        "w": 241,
+        "h": 160
     },
     {
         "id": "AC485",
-        "info": "Man-38, 27x35 cm, Acrylic on Canvas, 2023",
-        "y": -1.3697,
-        "p": -0.3393,
+        "info": "Obra AC485",
+        "y": -2.8611,
+        "p": 0.4239,
         "w": 108,
         "h": 140
     },
     {
-        "id": "AC113",
-        "info": "Young couple-6, 90x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.1058,
-        "p": -0.5027,
-        "w": 362,
-        "h": 241
+        "id": "AC423",
+        "info": "Obra AC423",
+        "y": -2.3459,
+        "p": 0.6167,
+        "w": 241,
+        "h": 160
     },
     {
         "id": "AC489",
-        "info": "Woman-61, 27x35 cm, Acrylic on Canvas, 2023",
-        "y": 1.1058,
-        "p": -0.3644,
+        "info": "Obra AC489",
+        "y": -1.8055,
+        "p": 0.4616,
         "w": 108,
         "h": 140
     },
     {
-        "id": "AC462",
-        "info": "Woman-59, 30x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.9048,
-        "p": 0.4273,
-        "w": 120,
-        "h": 160
+        "id": "AC370",
+        "info": "Obra AC370",
+        "y": -2.7668,
+        "p": 0.527,
+        "w": 201,
+        "h": 201
     },
     {
-        "id": "AC92",
-        "info": "Babies siblings, 90x60 cm, Acrylic on Canvas, 2019",
-        "y": 1.885,
-        "p": 0.5027,
-        "w": 362,
+        "id": "AC344",
+        "info": "Obra AC344",
+        "y": -2.1323,
+        "p": 0.601,
+        "w": 201,
         "h": 241
     },
     {
-        "id": "AC179",
-        "info": "Couple-35, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.7593,
-        "p": -0.4901,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC249",
-        "info": "Couple-53, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": 2.4379,
-        "p": -0.4901,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC37",
-        "info": "Young couple, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": 3.0683,
-        "p": -0.5152,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC156",
-        "info": "Grandmother with four children, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 1.0053,
-        "p": 0.5027,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC31",
-        "info": "Man-3, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": -0.1131,
-        "p": 0.5152,
-        "w": 362,
-        "h": 281
+        "id": "AC362",
+        "info": "Obra AC362",
+        "y": -1.9061,
+        "p": 0.6089,
+        "w": 201,
+        "h": 201
     },
     {
         "id": "AC477",
-        "info": "Baby Girl-2, 27x35 cm, Acrylic on Canvas, 2022",
-        "y": -3.1165,
-        "p": -0.3644,
+        "info": "Obra AC477",
+        "y": -1.8055,
+        "p": 0.537,
         "w": 108,
         "h": 140
     },
     {
-        "id": "AC129",
-        "info": "Family of six-5, 120x80 cm, Acrylic on Canvas, 2019",
-        "y": -0.6535,
-        "p": -0.5404,
-        "w": 482,
-        "h": 321
-    },
-    {
-        "id": "AC162",
-        "info": "Couple-30, 60x80 cm, Acrylic on Canvas, 2020",
-        "y": -2.0609,
-        "p": -0.5152,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC85",
-        "info": "Young couple-2, 90x60 cm, Acrylic on Canvas, 2019",
-        "y": 3.0662,
-        "p": 0.5027,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC285",
-        "info": "Two brothers-2, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": 1.5959,
-        "p": 0.4901,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC38",
-        "info": "Mother and daughter B&W, 80x70 cm, Acrylic on Canvas, 2018",
-        "y": 2.0358,
-        "p": 0.5027,
-        "w": 321,
-        "h": 281
-    },
-    {
-        "id": "AC286",
-        "info": "Couple-60, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": -1.6211,
-        "p": -0.5027,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC313",
-        "info": "Woman-39, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": -3.0913,
-        "p": 0.465,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC15",
-        "info": "Family of four, 90x70 cm, Acrylic on Canvas, 2017",
-        "y": -2.2494,
-        "p": 0.5152,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC304",
-        "info": "Man-21, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": 2.2242,
-        "p": -0.5027,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC353",
-        "info": "Couple-72, 60x40 cm, Acrylic on Canvas, 2021",
-        "y": -0.6158,
-        "p": 0.4901,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC13",
-        "info": "Couple-2, 90x70 cm, Acrylic on Canvas, 2017",
-        "y": -0.3016,
-        "p": -0.5278,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC292",
-        "info": "Man-19, 50x50 cm, Acrylic on Canvas, 2021",
-        "y": -2.2745,
-        "p": -0.5027,
-        "w": 201,
-        "h": 201
-    },
-    {
         "id": "AC392",
-        "info": "Father and baby, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": -0.2262,
-        "p": 0.4901,
+        "info": "Obra AC392",
+        "y": -2.2362,
+        "p": 0.6167,
         "w": 160,
         "h": 160
-    },
-    {
-        "id": "AC122",
-        "info": "Young sisters, 60x80 cm, Acrylic on Canvas, 2019",
-        "y": 2.3248,
-        "p": -0.5278,
-        "w": 241,
-        "h": 321
     },
     {
         "id": "AC441",
-        "info": "Woman-54, 30x30 cm, Acrylic on Canvas, 2022",
-        "y": -1.043,
-        "p": 0.4901,
+        "info": "Obra AC441",
+        "y": -1.5919,
+        "p": -0.6339,
         "w": 120,
         "h": 120
-    },
-    {
-        "id": "AC127",
-        "info": "Young couple-10, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.1257,
-        "p": -0.5278,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC366",
-        "info": "Couple-74, 50x40 cm, Acrylic on Canvas, 2021",
-        "y": 0.7163,
-        "p": -0.5027,
-        "w": 201,
-        "h": 160
     },
     {
         "id": "AC396",
-        "info": "Man with bird, 40x40 cm, Acrylic on Canvas, 2022",
-        "y": 0.8042,
-        "p": -0.5027,
+        "info": "Obra AC396",
+        "y": -2.2077,
+        "p": -0.6312,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC446",
-        "info": "Woman-55, 30x30 cm, Acrylic on Canvas, 2022",
-        "y": -1.1058,
-        "p": 0.4901,
-        "w": 120,
-        "h": 120
+        "id": "AC366",
+        "info": "Obra AC366",
+        "y": -3.0119,
+        "p": -0.6312,
+        "w": 201,
+        "h": 160
     },
     {
-        "id": "AC187",
-        "info": "Man-12, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -2.84,
-        "p": -0.5278,
+        "id": "AC286",
+        "info": "Obra AC286",
+        "y": -2.4213,
+        "p": -0.6191,
         "w": 241,
-        "h": 241
+        "h": 201
     },
     {
         "id": "AC411",
-        "info": "Grandmother and baby, 40x30 cm, Acrylic on Canvas, 2022",
-        "y": -0.7917,
-        "p": -0.5027,
+        "info": "Obra AC411",
+        "y": -3.0999,
+        "p": -0.6391,
         "w": 160,
         "h": 120
     },
     {
-        "id": "AC49",
-        "info": "Couple-8, 100x80 cm, Acrylic on Canvas, 2018",
-        "y": -0.8671,
-        "p": 0.5404,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC263",
-        "info": "Woman-31, 50x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.3142,
-        "p": 0.5278,
-        "w": 201,
-        "h": 241
-    },
-    {
-        "id": "AC240",
-        "info": "Father and daugter, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": 1.131,
-        "p": 0.5152,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC43",
-        "info": "Family of four-3, 100x80 cm, Acrylic on Canvas, 2018",
-        "y": 2.3373,
-        "p": 0.5404,
-        "w": 402,
-        "h": 321
-    },
-    {
-        "id": "AC108",
-        "info": "Woman by the sea, 60x80 cm, Acrylic on Canvas, 2019",
-        "y": 1.4828,
-        "p": 0.5404,
-        "w": 241,
-        "h": 321
-    },
-    {
-        "id": "AC175",
-        "info": "Mother with baby-2, 60x60 cm, Acrylic on Canvas, 2020",
-        "y": -0.4147,
-        "p": 0.5278,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC115",
-        "info": "Grandmother and children, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": -1.7216,
-        "p": 0.5278,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC272",
-        "info": "Man-18, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 2.4756,
-        "p": 0.5152,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC116",
-        "info": "Young couple-8, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": -2.0232,
-        "p": 0.5278,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC133",
-        "info": "Young couple-11, 90x70 cm, Acrylic on Canvas, 2019",
-        "y": 0.4147,
-        "p": -0.5404,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC303",
-        "info": "Family of four-18, 40x60 cm, Acrylic on Canvas, 2021",
-        "y": 2.2285,
-        "p": -0.6036,
-        "w": 160,
-        "h": 241
-    },
-    {
-        "id": "AC356",
-        "info": "Couple B&W-3, 40x40 cm, Acrylic on Canvas, 2021",
-        "y": 2.8903,
-        "p": 0.5027,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC251",
-        "info": "Woman-30, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.0,
-        "p": -0.5278,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC174",
-        "info": "Couple-33, 70x50 cm, Acrylic on Canvas, 2020",
-        "y": 1.8975,
-        "p": -0.5278,
+        "id": "AC407",
+        "info": "Obra AC407",
+        "y": -1.7176,
+        "p": 0.6089,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC229",
-        "info": "Woman-29, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": 2.0106,
-        "p": -0.5278,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC68",
-        "info": "Family of three-5, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": -0.465,
-        "p": -0.5655,
-        "w": 362,
-        "h": 281
-    },
-    {
         "id": "AC385",
-        "info": "Father and daugther, 40x30 cm, Acrylic on Canvas, 2021",
-        "y": 2.1112,
-        "p": -0.5152,
+        "info": "Obra AC385",
+        "y": -1.5998,
+        "p": 0.6246,
         "w": 160,
         "h": 120
     },
     {
-        "id": "AC341",
-        "info": "Couple-69, 40x40 cm, Acrylic on Canvas, 2021",
-        "y": 0.0,
-        "p": 0.5152,
+        "id": "AC303",
+        "info": "Obra AC303",
+        "y": -2.5342,
+        "p": 0.601,
         "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC93",
-        "info": "Couple-18, 80x60 cm, Acrylic on Canvas, 2019",
-        "y": 2.7395,
-        "p": -0.5529,
-        "w": 321,
         "h": 241
     },
     {
         "id": "AC386",
-        "info": "Man-31, 30x40 cm, Acrylic on Canvas, 2021",
-        "y": 0.8796,
-        "p": -0.5027,
+        "info": "Obra AC386",
+        "y": -1.8307,
+        "p": 0.6167,
         "w": 120,
         "h": 160
     },
     {
-        "id": "AC33",
-        "info": "Woman-5, 70x90 cm, Acrylic on Canvas, 2018",
-        "y": -1.2064,
-        "p": 0.5529,
-        "w": 281,
-        "h": 362
-    },
-    {
-        "id": "AC417",
-        "info": "Seaside sitting couple, 90x60 cm, Acrylic on Canvas, 2022",
-        "y": 0.5781,
-        "p": -0.5655,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC121",
-        "info": "Woman with dog-2, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": 1.3823,
-        "p": -0.5529,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC368",
-        "info": "Man-29, 30x40 cm, Acrylic on Canvas, 2021",
-        "y": 0.9048,
-        "p": 0.5027,
-        "w": 120,
+        "id": "AC341",
+        "info": "Obra AC341",
+        "y": -2.5218,
+        "p": -0.6317,
+        "w": 160,
         "h": 160
-    },
-    {
-        "id": "AC42",
-        "info": "Family of three-3, 100x60 cm, Acrylic on Canvas, 2018",
-        "y": 1.1058,
-        "p": -0.5655,
-        "w": 402,
-        "h": 241
-    },
-    {
-        "id": "AC30",
-        "info": "Family of three-2, 90x70 cm, Acrylic on Canvas, 2018",
-        "y": 2.5761,
-        "p": -0.5655,
-        "w": 362,
-        "h": 281
-    },
-    {
-        "id": "AC176",
-        "info": "Family of four-13, 80x40 cm, Acrylic on Canvas, 2020",
-        "y": 1.2566,
-        "p": 0.5278,
-        "w": 321,
-        "h": 160
-    },
-    {
-        "id": "AC136",
-        "info": "Woman-15, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.2513,
-        "p": -0.5655,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC67",
-        "info": "Couple-15, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": -2.3876,
-        "p": -0.5655,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC83",
-        "info": "Couple-16, 70x60 cm, Acrylic on Canvas, 2019",
-        "y": 2.5887,
-        "p": 0.5529,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC197",
-        "info": "Woman-22, 60x50 cm, Acrylic on Canvas, 2020",
-        "y": 1.2441,
-        "p": -0.5529,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC142",
-        "info": "Grandfather and daughter, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": 1.6085,
-        "p": -0.5655,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC343",
-        "info": "Man-25, 30x40 cm, Acrylic on Canvas, 2021",
-        "y": -2.928,
-        "p": -0.5152,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC64",
-        "info": "Bride and groom, 60x70 cm, Acrylic on Canvas, 2018",
-        "y": -2.174,
-        "p": -0.5655,
-        "w": 241,
-        "h": 281
     },
     {
         "id": "AC274",
-        "info": "Couple-56, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 0.9676,
-        "p": -0.5529,
+        "info": "Obra AC274",
+        "y": -2.7856,
+        "p": 0.6167,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC79",
-        "info": "Father and son-3, 70x60 cm, Acrylic on Canvas, 2019",
-        "y": 0.4021,
-        "p": 0.5655,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC139",
-        "info": "Siblings-3, 70x50 cm, Acrylic on Canvas, 2019",
-        "y": 2.7143,
-        "p": 0.5016,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC211",
-        "info": "Woman-24, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.5152,
-        "p": 0.5404,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC50",
-        "info": "Marriage family, 90x60 cm, Acrylic on Canvas, 2018",
-        "y": -1.8724,
-        "p": 0.5655,
-        "w": 362,
-        "h": 241
-    },
-    {
-        "id": "AC39",
-        "info": "Agostinho da Silva, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": -2.4002,
-        "p": 0.5655,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC44",
-        "info": "John Lennon and Yoko Ono, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": -2.5384,
-        "p": 0.5655,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC216",
-        "info": "Baby-4, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 2.8034,
-        "p": 0.5969,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC145",
-        "info": "Couple-25, 70x50 cm, Acrylic on Canvas, 2019",
-        "y": -2.6766,
-        "p": 0.5529,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC102",
-        "info": "Young woman, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": -2.5133,
-        "p": -0.5655,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC217",
-        "info": "Boy-3, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -2.2743,
-        "p": -0.6014,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC112",
-        "info": "Jose fanha, 60x60 cm, Acrylic on Canvas, 2019",
-        "y": -0.7288,
-        "p": 0.5655,
-        "w": 241,
-        "h": 241
-    },
-    {
-        "id": "AC219",
-        "info": "Girl-7, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 1.3697,
-        "p": 0.5529,
-        "w": 201,
-        "h": 201
+        "id": "AC343",
+        "info": "Obra AC343",
+        "y": -2.5972,
+        "p": -0.6317,
+        "w": 120,
+        "h": 160
     },
     {
         "id": "AC241",
-        "info": "Couple-49, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": -1.5708,
-        "p": 0.5529,
+        "info": "Obra AC241",
+        "y": -2.9349,
+        "p": 0.6167,
         "w": 241,
         "h": 160
-    },
-    {
-        "id": "AC171",
-        "info": "Family of four-12, 80x40 cm, Acrylic on Canvas, 2019",
-        "y": -0.1131,
-        "p": -0.5655,
-        "w": 321,
-        "h": 160
-    },
-    {
-        "id": "AC316",
-        "info": "Girl-10, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": -0.9802,
-        "p": 0.5027,
-        "w": 120,
-        "h": 120
-    },
-    {
-        "id": "AC34",
-        "info": "Man-4, 70x60 cm, Acrylic on Canvas, 2018",
-        "y": 1.4954,
-        "p": -0.5781,
-        "w": 281,
-        "h": 241
-    },
-    {
-        "id": "AC319",
-        "info": "Young man-7, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": -2.1237,
-        "p": 0.5278,
-        "w": 120,
-        "h": 120
-    },
-    {
-        "id": "AC309",
-        "info": "Woman-38, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": -3.0788,
-        "p": 0.5404,
-        "w": 120,
-        "h": 120
-    },
-    {
-        "id": "AC295",
-        "info": "Woman-35, 40x30 cm, Acrylic on Canvas, 2021",
-        "y": -1.8975,
-        "p": -0.5529,
-        "w": 160,
-        "h": 120
-    },
-    {
-        "id": "AC87",
-        "info": "Best friends, 70x50 cm, Acrylic on Canvas, 2019",
-        "y": 0.754,
-        "p": 0.5655,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC310",
-        "info": "Boy-5, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": -1.9729,
-        "p": -0.5529,
-        "w": 120,
-        "h": 120
-    },
-    {
-        "id": "AC90",
-        "info": "Young couple-4, 70x50 cm, Acrylic on Canvas, 2019",
-        "y": -1.0807,
-        "p": 0.5655,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC12",
-        "info": "Young man, 60x70 cm, Acrylic on Canvas, 2017",
-        "y": -2.6264,
-        "p": -0.5781,
-        "w": 241,
-        "h": 281
-    },
-    {
-        "id": "AC157",
-        "info": "Man-10, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": -0.8042,
-        "p": -0.5781,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC291",
-        "info": "Girl-9, 30x30 cm, Acrylic on Canvas, 2021",
-        "y": 0.0754,
-        "p": 0.5655,
-        "w": 120,
-        "h": 120
-    },
-    {
-        "id": "AC235",
-        "info": "Boy-4, 40x50 cm, Acrylic on Canvas, 2020",
-        "y": 0.1508,
-        "p": 0.5781,
-        "w": 160,
-        "h": 201
-    },
-    {
-        "id": "AC82",
-        "info": "Family of four-7, 80x40 cm, Acrylic on Canvas, 2019",
-        "y": 0.7288,
-        "p": -0.5781,
-        "w": 321,
-        "h": 160
-    },
-    {
-        "id": "AC210",
-        "info": "Woman with dog-3, 80x60 cm, Acrylic on Canvas, 2020",
-        "y": 0.2639,
-        "p": 0.5906,
-        "w": 321,
-        "h": 241
-    },
-    {
-        "id": "AC75",
-        "info": "Young man-4, 70x50 cm, Acrylic on Canvas, 2018",
-        "y": 2.174,
-        "p": 0.5781,
-        "w": 281,
-        "h": 201
     },
     {
         "id": "AC237",
-        "info": "Flautist, 50x40 cm, Acrylic on Canvas, 2020",
-        "y": -0.6158,
-        "p": 0.5655,
+        "info": "Obra AC237",
+        "y": -1.9971,
+        "p": -0.6312,
         "w": 201,
         "h": 160
     },
     {
+        "id": "AC310",
+        "info": "Obra AC310",
+        "y": -2.66,
+        "p": -0.6394,
+        "w": 120,
+        "h": 120
+    },
+    {
         "id": "AC255",
-        "info": "Family of three-10, 40x30 cm, Acrylic on Canvas, 2020",
-        "y": -0.2262,
-        "p": 0.5655,
+        "info": "Obra AC255",
+        "y": -2.7313,
+        "p": -0.6391,
         "w": 160,
         "h": 120
     },
     {
         "id": "AC256",
-        "info": "Family of three-11, 40x30 cm, Acrylic on Canvas, 2020",
-        "y": 1.5834,
-        "p": 0.5655,
+        "info": "Obra AC256",
+        "y": -1.9161,
+        "p": -0.6339,
         "w": 160,
         "h": 120
     },
     {
-        "id": "AC170",
-        "info": "Girl-5, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 0.8545,
-        "p": -0.5781,
+        "id": "AC478",
+        "info": "Obra AC478",
+        "y": -1.9164,
+        "p": -0.5789,
+        "w": 160,
+        "h": 120
+    },
+    {
+        "id": "AC521",
+        "info": "Obra AC521",
+        "y": -1.4795,
+        "p": 0.0052,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC71",
+        "info": "Obra AC71",
+        "y": -1.4692,
+        "p": -0.1966,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC468",
+        "info": "Obra AC468",
+        "y": -1.4795,
+        "p": 0.1061,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC252",
+        "info": "Obra AC252",
+        "y": -1.4795,
+        "p": 0.2332,
         "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC161",
+        "info": "Obra AC161",
+        "y": -1.4765,
+        "p": -0.4142,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC72",
+        "info": "Obra AC72",
+        "y": -1.4795,
+        "p": -0.3054,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC555",
+        "info": "Obra AC555",
+        "y": -1.5253,
+        "p": -0.0957,
+        "w": 80,
+        "h": 120
+    },
+    {
+        "id": "AC257",
+        "info": "Obra AC257",
+        "y": -1.4795,
+        "p": 0.378,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC553",
+        "info": "Obra AC553",
+        "y": -1.4556,
+        "p": -0.0957,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC447",
+        "info": "Obra AC447",
+        "y": -1.4795,
+        "p": -0.628,
+        "w": 160,
         "h": 160
     },
     {
-        "id": "AC51",
-        "info": "Man-5, 50x70 cm, Acrylic on Canvas, 2018",
-        "y": -2.9531,
-        "p": 0.5906,
+        "id": "AC38",
+        "info": "Obra AC38",
+        "y": -1.4795,
+        "p": 0.514,
+        "w": 321,
+        "h": 281
+    },
+    {
+        "id": "AC334",
+        "info": "Obra AC334",
+        "y": -1.4795,
+        "p": -0.5323,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC356",
+        "info": "Obra AC356",
+        "y": -1.5147,
+        "p": 0.6186,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC78",
+        "info": "Obra AC78",
+        "y": -1.4369,
+        "p": 0.6186,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC471",
+        "info": "Obra AC471",
+        "y": 0.8723,
+        "p": 0.008,
+        "w": 482,
+        "h": 482
+    },
+    {
+        "id": "AC525",
+        "info": "Obra AC525",
+        "y": 0.6963,
+        "p": 0.008,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC427",
+        "info": "Obra AC427",
+        "y": 1.0608,
+        "p": 0.008,
+        "w": 402,
+        "h": 563
+    },
+    {
+        "id": "AC526",
+        "info": "Obra AC526",
+        "y": 0.5581,
+        "p": 0.008,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC262",
+        "info": "Obra AC262",
+        "y": 1.2493,
+        "p": 0.008,
+        "w": 482,
+        "h": 362
+    },
+    {
+        "id": "AC228",
+        "info": "Obra AC228",
+        "y": 0.3947,
+        "p": 0.008,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC105",
+        "info": "Obra AC105",
+        "y": 1.4126,
+        "p": 0.008,
+        "w": 281,
+        "h": 362
+    },
+    {
+        "id": "AC185",
+        "info": "Obra AC185",
+        "y": 0.2188,
+        "p": 0.008,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC324",
+        "info": "Obra AC324",
+        "y": 1.5509,
+        "p": 0.008,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC119",
+        "info": "Obra AC119",
+        "y": 0.0429,
+        "p": 0.008,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC512",
+        "info": "Obra AC512",
+        "y": 1.7142,
+        "p": 0.008,
+        "w": 402,
+        "h": 281
+    },
+    {
+        "id": "AC537",
+        "info": "Obra AC537",
+        "y": -0.0953,
+        "p": 0.008,
+        "w": 241,
+        "h": 402
+    },
+    {
+        "id": "AC234",
+        "info": "Obra AC234",
+        "y": 1.8776,
+        "p": 0.008,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC208",
+        "info": "Obra AC208",
+        "y": -0.2336,
+        "p": 0.008,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC546",
+        "info": "Obra AC546",
+        "y": 2.0158,
+        "p": 0.008,
+        "w": 241,
+        "h": 402
+    },
+    {
+        "id": "AC527",
+        "info": "Obra AC527",
+        "y": -0.3718,
+        "p": 0.008,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC377",
+        "info": "Obra AC377",
+        "y": 2.154,
+        "p": 0.008,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC517",
+        "info": "Obra AC517",
+        "y": -0.4849,
+        "p": 0.008,
+        "w": 281,
+        "h": 281
+    },
+    {
+        "id": "AC476",
+        "info": "Obra AC476",
+        "y": 2.3174,
+        "p": 0.008,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC373",
+        "info": "Obra AC373",
+        "y": -0.6231,
+        "p": 0.008,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC339",
+        "info": "Obra AC339",
+        "y": 2.5059,
+        "p": 0.008,
+        "w": 482,
+        "h": 482
+    },
+    {
+        "id": "AC440",
+        "info": "Obra AC440",
+        "y": -0.7865,
+        "p": 0.008,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC160",
+        "info": "Obra AC160",
+        "y": 2.7057,
+        "p": 0.008,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC332",
+        "info": "Obra AC332",
+        "y": -0.9499,
+        "p": 0.008,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC202",
+        "info": "Obra AC202",
+        "y": -1.0881,
+        "p": 0.008,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC530",
+        "info": "Obra AC530",
+        "y": 2.8909,
+        "p": 0.008,
+        "w": 402,
+        "h": 241
+    },
+    {
+        "id": "AC307",
+        "info": "Obra AC307",
+        "y": -1.3154,
+        "p": 0.008,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC390",
+        "info": "Obra AC390",
+        "y": 3.0641,
+        "p": 0.008,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC118",
+        "info": "Obra AC118",
+        "y": 1.6891,
+        "p": -0.1051,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC519",
+        "info": "Obra AC519",
+        "y": 1.8399,
+        "p": -0.1051,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC117",
+        "info": "Obra AC117",
+        "y": 2.1415,
+        "p": -0.1051,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC522",
+        "info": "Obra AC522",
+        "y": -0.598,
+        "p": -0.1051,
+        "w": 241,
+        "h": 281
+    },
+    {
+        "id": "AC40",
+        "info": "Obra AC40",
+        "y": 2.6818,
+        "p": -0.1051,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC505",
+        "info": "Obra AC505",
+        "y": -0.9499,
+        "p": -0.1051,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC542",
+        "info": "Obra AC542",
+        "y": 2.8524,
+        "p": -0.1051,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC230",
+        "info": "Obra AC230",
+        "y": 2.6944,
+        "p": 0.1336,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC558",
+        "info": "Obra AC558",
+        "y": -1.0755,
+        "p": -0.1051,
         "w": 201,
         "h": 281
     },
     {
-        "id": "AC259",
-        "info": "Boy with dog, 40x30 cm, Acrylic on Canvas, 2020",
-        "y": -1.6085,
-        "p": -0.5781,
-        "w": 160,
+        "id": "AC181",
+        "info": "Obra AC181",
+        "y": -0.975,
+        "p": 0.1336,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC186",
+        "info": "Obra AC186",
+        "y": 1.7142,
+        "p": 0.1588,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC413",
+        "info": "Obra AC413",
+        "y": 1.865,
+        "p": 0.1211,
+        "w": 281,
+        "h": 281
+    },
+    {
+        "id": "AC151",
+        "info": "Obra AC151",
+        "y": -0.5477,
+        "p": 0.1462,
+        "w": 603,
+        "h": 362
+    },
+    {
+        "id": "AC183",
+        "info": "Obra AC183",
+        "y": -0.4849,
+        "p": -0.1051,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC223",
+        "info": "Obra AC223",
+        "y": 2.1415,
+        "p": 0.1336,
+        "w": 321,
+        "h": 321
+    },
+    {
+        "id": "AC360",
+        "info": "Obra AC360",
+        "y": 2.8326,
+        "p": 0.1336,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC283",
+        "info": "Obra AC283",
+        "y": -0.2336,
+        "p": -0.1177,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC342",
+        "info": "Obra AC342",
+        "y": -0.221,
+        "p": 0.1336,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC8",
+        "info": "Obra AC8",
+        "y": -0.3718,
+        "p": -0.1177,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC540",
+        "info": "Obra AC540",
+        "y": -0.3341,
+        "p": 0.1211,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC253",
+        "info": "Obra AC253",
+        "y": 1.2116,
+        "p": -0.1428,
+        "w": 281,
+        "h": 321
+    },
+    {
+        "id": "AC328",
+        "info": "Obra AC328",
+        "y": 0.6963,
+        "p": -0.1303,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC315",
+        "info": "Obra AC315",
+        "y": 0.5581,
+        "p": -0.1303,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC111",
+        "info": "Obra AC111",
+        "y": 0.4324,
+        "p": -0.1303,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC352",
+        "info": "Obra AC352",
+        "y": 1.3247,
+        "p": -0.1303,
+        "w": 201,
+        "h": 281
+    },
+    {
+        "id": "AC103",
+        "info": "Obra AC103",
+        "y": 1.2493,
+        "p": 0.1588,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC306",
+        "info": "Obra AC306",
+        "y": 0.3068,
+        "p": -0.1303,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC188",
+        "info": "Obra AC188",
+        "y": 1.4378,
+        "p": -0.1554,
+        "w": 281,
+        "h": 362
+    },
+    {
+        "id": "AC146",
+        "info": "Obra AC146",
+        "y": 0.156,
+        "p": -0.1428,
+        "w": 382,
+        "h": 301
+    },
+    {
+        "id": "AC227",
+        "info": "Obra AC227",
+        "y": 1.4001,
+        "p": 0.1462,
+        "w": 201,
+        "h": 281
+    },
+    {
+        "id": "AC269",
+        "info": "Obra AC269",
+        "y": 0.0052,
+        "p": -0.1303,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC515",
+        "info": "Obra AC515",
+        "y": 1.5509,
+        "p": -0.1554,
+        "w": 201,
+        "h": 321
+    },
+    {
+        "id": "AC91",
+        "info": "Obra AC91",
+        "y": -1.2761,
+        "p": -0.1303,
+        "w": 603,
+        "h": 241
+    },
+    {
+        "id": "AC70",
+        "info": "Obra AC70",
+        "y": -0.7614,
+        "p": -0.1554,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC56",
+        "info": "Obra AC56",
+        "y": 3.0326,
+        "p": -0.1554,
+        "w": 482,
+        "h": 362
+    },
+    {
+        "id": "AC59",
+        "info": "Obra AC59",
+        "y": 0.6712,
+        "p": 0.1713,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC147",
+        "info": "Obra AC147",
+        "y": 2.3048,
+        "p": -0.1051,
+        "w": 402,
         "h": 120
     },
     {
-        "id": "AC172",
-        "info": "Family of three-7, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 0.8671,
-        "p": 0.5781,
+        "id": "AC455",
+        "info": "Obra AC455",
+        "y": 0.5078,
+        "p": 0.1336,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC260",
-        "info": "Young man with dog, 30x40 cm, Acrylic on Canvas, 2020",
-        "y": -0.9802,
-        "p": 0.5781,
+        "id": "AC94",
+        "info": "Obra AC94",
+        "y": 0.3696,
+        "p": 0.1588,
+        "w": 382,
+        "h": 301
+    },
+    {
+        "id": "AC201",
+        "info": "Obra AC201",
+        "y": 1.5132,
+        "p": 0.1462,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC204",
+        "info": "Obra AC204",
+        "y": 0.2188,
+        "p": 0.1462,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC374",
+        "info": "Obra AC374",
+        "y": -1.1132,
+        "p": 0.1211,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC14",
+        "info": "Obra AC14",
+        "y": 0.0429,
+        "p": 0.1713,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC205",
+        "info": "Obra AC205",
+        "y": 2.0032,
+        "p": 0.1462,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC207",
+        "info": "Obra AC207",
+        "y": 2.2797,
+        "p": 0.1462,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC301",
+        "info": "Obra AC301",
+        "y": -0.7237,
+        "p": 0.1588,
+        "w": 241,
+        "h": 281
+    },
+    {
+        "id": "AC137",
+        "info": "Obra AC137",
+        "y": -1.2263,
+        "p": 0.1462,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC99",
+        "info": "Obra AC99",
+        "y": 2.9583,
+        "p": 0.1588,
+        "w": 321,
+        "h": 281
+    },
+    {
+        "id": "AC141",
+        "info": "Obra AC141",
+        "y": 0.8723,
+        "p": -0.1554,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC363",
+        "info": "Obra AC363",
+        "y": 3.0798,
+        "p": 0.1462,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC106",
+        "info": "Obra AC106",
+        "y": -0.1079,
+        "p": -0.1303,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC524",
+        "info": "Obra AC524",
+        "y": -0.1079,
+        "p": 0.1462,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC66",
+        "info": "Obra AC66",
+        "y": 2.4682,
+        "p": -0.1554,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC9",
+        "info": "Obra AC9",
+        "y": 0.8723,
+        "p": 0.1839,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC327",
+        "info": "Obra AC327",
+        "y": 2.4054,
+        "p": 0.1713,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC491",
+        "info": "Obra AC491",
+        "y": 1.0482,
+        "p": -0.1805,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC60",
+        "info": "Obra AC60",
+        "y": 2.531,
+        "p": 0.1839,
+        "w": 321,
+        "h": 321
+    },
+    {
+        "id": "AC520",
+        "info": "Obra AC520",
+        "y": 1.0356,
+        "p": 0.209,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC513",
+        "info": "Obra AC513",
+        "y": -0.8242,
+        "p": 0.1462,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC131",
+        "info": "Obra AC131",
+        "y": 2.2671,
+        "p": -0.2057,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC460",
+        "info": "Obra AC460",
+        "y": 1.6639,
+        "p": -0.2433,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC144",
+        "info": "Obra AC144",
+        "y": 1.8022,
+        "p": -0.2182,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC351",
+        "info": "Obra AC351",
+        "y": -1.3625,
+        "p": 0.1336,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC277",
+        "info": "Obra AC277",
+        "y": -0.3467,
+        "p": 0.2216,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC509",
+        "info": "Obra AC509",
+        "y": -1.1941,
+        "p": 0.0065,
         "w": 120,
         "h": 160
     },
     {
-        "id": "AC46",
-        "info": "Manu Chao, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": -1.7216,
-        "p": -0.6032,
+        "id": "AC231",
+        "info": "Obra AC231",
+        "y": 2.0912,
+        "p": -0.2182,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC439",
+        "info": "Obra AC439",
+        "y": 2.6316,
+        "p": -0.2308,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC109",
+        "info": "Obra AC109",
+        "y": -0.4849,
+        "p": -0.2308,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC335",
+        "info": "Obra AC335",
+        "y": -0.9876,
+        "p": -0.2433,
+        "w": 623,
+        "h": 362
+    },
+    {
+        "id": "AC226",
+        "info": "Obra AC226",
+        "y": -0.598,
+        "p": -0.2182,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC516",
+        "info": "Obra AC516",
+        "y": 2.7572,
+        "p": -0.2182,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC84",
+        "info": "Obra AC84",
+        "y": -0.133,
+        "p": -0.2308,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC47",
-        "info": "Woman with dog, 80x60 cm, Acrylic on Canvas, 2018",
-        "y": 1.7342,
-        "p": -0.6032,
+        "id": "AC486",
+        "info": "Obra AC486",
+        "y": 2.8326,
+        "p": -0.2182,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC95",
+        "info": "Obra AC95",
+        "y": -0.2713,
+        "p": -0.2308,
         "w": 321,
         "h": 241
     },
     {
-        "id": "AC23",
-        "info": "Girl-4, 70x50 cm, Acrylic on Canvas, 2018",
-        "y": 2.4379,
-        "p": -0.5906,
+        "id": "AC495",
+        "info": "Obra AC495",
+        "y": 0.533,
+        "p": 0.2342,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC163",
+        "info": "Obra AC163",
+        "y": 1.865,
+        "p": 0.2342,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC480",
+        "info": "Obra AC480",
+        "y": -0.2084,
+        "p": 0.2342,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC198",
+        "info": "Obra AC198",
+        "y": 0.734,
+        "p": -0.2433,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC220",
+        "info": "Obra AC220",
+        "y": 0.6209,
+        "p": -0.2308,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC77",
+        "info": "Obra AC77",
+        "y": 0.4827,
+        "p": -0.2433,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC279",
+        "info": "Obra AC279",
+        "y": -1.3547,
+        "p": 0.2342,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC470",
+        "info": "Obra AC470",
+        "y": 1.3247,
+        "p": -0.2308,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC62",
+        "info": "Obra AC62",
+        "y": -0.3844,
+        "p": -0.2057,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC382",
+        "info": "Obra AC382",
+        "y": 0.3445,
+        "p": -0.2685,
+        "w": 321,
+        "h": 402
+    },
+    {
+        "id": "AC184",
+        "info": "Obra AC184",
+        "y": 0.0178,
+        "p": -0.2433,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC336",
+        "info": "Obra AC336",
+        "y": -1.2138,
+        "p": -0.2559,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC284",
+        "info": "Obra AC284",
+        "y": 1.5006,
+        "p": 0.2467,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC378",
+        "info": "Obra AC378",
+        "y": 2.0158,
+        "p": 0.2719,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC459",
+        "info": "Obra AC459",
+        "y": -1.1132,
+        "p": 0.2342,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC454",
+        "info": "Obra AC454",
+        "y": 0.2314,
+        "p": 0.2467,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC173",
+        "info": "Obra AC173",
+        "y": 2.5728,
+        "p": 0.2681,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC543",
+        "info": "Obra AC543",
+        "y": -0.8242,
+        "p": 0.2342,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC190",
+        "info": "Obra AC190",
+        "y": 2.154,
+        "p": 0.2593,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC290",
+        "info": "Obra AC290",
+        "y": -1.3547,
+        "p": -0.2308,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC544",
+        "info": "Obra AC544",
+        "y": 1.3919,
+        "p": 0.2644,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC278",
+        "info": "Obra AC278",
+        "y": -0.1069,
+        "p": 0.2722,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC55",
+        "info": "Obra AC55",
+        "y": 2.2671,
+        "p": 0.2719,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC282",
+        "info": "Obra AC282",
+        "y": 2.7321,
+        "p": 0.3347,
+        "w": 603,
+        "h": 603
+    },
+    {
+        "id": "AC159",
+        "info": "Obra AC159",
+        "y": -0.9247,
+        "p": 0.2593,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC48",
+        "info": "Obra AC48",
+        "y": -1.2263,
+        "p": 0.2593,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC45",
+        "info": "Obra AC45",
+        "y": 2.9332,
+        "p": 0.2719,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC514",
+        "info": "Obra AC514",
+        "y": -1.0253,
+        "p": 0.2467,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC155",
+        "info": "Obra AC155",
+        "y": 3.0798,
+        "p": 0.2593,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC275",
+        "info": "Obra AC275",
+        "y": 0.8723,
+        "p": -0.2559,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC100",
+        "info": "Obra AC100",
+        "y": 0.2062,
+        "p": -0.2559,
+        "w": 321,
+        "h": 201
+    },
+    {
+        "id": "AC86",
+        "info": "Obra AC86",
+        "y": 1.2116,
+        "p": -0.2685,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC214",
+        "info": "Obra AC214",
+        "y": 1.1487,
+        "p": 0.2719,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC496",
+        "info": "Obra AC496",
+        "y": 0.4576,
+        "p": 0.2593,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC218",
+        "info": "Obra AC218",
+        "y": 1.2493,
+        "p": 0.2719,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC289",
+        "info": "Obra AC289",
+        "y": -0.4839,
+        "p": 0.3318,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC482",
+        "info": "Obra AC482",
+        "y": 2.3928,
+        "p": -0.2685,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC104",
+        "info": "Obra AC104",
+        "y": -0.7237,
+        "p": 0.2719,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC511",
+        "info": "Obra AC511",
+        "y": 1.9491,
+        "p": -0.1262,
+        "w": 108,
+        "h": 140
+    },
+    {
+        "id": "AC444",
+        "info": "Obra AC444",
+        "y": 0.3822,
+        "p": 0.2593,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC270",
+        "info": "Obra AC270",
+        "y": 2.3802,
+        "p": 0.2866,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC436",
+        "info": "Obra AC436",
+        "y": -0.7237,
+        "p": -0.281,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC247",
+        "info": "Obra AC247",
+        "y": 1.6765,
+        "p": 0.3221,
+        "w": 603,
+        "h": 362
+    },
+    {
+        "id": "AC437",
+        "info": "Obra AC437",
+        "y": 0.734,
+        "p": 0.3096,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC442",
+        "info": "Obra AC442",
+        "y": -0.6106,
+        "p": 0.2593,
+        "w": 181,
+        "h": 140
+    },
+    {
+        "id": "AC189",
+        "info": "Obra AC189",
+        "y": 1.5509,
+        "p": -0.2685,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC428",
+        "info": "Obra AC428",
+        "y": 2.1792,
+        "p": -0.2057,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC318",
+        "info": "Obra AC318",
+        "y": 0.0859,
+        "p": 0.3178,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC225",
+        "info": "Obra AC225",
+        "y": 1.4378,
+        "p": -0.2685,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC178",
+        "info": "Obra AC178",
+        "y": 0.6335,
+        "p": 0.2844,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC408",
+        "info": "Obra AC408",
+        "y": 1.9375,
+        "p": -0.2966,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC194",
+        "info": "Obra AC194",
+        "y": 2.5059,
+        "p": -0.2685,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC398",
+        "info": "Obra AC398",
+        "y": 2.9457,
+        "p": -0.2936,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC196",
+        "info": "Obra AC196",
+        "y": 3.0798,
+        "p": -0.2685,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC74",
+        "info": "Obra AC74",
+        "y": -0.3844,
+        "p": -0.3209,
+        "w": 201,
+        "h": 281
+    },
+    {
+        "id": "AC246",
+        "info": "Obra AC246",
+        "y": 0.8723,
+        "p": 0.3221,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC294",
+        "info": "Obra AC294",
+        "y": 2.4933,
+        "p": 0.3347,
+        "w": 241,
+        "h": 362
+    },
+    {
+        "id": "AC380",
+        "info": "Obra AC380",
+        "y": 0.9728,
+        "p": -0.3187,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC107",
+        "info": "Obra AC107",
+        "y": 1.0733,
+        "p": -0.2936,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC369",
+        "info": "Obra AC369",
+        "y": -0.221,
+        "p": 0.3347,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC498",
+        "info": "Obra AC498",
+        "y": -0.3467,
+        "p": 0.3347,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC323",
+        "info": "Obra AC323",
+        "y": 2.5813,
+        "p": -0.1303,
+        "w": 120,
+        "h": 120
+    },
+    {
+        "id": "AC54",
+        "info": "Obra AC54",
+        "y": -0.8242,
+        "p": 0.3347,
+        "w": 201,
+        "h": 281
+    },
+    {
+        "id": "AC168",
+        "info": "Obra AC168",
+        "y": 2.1038,
+        "p": -0.3564,
+        "w": 402,
+        "h": 402
+    },
+    {
+        "id": "AC338",
+        "info": "Obra AC338",
+        "y": 1.8022,
+        "p": -0.3313,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC276",
+        "info": "Obra AC276",
+        "y": 2.7949,
+        "p": -0.3313,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC311",
+        "info": "Obra AC311",
+        "y": 1.0356,
+        "p": 0.3473,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC199",
+        "info": "Obra AC199",
+        "y": 1.3833,
+        "p": 0.3754,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC424",
+        "info": "Obra AC424",
+        "y": 0.6209,
+        "p": -0.3573,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC191",
+        "info": "Obra AC191",
+        "y": 0.2565,
+        "p": 0.3598,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC426",
+        "info": "Obra AC426",
+        "y": 1.3247,
+        "p": -0.3313,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC96",
+        "info": "Obra AC96",
+        "y": 1.8524,
+        "p": 0.3221,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC169",
+        "info": "Obra AC169",
+        "y": -1.063,
+        "p": 0.3598,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC331",
+        "info": "Obra AC331",
+        "y": 2.2546,
+        "p": -0.3739,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC150",
+        "info": "Obra AC150",
+        "y": -0.1456,
+        "p": -0.3564,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC287",
+        "info": "Obra AC287",
+        "y": -0.0608,
+        "p": 0.3842,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC288",
+        "info": "Obra AC288",
+        "y": 0.5204,
+        "p": 0.3598,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC312",
+        "info": "Obra AC312",
+        "y": -0.598,
+        "p": -0.3313,
+        "w": 241,
+        "h": 281
+    },
+    {
+        "id": "AC212",
+        "info": "Obra AC212",
+        "y": 0.8346,
+        "p": -0.3564,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC266",
+        "info": "Obra AC266",
+        "y": 0.4953,
+        "p": -0.3564,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC63",
+        "info": "Obra AC63",
+        "y": 0.3947,
+        "p": 0.3347,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC267",
+        "info": "Obra AC267",
+        "y": 0.2062,
+        "p": -0.3564,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC123",
+        "info": "Obra AC123",
+        "y": -1.2997,
+        "p": 0.385,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC192",
+        "info": "Obra AC192",
+        "y": 0.0429,
+        "p": -0.3564,
+        "w": 402,
+        "h": 241
+    },
+    {
+        "id": "AC340",
+        "info": "Obra AC340",
+        "y": -0.4849,
+        "p": -0.3564,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC484",
+        "info": "Obra AC484",
+        "y": -1.3547,
+        "p": -0.3313,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC140",
+        "info": "Obra AC140",
+        "y": 1.488,
+        "p": -0.3816,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC166",
+        "info": "Obra AC166",
+        "y": 2.3802,
+        "p": 0.4328,
+        "w": 281,
+        "h": 402
+    },
+    {
+        "id": "AC110",
+        "info": "Obra AC110",
+        "y": 0.1057,
+        "p": -0.2559,
+        "w": 140,
+        "h": 181
+    },
+    {
+        "id": "AC98",
+        "info": "Obra AC98",
+        "y": 3.0091,
+        "p": 0.4478,
+        "w": 603,
+        "h": 603
+    },
+    {
+        "id": "AC261",
+        "info": "Obra AC261",
+        "y": 2.619,
+        "p": -0.3564,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC296",
+        "info": "Obra AC296",
+        "y": 3.0719,
+        "p": -0.3609,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC403",
+        "info": "Obra AC403",
+        "y": -0.6231,
+        "p": 0.3473,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC297",
+        "info": "Obra AC297",
+        "y": 1.1739,
+        "p": 0.3724,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC243",
+        "info": "Obra AC243",
+        "y": 1.1864,
+        "p": -0.3816,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC135",
+        "info": "Obra AC135",
+        "y": 2.4054,
+        "p": -0.3941,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC244",
+        "info": "Obra AC244",
+        "y": 1.6639,
+        "p": -0.3816,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC494",
+        "info": "Obra AC494",
+        "y": 1.5132,
+        "p": 0.3473,
+        "w": 160,
+        "h": 241
+    },
+    {
+        "id": "AC416",
+        "info": "Obra AC416",
+        "y": 2.154,
+        "p": 0.3598,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC61",
+        "info": "Obra AC61",
+        "y": -0.2838,
+        "p": -0.3563,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC293",
+        "info": "Obra AC293",
+        "y": -0.9247,
+        "p": 0.3724,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC232",
+        "info": "Obra AC232",
+        "y": -0.8619,
+        "p": -0.3816,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC402",
+        "info": "Obra AC402",
+        "y": -0.7237,
+        "p": 0.3724,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC52",
+        "info": "Obra AC52",
+        "y": 0.7215,
+        "p": -0.3699,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC236",
+        "info": "Obra AC236",
+        "y": -1.0001,
+        "p": -0.3816,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC464",
+        "info": "Obra AC464",
+        "y": -1.1258,
+        "p": -0.369,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC451",
+        "info": "Obra AC451",
+        "y": -1.2389,
+        "p": -0.369,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC393",
+        "info": "Obra AC393",
+        "y": 0.6335,
+        "p": 0.385,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC167",
+        "info": "Obra AC167",
+        "y": 1.9907,
+        "p": 0.3975,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC552",
+        "info": "Obra AC552",
+        "y": 2.2546,
+        "p": 0.385,
+        "w": 201,
+        "h": 160
+    },
+    {
+        "id": "AC213",
+        "info": "Obra AC213",
+        "y": -0.7237,
+        "p": -0.3941,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC101",
+        "info": "Obra AC101",
+        "y": -0.4854,
+        "p": 0.4921,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC435",
+        "info": "Obra AC435",
+        "y": 0.23,
+        "p": 0.4825,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC317",
+        "info": "Obra AC317",
+        "y": 1.9278,
+        "p": -0.3941,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC399",
+        "info": "Obra AC399",
+        "y": 1.0733,
+        "p": -0.3941,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC152",
+        "info": "Obra AC152",
+        "y": -0.3215,
+        "p": -0.4744,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC5",
+        "info": "Obra AC5",
+        "y": 1.8619,
+        "p": 0.3975,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC153",
+        "info": "Obra AC153",
+        "y": 0.8723,
+        "p": 0.4478,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC221",
+        "info": "Obra AC221",
+        "y": 2.9467,
+        "p": -0.4546,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC1",
+        "info": "Obra AC1",
+        "y": 0.3822,
+        "p": -0.4096,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC97",
+        "info": "Obra AC97",
+        "y": -0.3176,
+        "p": 0.4896,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC433",
+        "info": "Obra AC433",
+        "y": 0.3947,
+        "p": 0.4101,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC224",
+        "info": "Obra AC224",
+        "y": 0.6838,
+        "p": -0.4962,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC434",
+        "info": "Obra AC434",
+        "y": 0.734,
+        "p": 0.4352,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC248",
+        "info": "Obra AC248",
+        "y": 1.3247,
+        "p": -0.4745,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC206",
+        "info": "Obra AC206",
+        "y": 1.8022,
+        "p": -0.487,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC414",
+        "info": "Obra AC414",
+        "y": 2.242,
+        "p": -0.4827,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC273",
+        "info": "Obra AC273",
+        "y": 2.7881,
+        "p": -0.4318,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC418",
+        "info": "Obra AC418",
+        "y": -1.3468,
+        "p": -0.4193,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC504",
+        "info": "Obra AC504",
+        "y": 0.0487,
+        "p": 0.5446,
+        "w": 160,
+        "h": 120
+    },
+    {
+        "id": "AC285",
+        "info": "Obra AC285",
+        "y": 0.9728,
+        "p": -0.4318,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC249",
+        "info": "Obra AC249",
+        "y": -0.598,
+        "p": -0.4444,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC313",
+        "info": "Obra AC313",
+        "y": 0.9979,
+        "p": 0.4478,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC304",
+        "info": "Obra AC304",
+        "y": 1.5257,
+        "p": 0.4478,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC179",
+        "info": "Obra AC179",
+        "y": 1.7282,
+        "p": 0.4583,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC462",
+        "info": "Obra AC462",
+        "y": -0.8242,
+        "p": -0.2685,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC156",
+        "info": "Obra AC156",
+        "y": -0.0708,
+        "p": 0.5058,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC353",
+        "info": "Obra AC353",
+        "y": 2.126,
+        "p": 0.4537,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC53",
+        "info": "Obra AC53",
+        "y": -0.6608,
+        "p": 0.4855,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC487",
+        "info": "Obra AC487",
+        "y": 0.2085,
+        "p": -0.4947,
+        "w": 623,
+        "h": 362
+    },
+    {
+        "id": "AC292",
+        "info": "Obra AC292",
+        "y": 1.6168,
+        "p": 0.4499,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC81",
+        "info": "Obra AC81",
+        "y": 0.5204,
+        "p": -0.4695,
+        "w": 402,
+        "h": 241
+    },
+    {
+        "id": "AC69",
+        "info": "Obra AC69",
+        "y": 2.5185,
+        "p": 0.4729,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC113",
+        "info": "Obra AC113",
+        "y": 0.8346,
+        "p": -0.5004,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC162",
+        "info": "Obra AC162",
+        "y": -0.7991,
+        "p": 0.4855,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC446",
+        "info": "Obra AC446",
+        "y": 2.3551,
+        "p": -0.168,
+        "w": 120,
+        "h": 120
+    },
+    {
+        "id": "AC57",
+        "info": "Obra AC57",
+        "y": 2.5687,
+        "p": -0.5069,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC92",
+        "info": "Obra AC92",
+        "y": -1.1509,
+        "p": -0.5033,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC36",
+        "info": "Obra AC36",
+        "y": 3.0523,
+        "p": -0.5994,
+        "w": 382,
+        "h": 301
+    },
+    {
+        "id": "AC263",
+        "info": "Obra AC263",
+        "y": 0.0429,
+        "p": -0.4695,
+        "w": 201,
+        "h": 241
+    },
+    {
+        "id": "AC240",
+        "info": "Obra AC240",
+        "y": -0.4598,
+        "p": -0.457,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC122",
+        "info": "Obra AC122",
+        "y": 1.0985,
+        "p": 0.4981,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC187",
+        "info": "Obra AC187",
+        "y": 1.2064,
+        "p": 0.5032,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC272",
+        "info": "Obra AC272",
+        "y": 1.3142,
+        "p": 0.502,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC85",
+        "info": "Obra AC85",
+        "y": 0.0866,
+        "p": 0.4445,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC37",
+        "info": "Obra AC37",
+        "y": -0.9373,
+        "p": 0.4981,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC127",
+        "info": "Obra AC127",
+        "y": -0.0702,
+        "p": -0.4821,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC31",
+        "info": "Obra AC31",
+        "y": -0.8745,
+        "p": -0.4947,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC229",
+        "info": "Obra AC229",
+        "y": 1.4147,
+        "p": 0.502,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC251",
+        "info": "Obra AC251",
+        "y": 2.2294,
+        "p": 0.4729,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC129",
+        "info": "Obra AC129",
+        "y": 1.1362,
+        "p": -0.5072,
+        "w": 482,
+        "h": 321
+    },
+    {
+        "id": "AC15",
+        "info": "Obra AC15",
+        "y": 1.8776,
+        "p": 0.5106,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC175",
+        "info": "Obra AC175",
+        "y": -1.0755,
+        "p": 0.5091,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC368",
+        "info": "Obra AC368",
+        "y": 1.2656,
+        "p": 0.3833,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC13",
+        "info": "Obra AC13",
+        "y": 1.953,
+        "p": -0.5249,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC174",
+        "info": "Obra AC174",
+        "y": 1.6514,
+        "p": -0.5091,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC108",
+        "info": "Obra AC108",
+        "y": 0.1166,
+        "p": 0.5955,
+        "w": 241,
+        "h": 321
+    },
+    {
+        "id": "AC115",
+        "info": "Obra AC115",
+        "y": 2.1038,
+        "p": -0.4947,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC116",
+        "info": "Obra AC116",
+        "y": 0.359,
+        "p": 0.5008,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC197",
+        "info": "Obra AC197",
+        "y": -1.0127,
+        "p": -0.4821,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC211",
+        "info": "Obra AC211",
+        "y": -0.1833,
+        "p": -0.4695,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC316",
+        "info": "Obra AC316",
+        "y": 2.5185,
+        "p": -0.3564,
+        "w": 120,
+        "h": 120
+    },
+    {
+        "id": "AC176",
+        "info": "Obra AC176",
+        "y": 0.7215,
+        "p": 0.523,
+        "w": 321,
+        "h": 160
+    },
+    {
+        "id": "AC121",
+        "info": "Obra AC121",
+        "y": 2.0158,
+        "p": 0.5106,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC93",
+        "info": "Obra AC93",
+        "y": 2.6807,
+        "p": 0.5106,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC49",
+        "info": "Obra AC49",
+        "y": -1.2138,
+        "p": 0.5955,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC216",
+        "info": "Obra AC216",
+        "y": -1.3547,
+        "p": 0.5216,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC319",
+        "info": "Obra AC319",
+        "y": 0.3068,
+        "p": -0.3816,
+        "w": 120,
+        "h": 120
+    },
+    {
+        "id": "AC217",
+        "info": "Obra AC217",
+        "y": 1.4378,
+        "p": -0.4947,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC309",
+        "info": "Obra AC309",
+        "y": -0.1879,
+        "p": 0.43,
+        "w": 120,
+        "h": 120
+    },
+    {
+        "id": "AC219",
+        "info": "Obra AC219",
+        "y": 1.5383,
+        "p": -0.4947,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC43",
+        "info": "Obra AC43",
+        "y": 2.2671,
+        "p": -0.5953,
+        "w": 402,
+        "h": 321
+    },
+    {
+        "id": "AC133",
+        "info": "Obra AC133",
+        "y": -1.3232,
+        "p": -0.5198,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC136",
+        "info": "Obra AC136",
+        "y": 2.8209,
+        "p": 0.5106,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC295",
+        "info": "Obra AC295",
+        "y": 0.3947,
+        "p": -0.4938,
+        "w": 160,
+        "h": 120
+    },
+    {
+        "id": "AC291",
+        "info": "Obra AC291",
+        "y": 0.6187,
+        "p": 0.4787,
+        "w": 120,
+        "h": 120
+    },
+    {
+        "id": "AC142",
+        "info": "Obra AC142",
+        "y": -0.7111,
+        "p": -0.5072,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC68",
+        "info": "Obra AC68",
+        "y": 2.3442,
+        "p": 0.6034,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC139",
+        "info": "Obra AC139",
+        "y": 2.4179,
+        "p": -0.5311,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC83",
+        "info": "Obra AC83",
+        "y": 0.9728,
+        "p": -0.5324,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC417",
+        "info": "Obra AC417",
+        "y": 2.7321,
+        "p": -0.5324,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC67",
+        "info": "Obra AC67",
+        "y": -0.2786,
+        "p": -0.6111,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC64",
+        "info": "Obra AC64",
+        "y": 1.7317,
+        "p": 0.596,
+        "w": 241,
+        "h": 281
+    },
+    {
+        "id": "AC145",
+        "info": "Obra AC145",
+        "y": 3.076,
+        "p": -0.4648,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC33",
+        "info": "Obra AC33",
+        "y": 0.8603,
+        "p": 0.5876,
+        "w": 281,
+        "h": 362
+    },
+    {
+        "id": "AC42",
+        "info": "Obra AC42",
+        "y": -0.297,
+        "p": 0.6112,
+        "w": 402,
+        "h": 241
+    },
+    {
+        "id": "AC79",
+        "info": "Obra AC79",
+        "y": 0.5754,
+        "p": 0.6112,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC102",
+        "info": "Obra AC102",
+        "y": 1.0027,
+        "p": 0.6112,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC235",
+        "info": "Obra AC235",
+        "y": 2.108,
+        "p": 0.5382,
+        "w": 160,
+        "h": 201
+    },
+    {
+        "id": "AC30",
+        "info": "Obra AC30",
+        "y": 1.3121,
+        "p": -0.6033,
+        "w": 362,
+        "h": 281
+    },
+    {
+        "id": "AC39",
+        "info": "Obra AC39",
+        "y": 0.6797,
+        "p": -0.6111,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC112",
+        "info": "Obra AC112",
+        "y": 1.7595,
+        "p": -0.6111,
+        "w": 241,
+        "h": 241
+    },
+    {
+        "id": "AC259",
+        "info": "Obra AC259",
+        "y": 1.6363,
+        "p": 0.5496,
+        "w": 160,
+        "h": 120
+    },
+    {
+        "id": "AC44",
+        "info": "Obra AC44",
+        "y": -0.4346,
+        "p": -0.6111,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC260",
+        "info": "Obra AC260",
+        "y": -0.1879,
+        "p": 0.5054,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC171",
+        "info": "Obra AC171",
+        "y": -0.5729,
+        "p": -0.5449,
+        "w": 321,
+        "h": 160
+    },
+    {
+        "id": "AC157",
+        "info": "Obra AC157",
+        "y": 2.0243,
+        "p": -0.1224,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC265",
+        "info": "Obra AC265",
+        "y": -0.4336,
+        "p": 0.6269,
+        "w": 120,
+        "h": 160
+    },
+    {
+        "id": "AC50",
+        "info": "Obra AC50",
+        "y": 1.264,
+        "p": 0.6112,
+        "w": 362,
+        "h": 241
+    },
+    {
+        "id": "AC170",
+        "info": "Obra AC170",
+        "y": 0.1049,
+        "p": 0.6269,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC172",
+        "info": "Obra AC172",
+        "y": 0.7178,
+        "p": 0.6269,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC87",
+        "info": "Obra AC87",
+        "y": -0.129,
+        "p": 0.619,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC34",
+        "info": "Obra AC34",
+        "y": 2.4891,
+        "p": 0.6112,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC90",
+        "info": "Obra AC90",
+        "y": 0.8294,
+        "p": -0.6189,
         "w": 281,
         "h": 201
     },
     {
         "id": "AC177",
-        "info": "Couple-34, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 2.9028,
-        "p": 0.5781,
+        "info": "Obra AC177",
+        "y": 0.5379,
+        "p": -0.6268,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC265",
-        "info": "Young woman-4, 30x40 cm, Acrylic on Canvas, 2020",
-        "y": -1.8221,
-        "p": -0.5906,
-        "w": 120,
-        "h": 160
-    },
-    {
-        "id": "AC88",
-        "info": "Young couple-3, 70x60 cm, Acrylic on Canvas, 2019",
-        "y": 2.1237,
+        "id": "AC12",
+        "info": "Obra AC12",
+        "y": 0.4118,
         "p": -0.6032,
-        "w": 281,
-        "h": 241
+        "w": 241,
+        "h": 281
     },
     {
         "id": "AC158",
-        "info": "Couple-28, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": 2.7018,
-        "p": 0.5906,
+        "info": "Obra AC158",
+        "y": 1.6287,
+        "p": -0.6268,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC154",
-        "info": "Man with dog at the beach, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": -2.7897,
-        "p": 0.5906,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC10",
-        "info": "Family of three, 80x40 cm, Acrylic on Canvas, 2017",
-        "y": -1.0933,
-        "p": -0.6032,
+        "id": "AC82",
+        "info": "Obra AC82",
+        "y": 2.5666,
+        "p": -0.6268,
         "w": 321,
         "h": 160
     },
     {
-        "id": "AC407",
-        "info": "Couple-81, 70x50 cm, Acrylic on Canvas, 2022",
-        "y": -1.508,
-        "p": -0.6032,
+        "id": "AC75",
+        "info": "Obra AC75",
+        "y": -1.1187,
+        "p": -0.6189,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC0",
-        "info": "Woman, 40x100 cm, Acrylic on Canvas, 2011",
-        "y": 2.9017,
-        "p": -0.5567,
-        "w": 160,
-        "h": 402
-    },
-    {
-        "id": "AC405",
-        "info": "Couple-80, 50x70 cm, Acrylic on Canvas, 2022",
-        "y": -2.7315,
-        "p": -0.5724,
-        "w": 201,
-        "h": 281
-    },
-    {
-        "id": "AC143",
-        "info": "Couple-23, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": -2.9531,
-        "p": -0.6032,
-        "w": 241,
-        "h": 160
-    },
-    {
         "id": "AC203",
-        "info": "Girl-6, 30x40 cm, Acrylic on Canvas, 2020",
-        "y": 0.0,
-        "p": 0.5906,
+        "info": "Obra AC203",
+        "y": 1.6207,
+        "p": 0.6269,
         "w": 120,
         "h": 160
     },
     {
-        "id": "AC120",
-        "info": "Grandmother and grandson, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": -3.0662,
-        "p": -0.6032,
+        "id": "AC154",
+        "info": "Obra AC154",
+        "y": -0.9693,
+        "p": -0.6268,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC138",
-        "info": "Siblings-2, 70x50 cm, Acrylic on Canvas, 2019",
-        "y": 0.5278,
-        "p": 0.6032,
+        "id": "AC210",
+        "info": "Obra AC210",
+        "y": 0.2669,
+        "p": 0.6112,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC51",
+        "info": "Obra AC51",
+        "y": 2.2151,
+        "p": 0.6034,
+        "w": 201,
+        "h": 281
+    },
+    {
+        "id": "AC23",
+        "info": "Obra AC23",
+        "y": 0.5158,
+        "p": 0.4923,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC114",
-        "info": "Young couple-7, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": 0.6409,
-        "p": 0.6032,
+        "id": "AC143",
+        "info": "Obra AC143",
+        "y": -1.0536,
+        "p": 0.6269,
         "w": 241,
         "h": 160
     },
     {
+        "id": "AC46",
+        "info": "Obra AC46",
+        "y": 1.4822,
+        "p": -0.6111,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC120",
+        "info": "Obra AC120",
+        "y": -1.3468,
+        "p": 0.6269,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC47",
+        "info": "Obra AC47",
+        "y": 0.0178,
+        "p": -0.6111,
+        "w": 321,
+        "h": 241
+    },
+    {
+        "id": "AC88",
+        "info": "Obra AC88",
+        "y": -0.1304,
+        "p": -0.6111,
+        "w": 281,
+        "h": 241
+    },
+    {
+        "id": "AC114",
+        "info": "Obra AC114",
+        "y": 1.9255,
+        "p": -0.205,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC132",
+        "info": "Obra AC132",
+        "y": -0.0023,
+        "p": 0.6269,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC149",
+        "info": "Obra AC149",
+        "y": 1.4065,
+        "p": 0.6303,
+        "w": 160,
+        "h": 120
+    },
+    {
+        "id": "AC10",
+        "info": "Obra AC10",
+        "y": -0.5544,
+        "p": 0.6269,
+        "w": 321,
+        "h": 160
+    },
+    {
+        "id": "AC405",
+        "info": "Obra AC405",
+        "y": 2.1127,
+        "p": -0.6078,
+        "w": 201,
+        "h": 281
+    },
+    {
         "id": "AC11",
-        "info": "Man-2, 50x60 cm, Acrylic on Canvas, 2017",
-        "y": 0.9676,
-        "p": 0.6158,
+        "info": "Obra AC11",
+        "y": -0.691,
+        "p": 0.6112,
         "w": 201,
         "h": 241
     },
     {
         "id": "AC7",
-        "info": "Sailor, 50x60 cm, Acrylic on Canvas, 2017",
-        "y": 1.0681,
-        "p": 0.6158,
+        "info": "Obra AC7",
+        "y": -0.804,
+        "p": 0.6112,
         "w": 201,
         "h": 241
     },
     {
-        "id": "AC132",
-        "info": "Dog, 40x40 cm, Acrylic on Canvas, 2019",
-        "y": 1.1561,
-        "p": 0.6032,
+        "id": "AC138",
+        "info": "Obra AC138",
+        "y": 0.4251,
+        "p": 0.619,
+        "w": 281,
+        "h": 201
+    },
+    {
+        "id": "AC0",
+        "info": "Obra AC0",
+        "y": 2.8503,
+        "p": -0.5796,
         "w": 160,
+        "h": 402
+    },
+    {
+        "id": "AC80",
+        "info": "Obra AC80",
+        "y": -0.9249,
+        "p": 0.6269,
+        "w": 241,
         "h": 160
     },
     {
         "id": "AC28",
-        "info": "Couple-5, 70x50 cm, Acrylic on Canvas, 2018",
-        "y": 1.8347,
-        "p": 0.6032,
+        "info": "Obra AC28",
+        "y": 1.8742,
+        "p": 0.6175,
         "w": 281,
         "h": 201
     },
     {
-        "id": "AC25",
-        "info": "Father and son, 70x50 cm, Acrylic on Canvas, 2018",
-        "y": 3.0159,
-        "p": 0.6032,
-        "w": 281,
-        "h": 201
-    },
-    {
-        "id": "AC149",
-        "info": "Young couple-15, 40x30 cm, Acrylic on Canvas, 2020",
-        "y": -2.1363,
-        "p": 0.5906,
+        "id": "AC65",
+        "info": "Obra AC65",
+        "y": 2.4247,
+        "p": -0.6268,
         "w": 160,
-        "h": 120
-    },
-    {
-        "id": "AC80",
-        "info": "Man-7, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": 1.2566,
-        "p": 0.6032,
-        "w": 241,
         "h": 160
     },
     {
-        "id": "AC24",
-        "info": "Boy, 50x70 cm, Acrylic on Canvas, 2018",
-        "y": 1.7097,
-        "p": 0.5681,
-        "w": 201,
-        "h": 281
-    },
-    {
-        "id": "AC27",
-        "info": "Couple-4, 60x50 cm, Acrylic on Canvas, 2018",
-        "y": 2.0483,
-        "p": 0.6158,
-        "w": 241,
-        "h": 201
-    },
-    {
-        "id": "AC215",
-        "info": "Woman-26, 50x50 cm, Acrylic on Canvas, 2020",
-        "y": 2.4756,
-        "p": 0.6158,
-        "w": 201,
-        "h": 201
-    },
-    {
-        "id": "AC20",
-        "info": "Couple-3, 60x50 cm, Acrylic on Canvas, 2018",
-        "y": -3.0536,
-        "p": 0.6158,
-        "w": 241,
+        "id": "AC25",
+        "info": "Obra AC25",
+        "y": 2.6182,
+        "p": 0.619,
+        "w": 281,
         "h": 201
     },
     {
         "id": "AC32",
-        "info": "Antarctic marathoners, 60x40 cm, Acrylic on Canvas, 2018",
-        "y": -0.9048,
-        "p": -0.6158,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC65",
-        "info": "Baby-3, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 0.0,
-        "p": -0.6158,
-        "w": 160,
-        "h": 160
-    },
-    {
-        "id": "AC19",
-        "info": "Family of six-4, 60x40 cm, Acrylic on Canvas, 2017",
-        "y": -1.2189,
-        "p": -0.6158,
+        "info": "Obra AC32",
+        "y": -0.8277,
+        "p": -0.6268,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC73",
-        "info": "Young man-2, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": -1.3195,
-        "p": -0.6158,
+        "info": "Obra AC73",
+        "y": 1.1216,
+        "p": 0.6269,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC17",
-        "info": "Family of six-2, 60x40 cm, Acrylic on Canvas, 2017",
-        "y": 1.8598,
-        "p": -0.6158,
+        "id": "AC24",
+        "info": "Obra AC24",
+        "y": 1.5175,
+        "p": 0.6034,
+        "w": 201,
+        "h": 281
+    },
+    {
+        "id": "AC76",
+        "info": "Obra AC76",
+        "y": 2.0009,
+        "p": 0.6239,
+        "w": 160,
+        "h": 160
+    },
+    {
+        "id": "AC215",
+        "info": "Obra AC215",
+        "y": -0.694,
+        "p": -0.6189,
+        "w": 201,
+        "h": 201
+    },
+    {
+        "id": "AC19",
+        "info": "Obra AC19",
+        "y": 2.8529,
+        "p": 0.6269,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC76",
-        "info": "Woman-8, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": -1.3949,
-        "p": -0.6158,
-        "w": 160,
+        "id": "AC27",
+        "info": "Obra AC27",
+        "y": 2.7395,
+        "p": 0.619,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC17",
+        "info": "Obra AC17",
+        "y": 2.9663,
+        "p": 0.6269,
+        "w": 241,
         "h": 160
     },
     {
         "id": "AC18",
-        "info": "Family of six-3, 60x40 cm, Acrylic on Canvas, 2017",
-        "y": 1.9729,
-        "p": -0.6158,
+        "info": "Obra AC18",
+        "y": 3.0798,
+        "p": 0.6269,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC78",
-        "info": "Woman B&W, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": 2.9782,
-        "p": -0.6158,
+        "id": "AC20",
+        "info": "Obra AC20",
+        "y": 1.0613,
+        "p": -0.6189,
+        "w": 241,
+        "h": 201
+    },
+    {
+        "id": "AC22",
+        "info": "Obra AC22",
+        "y": 2.1041,
+        "p": 0.6269,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC450",
-        "info": "Family of three-18, 60x40 cm, Acrylic on Canvas, 2022",
-        "y": 3.0788,
-        "p": -0.6158,
+        "info": "Obra AC450",
+        "y": 0.2857,
+        "p": -0.6268,
         "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC22",
-        "info": "Baby-2, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": -0.0754,
-        "p": 0.6158,
-        "w": 160,
         "h": 160
     },
     {
         "id": "AC239",
-        "info": "Girl-8, 60x40 cm, Acrylic on Canvas, 2020",
-        "y": -2.2368,
-        "p": 0.6158,
-        "w": 241,
-        "h": 160
-    },
-    {
-        "id": "AC130",
-        "info": "Cats and dog, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": 0.1005,
-        "p": -0.6283,
+        "info": "Obra AC239",
+        "y": 0.1596,
+        "p": -0.6268,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC6",
-        "info": "Woman-3, 40x40 cm, Acrylic on Canvas, 2017",
-        "y": -0.4315,
-        "p": 0.6187,
+        "info": "Obra AC6",
+        "y": 1.8747,
+        "p": -0.6268,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC134",
-        "info": "Young couple-12, 60x40 cm, Acrylic on Canvas, 2019",
-        "y": -0.2388,
-        "p": -0.6283,
+        "id": "AC130",
+        "info": "Obra AC130",
+        "y": 1.9898,
+        "p": -0.6268,
         "w": 241,
         "h": 160
     },
     {
         "id": "AC2",
-        "info": "Girl, 40x40 cm, Acrylic on Canvas, 2016",
-        "y": -0.3393,
-        "p": -0.6283,
+        "info": "Obra AC2",
+        "y": 0.9477,
+        "p": -0.6268,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC4",
-        "info": "Girl-3, 40x40 cm, Acrylic on Canvas, 2016",
-        "y": 0.955,
-        "p": -0.6283,
+        "info": "Obra AC4",
+        "y": 1.1749,
+        "p": -0.6268,
         "w": 160,
         "h": 160
     },
     {
-        "id": "AC26",
-        "info": "Father and son-2, 60x40 cm, Acrylic on Canvas, 2018",
-        "y": -1.9101,
-        "p": -0.6283,
+        "id": "AC134",
+        "info": "Obra AC134",
+        "y": -0.5603,
+        "p": -0.6268,
         "w": 241,
         "h": 160
     },
     {
-        "id": "AC478",
-        "info": "Father and daugther-2, 40x30 cm, Acrylic on Canvas, 2022",
-        "y": -2.0106,
-        "p": -0.6158,
-        "w": 160,
+        "id": "AC26",
+        "info": "Obra AC26",
+        "y": 2.7242,
+        "p": -0.6268,
+        "w": 241,
+        "h": 160
+    },
+    {
+        "id": "AC124",
+        "info": "Obra AC124",
+        "y": 2.5706,
+        "p": 0.3782,
+        "w": 80,
         "h": 120
     },
     {
         "id": "AC21",
-        "info": "Baby, 40x40 cm, Acrylic on Canvas, 2018",
-        "y": -0.1493,
-        "p": 0.616,
+        "info": "Obra AC21",
+        "y": -1.2524,
+        "p": -0.6268,
         "w": 160,
         "h": 160
     },
     {
         "id": "AC3",
-        "info": "Girl-2, 40x40 cm, Acrylic on Canvas, 2016",
-        "y": 2.9592,
-        "p": 0.5027,
+        "info": "Obra AC3",
+        "y": -1.3625,
+        "p": -0.6268,
         "w": 160,
         "h": 160
-    },
-    {
-        "id": "AC124",
-        "info": "Woman-14, 20x30 cm, Acrylic on Canvas, 2019",
-        "y": 3.1165,
-        "p": 0.1131,
-        "w": 80,
-        "h": 120
     }
 ]

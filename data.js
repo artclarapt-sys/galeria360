@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-artclara",
-      "name": "ArtClara",
+      "id": "0-artclara_gallery",
+      "name": "ArtClara_Gallery",
       "levels": [
         {
           "tileSize": 256,
@@ -40,7 +40,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "ArtClara Gallery 2026",
+  "name": "ArtClara_Gallery",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
