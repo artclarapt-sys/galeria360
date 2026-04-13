@@ -125,7 +125,7 @@
             labelAno.innerText = extrairAno[1];
             a.appendChild(labelAno);
           }
-          // ----------------------
+          // ---------------------
           
           a.addEventListener('dragstart', (e) => e.preventDefault());
 
